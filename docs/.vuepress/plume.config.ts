@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'youyou.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -49,9 +49,9 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'vpnnews',
-    description: '翻墙最新热点',
+    avatar: 'youyou.png',
+    name: 'YouYou',
+    description: '学无止境',
     // circle: true,
     // location: '',
     // organization: '',

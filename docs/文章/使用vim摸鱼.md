@@ -36,7 +36,9 @@ tags:
 ### 设置环境变量
 
 1. 在桌面 Vim 快捷方式上右键，选择“打开文件所在位置”。
-![alt text](images/使用vim摸鱼/image-3.png)
+
+   ![alt text](images/使用vim摸鱼/image-3.png)
+
 2. 复制该目录路径。
 ![alt text](images/使用vim摸鱼/image-4.png)
 3. 按 Win 键，输入“环境变量”，点击“编辑系统环境变量”。
@@ -62,7 +64,7 @@ tags:
 
 完事后按下 `Esc` 键，输入 `:wp!` 并回车即可保存并退出。注意，冒号和叹号都要用英文符号！
 
-![alt text](images/使用vim摸鱼/image-9.png)
+   ![alt text](images/使用vim摸鱼/image-9.png)
 
 这样 Vim 的配置就完成了。
 
@@ -78,7 +80,7 @@ tags:
 
 2. 效果如下图所示：
 
-![alt text](images/使用vim摸鱼/image-10.png)
+   ![alt text](images/使用vim摸鱼/image-10.png)
 
 - 按空格键可以向下翻两行。
 - 按 F2 可以保存并退出。

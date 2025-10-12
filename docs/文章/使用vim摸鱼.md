@@ -1,7 +1,7 @@
 ---
 title: 使用vim摸鱼
 createTime: 2025/10/10 10:40:16
-permalink: /article/i2ok42q4/
+permalink: /article/moyu/
 tags:
   - 中文
   - Vim

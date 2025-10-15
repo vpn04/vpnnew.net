@@ -5,6 +5,9 @@
   "description": "翻墙最新热点",
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
+    "overrides": {
+      "vue-router": "4.4.5"
+    },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "esbuild"
@@ -28,5 +31,8 @@
     "http-server": "^14.1.1",
     "vue": "^3.5.21",
     "typescript": "^5.9.2"
+  },
+  "overrides": {
+    "vue-router": "4.4.5"
   }
 }

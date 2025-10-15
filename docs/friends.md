@@ -9,6 +9,12 @@ list:
     link: https://www.ermao.net/
     avatar: https://www.ermao.net/images/logo.svg
     desc: 老老实实的二猫子，从不胡说八道。
+  -
+    name: mccsjs
+    link: https://seln.cn/
+    avatar: https://seln.cn/img/head.jpg
+    desc: 点一盏灯，等一个迷路的夜🍁🍁🍁
+  
 ---
 
 友联格式：

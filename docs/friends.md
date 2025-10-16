@@ -14,7 +14,16 @@ list:
     link: https://seln.cn/
     avatar: https://seln.cn/img/head.jpg
     desc: 点一盏灯，等一个迷路的夜🍁🍁🍁
-  
+  - 
+    name: 清羽飞扬
+    link: https://blog.liushen.fun/
+    avatar: https://blog.liushen.fun/info/avatar.ico
+    descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+  - 
+    name: ElysiumStack
+    link: https://www.elysium-stack.cn/
+    avatar: https://www.elysium-stack.cn/upload/ee0757e6-ebb4-46d0-a388-660f648653ea.jpg
+    descr: 不会摄影的设计师不是优秀的旅行家
 ---
 
 友联格式：

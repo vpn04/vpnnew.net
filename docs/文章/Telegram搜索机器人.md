@@ -3,9 +3,9 @@ title: Telegram搜索机器人推荐——高效查找海量资源
 createTime: 2025/09/15 14:19:20
 permalink: /article/Telegramsousuojiqiren/
 tags:
-  - 电脑VPN
-  - 隐私
-  - 路由器VPN
+  - Telegram
+  - 资源查询
+  - 群组查询
   - 科学上网
 ---
 

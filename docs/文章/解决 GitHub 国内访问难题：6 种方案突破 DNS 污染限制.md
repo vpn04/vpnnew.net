@@ -19,7 +19,6 @@ GitHub 作为全球最大的开源项目托管平台，是开发者不可或缺�
 ## 操作步骤：
 ### 1.获取最新 IP 地址
 访问 IPAddress.com 查询以下域名对应的 IP：
-
 - github.com
 - assets-cdn.github.com
 - github.global.ssl.fastly.net

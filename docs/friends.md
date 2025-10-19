@@ -24,6 +24,11 @@ list:
     link: https://www.elysium-stack.cn/
     avatar: https://www.elysium-stack.cn/upload/ee0757e6-ebb4-46d0-a388-660f648653ea.jpg
     descr: 不会摄影的设计师不是优秀的旅行家
+  - 
+    name: 阿叶Ayeez
+    link: https://blog.ayeez.cn
+    avatar: https://blog.ayeez.cn/imgs/photo.jpg
+    descr: 记录自己的学习历程，记录自己的美好生活
 ---
 
 友联格式：

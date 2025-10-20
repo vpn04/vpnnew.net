@@ -1,7 +1,7 @@
 ---
 title: 🛩SSONE机场深度评测：2025年高性价比科学上网选择
 createTime: 2025/10/19 10:10:37
-permalink: /article/VPN/
+permalink: /article/ssone/
 tags:
   - 科学上网
   - VPN

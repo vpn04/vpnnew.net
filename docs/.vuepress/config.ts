@@ -12,12 +12,19 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+
 
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'vpnnews',
   description: '翻墙最新热点',
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-ZH70TFW573',
+    }),
+  ],
 
   head: [
     // 配置站点图标
@@ -31,7 +38,6 @@ export default defineUserConfig({
     home: '/',
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://vpnnew.net',
-
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -49,14 +55,14 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
     // blog: false, // 禁用博客
-    // blog: {
-    //   postList: true, // 是否启用文章列表页
-    //   tags: true, // 是否启用标签页
-    //   archives: true, // 是否启用归档页
-    //   categories: true, // 是否启用分类页
-    //   postCover: 'right', // 文章封面位置
-    //   pagination: 15, // 每页显示文章数量
-    // },
+    blog: {
+      postList: true, // 是否启用文章列表页
+      tags: true, // 是否启用标签页
+      archives: true, // 是否启用归档页
+      categories: true, // 是否启用分类页
+      postCover: 'right', // 文章封面位置
+      pagination: 15, // 每页显示文章数量
+    },
 
     /* 博客文章页面链接前缀 */
     article: '/article/',

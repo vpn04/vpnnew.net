@@ -5,7 +5,7 @@ The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepres
 ## Install
 
 ```sh
-pnpm i
+pnpm install
 ```
 
 ## Usage

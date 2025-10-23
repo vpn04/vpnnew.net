@@ -39,4 +39,3 @@ list:
     avatar: https://vpnnew.net/youyou.png
     desc: 学无止境
 ```
-

@@ -29,8 +29,8 @@ tags:
 
 ### 📄1. 客户端下载
 - **移动设备**：在官方应用商店搜索"Telegram"下载
-- **桌面端**：访问官网 desktop.telegram.org 下载对应版本
-- **网页版**：访问https://web.telegram.org 使用网页版（部分地区可能无法登录）。
+- **桌面端**：访问官网 [http://desktop.telegram.org](https://desktop.telegram.org) 下载对应版本
+- **网页版**：访问 [https://web.telegram.org](https://web.telegram.org/a/)使用网页版（部分地区可能无法登录）。
 ### 📄2. 账号创建步骤
 1. 启动应用，点击"开始聊天"
 2. 选择国家代码，输入手机号码

@@ -29,6 +29,12 @@ list:
     link: https://blog.ayeez.cn
     avatar: https://blog.ayeez.cn/imgs/photo.jpg
     descr: 记录自己的学习历程，记录自己的美好生活
+  - 
+    name: 世上云川
+    link: https://blog.ssyc.me
+    avatar: https://blog.ssyc.me/SSYC-icon.svg
+    descr: 若有韶月熹微·愿作流萤徂岁
+
 ---
 
 友联格式：

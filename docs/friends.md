@@ -35,6 +35,12 @@ list:
     avatar: https://blog.ssyc.me/SSYC-icon.svg
     descr: 若有韶月熹微·愿作流萤徂岁
 
+  - 
+    name: 逐暗者的麦田
+    link: https://www.iasuna.com
+    avatar: https://pic.shellingford.cn/i/me/logo.jpg
+    descr: 一位Java攻城狮的个人博客，主要分享编程、建站、动漫、趣闻和生活内容
+
 ---
 
 友联格式：

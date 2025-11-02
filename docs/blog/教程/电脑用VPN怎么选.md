@@ -1,7 +1,7 @@
 ---
 title: 电脑用VPN怎么选？实用攻略与建议
 createTime: 2025/10/15 14:19:20
-permalink: /article/电脑vpn/
+permalink: /article/diannanvpnzenmexuan/
 tags:
   - 电脑VPN
   - 隐私

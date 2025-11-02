@@ -21,7 +21,7 @@ tags:
 
 [cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )  作为稳定运营两年的专业网络服务提供商，致力于为用户提供安全可靠的高速网络连接解决方案。服务采用多层次技术架构，确保网络连接的稳定性和数据安全性。
 
-![alt text](image.png)
+![alt text](images/🛩cyberguard机场深度评测：2025年高性价比质量高、稳定运营两年/image.png)
 
 **官方访问地址**：[cyberguard.best](https://www.cyberguard.best/#/register?code=qWL0nnJs ) 
 
@@ -74,7 +74,7 @@ tags:
 ---
 
 # CyberGuard数据测试
-![alt text](image-1.png)
+![alt text](images/🛩cyberguard机场深度评测：2025年高性价比质量高、稳定运营两年/image-1.png)
 
 ## 🌃 适用场景与节点推荐
 

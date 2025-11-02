@@ -20,7 +20,7 @@ tags:
 
 VPN（Virtual Private Network）在中文网络语境中常被称为"梯子""翻墙"，是一种通过建立加密通道来保护网络连接的技术工具。
 
-![alt text](image-10.png)
+![alt text](images/全面解析VPN：你的网络自由通行证/image.png)
 
 ### ⏳核心功能解析
 - **加密通信**：将您的网络流量通过加密隧道传输

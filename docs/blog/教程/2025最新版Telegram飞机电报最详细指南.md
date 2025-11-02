@@ -23,7 +23,7 @@ tags:
 - 支持超大规模群组和频道
 - 丰富的机器人生态系统
 - 高达2GB的单文件传输能力
-![alt text](image.png)
+![alt text](images/2025最新版Telegram飞机电报最详细指南/image.png)
 
 ## 📚注册流程详解
 
@@ -60,14 +60,14 @@ tags:
 
 - [@soso - 综合资源搜索](https://t.me/soso?start=a_72456920990)
 
-![alt text](image-3.png)
+![alt text](images/2025最新版Telegram飞机电报最详细指南/image-1.png)
 
 - [@smss - 精准信息检索](https://t.me/smss?start=spread_7245692099)
 
-![alt text](image-2.png)
+![alt text](images/2025最新版Telegram飞机电报最详细指南/image-2.png)
 - [@jiso - 多维度检索](http://t.me/jisou?start=a_7245692099) 
 
-![alt text](image-4.png)
+![alt text](images/2025最新版Telegram飞机电报最详细指南/image-3.png)
 
 >这些工具的价值远不止于特定内容检索，您可以通过它们精准定位：
 - **影音资源**：稀缺的影视原声、高清纪录片

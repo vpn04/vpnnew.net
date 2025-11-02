@@ -18,7 +18,8 @@ tags:
 
 ## 📢核心摘要：为什么选择Telegram？
 最近好多同学私信我关于Telegram使用的很多问题，今天在这里我统一再出一篇最全的详细教程，希望可以帮到各位，废话不多说步入正题，Telegram作为一款全球流行的即时通讯软件，因其卓越的特性，已成为外贸、跨境电商等领域专业人士的必备工具：
-![alt text](image-6.png)
+
+![alt text](images/(2025)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南/image-3.png)
 
 
 | 📱核心优势 | 📲详细说明 |
@@ -81,14 +82,18 @@ tags:
 ## 📲目前主流的搜索机器人包括：
 [**@soso** ](https://t.me/soso?start=a_72456920990)、[**@smss** ](https://t.me/smss?start=spread_7245692099)、 [**@jisou** ](http://t.me/jisou?start=a_7245692099) 
 
-![alt text](image-7.png)
+
+![alt text](images/(2025)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南/image-1.png)
 - [@soso - 综合资源搜索](https://t.me/soso?start=a_72456920990)
 
-![alt text](image-8.png)
+![alt text](images/(2025)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南/image.png)
+
 
 - [@smss - 精准信息检索](https://t.me/smss?start=spread_7245692099)
 
-![alt text](image-9.png)
+![alt text](images/(2025)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南/image-2.png)
+
+
 - [@jiso - 多维度检索](http://t.me/jisou?start=a_7245692099) 
 
 

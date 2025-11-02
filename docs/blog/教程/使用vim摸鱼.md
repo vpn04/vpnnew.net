@@ -30,8 +30,11 @@ tags:
 - 找到 `gvimxx.exe` 文件，点击下载。
 - 下载完成后直接运行安装程序。若系统提示风险，选择“更多信息”并继续安装即可。
 - 按照提示一路“下一步”完成安装。
+
 ![alt text](images/使用vim摸鱼/image-1.png)
+
 ![alt text](images/使用vim摸鱼/image-2.png)
+
 
 ### 设置环境变量
 

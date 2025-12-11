@@ -38,6 +38,7 @@ export default defineUserConfig({
     home: '/',
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://vpnnew.net',
+    footer: { message: "© 2025 YouYou 📧 <a href='mailto:yyo649929@gmail.com'>yyo649929@gmail.com</a>" },
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',

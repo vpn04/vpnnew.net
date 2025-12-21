@@ -15,6 +15,15 @@ tags:
 
 ---
 
+## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+### 📍纯小白请看以下教程，老鸟略过
+
+👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+
+👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
+
+👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
+
 ## 一、声明
 
 本教程主要适用于程序开发相关岗位。如果你是 HR、医生、教师、设计师、警察、财务等平时很少用代码编辑器的职业，请谨慎参考。因使用本教程而被领导批评，作者概不负责。

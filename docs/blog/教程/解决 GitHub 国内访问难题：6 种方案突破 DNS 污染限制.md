@@ -72,4 +72,14 @@ nslookup github.com          # 用本地默认 DNS 查询
 1. GitHub IP 可能定期变更，需定期更新 Hosts 配置
 2. 访问时优先使用 HTTPS 协议，降低中间人攻击风险
 3. 代理 / VPN 需选择未被 GitHub 封禁的节点（部分共享 IP 可能受限）
+
+## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+### 📍纯小白请看以下教程，老鸟略过
+
+👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+
+👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
+
+👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
+
 > 通过上述方法，可有效解决多数 DNS 污染导致的访问问题。若仍无法访问，可能是网络环境存在深层限制，建议结合代理工具进一步排查。

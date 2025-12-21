@@ -1,5 +1,5 @@
 ---
-title: 🛩ccyz机场深度评测：IEPL 专线机场，15元100G超高性价比
+title: 🛩ccyz机场深度评测：IEPL 专线机场，15元150G超高性价比
 createTime: 2025/12/21 05:15:35
 permalink: /article/ccyz/
 tags:
@@ -24,7 +24,7 @@ tags:
 <!-- more -->
 
 ## 🔔服务概览与技术架构
-![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元100G超高性价比/image.png>)
+![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元150G超高性价比/image.png>)
 
 ## 📲ccyz机场官网地址：[https://ccyz.org/QkQotDCu.html](https://ccyz.aabcc.de/register?code=YByL9bFd )
 
@@ -35,7 +35,7 @@ tags:
 | 项目 | 详细信息 |
 | :--- | :--- |
 | **🌐 官方网站** | [https://ccyz.org/QkQotDCu.html](https://ccyz.aabcc.de/register?code=YByL9bFd )
-| **💰 入门价格** | 15.00元/100G每月 |
+| **💰 入门价格** | 15.00元/150G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **💳 免费体验** | 新用户1G体验 |
 | **🌍 服务器分布** | BGP＋IEPL专线丨300M带宽保障 |
@@ -45,10 +45,10 @@ tags:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁付费方式 | 💰月费 | 📶流量 | 性价比指数 |🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|----------|
-| 入门级 | Lite专线-150G | 轻度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥79.9/年 | 45GB/月 | ⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
-| 进阶级 | Pro专线-280G | 日常使用 | 月付、季付、半年付、年付、两年付、三年付 | ¥14.9/月 | 100GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
-| 尊享级 | Max专线-550G | 重度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥29.9/月 | 200GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
-| 一次性 | 永久套餐-550G | 企业/团队 | 一次性 | ¥59.9/月 | 500GB/月 | ⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
+| 入门级 | Lite专线-150G | 轻度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥15.00/月 | 150GB/月 | ⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
+| 进阶级 | Pro专线-280G | 日常使用 | 月付、季付、半年付、年付、两年付、三年付 | ¥25.00/月 | 280GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
+| 尊享级 | Max专线-550G | 重度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥45.00/月 | 550GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
+| 一次性 | 永久套餐-550G | 企业/团队 | 一次性 | ¥99.00/月 | 550GB/月 | ⭐⭐⭐⭐ |[购买链接](https://ccyz.aabcc.de/register?code=YByL9bFd ) |
 
 ## 📊 套餐详情与购买攻略
 
@@ -80,7 +80,7 @@ tags:
 
 ## 🔬 实际性能测试
 
-![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元100G超高性价比/image-1.png>)
+![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元150G超高性价比/image-1.png>)
 
 **📍 测试环境**：江苏电信 200M 宽带 | **🕗 测试时段**：晚高峰 (20:00-21:00)
 

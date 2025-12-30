@@ -19,9 +19,9 @@ tags:
   - 翻墙工具
 
 ---
-[灯塔Cloud](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6)作为业界==知名的老牌机场==服务商，凭借其卓越的稳定性与专业的技术支持，在用户群体中建立了坚实的口碑。服务团队专注于提供优质的网络连接体验，确保用户在任何时间、任何地点都能获得稳定、高速的网络服务。
+[灯塔Cloud](https://test.718node.com/register?code=ExbmL3T6)作为业界==知名的老牌机场==服务商，凭借其卓越的稳定性与专业的技术支持，在用户群体中建立了坚实的口碑。服务团队专注于提供优质的网络连接体验，确保用户在任何时间、任何地点都能获得稳定、高速的网络服务。
 
-📲灯塔Cloud机场官网地址：[dengtacloud.com](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6) |
+📲灯塔Cloud机场官网地址：[dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) |
 <!-- more -->
 > 11.6元起100G/月，稳定畅连ChatGPT，独享IEPL专线的优质翻墙服务
 
@@ -31,8 +31,8 @@ tags:
 
 | 项目 | 详细信息 |
 |------|----------|
-| 🌐 **官方网站** | [dengtacloud.com](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6) |
-| 🎁 **新用户福利** | [👉五折专享领取](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6) |
+| 🌐 **官方网站** | [dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) |
+| 🎁 **新用户福利** | [👉五折专享领取](https://test.718node.com/register?code=ExbmL3T6) |
 | 💰 **入门价格** | 7.50元/月（年付含50G/月流量）|
 | 💳 **充值方式** | 支付宝、微信支付 |
 | 🌍 **设备限制** | 不限制设备 |
@@ -42,12 +42,12 @@ tags:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁设备限制 | 💰费用 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|
-| 入门级 | 轻量级套餐（包年） | 轻度用户 | 不限制设备 | ¥7.50/月（年付） | 50GB/月 | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
-| 标准级 | 标准版（六个月） | 日常使用 | 不限制设备 | ¥11.60/月 | 100GB/月 | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
-| 专业级 | 个人套餐（三个月） | 日常使用 | 不限制设备 | ¥29.60/月 | 600GB/月 | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
-| 专业级 | 个人套餐（六个月） | 重度用户 | 不限制设备 | ¥25.50/月 | 600GB/月 | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
-| 企业级 | 个人套餐（年） | 重度用户 | 不限制设备 | ¥23.20/月 | 600GB/月 | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
-| 不限时 | 1TB流量不限时 （用完为止） | 深重度用户 | 不限制设备 | 一次性 | 1TB | [购买链接](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6 ) |
+| 入门级 | 轻量级套餐（包年） | 轻度用户 | 不限制设备 | ¥7.50/月（年付） | 50GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 标准级 | 标准版（六个月） | 日常使用 | 不限制设备 | ¥11.60/月 | 100GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 专业级 | 个人套餐（三个月） | 日常使用 | 不限制设备 | ¥29.60/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 专业级 | 个人套餐（六个月） | 重度用户 | 不限制设备 | ¥25.50/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 企业级 | 个人套餐（年） | 重度用户 | 不限制设备 | ¥23.20/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 不限时 | 1TB流量不限时 （用完为止） | 深重度用户 | 不限制设备 | 一次性 | 1TB | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
 ---
 
 # 🏆 服务总览
@@ -162,7 +162,7 @@ tags:
 
 ## 📝 总结评价
 
-**[灯塔Cloud](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6)**作为一家运营多年的专业网络加速服务商，在稳定性、技术支持和用户体验方面表现出色。其合理的套餐定价、专业的客户服务和持续的技术优化，使其成为值得考虑的网络加速解决方案。
+**[灯塔Cloud](https://test.718node.com/register?code=ExbmL3T6)**作为一家运营多年的专业网络加速服务商，在稳定性、技术支持和用户体验方面表现出色。其合理的套餐定价、专业的客户服务和持续的技术优化，使其成为值得考虑的网络加速解决方案。
 
 **核心推荐理由**：
 1. ✅ 老牌服务商，运营稳定可靠
@@ -171,13 +171,13 @@ tags:
 4. ✅ 套餐设置合理，满足多样需求
 5. ✅ 定期更新优化，服务持续改进
 
-> **立即体验**：访问 [dengtacloud.com](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6) 使用优惠码 **ExbmL3T6** 开启您的优质网络之旅
+> **立即体验**：访问 [dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) 使用优惠码 **ExbmL3T6** 开启您的优质网络之旅
 
 #  📢更多机场推荐汇总
 
 # 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
-## 👉新用户首次订购可使用优惠码  **[ExbmL3T6](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6)**
-## [👉新用户五折专享福利](https://dengta.xn--xhq8sm16c5ls.com/register?code=ExbmL3T6  )
+## 👉新用户首次订购可使用优惠码  **[ExbmL3T6](https://test.718node.com/register?code=ExbmL3T6)**
+## [👉新用户五折专享福利](https://test.718node.com/register?code=ExbmL3T6  )
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。
 

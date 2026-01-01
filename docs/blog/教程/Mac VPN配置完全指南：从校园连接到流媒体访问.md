@@ -25,10 +25,10 @@ tags:
 | **系统手动配置** | 高 | 中（纯隧道功能） | 中（需手动维护） | 校园/企业专线用户 | 参数校验严格 |
 | **浏览器扩展** | 低 | 低-中（仅浏览器） | 中 | 轻度网页访问用户 | 系统应用不经过VPN |
 
-## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
-👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
 
 👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
 

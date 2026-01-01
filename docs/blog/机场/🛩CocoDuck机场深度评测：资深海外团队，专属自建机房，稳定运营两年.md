@@ -166,7 +166,7 @@ tags:
 ### 📀移动设备
 ### 纯小白请看以下教程，老鸟略过
 
-👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
 
 👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
 
@@ -325,7 +325,7 @@ tags:
 
 #  📢更多机场推荐汇总
 
-# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 
 ---
 ## 🏁 服务总结

@@ -109,6 +109,14 @@ tags:
 
 ## 多平台客户端支持
 
+### 📍纯小白请看以下教程，老鸟略过
+
+👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+
+👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
+
+👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
+
 ### 📱 移动设备端
 - **Android系统**：Clash for Android、V2rayNG、Shadowsocks
 - **iOS系统**：Shadowrocket、Clash for iOS、Quantumult X
@@ -242,5 +250,7 @@ A: 可切换节点或联系技术支持
 
 **立即开启体验**：[访问SSONE官方网站](https://m.ssonestop.com/register?aff=X9RslxvT)，使用专属邀请码 `X9RslxvT` 即可享受注册优惠！
 ---
+
+# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 
 > 📝 **免责声明**：> 本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

@@ -20,7 +20,7 @@ tags:
 
 VPN（Virtual Private Network）在中文网络语境中常被称为"梯子""翻墙"，是一种通过建立加密通道来保护网络连接的技术工具。
 
-## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
 👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )

@@ -73,7 +73,7 @@ nslookup github.com          # 用本地默认 DNS 查询
 2. 访问时优先使用 HTTPS 协议，降低中间人攻击风险
 3. 代理 / VPN 需选择未被 GitHub 封禁的节点（部分共享 IP 可能受限）
 
-## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
 👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )

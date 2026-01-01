@@ -21,7 +21,7 @@ tags:
 ## 🌐 服务概览
 
 
-![alt text](images/🛩2026年性价比翻墙机场推荐评测（长期更新）/image.png)
+![alt text](images/🛩2025年性价比翻墙机场推荐评测（长期更新）/image.png)
 ## 📋 核心信息总览
 
 | 项目 | 详细信息 |

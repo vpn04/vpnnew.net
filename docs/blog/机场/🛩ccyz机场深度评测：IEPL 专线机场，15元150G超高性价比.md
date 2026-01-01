@@ -151,7 +151,7 @@ CCYZ 机场在 **2025年** 是一个极具竞争力的选择，尤其适合以�
 
 #  📢更多机场推荐汇总
 
-# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd)**
 ## [👉新用户叠加95专享福利](https://ccyz.xxvip.shop/register?code=YByL9bFd  )
 

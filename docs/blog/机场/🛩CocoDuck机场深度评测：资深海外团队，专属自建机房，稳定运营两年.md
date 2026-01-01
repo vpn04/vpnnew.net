@@ -325,7 +325,7 @@ tags:
 
 #  📢更多机场推荐汇总
 
-# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 
 ---
 ## 🏁 服务总结

@@ -256,7 +256,7 @@ A：
 
 #  📢更多机场推荐汇总
 
-# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[I2MrSqcx](https://a09.tntvipaffb02.cc/#/register?code=I2MrSqcx)**
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。

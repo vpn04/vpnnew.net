@@ -13,10 +13,10 @@ tags:
 由于小区宽带不提供公网IP，我不得不依靠内网穿透技术来远程访问家中的网络服务。
 某天偶然查看NPS服务端的监控数据时，惊讶地发现CPU使用率竟然高达90%。经过层层排查，最终定位到问题确实出在NPS服务本身的资源消耗上。
 
-## [2025年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
-👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
 
 👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
 

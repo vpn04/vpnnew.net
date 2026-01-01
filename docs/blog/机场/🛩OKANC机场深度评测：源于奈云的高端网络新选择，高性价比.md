@@ -52,7 +52,7 @@ tags:
 
 ### 📍纯小白请看以下教程，老鸟略过
 
-👉[2025年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
 
 👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
 
@@ -266,7 +266,7 @@ OKANC机场凭借 **奈云同源的技术底蕴**，提供了市场上 **顶级�
 
 #  📢更多机场推荐汇总
 
-# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[j4gYClCp](https://www.okanc.com/index.php#/register?code=j4gYClCp)**
 ## [👉新用户专享福利](https://www.okanc.com/index.php#/register?code=j4gYClCp  )
 

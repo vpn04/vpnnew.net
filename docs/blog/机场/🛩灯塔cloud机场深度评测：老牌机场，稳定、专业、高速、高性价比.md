@@ -175,7 +175,7 @@ tags:
 
 #  📢更多机场推荐汇总
 
-# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[ExbmL3T6](https://test.718node.com/register?code=ExbmL3T6)**
 ## [👉新用户五折专享福利](https://test.718node.com/register?code=ExbmL3T6  )
 

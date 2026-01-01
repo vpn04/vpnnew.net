@@ -266,7 +266,7 @@ OKANC机场凭借 **奈云同源的技术底蕴**，提供了市场上 **顶级�
 
 #  📢更多机场推荐汇总
 
-# 👉[2025年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[j4gYClCp](https://www.okanc.com/index.php#/register?code=j4gYClCp)**
 ## [👉新用户专享福利](https://www.okanc.com/index.php#/register?code=j4gYClCp  )
 

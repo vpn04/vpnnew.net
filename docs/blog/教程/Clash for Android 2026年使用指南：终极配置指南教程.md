@@ -4,10 +4,9 @@ createTime: 2026/01/16 08:21:36
 permalink: /article/ClashforAndroid/
 tags:
   - Clash
-  - 翻墙
+  - Android
   - 代理工具
   - 科学上网
-  - Android
   - 中文
   - VPN
   - 机场
@@ -18,7 +17,6 @@ tags:
   - 2026翻墙
   - ClashforAndroid
   - 配置教程
-  - 教程
   - 使用指南
 ---
  本文将带你全面了解Clash for Android下载安装，保姆级教学，全平台配置教程，小白快速上手。

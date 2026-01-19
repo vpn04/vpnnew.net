@@ -32,14 +32,14 @@ tags:
 ## 掌中世界机场官网地址：[yyo649929.gntvipaff.cc](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
 
 ## 👉[新用户8折福利领取](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
-## 👉[新用户邀请码RsnVWqBV](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+## 👉[新用户邀请码GNT80](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
 | **🌐 官方网站** | [yyo649929.gntvipaff.cc](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
 | **💰 入门价格** | 18.00元/110G每月 |
-| **📑 用户福利** | 八折 |
+| **📑 用户福利** | 八折优惠码GNT80 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务特色** | 全IPLC专线 |
 | **🔗 协议支持** |全IPLC专线，ss协议，不限速，不限制客户端、专线独享流量等 |
@@ -90,7 +90,7 @@ tags:
 
 ---
 ## [👉新用户八折福利领取](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
-## 👉新用户首次订购可使用优惠码  **RsnVWqBV**
+## 👉新用户首次订购可使用优惠码  **GNT80**
 ###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。

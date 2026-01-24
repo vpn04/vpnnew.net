@@ -58,17 +58,102 @@ tags:
 
 ## 📲非国区 Apple ID 共享账号列表
 
-| 地区 | Apple ID 账号 | 密码操作 |
-|------|--------------|----------|
-| 美国 | `DahliaynswLanawejc478@gmail.com` | <span onclick="this.innerHTML='dgbT4c7tXY'; navigator.clipboard.writeText('dgbT4c7tXY')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 美国 | `dh61n0c4qbjxsrrqzptx@icloud.com` | <span onclick="this.innerHTML=' cGRDB9pYjN'; navigator.clipboard.writeText(' cGRDB9pYjN')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 美国 | `juyffl2675@icloud.com` | <span onclick="this.innerHTML='r5eeszVMBy'; navigator.clipboard.writeText('r5eeszVMBy')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 日本 | `cecilyherreraeiaj3@gmail.com` | <span onclick="this.innerHTML='78p8ERgxaG'; navigator.clipboard.writeText('78p8ERgxaG')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 韩国 | `SamPrghwrh54754@icloud.com` | <span onclick="this.innerHTML=' 38rf5KuS8K'; navigator.clipboard.writeText(' 38rf5KuS8K')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 香港 | `paulasfordsckcg@gmail.com` | <span onclick="this.innerHTML='kM8bF7HDVh'; navigator.clipboard.writeText('kM8bF7HDVh')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 台湾 | `lenaucarrollk9z0e@gmail.com` | <span onclick="this.innerHTML='78mt5KMANz'; navigator.clipboard.writeText('78mt5KMANz')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
-| 新加坡 | `tamrauella5805@outlook.com` | <span onclick="this.innerHTML='BrgADtG3as'; navigator.clipboard.writeText('BrgADtG3as')" style="cursor:pointer; color:blue; text-decoration:underline">点击显示并复制</span>  |
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; padding: 10px 16px; background-color: var(--vp-c-bg-alt); border-radius: 8px;">
+  <div style="color: var(--vp-c-text-2); font-size: 14px;">
+    更新时间：{{ updateTime || '加载中...' }}
+  </div>
+  <button class="refresh-btn" @click="fetchData" :disabled="loading">
+    <span v-if="loading">刷新中...</span>
+    <span v-else>刷新</span>
+  </button>
+</div>
 
+<div v-if="loading && accounts.length === 0" style="text-align: center; padding: 20px;">
+  正在获取最新账号信息...
+</div>
+
+<div v-else-if="error" style="color: red; text-align: center; padding: 20px;">
+  {{ error }}
+</div>
+
+<div v-else class="account-grid">
+  <Card v-for="(acc, index) in accounts" :key="index">
+    <Badge :type="getBadgeType(acc.region)" :text="acc.region" />
+    <span class="account_warring">只能登录 App Store，登录设置会导致锁机！</span>
+    <br><br>
+    账号 <code>{{ acc.email }}</code>
+    <br><br>
+    密码 <Plot trigger="click" effect="blur"><code>{{ acc.password }}</code></Plot>
+    <br><br>
+    <button class="copy-btn" @click="copy(acc.email, acc, 'email')">
+        {{ acc.copiedEmail ? '已复制' : '复制账号' }}
+    </button> 
+    <button class="copy-btn" @click="copy(acc.password, acc, 'password')">
+        {{ acc.copiedPassword ? '已复制' : '复制密码' }}
+    </button>
+  </Card>
+</div>
+
+<style>
+.account_warring {
+  color: #ff4d4f;
+  font-size: 13px;
+  margin: 4px;
+}
+.account-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* 强制清除 Card 组件可能自带的外边距 */
+.account-grid > * {
+  margin: 0 !important;
+}
+
+.copy-btn {
+  cursor: pointer;
+  margin-right: 8px;
+  padding: 4px 12px;
+  font-size: 13px;
+  border: 1px solid var(--vp-c-gutter);
+  background-color: transparent;
+  color: var(--vp-c-text-2);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-soft);
+}
+
+.refresh-btn {
+  cursor: pointer;
+  padding: 4px 12px;
+  font-size: 13px;
+  background-color: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  color: var(--vp-c-text-1);
+  transition: all 0.3s;
+}
+.refresh-btn:hover:not(:disabled) {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+.refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+  .account-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
 
 ## 💻第一步：应用下载与安全安装
 
@@ -409,3 +494,83 @@ graph TD
 
 ---
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。
+
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const accounts = ref([])
+const updateTime = ref('')
+const loading = ref(true)
+const error = ref('')
+
+const getBadgeType = (region) => {
+  if (region.includes('美')) return 'tip';
+  if (region.includes('日')) return 'warning';
+  if (region.includes('韩')) return 'danger';
+  if (region.includes('中') || region.includes('国区')) return 'tip';
+  return 'info';
+}
+
+const fetchData = async () => {
+  loading.value = true;
+  error.value = '';
+  try {
+    const res = await fetch('https://api.ermao.net/get_apple_id')
+    if (!res.ok) throw new Error('网络请求失败')
+    const data = await res.json()
+    // 为每个账号添加复制状态标记
+    accounts.value = (data.accounts || []).map(acc => ({
+        ...acc,
+        copiedEmail: false,
+        copiedPassword: false
+    }))
+    updateTime.value = data.updated_at || ''
+  } catch (e) {
+    console.error(e)
+    error.value = '获取账号失败，请稍后刷新重试'
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(() => {
+  fetchData()
+})
+
+const copy = (text, acc, type) => {
+  const onSuccess = () => {
+      if (type === 'email') acc.copiedEmail = true;
+      if (type === 'password') acc.copiedPassword = true;
+      
+      // 2秒后恢复状态
+      setTimeout(() => {
+        if (type === 'email') acc.copiedEmail = false;
+        if (type === 'password') acc.copiedPassword = false;
+      }, 2000);
+  };
+
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(onSuccess).catch(err => {
+      console.error('复制失败: ', err);
+      fallbackCopy(text, onSuccess);
+    });
+  } else {
+    fallbackCopy(text, onSuccess);
+  }
+}
+
+const fallbackCopy = (text, onSuccess) => {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+      document.execCommand('copy');
+      onSuccess();
+  } catch (err) {
+      console.error('复制失败: ', err);
+      alert('复制失败，请手动复制');
+  }
+  document.body.removeChild(textarea);
+}
+</script>

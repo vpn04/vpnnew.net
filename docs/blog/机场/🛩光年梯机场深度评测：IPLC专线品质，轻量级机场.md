@@ -1,6 +1,6 @@
 ---
 title: 🛩光年梯机场深度评测：IPLC专线品质，轻量级机场
-createTime: 2026/01/19 09:31:45
+createTime: 2026/01/24 13:23:45
 permalink: /article/guangnianti/
 tags:
   - 科学上网
@@ -20,24 +20,24 @@ tags:
   - 翻墙机场
   - 翻墙推荐
 ---
-[光年梯](https://www01.lightyearti.cc/#/?code=RsnVWqBV )是一款专注于基础稳定访问的==轻量级==机场服务。其核心策略是以极具吸引力的入门价格，为用户提供具备==IPLC专线品质==的网络通道，旨在满足对稳定性有要求但预算有限的用户群体。
+[光年梯](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)是一款专注于基础稳定访问的==轻量级==机场服务。其核心策略是以极具吸引力的入门价格，为用户提供具备==IPLC专线品质==的网络通道，旨在满足对稳定性有要求但预算有限的用户群体。
 
-📲光年梯机场官网地址：[yyo649929.gntvipaff.cc](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+📲光年梯机场官网地址：[yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)
 <!-- more -->
 
 ## 🔔服务概览与技术架构
 
 ![alt text](images/🛩光年梯机场深度评测：IPLC专线品质，轻量级机场/image.jpg)
 
-## 掌中世界机场官网地址：[yyo649929.gntvipaff.cc](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+## 掌中世界机场官网地址：[yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)
 
-## 👉[新用户8折福利领取](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
-## 👉[新用户邀请码GNT80](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+## 👉[新用户8折福利领取](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)
+## 👉[新用户邀请码GNT80](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [yyo649929.gntvipaff.cc](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+| **🌐 官方网站** | [yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0 )
 | **💰 入门价格** | 18.00元/110G每月 |
 | **📑 用户福利** | 八折优惠码GNT80 |
 | **💳 充值方式** | 支付宝、微信支付 |
@@ -49,10 +49,10 @@ tags:
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------| 
 | 进阶版 | 光年梯 入门版 | 轻度使用 | 月付、季付、半年、年付、两年、三年 | ¥18.00/每月 |110GB/月 |[购买链接](https://www01.lightyearti.cc/#/?code=RsnVWqBV) |
-| 专业版 | 光年梯 晋级版 |	中度用户 | 月付、季付、半年、年付、两年、三年 | ¥34.00/每月 |220GB/月 |[购买链接](https://www01.lightyearti.cc/#/?code=RsnVWqBV ) |
-| 尊享版 | 光年梯 专业版 | 重度用户 | 月付、季付、半年、年付、两年、三年 | ¥68.00/每月 |450GB/月 | [购买链接](https://www01.lightyearti.cc/#/?code=RsnVWqBV ) |
-| 至尊版 | 光年梯 至尊版 | 老鸟重度用户 | 月付、季付、半年、年付、两年、三年 | ¥130.00/每月 |900GB/月 |[购买链接](https://www01.lightyearti.cc/#/?code=RsnVWqBV ) |
-| 独享专线版 | 独享私人专线节点 |	专业老鸟用户 | 月付 | ¥680.00/每月 |500GB/月 |[购买链接](https://www01.lightyearti.cc/#/?code=RsnVWqBV ) |
+| 专业版 | 光年梯 晋级版 |	中度用户 | 月付、季付、半年、年付、两年、三年 | ¥34.00/每月 |220GB/月 |[购买链接](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0) |
+| 尊享版 | 光年梯 专业版 | 重度用户 | 月付、季付、半年、年付、两年、三年 | ¥68.00/每月 |450GB/月 | [购买链接](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0) |
+| 至尊版 | 光年梯 至尊版 | 老鸟重度用户 | 月付、季付、半年、年付、两年、三年 | ¥130.00/每月 |900GB/月 |[购买链接](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0) |
+| 独享专线版 | 独享私人专线节点 |	专业老鸟用户 | 月付 | ¥680.00/每月 |500GB/月 |[购买链接](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0) |
 
 ## 📊 核心参数与特性
 
@@ -89,7 +89,7 @@ tags:
 > **总结**：光年梯精准地切入了 “稳定刚需” 与 “价格敏感” 之间的市场空白。它并非功能最全、节点最多的服务，但对于那些将 “连接稳定不掉线” 视为首要考量，且希望控制成本的用户来说，它提供了一个非常务实且高性价比的选择。是理想的入门级专线方案或高可靠性备用线路。
 
 ---
-## [👉新用户八折福利领取](https://www01.lightyearti.cc/#/?code=RsnVWqBV )
+## [👉新用户八折福利领取](https://yyo649929.gntvipaff.cc/#/?code=GPnzaiG0)
 ## 👉新用户首次订购可使用优惠码  **GNT80**
 ###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )

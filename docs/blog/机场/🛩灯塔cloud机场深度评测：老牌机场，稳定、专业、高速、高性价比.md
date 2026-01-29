@@ -22,7 +22,7 @@ tags:
 ---
 [灯塔Cloud](https://test.718node.com/register?code=ExbmL3T6)作为业界==知名的老牌机场==服务商，凭借其卓越的稳定性与专业的技术支持，在用户群体中建立了坚实的口碑。服务团队专注于提供优质的网络连接体验，确保用户在任何时间、任何地点都能获得稳定、高速的网络服务。本人自用机场强烈推荐之一。
 
-📲灯塔Cloud机场官网地址：[dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) |
+📲灯塔Cloud机场官网地址：[dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) 
 <!-- more -->
 > 11.6元起100G/月，稳定畅连ChatGPT，独享IEPL专线的优质翻墙服务
 
@@ -55,11 +55,11 @@ tags:
 
 ### 📍纯小白请看以下教程，老鸟略过
 
-👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
 
-👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
 
-👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
 
 ## ✨ 核心优势详解
 

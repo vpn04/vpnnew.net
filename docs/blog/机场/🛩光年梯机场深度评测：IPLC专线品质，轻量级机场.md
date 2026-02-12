@@ -31,8 +31,8 @@ tags:
 
 ## 掌中世界机场官网地址：[yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
 
-## 👉[新用户8折福利领取](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
-## 👉[新用户邀请码GNT80](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
+## 👉[新用户7折福利领取](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
+## 👉[新用户邀请码GNT70](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
@@ -89,7 +89,7 @@ tags:
 > **总结**：光年梯精准地切入了 “稳定刚需” 与 “价格敏感” 之间的市场空白。它并非功能最全、节点最多的服务，但对于那些将 “连接稳定不掉线” 视为首要考量，且希望控制成本的用户来说，它提供了一个非常务实且高性价比的选择。是理想的入门级专线方案或高可靠性备用线路。
 
 ---
-## [👉新用户八折福利领取](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
+## [👉新用户七折福利领取](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
 ## 👉新用户首次订购七折可使用优惠码  **GNT70**
 ###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )

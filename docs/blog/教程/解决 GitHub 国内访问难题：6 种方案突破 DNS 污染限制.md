@@ -9,8 +9,10 @@ tags:
   - 科学上网
 ---
 
-# 💡解决 GitHub 国内访问难题：6 种方案突破 DNS 污染限制
+💡解决 GitHub 国内访问难题：6 种方案突破 DNS 污染限制
 GitHub 作为全球最大的开源项目托管平台，是开发者不可或缺的学习与协作工具。但在国内网络环境中，DNS 污染常导致其无法正常访问，表现为域名被解析到错误 IP，浏览器频繁出现 "无法访问此页面" 或 "响应时间过长" 等提示。
+<!-- more -->
+
 ![alt text](<images/解决 GitHub 国内访问难题：6 种方案突破 DNS 污染限制/image.png>)
 本文整理 6 种实用方案，助你高效解决这一问题。
 
@@ -73,7 +75,8 @@ nslookup github.com          # 用本地默认 DNS 查询
 2. 访问时优先使用 HTTPS 协议，降低中间人攻击风险
 3. 代理 / VPN 需选择未被 GitHub 封禁的节点（部分共享 IP 可能受限）
 
-## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
+###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
 👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )

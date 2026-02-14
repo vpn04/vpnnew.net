@@ -2,7 +2,6 @@
 title: 🛩灯塔cloud机场深度评测：老牌机场，稳定、专业、高速、高性价比
 createTime: 2026/01/15 06:31:52
 permalink: /article/dengtacloud/
-sticky: 98
 tags:
   - 科学上网
   - VPN
@@ -176,7 +175,8 @@ tags:
 
 #  📢更多机场推荐汇总
 
-# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
 ## 👉新用户首次订购可使用优惠码  **[ExbmL3T6](https://test.718node.com/register?code=ExbmL3T6)**
 ## [👉新用户五折专享福利](https://test.718node.com/register?code=ExbmL3T6  )
 

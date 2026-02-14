@@ -10,13 +10,11 @@ tags:
  
 
 ---
-# 🚀 Shadowrocket(iOS小火箭) 新手使用教程
 
 适用于苹果手机、iOS设备和Mac电脑，Shadowrocket是一款常用的科学上网工具。下面为新手详细介绍如何下载安装和配置Shadowrocket。
-
+<!-- more -->
 ---
 
-## [2026年性价比翻墙机场推荐评测（长期更新）](https://vpnnew.net/article/VPN/ )
 ### 📍纯小白请看以下教程，老鸟略过
 
 👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
@@ -98,4 +96,10 @@ tags:
 
 ---
 没有合适的机场可以评论留言获取
+
 ---
+
+###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
+###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
+
+>📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

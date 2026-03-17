@@ -84,7 +84,7 @@ head:
 ---
 
 
-在众多 **翻墙机场推荐** 中，[uuone](https://uuone.acysa.de/register?code=NThYGiev) 凭借 **BGP三网优化架构 + 超低价格** 成为不少用户入门科学上网的选择。
+在众多 **翻墙机场推荐** 中，[uuone](https://uuone.de/register?code=NThYGiev) 凭借 **BGP三网优化架构 + 超低价格** 成为不少用户入门科学上网的选择。
 
 该机场主打：
 
@@ -93,7 +93,7 @@ head:
 - ⚡ **BGP三网优化线路**
 - 📱 **多设备共享**
 
-📲 官网地址 ： 👉 [uuone.de](https://uuone.acysa.de/register?code=NThYGiev)
+📲 官网地址 ： 👉 [uuone.de](https://uuone.de/register?code=NThYGiev)
 <!-- more -->
 > 12元起150G流量，最多支持20台设备
 
@@ -107,8 +107,8 @@ head:
 
 | 项目 | 详细信息 |
 |------|----------|
-| 🌐 **官方网站** | [uuone.de](https://uuone.acysa.de/register?code=NThYGiev) |
-| 🎁 **新用户福利** | [👉9折专享码uuone](https://uuone.acysa.de/register?code=NThYGiev) |
+| 🌐 **官方网站** | [uuone.de](https://uuone.de/register?code=NThYGiev) |
+| 🎁 **新用户福利** | [👉9折专享码uuone](https://uuone.de/register?code=NThYGiev) |
 | 💰 **入门价格** | 12.00元/月（150G/月流量）|
 | 💳 **充值方式** | 支付宝、微信支付 |
 | 🌍 **设备限制** | 限20台设备 · 全家共享 |
@@ -118,10 +118,10 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁网速限制 | 💰费用 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|
-| 入门级 | Lite—月付150G | 轻度用户 | 300Mbps | ¥12.00/月 | 150GB/月 | [购买链接](https://uuone.acysa.de/register?code=NThYGiev ) |
-| 标准级 | Pro—月付300G | 日常使用 | 500Mbps | ¥23.00/月 | 300GB/月 | [购买链接](https://uuone.acysa.de/register?code=NThYGiev ) |
-| 专业级 | Max—月付800G | 日常使用 | 800Mbps | ¥45.00/月 | 800GB/月 | [购买链接](https://uuone.acysa.de/register?code=NThYGiev ) |
-| 不限时 | 永久450G | 深重度用户 | 300Mbps | ¥80.00 | 450GB | [购买链接](https://uuone.acysa.de/register?code=NThYGiev ) |
+| 入门级 | Lite—月付150G | 轻度用户 | 300Mbps | ¥12.00/月 | 150GB/月 | [购买链接](https://uuone.de/register?code=NThYGiev ) |
+| 标准级 | Pro—月付300G | 日常使用 | 500Mbps | ¥23.00/月 | 300GB/月 | [购买链接](https://uuone.de/register?code=NThYGiev ) |
+| 专业级 | Max—月付800G | 日常使用 | 800Mbps | ¥45.00/月 | 800GB/月 | [购买链接](https://uuone.de/register?code=NThYGiev ) |
+| 不限时 | 永久450G | 深重度用户 | 300Mbps | ¥80.00 | 450GB | [购买链接](https://uuone.de/register?code=NThYGiev ) |
 ---
 
 # 🏆 服务总览
@@ -330,7 +330,7 @@ A：提供流量叠加包购买，或等待下个计费周期自动重置。建�
 ---
 
 ### 👉新用户9这优惠券  **uuone**
-### [👉新用户9折领取](https://uuone.acysa.de/register?code=NThYGiev )
+### [👉新用户9折领取](https://uuone.de/register?code=NThYGiev )
 ###  📢更多机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ###  📢更多机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。

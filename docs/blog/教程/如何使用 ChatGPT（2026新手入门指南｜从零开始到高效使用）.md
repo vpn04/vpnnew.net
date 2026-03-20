@@ -220,7 +220,7 @@ ChatGPT 是一款基于人工智能的对话工具，可以理解你的问题并
 
 ## 延伸阅读 
 
-- 如何解决 ChatGPT 无法使用的问题   
+- 如何解决 ChatGPT 无法使用的问题 ：[ChatGPT无法使用怎么办？（2026最新解决方法｜地区限制完整指南））](https://vpnnew.net/article/ChatGPTwufashiyong/ )  
 - iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
 
 - Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )

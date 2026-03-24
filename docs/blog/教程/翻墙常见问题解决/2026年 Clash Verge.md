@@ -63,9 +63,7 @@ Clash Verge 作为多平台代理客户端，为 Windows、macOS、Linux 提供�
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
 ## 💡二、多平台安装详细步骤 {#安装指南}
 
@@ -173,9 +171,7 @@ journalctl -u clash-verge -f
 
 ## 💡三、订阅配置与导入教程 {#订阅配置}
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
 
 ![alt text](<images/2026年 Clash Verge/image-1.png>)
 
@@ -261,9 +257,7 @@ graph LR
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
 
 ## 💡四、核心功能设置详解 {#功能设置}
 
@@ -468,9 +462,7 @@ ping -c 4 8.8.8.8
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
 
 ## 💡七、故障排除与维护 {#故障排除}
 
@@ -630,8 +622,18 @@ nslookup google.com 127.0.0.1
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ ) 
+
+## 📌 延伸阅读
+
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
+
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
+
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
+
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )  
+
+---
 
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

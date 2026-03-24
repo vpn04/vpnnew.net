@@ -47,9 +47,7 @@ tags:
 
 ### ⚠️官网链接[Shadowrocket跳转下载地址](https://apps.apple.com/us/app/shadowrocket/id932747118)，一定要认真辨别不要下载成山寨应用！！！
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )   
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
 ### 📢系统要求与兼容性
 | 设备类型 | 最低系统版本 | 推荐系统版本 | 内存要求 |
@@ -159,9 +157,7 @@ tags:
 }
 </style>
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
 ## 💻第一步：应用下载与安全安装
 
@@ -225,9 +221,7 @@ tags:
 ### 📋 获取订阅链接
 在配置Shadowrocket前，需要准备可用的翻墙机场。
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
 #### 📖订阅来源推荐
 | 服务类型 | 价格范围 | 稳定性 | 适合人群 |
@@ -316,9 +310,8 @@ tags:
 | ○ | 灰色 | 未连接 | 点击开启 |
 
 ---
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
 ## 🧮第四步：功能测试与优化
 
@@ -487,9 +480,7 @@ graph TD
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
 
 ## 📝 版本更新与资源汇总
 
@@ -509,10 +500,19 @@ graph TD
 | 功能建议 | 官方邮箱 | 几周 | ⭐ |
 
 ---
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )      
-### 📢免费机场推荐汇总：👉[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）]( https://vpnnew.net/article/mianfeijichang/ )     
-### 📢机场优惠推荐汇总：👉[2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）]( https://vpnnew.net/article/youhuijuan/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
 
+## 📌 延伸阅读
+
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
+
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
+
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
+
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )  
+
+---
 
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。
 

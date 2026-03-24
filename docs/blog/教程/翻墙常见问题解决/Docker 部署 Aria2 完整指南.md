@@ -15,13 +15,6 @@ tags:
 某天偶然查看NPS服务端的监控数据时，惊讶地发现CPU使用率竟然高达90%。经过层层排查，最终定位到问题确实出在NPS服务本身的资源消耗上。
 <!-- more -->
 ---
-### 📍纯小白请看以下教程，老鸟略过
-
-👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
-
-👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
-
-👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
 
 那么，为什么一个轻量级的NPS服务会出现如此异常的资源占用呢？
 真相令人哭笑不得——问题竟然源于我使用的Aria2 Explorer浏览器插件。为了图省事，我在配置时直接选择了HTTP协议，而这个看似不起眼的选择，却成为了系统资源被大量占用的罪魁祸首。
@@ -237,7 +230,18 @@ docker-compose pull && docker-compose up -d
 
 通过 Docker 部署的 Aria2 不仅配置简单，还能确保环境一致性，后续迁移到其他设备时，只需复制 `docker-compose.yml` 和数据目录即可快速恢复。若需远程访问（如在手机上管理下载），只需确保服务器开放 6800（RPC）和 6880（AriaNG）端口，并通过公网 IP 访问即可。
 
-###  📢机场推荐汇总： 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
-###  📢机场福利推荐汇总：👉[2026年翻墙机场优惠券及免费试用体验汇总（长期更新）]( https://vpnnew.net/article/youhuijuan/ )
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+
+## 📌 延伸阅读
+
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
+
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
+
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
+
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )  
+
+---
 
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

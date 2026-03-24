@@ -178,12 +178,19 @@ A3：先从系统代理模式入手，再升级到 TUN 模式实现全局代理�
 
 ---
 
-### 🚀 推荐资源与机场
-- **自用机场推荐奈云机场订阅** 👉 [点击获取](https://aff.v2ny.mom?path=register&code=6bJ8swbK)  
-- **安卓 VPN 完整指南** 👉 [查看教程](https://vpnnew.net/article/anzhuoVPNzhinan/)  
-- **电脑 VPN 选购攻略** 👉 [查看教程](https://vpnnew.net/article/diannanvpnzenmexuan/)  
-- **iPhone VPN 避坑指南** 👉 [查看教程](https://vpnnew.net/article/iphoneVPN/)  
-- **性价比翻墙机场推荐** 👉 [查看汇总](https://vpnnew.net/article/VPN/)  
-- **翻墙机场优惠券与免费试用** 👉 [查看汇总](https://vpnnew.net/article/youhuijuan/)  
+
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+
+## 📌 延伸阅读
+
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
+
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
+
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
+
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )  
+
+---
 
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

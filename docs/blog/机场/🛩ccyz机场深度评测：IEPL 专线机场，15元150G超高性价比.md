@@ -57,16 +57,6 @@ tags:
 2.  **优惠券折扣**：购买任意套餐时，在结算页面输入优惠券码 **`ccyz`**，即可享受 **全场95折** 优惠。
 ---
 
-## 📊多平台客户端配置
-
-### 📍纯小白请看以下教程，老鸟略过
-
-👉[2026年安卓VPN完全指南：从选购到实战](https://vpnnew.net/article/anzhuoVPNzhinan/ )
-
-👉[电脑用VPN怎么选？实用攻略与建议](https://vpnnew.net/article/diannanvpnzenmexuan/ )
-
-👉[iPhone上装哪款VPN iOS版本？避坑指南](https://vpnnew.net/article/iphoneVPN/ )
-
 ## 🏆 核心优势亮点
 
 *   **🔗 线路品质卓越**：BGP 智能路由与 IEPL 国际专线结合，保障跨境连接**稳定、低延迟**。
@@ -149,12 +139,23 @@ CCYZ 机场在 **2025年** 是一个极具竞争力的选择，尤其适合以�
 > **👉 行动建议**：如果您正在寻找一款价格亲民、线路稳定、功能全面的机场服务，不妨从 [ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd ) 开始体验。
 > **立即访问 [CCYZ 官网](https://ccyz.xxvip.shop/register?code=YByL9bFd)，注册领取免费流量，下单时使用优惠码 `ccyz` 享受折扣！**
 
-#  📢更多机场推荐汇总
-
-# 👉[2026年性价比翻墙机场推荐评测（长期更新）]( https://vpnnew.net/article/VPN/ )
 ## 👉新用户首次订购可使用优惠码  **[ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd)**
 ## [👉新用户叠加95专享福利](https://ccyz.xxvip.shop/register?code=YByL9bFd  )
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。
+
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+
+## 📌 延伸阅读
+
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](https://vpnnew.net/article/Shadowrocket/ )
+
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](https://vpnnew.net/article/ClashforAndroid/ )
+
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](https://vpnnew.net/article/ClashVerge/ )
+
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )  
+
+---
 
 >📝 免责声明：本文仅供信息参考，建议均为个人经验与观点，不构成法律意见。实际情况以最新政策和主管部门解释为准，请在合法合规框架内使用相关服务。任何违法使用行为与本站无关。

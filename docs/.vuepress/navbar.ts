@@ -6,9 +6,19 @@
 
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
-export default defineNavbarConfig([ 
-  { text: 'YouYou博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
-  { text: '友链' , link: '/friends/'},
-  { text: '归档', link: '/blog/archives/' },
-])
+export default defineNavbarConfig(
+  [ 
+    { text: '🛩机场排名汇总', link: '/vpn-recommend/' },
+    { text: '💰机场免费试用汇总', link: '/article/mianfeijichang/' },
+    { text: '💹机场优惠券汇总', link: '/article/youhuijuan/' },
+    { text: '📁YouYou博客', link: '/blog/' },
+    { 
+      text: '📂更多',
+      items: [
+        { text: '标签', link: '/blog/tags/' },
+        { text: '友链' , link: '/friends/'},
+        { text: '归档', link: '/blog/archives/' },
+      ]
+    }
+  ]
+)

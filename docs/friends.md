@@ -41,6 +41,11 @@ list:
     avatar: https://pic.shellingford.cn/i/me/logo.jpg
     descr: 一位Java攻城狮的个人博客，主要分享编程、建站、动漫、趣闻和生活内容
 
+  - 
+    name: 科学上网教程与机场推荐
+    link: https://yp7.net/
+    avatar: "https://yp7.net/logo.png"
+    desc: 网络大乞丐之非正规机场测评业余选手。
 ---
 
 友联格式：

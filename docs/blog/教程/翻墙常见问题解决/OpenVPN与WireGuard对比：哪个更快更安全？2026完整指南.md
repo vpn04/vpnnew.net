@@ -1,7 +1,7 @@
 ---
 title: OpenVPN与WireGuard对比：哪个更快更安全？2026完整指南
-createTime: 2026/03/31  14:41:26'
-updateTime: 2026/03/31  08:41:26'
+createTime: 2026/03/31  14:41:26
+updateTime: 2026/03/31  14:41:26
 permalink: /article/OpenVPNWireGuard/
 description: OpenVPN与WireGuard对比哪个好？本文详细对比OpenVPN和WireGuard的速度、安全性、稳定性、适用场景以及优缺点，帮助你选择最适合的VPN协议。
 keywords: OpenVPN与WireGuard对比, OpenVPN vs WireGuard, WireGuard协议, OpenVPN协议, VPN协议对比, 哪个VPN协议更快

@@ -46,6 +46,18 @@ list:
     link: https://yp7.net/
     avatar: "https://yp7.net/logo.png"
     desc: 网络大乞丐之非正规机场测评业余选手。
+
+  - 
+    name: 知栖小筑
+    link: https://www.halosb.com
+    avatar: "https://www.halosb.com/upload/logo.webp"
+    desc: 没有bug的代码是不完美的
+
+  - 
+    name: Wcowin's Blog
+    link: https://wcowin.work/
+    avatar: "https://s1.imagehub.cc/images/2025/12/06/28380affd86b014a6dcaf082fcc97064.png"
+    desc: 循此苦旅，以达星辰
 ---
 
 友联格式：

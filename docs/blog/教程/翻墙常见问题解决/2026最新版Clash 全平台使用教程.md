@@ -1,7 +1,7 @@
 ---
 title: 2026最新版Clash 全平台使用教程（Windows / Mac / Android / iOS）｜新手入门+配置详解
-createTime: 2026/03/30
-updateTime: 2026/03/30
+createTime: 2026/04/01 03:34:43
+updateTime: 2026/04/01 03:34:43
 permalink: /scamvpn/Clashquanpingtai/
 tags:
   - Clash
@@ -76,7 +76,7 @@ head:
 - TUN 模式 vs 系统代理  
 - 常见问题 FAQ  
 
-👉 适合：**新手 + 进阶用户**,需要对比或寻找可靠的vpn翻墙机场可以参考这篇文章：[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ ) 
+👉 适合：**新手 + 进阶用户**,需要对比或寻找可靠的vpn翻墙机场可以参考这篇文章：👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 <!-- more -->
 ---
 

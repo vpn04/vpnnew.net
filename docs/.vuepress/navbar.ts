@@ -11,7 +11,7 @@ export default defineNavbarConfig(
     { text: '🛩机场排名汇总', link: '/vpn-recommend/' },
     { text: '💰机场免费试用汇总', link: '/article/mianfeijichang/' },
     { text: '💹机场优惠券汇总', link: '/article/youhuijuan/' },
-    { text: '💡 Apple ID 共享账号', link: '/article/Shadowrocket/' },
+    { text: '⚠️机场跑路汇总', link: '/scamvpn/paolujichang/' },
     { text: '📁YouYou博客', link: '/blog/' },
     { 
       text: '📂更多',

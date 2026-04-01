@@ -1,6 +1,6 @@
 ---
 title:  2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南
-createTime: 2026/01/18 10:52:34
+createTime: 2026/04/01 03:32:21
 permalink: /article/ClashVerge/
 tags:
   - Clash
@@ -63,7 +63,7 @@ Clash Verge 作为多平台代理客户端，为 Windows、macOS、Linux 提供�
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )   
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ## 💡二、多平台安装详细步骤 {#安装指南}
 
@@ -171,7 +171,7 @@ journalctl -u clash-verge -f
 
 ## 💡三、订阅配置与导入教程 {#订阅配置}
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ![alt text](<images/2026年 Clash Verge/image-1.png>)
 
@@ -257,7 +257,7 @@ graph LR
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ## 💡四、核心功能设置详解 {#功能设置}
 
@@ -462,7 +462,7 @@ ping -c 4 8.8.8.8
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ## 💡七、故障排除与维护 {#故障排除}
 

@@ -58,6 +58,12 @@ list:
     link: https://wcowin.work/
     avatar: "https://s1.imagehub.cc/images/2025/12/06/28380affd86b014a6dcaf082fcc97064.png"
     desc: 循此苦旅，以达星辰
+
+  - 
+    name: 小慧博客
+    link: https://www.itxiaohui.top/
+    avatar: "https://blogoss.itxiaohui.top/logo%20-uhlgnmrf.png"
+    desc: 小慧的技术博客
 ---
 
 友联格式：

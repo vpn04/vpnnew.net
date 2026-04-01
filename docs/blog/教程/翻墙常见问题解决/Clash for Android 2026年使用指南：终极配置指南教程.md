@@ -1,6 +1,6 @@
 ---
 title:  Clash for Android 2026年使用指南：终极配置指南教程
-createTime: 2026/01/16 08:21:36
+createTime: 2026/04/01 03:34:21
 permalink: /article/ClashforAndroid/
 tags:
   - Clash
@@ -52,7 +52,7 @@ tags:
 
 ---
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ## 📍二、下载安装全流程 
 
@@ -167,7 +167,7 @@ graph LR
 - 代理模式: 建议选择"规则"
 ```
 
-###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )  
+###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 1. 在URL字段粘贴订阅链接
 2. 填写自定义配置名称
@@ -367,7 +367,6 @@ graph TD
 ---
 
 ## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
-
 ## 📌 延伸阅读
 
 👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )

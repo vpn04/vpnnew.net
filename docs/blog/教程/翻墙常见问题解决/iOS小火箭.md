@@ -7,8 +7,28 @@ tags:
   - Shadowrocket
   - iOS
   - Mac
- 
-
+description: "2026最新版 Shadowrocket(iOS小火箭) 新手使用教程，详细讲解iPhone、iPad和Mac下载安装、订阅导入、节点配置及科学上网技巧，附常见问题解决方案，帮助新手快速上手。"
+keywords: "Shadowrocket教程, iOS小火箭使用, Shadowrocket iPhone配置, iPad科学上网, Mac Shadowrocket, VPN iOS教程, Clash节点导入, Shadowrocket订阅导入, 科学上网工具"
+head:
+  - - script
+    - type: application/ld+json
+    - |
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Shadowrocket(iOS小火箭) 新手使用教程",
+        "description": "2026最新版 Shadowrocket(iOS小火箭) 新手使用教程，详细讲解iPhone、iPad和Mac下载安装、订阅导入、节点配置及科学上网技巧，附常见问题解决方案，帮助新手快速上手。",
+        "author": {
+          "@type": "Person",
+          "name": "Admin"
+        },
+        "datePublished": "2025-09-02T21:11:23+08:00",
+        "dateModified": "2025-09-02T21:11:23+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
+      }
 ---
 
 适用于苹果手机、iOS设备和Mac电脑，Shadowrocket是一款常用的科学上网工具。下面为新手详细介绍如何下载安装和配置Shadowrocket。

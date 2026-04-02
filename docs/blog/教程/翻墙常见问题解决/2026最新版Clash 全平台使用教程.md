@@ -18,49 +18,27 @@ tags:
   - Clash iOS 教程
   - 新手入门
   - 配置详解
-description: Clash 使用教程2026最新版，全面讲解 Clash for Windows、Mac、Android、iOS（Shadowrocket）配置方法、订阅导入、TUN模式与系统代理区别、常见问题解决，适合新手快速上手科学上网。
-keywords: Clash教程,Clash for Windows教程,Clash Mac教程,Clash Android教程,Clash iOS教程,Shadowrocket教程,Clash订阅导入,Clash配置教程,Clash TUN模式,Clash系统代理,科学上网教程,VPN替代工具,Clash使用指南
+description: "Clash 使用教程2026最新版，全面讲解 Clash for Windows、Mac、Android、iOS（Shadowrocket）配置方法、订阅导入、TUN模式与系统代理区别、常见问题解决，适合新手快速上手科学上网，是一篇完整Clash配置与使用指南。"
+keywords: "Clash教程, Clash for Windows教程, Clash Mac教程, Clash Android教程, Clash iOS教程, Shadowrocket教程, Clash订阅导入, Clash配置教程, Clash TUN模式, Clash系统代理, 科学上网教程, VPN替代工具, Clash使用指南"
 head:
   - - script
     - type: application/ld+json
     - |
       {
         "@context": "https://schema.org",
-        "@type": "TechArticle",
-        "headline": "Clash 全平台使用教程（Windows / Mac / Android / iOS）",
-        "description": "2026年最完整的Clash使用教程，涵盖Windows、Mac、Android、iOS配置方法、订阅导入、TUN模式与系统代理区别以及常见问题解答。",
-        "keywords": ["Clash教程","Clash for Windows","Clash iOS","Clash Android","Clash配置","Clash TUN模式","科学上网教程"],
+        "@type": "Article",
+        "headline": "Clash 使用教程 2026 最新版（Windows/Mac/Android/iOS 配置指南）",
+        "description": "Clash 使用教程2026最新版，全面讲解 Clash for Windows、Mac、Android、iOS（Shadowrocket）配置方法、订阅导入、TUN模式与系统代理区别、常见问题解决，适合新手快速上手科学上网。",
         "author": {
           "@type": "Person",
-          "name": "VPN教程站"
+          "name": "you you"
         },
-        "datePublished": "2026-03-30",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Clash怎么用？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "下载客户端后导入订阅链接，选择节点并开启系统代理或TUN模式即可使用。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Clash TUN模式和系统代理有什么区别？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "系统代理只作用于部分应用，而TUN模式可以实现全局代理，包括游戏和系统流量。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Clash iOS怎么用？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "iOS需使用Shadowrocket或Stash，通过导入订阅链接即可实现代理。"
-            }
-          }
-        ]
+        "datePublished": "2026-04-02T15:00:00+08:00",
+        "dateModified": "2026-04-02T15:00:00+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
       }
 
 ---

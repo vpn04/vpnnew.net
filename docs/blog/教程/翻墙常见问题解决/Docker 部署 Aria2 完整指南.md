@@ -7,7 +7,28 @@ tags:
   - Aria2
   - Docker
   - Aria2 Explorer
-
+description: "2026最新版 Docker 部署 Aria2 完整指南，详细讲解容器安装、配置、远程访问、HTTP/HTTPS及RPC协议设置、资源优化及常见问题解决，适合初学者快速上手。"
+keywords: "Docker部署Aria2, Aria2教程, Aria2 Explorer使用, Docker下载工具, Aria2远程访问, Aria2 RPC配置, Aria2容器化, Aria2资源优化, 下载管理工具"
+head:
+  - - script
+    - type: application/ld+json
+    - |
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Docker 部署 Aria2 完整指南",
+        "description": "2026最新版 Docker 部署 Aria2 完整指南，详细讲解容器安装、配置、远程访问、HTTP/HTTPS及RPC协议设置、资源优化及常见问题解决，适合初学者快速上手。",
+        "author": {
+          "@type": "Person",
+          "name": "Admin"
+        },
+        "datePublished": "2025-10-17T14:19:20+08:00",
+        "dateModified": "2025-10-17T14:19:20+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
+      }
 ---
 🤷‍♂️遇到的问题
 

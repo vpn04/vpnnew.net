@@ -19,6 +19,28 @@ tags:
   - Clash Verge
   - 配置教程
   - 使用指南
+description: "2026年最新 Clash Verge 全平台配置指南，涵盖 Windows、Linux 和 macOS 安装、系统代理与 TUN 模式设置、节点导入与智能分流配置，支持多机场与翻墙工具使用。适合新手和高级用户快速完成全局代理与分流配置，提升科学上网体验。"
+keywords: "Clash Verge, Clash Verge 教程, Windows Clash 配置, Linux Clash 配置, macOS Clash 配置, 全局代理, 智能分流, 科学上网工具, VPN配置, 机场节点, 翻墙工具"
+head:
+  - - script
+    - type: application/ld+json
+    - |
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南",
+        "description": "2026年最新 Clash Verge 全平台配置指南，涵盖 Windows、Linux 和 macOS 安装、系统代理与 TUN 模式设置、节点导入与智能分流配置，支持多机场与翻墙工具使用。适合新手和高级用户快速完成全局代理与分流配置，提升科学上网体验。",
+        "author": {
+          "@type": "Person",
+          "name": "you you"
+        },
+        "datePublished": "2026-04-01T03:32:21+08:00",
+        "dateModified": "2026-04-01T03:32:21+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
+      }
 ---
 Clash Verge 作为多平台代理客户端，为 Windows、macOS、Linux 提供标准化的科学上网解决方案。本文将系统阐述从基础安装到高级配置的完整工作流程，小白快速上手。
 <!-- more -->

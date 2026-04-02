@@ -20,6 +20,28 @@ tags:
   - 配置教程
   - 教程
   - 使用指南
+description: "2026年最新 Shadowrocket （小火箭）使用指南，涵盖 iOS/macOS 全平台配置教程、订阅导入、非国区 Apple ID 共享账号及常见问题解决方案。适合新手快速上手科学上网、解锁海外流媒体与 ChatGPT。"
+keywords: "Shadowrocket, 小火箭, Shadowrocket使用教程, iOS Shadowrocket, macOS Shadowrocket, 非国区AppleID, 科学上网教程, VPN代理工具, 翻墙工具, 翻墙机场, Clash替代工具"
+head:
+  - - script
+    - type: application/ld+json
+    - |
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)",
+        "description": "2026年最新 Shadowrocket （小火箭）使用指南，涵盖 iOS/macOS 全平台配置教程、订阅导入、非国区 Apple ID 共享账号及常见问题解决方案。适合新手快速上手科学上网、解锁海外流媒体与 ChatGPT。",
+        "author": {
+          "@type": "Person",
+          "name": "Admin"
+        },
+        "datePublished": "2026-03-13T16:22:41+08:00",
+        "dateModified": "2026-03-13T16:22:41+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
+      }
 ---
  Shadowrocket是一款专为iOS/macOS设备设计的代理工具客户端，支持多种代理协议，因其界面直观、功能强大而被广泛使用。本文将带你全面了解Shadowrocket （小火箭）以及iOS/macOS==全平台配置教程并包含非国区 Apple ID 共享账号==。
 <!-- more -->

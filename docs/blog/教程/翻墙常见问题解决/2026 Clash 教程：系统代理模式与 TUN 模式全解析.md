@@ -13,7 +13,7 @@ tags:
   - 零门槛搭建
   - 机场
   - TUN 模式
-description: "全面的 Clash 教程，详细讲解系统代理模式与 TUN 模式区别、设置方法及优化技巧，助你实现全局透明代理和智能分流，包括游戏和系统流量。"
+description: "全面的Clash教程，详细讲解系统代理模式与TUN模式区别、设置方法及优化技巧，帮助用户实现全局透明代理与智能分流，支持游戏、浏览器和系统流量代理，是2026年最完整Clash使用指南。"
 keywords: "Clash 教程, Clash TUN 模式, 系统代理模式, 全局代理, 智能分流, 网络代理工具"
 head:
   - - script
@@ -21,33 +21,19 @@ head:
     - |
       {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "系统代理模式和 TUN 模式可以同时开启吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "理论可以，但会出现重复代理和延迟问题。建议选择其中一种。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "TUN 模式适合什么场景？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "TUN 模式适合全局代理、游戏和系统服务，尤其是需要 TCP/UDP 支持的应用。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Clash 教程新手如何快速上手？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "先从系统代理模式入手，再升级到 TUN 模式实现全局代理。"
-            }
-          }
-        ]
+        "@type": "Article",
+        "headline": "Clash系统代理与TUN模式详解（全局代理与智能分流完整教程）",
+        "description": "全面的Clash教程，详细讲解系统代理模式与TUN模式区别、设置方法及优化技巧，帮助用户实现全局透明代理与智能分流，支持游戏、浏览器和系统流量代理。",
+        "author": {
+          "@type": "Person",
+          "name": "you you"
+        },
+        "datePublished": "2026-04-02T14:00:00+08:00",
+        "dateModified": "2026-04-02T14:00:00+08:00",
+        "publisher": {
+          "@type": "Organization",
+          "name": "vpnnew.net"
+        }
       }
 ---
 

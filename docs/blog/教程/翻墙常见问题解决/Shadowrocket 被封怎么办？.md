@@ -10,6 +10,8 @@ tags:
   - 科学上网
   - 翻墙教程
   - Shadowrocket教程
+description: "2026年最新 Shadowrocket 被封解决方法，涵盖节点无法连接、节点超时、订阅失效、协议被封等问题。提供详细操作步骤，包括更换节点、切换协议、开启TUN模式和更新订阅，帮助用户快速恢复科学上网。"
+keywords: "Shadowrocket被封, 小火箭无法连接, Shadowrocket节点超时, Shadowrocket订阅失效, VPN解决方案, 科学上网教程, 翻墙教程, iOS科学上网, macOS小火箭"
 
 head:
   - - script

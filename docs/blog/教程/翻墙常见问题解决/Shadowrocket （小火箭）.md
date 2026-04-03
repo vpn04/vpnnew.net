@@ -1,6 +1,6 @@
 ---
 title: Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)
-createTime: 2026/03/13 16:22:41
+createTime: 2026/04/03 16:22:41
 permalink: /article/Shadowrocket/
 tags:
   - Shadowrocket
@@ -44,6 +44,8 @@ head:
       }
 ---
  Shadowrocket是一款专为iOS/macOS设备设计的代理工具客户端，支持多种代理协议，因其界面直观、功能强大而被广泛使用。本文将带你全面了解Shadowrocket （小火箭）以及iOS/macOS==全平台配置教程并包含非国区 Apple ID 共享账号==。
+
+ 正准备选机场的萌新，想换新机场的老司机，无论你是小白还是老鸟，不妨先参考一下这篇文章，少走弯路，别踩雷，亲测真实有效，长期更新，深度测评：👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 <!-- more -->
 ---
 

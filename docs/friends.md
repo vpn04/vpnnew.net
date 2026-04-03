@@ -64,6 +64,12 @@ list:
     link: https://www.itxiaohui.top/
     avatar: "https://blogoss.itxiaohui.top/logo%20-uhlgnmrf.png"
     desc: 小慧的技术博客
+
+  - 
+    name: PYM博客
+    link: https://pym.plus
+    avatar: "https://pan.pym.plus/f/kOtY/PYMbk.png"
+    desc: 欢迎！Welcome!
 ---
 
 友联格式：

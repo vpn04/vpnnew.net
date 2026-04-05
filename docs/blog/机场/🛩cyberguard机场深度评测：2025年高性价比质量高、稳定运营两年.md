@@ -63,15 +63,15 @@ head:
 | **🔗 协议支持** | TLS1.3+Chacha20-Poly1305双向认证  |
 ---
 # 📚套餐详情
-| 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 |📶限速| 💰月费 | 📶流量 | 🛍️购买链接 |
-|---------|----------|----------|----------|------|------|----------|----------|
+| 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 📶限速|💰月费 | 📶流量 | 🛍️购买链接 |
+|---------|----------|----------|----------|------|------|------|----------|
 | 基础版 | 轻量套餐 | 轻度用户 | 月付、半年、一年、三年|300M带宽保障 | ¥18.00/每月 | 100GB/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
 | 进阶版 | 标准套餐 | 日常使用 | 月付、季度、一年、三年|300M带宽保障 | ¥28.00/每月 | 300GB/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
 | 专业版 | 高速套餐 | 重度用户 | 月付、季度、半年、一年、两年|≥300M带宽保障 | ¥50.00/每月 | 600G/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
-| 标准包 | 200G流量包 |  灵活使用需求 | 一次性|≥300M带宽保障 | ¥79.00 /一次性 | ¥79.00/200 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
-| 尊享包 | 700G流量包 |  灵活使用需求 | 一次性|1000M带宽保障 | ¥188.00 /一次性 | ¥188.00/700G/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
-| 终极包 | 1800G流量包 |  灵活重度使用需求 | 一次性|1000M带宽保障 | 	¥550.00/一次性 | 1800G/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
-| 终极版 | 企业套餐  |  长期稳定用户 | 月付、季度、半年|1000M带宽保障 | 	¥200.00/每月 | 2TB/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
+| 标准包 | 200G流量包 |  灵活使用需求 | 一次性|≥300M带宽保障 | ¥79.00 /一次性 | 200 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
+| 尊享包 | 700G流量包 |  灵活使用需求 | 一次性|1000M带宽保障 | ¥188.00 /一次性 | 700G | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
+| 终极包 | 1800G流量包 |  灵活重度使用需求 | 一次性|1000M带宽保障 | 	¥550.00/一次性 | 1800G | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
+| 终极版 | 企业套餐  |  长期稳定用户 | 月付、季度、半年| 1000M带宽保障 | 	¥200.00/每月 | 2TB/月 | [购买链接](https://www.cyberguard.best/#/register?code=qWL0nnJs ) |
 ---
 ## 🏷️所有套餐均支持多种付费周期选择：
  月付、季度、半年、一年、两年、三年

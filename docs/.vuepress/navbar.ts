@@ -9,16 +9,16 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export default defineNavbarConfig(
   [ 
     { text: '🛩机场排名汇总', link: '/vpn-recommend/' },
-    { text: '💰机场免费试用汇总', link: '/article/mianfeijichang/' },
-    { text: '💹机场优惠券汇总', link: '/article/youhuijuan/' },
     { text: '⚠️机场跑路汇总', link: '/scamvpn/paolujichang/' },
     { text: '📁YouYou博客', link: '/blog/' },
     { 
-      text: '📂更多',
+      text: '📂翻墙工具',
       items: [
-        { text: '🏷️标签', link: '/blog/tags/' },
-        { text: '🔗友链' , link: '/friends/'},
-        { text: '💼归档', link: '/blog/archives/' },
+        { text: 'iOS手机', link: '/article/Shadowrocket/' },
+        { text: 'Android手机', link: '/article/ClashforAndroid/' },
+        { text: 'Windows/Linux/Mac', link: '/article/ClashVerge/' },
+        { text: 'Apple ID', link: '/article/freeAppleID/' },
+        { text: '友链' , link: '/friends/'},
       ]
     }
   ]

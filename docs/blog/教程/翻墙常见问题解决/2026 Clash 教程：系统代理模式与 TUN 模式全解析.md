@@ -41,8 +41,6 @@ head:
 
 <!-- more -->
 
-![alt text](<images/2026 Clash 教程：系统代理模式与 TUN 模式全解析/image.png>)
-
 ---
 
 ## 目录

@@ -35,13 +35,15 @@ head:
 GitHub 作为全球最大的开源项目托管平台，是开发者不可或缺的学习与协作工具。但在国内网络环境中，DNS 污染常导致其无法正常访问，表现为域名被解析到错误 IP，浏览器频繁出现 "无法访问此页面" 或 "响应时间过长" 等提示。
 <!-- more -->
 
+---
+
 ![alt text](<images/解决 GitHub 国内访问难题：6 种方案突破 DNS 污染限制/image.png>)
 本文整理 6 种实用方案，助你高效解决这一问题。
 
-# ✏️方案 1：手动修改 Hosts 文件（直接绑定 IP）
+## ✏️方案 1：手动修改 Hosts 文件（直接绑定 IP）
 通过跳过 DNS 解析环节，直接在系统中绑定 GitHub 域名与正确 IP，从根源规避污染。
-## 操作步骤：
-### 1.获取最新 IP 地址
+### 操作步骤：
+#### 1.获取最新 IP 地址
 访问 IPAddress.com 查询以下域名对应的 IP：
 - github.com
 - assets-cdn.github.com
@@ -52,7 +54,7 @@ GitHub 作为全球最大的开源项目托管平台，是开发者不可或缺�
 ```bash
 nslookup github.com 8.8.8.8  # 借助 Google DNS 获取纯净解析结果
 ```
-### 2.编辑 Hosts 文件
+#### 2.编辑 Hosts 文件
 - Windows：路径为` C:\Windows\System32\drivers\etc\hosts`，右键以管理员权限打开，添加类似内容：
 ```bash
 plaintext
@@ -62,7 +64,7 @@ plaintext
 199.232.69.194  github.global.ssl.fastly.net
 ```
 - macOS/Linux：终端输入 `sudo nano /etc/hosts`，添加上述内容后按 `Ctrl+O` 保存。
-### 3.刷新 DNS 缓存
+#### 3.刷新 DNS 缓存
 - Windows：`ipconfig /flushdns`
 - macOS/Linux：`sudo dscacheutil -flushcache` 或` sudo systemd-resolve --flush-caches`
 

@@ -58,7 +58,7 @@ Asspp是一种用于**iPhone多账号切换App Store及跨区下载应用**的�
 
 ![alt text](images/【2026最全】Asspp下载使用教程/image.png)
 
->在你下载时没有合适的翻墙工具可以参考这里📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/article/VPN/ )     
+>在你下载时没有合适的翻墙工具可以参考这里📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/vpn-recommend/ )     
 
 >如果你没有Apple ID可以参考这里📢每天更新免费ID： 👉[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ ) 
 

@@ -23,10 +23,10 @@ config:
       tagline: 分享科学上网教程、机场测评、节点优化等干货分享
       actions:
         - theme: brand
-          text: 🗄️ 教程汇总大全
-          link: "https://vpnnew.net/"
+          text: 🗄️ 教程汇总大全（持续更新）
+          link: "https://vpnnew.net/blog/"
         - theme: alt
-          text: 🛩 机场性能PK
+          text: 🛩 机场性能PK（持续更新）
           link: "https://vpnnew.net/airport/jichangpk/"
 
   # 🔹 特色功能导航
@@ -86,8 +86,25 @@ config:
 
 
   -
-    type: profile
-    name:  YouYou
-    description: 学无止境
+    type: doc-hero
+    hero:
+      name: YouYou
+      text: 更新所学，分享所知，探索所想，记录所有。
+      tagline: 持续更新分享科学上网教程、翻墙机场推荐、梯子测评、VPN测评、Python编程技巧以及各类实用软件资源。以及Shadowrocket、Clash等各大软件攻略分享。
+      image: youyou.png
+      actions:
+        -
+          theme: brand
+          text: 投稿联系我TG →
+          link: https://t.me/youyouvpn
+        -
+          theme: alt
+          text: 机场推荐
+          link: https://vpnnew.net/vpn-recommend/
+        -
+          theme: alt
+          text: blog分类
+          link: https://vpnnew.net/blog/categories/
+    
 ---
 

@@ -13,22 +13,37 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'vpnnews',
-  description: '翻墙最新热点',
+  title: '2026 VPN推荐与翻墙机场排行榜｜稳定科学上网工具合集',
+  description: '提供2026最新翻墙机场推荐、VPN测评、Clash配置教程、Shadowrocket使用指南，稳定访问ChatGPT、Claude、Google等服务。',
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-ZH70TFW573',
     }),
+    sitemapPlugin({
+      hostname: 'https://vpnnew.net',
+    }),
   ],
 
   head: [
-    // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'canonical', href: 'https://vpnnew.net/' }],
+
+    ['meta', { name: 'keywords', content: 'VPN推荐,翻墙机场,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini' }],
+    ['meta', { name: 'author', content: 'YouYou' }],
+
+    ['meta', { property: 'og:title', content: '2026 VPN推荐与翻墙机场排行榜' }],
+    ['meta', { property: 'og:description', content: '稳定VPN与机场推荐，支持ChatGPT/Claude/Gemini访问' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://vpnnew.net' }],
+
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+
   ],
 
   bundler: viteBundler(),
@@ -38,7 +53,7 @@ export default defineUserConfig({
     home: '/',
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://vpnnew.net',
-    footer: { message: "© 2025 YouYou 📧 <a href='mailto:yyo649929@gmail.com'>yyo649929@gmail.com</a>" },
+    footer: { message: "© 2026 YouYou | VPN评测与科学上网指南 📧 <a href='mailto:yyo649929@gmail.com'>联系我</a>", },
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -62,7 +77,7 @@ export default defineUserConfig({
       archives: true, // 是否启用归档页
       categories: true, // 是否启用分类页
       postCover: 'right', // 文章封面位置
-      pagination: 15, // 每页显示文章数量
+      pagination: 12, // 每页显示文章数量
     },
 
     /* 博客文章页面链接前缀 */
@@ -149,11 +164,12 @@ export default defineUserConfig({
     //   mermaid: true,      // 启用 mermaid
     //   flowchart: true,    // 启用 flowchart
     //   image: {
-    //     figure: true,     // 启用 figure
-    //     lazyload: true,   // 启用图片懒加载
-    //     mark: true,       // 启用图片标记
-    //     size: true,       // 启用图片大小
-    //   },
+      image: {
+        lazyload: true,
+        figure: true,
+        mark: true,
+        size: true,
+      },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
     //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     },

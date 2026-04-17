@@ -139,7 +139,7 @@ VPN（Virtual Private Network）在中文网络语境中常被称为"梯子""翻
 - 避免用于违法活动
 
 ### 📖使用建议
-- 选择信誉良好的服务提供商如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://www.xxvip.shop/register?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
+- 选择信誉良好的服务提供商如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://xxyun.at/?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
 - 定期更新客户端软件
 - 注意连接稳定性
 - 合理使用，避免滥用

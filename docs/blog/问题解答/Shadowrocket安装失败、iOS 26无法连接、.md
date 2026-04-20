@@ -389,8 +389,6 @@ Shadowrocket在2026年的核心问题，本质集中在：
 
 ## 🔥 延伸阅读
 
-## 📌 延伸阅读
-
 👉梯子翻墙机场推荐： [2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )

@@ -40,23 +40,23 @@ head:
         }
       }
 ---
-[ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd )机场主打 ==**高性价比与专线稳定**==，采用 ==**BGP 中转 + IEPL 专线**== 双重优化，即使在晚高峰也能保持高速稳定。支持 Netflix、Disney+、HBO、ChatGPT 等主流流媒体与AI服务==**全解锁**==，并提供全天候客服支持，适合长期稳定使用的用户。
+[ccyz](https://ccyz.org/?code=YByL9bFd )机场主打 ==**高性价比与专线稳定**==，采用 ==**BGP 中转 + IEPL 专线**== 双重优化，即使在晚高峰也能保持高速稳定。支持 Netflix、Disney+、HBO、ChatGPT 等主流流媒体与AI服务==**全解锁**==，并提供全天候客服支持，适合长期稳定使用的用户。
 
-📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.xxvip.shop/register?code=YByL9bFd )
+📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd )
 <!-- more -->
 
 ## 🔔服务概览与技术架构
 ![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元150G超高性价比/image.png>)
 
-## 📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.xxvip.shop/register?code=YByL9bFd )
+## 📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd )
 
-## 👉[新用户1G试用领取](https://ccyz.xxvip.shop/register?code=YByL9bFd )
-## 👉[新用户叠加95折优惠卷](https://ccyz.xxvip.shop/register?code=YByL9bFd )
+## 👉[新用户1G试用领取](https://ccyz.org/?code=YByL9bFd )
+## 👉[新用户叠加95折优惠卷](https://ccyz.org/?code=YByL9bFd )
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://ccyz.org/YByL9bFd.html](https://ccyz.xxvip.shop/register?code=YByL9bFd )
+| **🌐 官方网站** | [https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd )
 | **💰 入门价格** | 15.00元/150G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **💳 免费体验** | 新用户1G体验 |
@@ -67,15 +67,15 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁付费方式 | 💰月费 | 📶流量 | 性价比指数 |🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|----------|
-| 入门级 | Lite专线-150G | 轻度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥15.00/月 | 150GB/月 | ⭐⭐⭐ |[购买链接](https://ccyz.xxvip.shop/register?code=YByL9bFd ) |
-| 进阶级 | Pro专线-280G | 日常使用 | 月付、季付、半年付、年付、两年付、三年付 | ¥25.00/月 | 280GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.xxvip.shop/register?code=YByL9bFd ) |
-| 尊享级 | Max专线-550G | 重度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥45.00/月 | 550GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.xxvip.shop/register?code=YByL9bFd ) |
-| 一次性 | 永久套餐-550G | 企业/团队 | 一次性 | ¥99.00/月 | 550GB/月 | ⭐⭐⭐⭐ |[购买链接](https://ccyz.xxvip.shop/register?code=YByL9bFd ) |
+| 入门级 | Lite专线-150G | 轻度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥15.00/月 | 150GB/月 | ⭐⭐⭐ |[购买链接](https://ccyz.org/?code=YByL9bFd ) |
+| 进阶级 | Pro专线-280G | 日常使用 | 月付、季付、半年付、年付、两年付、三年付 | ¥25.00/月 | 280GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.org/?code=YByL9bFd ) |
+| 尊享级 | Max专线-550G | 重度用户 | 月付、季付、半年付、年付、两年付、三年付 | ¥45.00/月 | 550GB/月 | ⭐⭐⭐⭐⭐ |[购买链接](https://ccyz.org/?code=YByL9bFd ) |
+| 一次性 | 永久套餐-550G | 企业/团队 | 一次性 | ¥99.00/月 | 550GB/月 | ⭐⭐⭐⭐ |[购买链接](https://ccyz.org/?code=YByL9bFd ) |
 
 ## 📊 套餐详情与购买攻略
 
 **💰 独家省钱攻略：**
-1.  **注册免费领**：新用户注册即赠 **[1GB 体验流量](https://ccyz.xxvip.shop/register?code=YByL9bFd )**，可先行测试。
+1.  **注册免费领**：新用户注册即赠 **[1GB 体验流量](https://ccyz.org/?code=YByL9bFd )**，可先行测试。
 2.  **优惠券折扣**：购买任意套餐时，在结算页面输入优惠券码 **`ccyz`**，即可享受 **全场95折** 优惠。
 ---
 
@@ -106,7 +106,7 @@ head:
 
 ## 📱 快速上手配置指南
 
-1.  **注册账号**：访问 [CCYZ 官网](https://ccyz.xxvip.shop/register?code=YByL9bFd) 完成注册并验证邮箱。
+1.  **注册账号**：访问 [CCYZ 官网](https://ccyz.org/?code=YByL9bFd) 完成注册并验证邮箱。
 2.  **选择套餐**：根据需求选择 Lite 或 Pro 套餐，支付时**别忘了输入优惠码 `ccyz`**。
 3.  **获取订阅链接**：在用户中心找到订阅信息，复制适用于 Clash、Trojan 等客户端的订阅链接。
 4.  **导入客户端**：在您设备上的代理客户端（如 Clash for Windows、Shadowrocket）中，粘贴订阅链接并更新节点。
@@ -154,15 +154,15 @@ A: 请尝试以下步骤：
 ## ✅ 总结：是否值得入手？
 
 CCYZ 机场在 **2025年** 是一个极具竞争力的选择，尤其适合以下用户：
-*   **追求性价比**：入门仅需 **[15元/月](https://ccyz.xxvip.shop/register?code=YByL9bFd )**，享受百G流量与专线品质。
+*   **追求性价比**：入门仅需 **[15元/月](https://ccyz.org/?code=YByL9bFd )**，享受百G流量与专线品质。
 *   **需要稳定连接**：IEPL 专线保障，应对晚高峰等拥堵时段游刃有余。
 *   **影音娱乐与办公兼备**：一站式满足流媒体解锁、AI工具访问和远程办公需求。
 
-> **👉 行动建议**：如果您正在寻找一款价格亲民、线路稳定、功能全面的机场服务，不妨从 [ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd ) 开始体验。
-> **立即访问 [CCYZ 官网](https://ccyz.xxvip.shop/register?code=YByL9bFd)，注册领取免费流量，下单时使用优惠码 `ccyz` 享受折扣！**
+> **👉 行动建议**：如果您正在寻找一款价格亲民、线路稳定、功能全面的机场服务，不妨从 [ccyz](https://ccyz.org/?code=YByL9bFd ) 开始体验。
+> **立即访问 [CCYZ 官网](https://ccyz.org/?code=YByL9bFd)，注册领取免费流量，下单时使用优惠码 `ccyz` 享受折扣！**
 
-## 👉新用户首次订购可使用优惠码  **[ccyz](https://ccyz.xxvip.shop/register?code=YByL9bFd)**
-## [👉新用户叠加95专享福利](https://ccyz.xxvip.shop/register?code=YByL9bFd  )
+## 👉新用户首次订购可使用优惠码  **[ccyz](https://ccyz.org/?code=YByL9bFd)**
+## [👉新用户叠加95专享福利](https://ccyz.org/?code=YByL9bFd  )
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。
 

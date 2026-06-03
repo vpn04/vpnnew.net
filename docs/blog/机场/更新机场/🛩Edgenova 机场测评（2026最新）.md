@@ -99,7 +99,7 @@ head:
 
 本篇要评测的，就是近期以“**全节点 IPLC 专线、零限制体验、高可用秒级切换**”作为主打卖点的 **Edgenova（专线vpn）**。
 
-📲 官网地址（建议收藏）：[https://lunvexa.edgenovayun.cc](https://varnexa.edgenovayun.cc/#/register?code=vVhmxunB)
+📲 官网地址（建议收藏）：[http://edgenova.cc](https://varnexa.edgenovayun.cc/#/register?code=vVhmxunB)
 
 <!-- more -->
 
@@ -116,7 +116,7 @@ head:
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://lunvexa.edgenovayun.cc](https://varnexa.edgenovayun.cc/#/register?code=vVhmxunB) |
+| **🌐 官方网站** | [http://edgenova.cc](https://varnexa.edgenovayun.cc/#/register?code=vVhmxunB) |
 | **💰 入门价格** | 9.00元/45G每月（年付）|
 | **💳 充值方式** | 支付宝、微信支付、USDT |
 | **🌍 线路** | 全节点采用 IPLC 专线直连 |

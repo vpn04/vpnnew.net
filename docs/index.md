@@ -23,8 +23,8 @@ config:
       tagline: 分享科学上网教程、机场测评、节点优化等干货分享
       actions:
         - theme: brand
-          text: 🗄️ 教程汇总大全（持续更新）
-          link: "https://vpnnew.net/blog/"
+          text: 🗄️ VPN机场推荐评测（持续更新）
+          link: "https://vpnnew.net/vpn-recommend/"
         - theme: alt
           text: 🛩 机场性能PK（持续更新）
           link: "https://vpnnew.net/airport/jichangpk/"
@@ -69,6 +69,18 @@ config:
         icon: {src: "/Apple ID.png"}
         details: 2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新
         link: "https://vpnnew.net/article/freeAppleID/"
+      - title: 🦞OpenClaw（龙虾）
+        icon: {src: "images/index/image-1.png"}
+        details: 2026最新｜OpenClaw（龙虾）保姆级安装教程（全平台覆盖 + 避坑指南）
+        link: "https://vpnnew.net/scamvpn/OpenClaw/"
+      - title: Telegram(纸飞机)
+        icon: {src: "images/index/image-2.png"}
+        details: (2026)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南 
+        link: "https://vpnnew.net/article/Telegramquanpingtaizhinan/"
+      - title: AnyTLS
+        icon: {src: "images/index/image-3.png"}
+        details: AnyTLS是什么？为什么越来越多机场开始支持AnyTLS？2026最全面解析
+        link: "https://vpnnew.net/article/what-is-anytls/"
 
   - type: text-image
     title: 内容统计

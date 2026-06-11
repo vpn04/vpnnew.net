@@ -29,7 +29,7 @@ config:
           text: 🛩 机场性能PK（持续更新）
           link: "https://vpnnew.net/airport/jichangpk/"
 
-  # 🔹 特色功能导航
+  ## 🔹 特色功能导航
   -
     type: features
     features:

@@ -85,7 +85,7 @@ head:
 <!-- more -->
 ---
 
-# 目录
+## 目录
 
 1. Shadowrocket 连接成功但无法上网原因
 2. Shadowrocket DNS 设置方法

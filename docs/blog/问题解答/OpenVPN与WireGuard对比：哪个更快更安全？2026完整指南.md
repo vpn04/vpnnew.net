@@ -47,7 +47,7 @@ OpenVPN和WireGuard是目前最常见的两种VPN协议。OpenVPN诞生较早，
 
 ![alt text](images/OpenVPN与WireGuard对比：哪个更快更安全？2026完整指南/image.png)
 
-# 📑 目录
+## 📑 目录
 1. 什么是VPN协议
 2. 什么是OpenVPN
 3. 什么是WireGuard

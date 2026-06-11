@@ -92,7 +92,7 @@ head:
 ---
 ![alt text](images/2026年VPN安全吗？VPN会被追踪吗？VPN隐私风险全面指南/image.png)
 
-# 📑 目录
+## 📑 目录
 1. VPN是什么（基础原理）
 2. 2026年VPN安全吗
 3. VPN会被追踪吗

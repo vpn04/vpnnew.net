@@ -60,7 +60,7 @@ head:
 
 ![alt text](<images/2026最新版Clash 全平台使用教程/image.png>)
 
-# 📚 目录
+## 📚 目录
 
 1. Clash 是什么  
 2. Clash 工作原理  
@@ -74,7 +74,7 @@ head:
 
 ---
 
-# 🧠 Clash 是什么？
+## 🧠 Clash 是什么？
 
 Clash 是一个基于规则的代理工具，支持：
 
@@ -93,7 +93,7 @@ Clash 是一个基于规则的代理工具，支持：
 
 ---
 
-# ⚙️ Clash 工作原理
+## ⚙️ Clash 工作原理
 
 Clash 通过以下方式实现代理：
 
@@ -110,7 +110,7 @@ Clash 通过以下方式实现代理：
 
 ---
 
-# 🧩 Clash 基础使用流程
+## 🧩 Clash 基础使用流程
 
 所有平台使用逻辑基本一致：
 
@@ -131,7 +131,7 @@ Clash 通过以下方式实现代理：
 
 ---
 
-# 💻 Windows 使用教程（Clash for Windows）
+## 💻 Windows 使用教程（Clash for Windows）
 
 ### 📥 安装
 
@@ -154,7 +154,7 @@ Clash 通过以下方式实现代理：
 
 ---
 
-# 🍎 Mac 使用教程（Clash Verge / ClashX）
+## 🍎 Mac 使用教程（Clash Verge / ClashX）
 
 Mac 用户推荐：
 
@@ -174,7 +174,7 @@ Mac 用户推荐：
 
 ---
 
-# 📱 Android 使用教程（Clash for Android）
+## 📱 Android 使用教程（Clash for Android）
 
 ### 📥 安装
 
@@ -196,7 +196,7 @@ Mac 用户推荐：
 
 ---
 
-# 📲 iOS 使用教程（Shadowrocket / 小火箭）
+## 📲 iOS 使用教程（Shadowrocket / 小火箭）
 
 由于 iOS 限制，Clash 不直接支持，需要使用：
 
@@ -218,9 +218,9 @@ Mac 用户推荐：
 
 ---
 
-# ⚡ TUN 模式 vs 系统代理
+## ⚡ TUN 模式 vs 系统代理
 
-## 🔹 系统代理模式
+### 🔹 系统代理模式
 
 特点：
 
@@ -235,7 +235,7 @@ Mac 用户推荐：
 
 ---
 
-## 🔹 TUN 模式（推荐）
+### 🔹 TUN 模式（推荐）
 
 特点：
 
@@ -250,7 +250,7 @@ Mac 用户推荐：
 
 ---
 
-## 🆚 对比总结
+### 🆚 对比总结
 
 | 功能 | 系统代理 | TUN模式 |
 |------|--------|--------|
@@ -263,21 +263,21 @@ Mac 用户推荐：
 
 ---
 
-# ❗ 常见问题 FAQ
+## ❗ 常见问题 FAQ
 
-## Clash 怎么用？
+### Clash 怎么用？
 
 导入订阅 → 选择节点 → 开启代理即可。
 
 ---
 
-## Clash 需要买吗？
+### Clash 需要买吗？
 
 Clash 本身免费，但节点需要付费。
 
 ---
 
-## Clash 为什么连不上？
+### Clash 为什么连不上？
 
 常见原因：
 
@@ -287,20 +287,20 @@ Clash 本身免费，但节点需要付费。
 
 ---
 
-## Clash 用系统代理还是TUN？
+### Clash 用系统代理还是TUN？
 
 新手：系统代理  
 进阶：TUN模式  
 
 ---
 
-## iOS 为什么没有 Clash？
+### iOS 为什么没有 Clash？
 
 因为系统限制，需要使用 Shadowrocket。
 
 ---
 
-# 🏁 总结
+## 🏁 总结
 
 Clash 是目前最强大的代理工具之一，适用于：
 

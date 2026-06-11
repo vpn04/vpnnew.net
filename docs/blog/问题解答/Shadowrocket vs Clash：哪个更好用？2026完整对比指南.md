@@ -102,7 +102,7 @@ head:
 
 ![alt text](<images/Shadowrocket vs Clash：哪个更好用？2026完整对比指南/image.png>)
 
-# 目录
+## 目录
 
 1. 什么是 Shadowrocket
 2. 什么是 Clash

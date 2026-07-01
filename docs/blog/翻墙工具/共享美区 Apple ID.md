@@ -190,7 +190,7 @@ head:
 </style>
 
 ### 🚀 推荐资源与机场
-- **自用机场推荐奈云机场订阅** 👉 [点击获取](https://aff.v2ny.mom?path=register&code=6bJ8swbK )    
+- **自用机场推荐拼好连机场订阅** 👉 [拼好连](https://www.runwayhz.com/#/register?code=6uVJY4zh)    
 - **📢机场推荐汇总** 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 
 ## 详细使用教程（以美区为例）

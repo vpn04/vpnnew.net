@@ -253,9 +253,7 @@ VPN 高峰期速度下降通常由节点网络拥塞或 ISP 限速造成。可�
 
 ---
 
-<LinkCard title="自用机场推荐：奈云" href="https://aff.v2ny.mom?path=register&code=6bJ8swbK" description="拥有六年以上稳定运营历史的专业网络加速服务提供商，长期运营过程中始终保持零负面评价记录，展现了出色的服务品质和用户信赖度。本人一直自用的机场！" />
-
-<LinkCard title="备用机场推荐：隐云" href="https://wkacc.xyz/?code=1d6a5319" description="自研双模驱动方案、全球智能连接线路、速度稳定性、流媒体解锁能力及客户端与订阅协议兼容性，追求高性价比、稳定、高速科学上网体验的用户。" />
+<LinkCard title="自用机场推荐：拼好连" href="https://www.runwayhz.com/#/register?code=6uVJY4zh" description="机场支持Shadowsocks协议、Netflix和YouTube流媒体解锁，是近年来出现的 高性价比Shadowsocks机场。" />
 
 ---
 

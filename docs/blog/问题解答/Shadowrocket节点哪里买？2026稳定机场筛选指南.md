@@ -172,8 +172,8 @@ Shadowrocket 支持多种连接方式，好的服务通常不会把自己锁死�
 | 机场名称 | 试用体验 | 入门套餐 | 流量包支持 | 综合评价 |
 |---------|----------|----------|------------|----------|
 | [拼好连](https://www.runwayhz.com/#/register?code=6uVJY4zh) | ✔️1天6G | 9.9元 / 100G | ✔️支持 | ⭐⭐⭐ |
-| [ccyz](https://ccyz.yswy.my/register?code=YByL9bFd ) | ✔️1GB | 15元 / 150G | ✔️支持 | ⭐⭐⭐ |
-| [xxyun](https://xxyun.at/?code=rXypHVO4 ) | ❌ 无 | 9.99元 / 100G | ❌不支持 | ⭐⭐⭐⭐ |
+| [ccyz](https://ccyz.yswy.my/register?code=YByL9bFd) | ✔️1GB | 15元 / 150G | ✔️支持 | ⭐⭐⭐ |
+| [xxyun](https://xxyun.at/?code=rXypHVO4) | ❌ 无 | 9.99元 / 100G | ❌不支持 | ⭐⭐⭐⭐ |
 
 ### 怎么看这张表？
 - 如果你只是测试 Shadowrocket，免费节点可以试，但不要期待稳定。
@@ -241,7 +241,7 @@ Shadowrocket 支持多种连接方式，好的服务通常不会把自己锁死�
 - 视频和会议
 - 对节点稳定性要求高的人
 
-[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/ ) 
+[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/) 
 
 ---
 
@@ -252,7 +252,7 @@ Shadowrocket 支持多种连接方式，好的服务通常不会把自己锁死�
 ### 常见问题一：DNS 没配好
 DNS 异常会导致网页解析失败，表现为“节点连上了但打不开”。
 
-👉 Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）]( /shadowrocket-dns-error-fix/ ) 
+👉 Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）](/shadowrocket-dns-error-fix/) 
 
 ### 常见问题二：规则模式没设置对
 如果规则混乱，国内流量可能走代理，国外流量可能直连，体验会很差。
@@ -296,7 +296,7 @@ DNS 异常会导致网页解析失败，表现为“节点连上了但打不开�
 -  Shadowrocket 下载教程：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)     
 -  Shadowrocket 安装失败解决方案：[Shadowrocket安装失败、iOS 26无法连接、节点更新失败全解决指南（2026最新）｜附分流规则详解](/article/shadowrocket-fix-ios26/)   
 -  Shadowrocket 无法连接排查：[Shadowrocket安装失败、iOS 26无法连接、节点更新失败全解决指南（2026最新）｜附分流规则详解](/article/shadowrocket-fix-ios26/)   
--  Shadowrocket 免费节点还能用吗：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/ ) 
+-  Shadowrocket 免费节点还能用吗：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/) 
 
 ---
 
@@ -337,15 +337,15 @@ DNS 异常会导致网页解析失败，表现为“节点连上了但打不开�
 
 ## 🔥 延伸阅读
 
-👉梯子翻墙机场推荐： [2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+👉梯子翻墙机场推荐： [2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

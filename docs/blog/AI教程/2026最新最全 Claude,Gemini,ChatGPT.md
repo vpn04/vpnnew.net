@@ -285,7 +285,7 @@ Claude的开放范围依赖Anthropic官方支持国家列表，不同地区可�
 - 👉 机场推荐：[2026年翻墙机场推荐评测｜稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/) 
 - 👉ChatGPT无法访问完整解决方案:[ChatGPT无法使用怎么办？（2026最新解决方法｜地区限制完整指南）](/article/ChatGPTwufashiyong/)
 - 👉 机场对比分析：[全网最全推荐！2026翻墙机场性能与价格对比榜,实测百家机场：哪家最稳？哪家最便宜？（持续更新）](/airport/jichangpk/)    
-- 👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+- 👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 
 ## 🔄 更新说明

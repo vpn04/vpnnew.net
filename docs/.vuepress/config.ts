@@ -13,7 +13,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
   base: '/',
@@ -23,9 +22,6 @@ export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-ZH70TFW573',
-    }),
-    sitemapPlugin({
-      hostname: 'https://vpnnew.net',
     }),
   ],
 

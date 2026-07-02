@@ -99,7 +99,7 @@ head:
 - 直接访问已购买记录下载
 - 使用外区账号（美区/港区优先）
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 
@@ -125,7 +125,7 @@ head:
 - 清除旧VPN配置
 - 重置网络设置（关键）
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
 ---
 
@@ -187,7 +187,7 @@ iOS 26 对网络隐私进行了强化，导致：
 - 未开启“低数据模式”
 - 未启用防火墙限制
 
-👉VPN全网最全排行榜，亲测并全部做了详细测评：[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+👉VPN全网最全排行榜，亲测并全部做了详细测评：[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ---
 
@@ -198,17 +198,17 @@ iOS 26 对网络隐私进行了强化，导致：
 #### 1️⃣ 订阅链接失效
 👉 最常见（机场跑路 / 过期）
 
-👉看一下你的机场是否跑路或已经有跑路预警：[⚠️ 2026年机场跑路汇总名单（持续更新）VPN机场跑路原因与避坑指南]( /scamvpn/paolujichang/ )  
+👉看一下你的机场是否跑路或已经有跑路预警：[⚠️ 2026年机场跑路汇总名单（持续更新）VPN机场跑路原因与避坑指南](/scamvpn/paolujichang/)  
 
 #### 2️⃣ DNS污染
 👉 导致无法解析订阅地址
 
-👉Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）]( /shadowrocket-dns-error-fix/ )  
+👉Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）](/shadowrocket-dns-error-fix/)  
 
 #### 3️⃣ 网络被墙
 👉 无法访问订阅服务器
 
-👉Shadowrocket 被封怎么办？解决方案：[Shadowrocket 被封怎么办？2026最新解决方法（小火箭无法连接/节点超时/订阅失效）]( /article/shadowrocketbeifeng/ )  
+👉Shadowrocket 被封怎么办？解决方案：[Shadowrocket 被封怎么办？2026最新解决方法（小火箭无法连接/节点超时/订阅失效）](/article/shadowrocketbeifeng/)  
 
 ---
 
@@ -224,7 +224,7 @@ iOS 26 对网络隐私进行了强化，导致：
 - WiFi → 4G/5G
 - 使用临时代理更新
 
-👉路由器翻墙解决方案：[路由器翻墙详细教程：2026年最佳路由器VPN配置指南]( /article/luyouqi/ )  
+👉路由器翻墙解决方案：[路由器翻墙详细教程：2026年最佳路由器VPN配置指南](/article/luyouqi/)  
 
 ---
 
@@ -389,15 +389,15 @@ Shadowrocket在2026年的核心问题，本质集中在：
 
 ## 🔥 延伸阅读
 
-👉梯子翻墙机场推荐： [2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+👉梯子翻墙机场推荐： [2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

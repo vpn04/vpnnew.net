@@ -113,21 +113,21 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶限速 |📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|------|----------| 
-| 进阶版 | P-Small 基础套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥10.00/每月(年付) |500Mbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 入门版 | P-Plus 进阶套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥20.00/每月(年付) |1Gbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 专业版 | P-Max 专业套餐 |	中度用户、高清视频 | 月付、季付、半年付、年付 | ¥24.00/每月 |1Gbps|388GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 尊享版 | P-Ultra 极限套餐 | 重度用户 | 月付、季付、半年付、年付 | ¥58.00/每月 |5Gbps突发|788GB/月 | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 企业版 | IEPL-Small 企业专线套餐 |	跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥48.00/每季 |500Mbps物理直连|50GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 企业版 | P-Ultra 极限套餐 | 跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥78.00/每季 |500Mbps物理直连|100GB | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 进阶版 | P-Small 基础套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥10.00/每月(年付) |500Mbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 入门版 | P-Plus 进阶套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥20.00/每月(年付) |1Gbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 专业版 | P-Max 专业套餐 |	中度用户、高清视频 | 月付、季付、半年付、年付 | ¥24.00/每月 |1Gbps|388GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 尊享版 | P-Ultra 极限套餐 | 重度用户 | 月付、季付、半年付、年付 | ¥58.00/每月 |5Gbps突发|788GB/月 | [购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 企业版 | IEPL-Small 企业专线套餐 |	跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥48.00/每季 |500Mbps物理直连|50GB |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 企业版 | P-Ultra 极限套餐 | 跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥78.00/每季 |500Mbps物理直连|100GB | [购买链接](https://xsus.cloud/register?code=08LnQApz) |
 
 ### 2. 按量付费流量包
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶限速 |📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|------|----------| 
-| 进阶版 | P-188G流量不限时  | 轻度至中度日常使用 | 一次性 | ¥65.00 |1Gbps|188GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 入门版 | P-240G流量不限时 | 轻度至中度日常使用 | 一次性 | ¥82.00 |1Gbps|240GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 专业版 | P-400G流量不限时 |	中度用户、高清视频 | 一次性 | ¥122.00 |1Gbps|400GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
-| 尊享版 | P-1024G流量不限时 | 重度用户 | 一次性 | ¥260.00 |1Gbps|788GB1024GB | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 进阶版 | P-188G流量不限时  | 轻度至中度日常使用 | 一次性 | ¥65.00 |1Gbps|188GB |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 入门版 | P-240G流量不限时 | 轻度至中度日常使用 | 一次性 | ¥82.00 |1Gbps|240GB |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 专业版 | P-400G流量不限时 |	中度用户、高清视频 | 一次性 | ¥122.00 |1Gbps|400GB |[购买链接](https://xsus.cloud/register?code=08LnQApz) |
+| 尊享版 | P-1024G流量不限时 | 重度用户 | 一次性 | ¥260.00 |1Gbps|788GB1024GB | [购买链接](https://xsus.cloud/register?code=08LnQApz) |
 ---
 >此模式适合使用频率不固定或需求波动的用户，流量包在有效期内无时间限制。
 
@@ -375,17 +375,17 @@ XSUS采用 **BGP三网优化入口与多节点网络**，整体稳定性较好�
 
 那么 **[XSUS机场](https://xsus.cloud/register?code=08LnQApz)** 是一个值得尝试的选择。
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( /article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

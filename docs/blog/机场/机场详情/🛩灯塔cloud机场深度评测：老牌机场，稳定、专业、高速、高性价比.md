@@ -63,12 +63,12 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁设备限制 | 💰费用 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|
-| 入门级 | 轻量级套餐（包年） | 轻度用户 | 不限制设备 | ¥7.50/月（年付） | 50GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
-| 标准级 | 标准版（六个月） | 日常使用 | 不限制设备 | ¥11.60/月 | 100GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
-| 专业级 | 个人套餐（三个月） | 日常使用 | 不限制设备 | ¥29.60/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
-| 专业级 | 个人套餐（六个月） | 重度用户 | 不限制设备 | ¥25.50/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
-| 企业级 | 个人套餐（年） | 重度用户 | 不限制设备 | ¥23.20/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
-| 不限时 | 1TB流量不限时 （用完为止） | 深重度用户 | 不限制设备 | 一次性 | 1TB | [购买链接](https://test.718node.com/register?code=ExbmL3T6 ) |
+| 入门级 | 轻量级套餐（包年） | 轻度用户 | 不限制设备 | ¥7.50/月（年付） | 50GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
+| 标准级 | 标准版（六个月） | 日常使用 | 不限制设备 | ¥11.60/月 | 100GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
+| 专业级 | 个人套餐（三个月） | 日常使用 | 不限制设备 | ¥29.60/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
+| 专业级 | 个人套餐（六个月） | 重度用户 | 不限制设备 | ¥25.50/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
+| 企业级 | 个人套餐（年） | 重度用户 | 不限制设备 | ¥23.20/月 | 600GB/月 | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
+| 不限时 | 1TB流量不限时 （用完为止） | 深重度用户 | 不限制设备 | 一次性 | 1TB | [购买链接](https://test.718node.com/register?code=ExbmL3T6) |
 ---
 
 ## ✨ 核心优势详解
@@ -185,19 +185,19 @@ head:
 > **立即体验**：访问 [dengtacloud.com](https://test.718node.com/register?code=ExbmL3T6) 使用优惠码 **ExbmL3T6** 开启您的优质网络之旅
 
 ## 👉新用户首次订购可使用优惠码  **[ExbmL3T6](https://test.718node.com/register?code=ExbmL3T6)**
-## [👉新用户五折专享福利](https://test.718node.com/register?code=ExbmL3T6  )
+## [👉新用户五折专享福利](https://test.718node.com/register?code=ExbmL3T6)
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

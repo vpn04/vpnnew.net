@@ -58,9 +58,9 @@ Asspp是一种用于**iPhone多账号切换App Store及跨区下载应用**的�
 
 ![alt text](images/【2026最全】Asspp下载使用教程/image.png)
 
->在你下载时没有合适的翻墙工具可以参考这里📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( https://vpnnew.net/vpn-recommend/ )     
+>在你下载时没有合适的翻墙工具可以参考这里📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](https://vpnnew.net/vpn-recommend/)     
 
->如果你没有Apple ID可以参考这里📢每天更新免费ID： 👉[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ ) 
+>如果你没有Apple ID可以参考这里📢每天更新免费ID： 👉[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](https://vpnnew.net/article/freeAppleID/) 
 
 ## 📚 目录（Table of Contents）
 
@@ -100,7 +100,7 @@ Asspp是一类**第三方App Store辅助工具**，并非官方应用，其核�
 
 ### ✅ 必做准备（决定是否成功）
 
->如果你没有Apple ID可以参考这里📢每天更新免费ID： 👉[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新]( https://vpnnew.net/article/freeAppleID/ )    
+>如果你没有Apple ID可以参考这里📢每天更新免费ID： 👉[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](https://vpnnew.net/article/freeAppleID/)    
 
 1. **准备一个外区Apple ID（强烈推荐）**
    - 美区 / 日区 / 港区
@@ -377,17 +377,17 @@ Asspp是一类**第三方App Store辅助工具**，并非官方应用，其核�
 
 ---
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

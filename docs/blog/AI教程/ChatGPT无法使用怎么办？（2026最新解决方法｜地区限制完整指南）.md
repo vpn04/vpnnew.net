@@ -49,7 +49,7 @@ head:
 
 如果你也遇到了这些问题，不用担心，这篇文章会帮你逐一解决。
 
-👉 如果你还不会使用，可以先阅读：  [如何使用 ChatGPT（2026新手入门指南｜从零开始到高效使用）](https://vpnnew.net/article/ChatGPTzhinan/ )
+👉 如果你还不会使用，可以先阅读：  [如何使用 ChatGPT（2026新手入门指南｜从零开始到高效使用）](https://vpnnew.net/article/ChatGPTzhinan/)
 <!-- more -->
 
 ![alt text](images/ChatGPT无法使用怎么办？（2026最新解决方法｜地区限制完整指南）/image.png)
@@ -215,17 +215,17 @@ ChatGPT无法使用通常是由以下原因导致：
 
 那么建议你优先优化你的网络环境，这将直接影响你的使用体验和效率。
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

@@ -95,7 +95,7 @@ head:
 **适用场景**：个人隐私保护、流媒体访问、常规网络加速
 
 **操作流程**：
-1. 访问VPN服务商官网下载Mac客户端如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://xxyun.at/?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
+1. 访问VPN服务商官网下载Mac客户端如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT)、[xxyun机场](https://xxyun.at/?code=rXypHVO4)、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs)等
 2. 安装完成后登录账户
 3. 选择服务器节点连接
 4. 根据需要配置分流规则和Kill Switch
@@ -164,7 +164,7 @@ head:
 4. 必要时咨询IT支持部门
 
 ### 个人隐私与流媒体
-1. 选择功能完整的商业VPN客户端如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://xxyun.at/?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
+1. 选择功能完整的商业VPN客户端如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT)、[xxyun机场](https://xxyun.at/?code=rXypHVO4)、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs)等
 2. 开启Kill Switch防止意外断开
 3. 配置分流规则优化体验
 4. 公共Wi-Fi环境下务必开启
@@ -190,21 +190,21 @@ head:
 4. 保持客户端和系统更新
 
 ### 流媒体优化提示
-1. 选择支持所需流媒体平台的VPN服务：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://xxyun.at/?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
+1. 选择支持所需流媒体平台的VPN服务：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT)、[xxyun机场](https://xxyun.at/?code=rXypHVO4)、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs)等
 2. 了解画质限制的多重因素
 3. 必要时尝试不同服务器节点
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

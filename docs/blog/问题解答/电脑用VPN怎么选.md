@@ -35,7 +35,7 @@ head:
         "datePublished": "2025-10-15",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://yourdomain.com/article/diannanvpnzenmexuan/"
+          "@id": "https://vpnnew.net/article/diannanvpnzenmexuan/"
         }
       }
   - - script
@@ -176,17 +176,17 @@ A. 短期测试可以，但长期使用风险高：免费服务可能通过限�
 - 不要只看“宣传词”，要看是否有独立审计、清晰隐私政策、实际流媒体/速度测试。
 - 近期关于DNS操作与公共Wi‑Fi风险的报道提醒我们：真正的隐私保护是端到端的，包括DNS管理，而不是简单换个DNS服务。
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

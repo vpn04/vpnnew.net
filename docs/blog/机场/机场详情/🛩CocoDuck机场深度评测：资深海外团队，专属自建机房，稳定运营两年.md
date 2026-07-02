@@ -38,7 +38,7 @@ head:
         }
       }
 ---
-[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47 ) 由北美资深技术团队运营，团队成员具备丰富的网络架构和安全管理经验。经过两年多的稳定运营，形成了完善的技术支持体系。
+[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47) 由北美资深技术团队运营，团队成员具备丰富的网络架构和安全管理经验。经过两年多的稳定运营，形成了完善的技术支持体系。
 <!-- more -->
 
 ## 🔔服务概览与技术架构
@@ -47,16 +47,16 @@ head:
 
 ### 🎶专业技术团队保障
 
-## 📲CocoDuck机场官网地址：[https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47 )
+## 📲CocoDuck机场官网地址：[https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47)
 
-## 👉[新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47 )
+## 👉[新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47)
 
 ## 📋 核心信息总览
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
+| **🌐 官方网站** | [https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47) |
 | **💰 入门价格** | 15元/月（含150G流量） |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务器分布** | 亚太地区、北美地区、欧洲地区、其他地区等多区域 |
@@ -68,11 +68,11 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------| 
-| 基础版 | 鸭宝宝 | 超轻度使用 | 月付、半年、年付 | ¥15.00/每月 |150GB/月 |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 进阶版 | 可达鸭 |	轻度使用 | 月付、半年、年付 | ¥28.00/每月 |400GB/月 |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 专业版 | 哥达鸭 | 中度使用 | 月付、半年、年付 | ¥48.00/每月 |700GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 尊享版 | 唐老鸭 | 重度用户 | 月付、季付、半年、年付 | ¥33.00/每月 |300GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 迷你版 | 迷你鸭77 | 特惠超轻度使用 | 年付 | ¥77.00/每年 |77GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
+| 基础版 | 鸭宝宝 | 超轻度使用 | 月付、半年、年付 | ¥15.00/每月 |150GB/月 |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 进阶版 | 可达鸭 |	轻度使用 | 月付、半年、年付 | ¥28.00/每月 |400GB/月 |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 专业版 | 哥达鸭 | 中度使用 | 月付、半年、年付 | ¥48.00/每月 |700GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 尊享版 | 唐老鸭 | 重度用户 | 月付、季付、半年、年付 | ¥33.00/每月 |300GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 迷你版 | 迷你鸭77 | 特惠超轻度使用 | 年付 | ¥77.00/每年 |77GB/月 | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
 
 ### 2. 按量付费流量包
 
@@ -80,11 +80,11 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰费用 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------| 
-| 基础版 | 流量加油包 - 50GB | 短期项目、临时需求 | 一次性 | ¥5 |50GB |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 进阶版 | 流量加油包 - 100GB  |	中期使用、偶尔高峰 | 一次性 | ¥10 |100GB |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 专业版 | 流量加油包 - 100GB | 长期备用、灵活使用 | 一次性 | ¥30 |300GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 尊享版 | 流量加油包 - 500GB | 大量消耗 | 一次性 | ¥50 |500GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
-| 终极版 | 流量加油包 - 1000GB | 大量消耗 | 一次性 | ¥100 |1000GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47 ) |
+| 基础版 | 流量加油包 - 50GB | 短期项目、临时需求 | 一次性 | ¥5 |50GB |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 进阶版 | 流量加油包 - 100GB  |	中期使用、偶尔高峰 | 一次性 | ¥10 |100GB |[购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 专业版 | 流量加油包 - 100GB | 长期备用、灵活使用 | 一次性 | ¥30 |300GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 尊享版 | 流量加油包 - 500GB | 大量消耗 | 一次性 | ¥50 |500GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| 终极版 | 流量加油包 - 1000GB | 大量消耗 | 一次性 | ¥100 |1000GB | [购买链接](https://cocoduck.live/auth/register?code=b7bc5faa47) |
 
 
 **🧮团队特色：**
@@ -317,7 +317,7 @@ head:
 
 ## ✔️总结评价
 
-[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47 ) 凭借其专业的技术团队、自建的基础设施和优质的全球网络，在众多网络加速服务中表现出色。特别适合对网络稳定性和服务质量有较高要求的用户群体。
+[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47) 凭借其专业的技术团队、自建的基础设施和优质的全球网络，在众多网络加速服务中表现出色。特别适合对网络稳定性和服务质量有较高要求的用户群体。
 
 **核心价值点：**
 - 专业技术团队保障
@@ -337,26 +337,26 @@ head:
 
 ---
 ## 🏁 服务总结
-📢[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47 ) 以其稳定的服务质量和完善的技术支持，成为网络加速领域的可靠选择。无论是个人日常使用还是企业级应用，都能提供相匹配的解决方案。
+📢[cocoduck](https://cocoduck.live/auth/register?code=b7bc5faa47) 以其稳定的服务质量和完善的技术支持，成为网络加速领域的可靠选择。无论是个人日常使用还是企业级应用，都能提供相匹配的解决方案。
 
 >建议新用户可从轻量套餐开始体验，根据实际使用需求逐步调整套餐等级。
 
 ## 👉新用户首次订购可使用优惠码  **b7bc5faa47**
-## [👉新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47 )
+## [👉新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47)
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

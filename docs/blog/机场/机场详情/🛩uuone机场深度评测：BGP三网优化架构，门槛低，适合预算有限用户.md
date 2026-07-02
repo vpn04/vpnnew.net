@@ -127,10 +127,10 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁网速限制 | 💰费用 | 📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|----------|
-| 入门级 | Lite—月付150G | 轻度用户 | 300Mbps | ¥12.00/月 | 150GB/月 | [购买链接](https://uuone.at?code=NThYGiev ) |
-| 标准级 | Pro—月付300G | 日常使用 | 500Mbps | ¥23.00/月 | 300GB/月 | [购买链接](https://uuone.at?code=NThYGiev ) |
-| 专业级 | Max—月付800G | 日常使用 | 800Mbps | ¥45.00/月 | 800GB/月 | [购买链接](https://uuone.at?code=NThYGiev ) |
-| 不限时 | 永久450G | 深重度用户 | 300Mbps | ¥80.00 | 450GB | [购买链接](https://uuone.at?code=NThYGiev ) |
+| 入门级 | Lite—月付150G | 轻度用户 | 300Mbps | ¥12.00/月 | 150GB/月 | [购买链接](https://uuone.at?code=NThYGiev) |
+| 标准级 | Pro—月付300G | 日常使用 | 500Mbps | ¥23.00/月 | 300GB/月 | [购买链接](https://uuone.at?code=NThYGiev) |
+| 专业级 | Max—月付800G | 日常使用 | 800Mbps | ¥45.00/月 | 800GB/月 | [购买链接](https://uuone.at?code=NThYGiev) |
+| 不限时 | 永久450G | 深重度用户 | 300Mbps | ¥80.00 | 450GB | [购买链接](https://uuone.at?code=NThYGiev) |
 ---
 
 
@@ -234,21 +234,21 @@ uuone采用 **BGP三网优化中转架构**：
 ---
 
 ## 👉新用户9这优惠券  **uuone**
-## [👉新用户9折领取](https://uuone.at?code=NThYGiev )
+## [👉新用户9折领取](https://uuone.at?code=NThYGiev)
 
 >评测数据基于实际测试结果，服务表现可能因网络环境而异。建议你根据自身需求进行实际测试验证。
 
-## 📢 相关推荐： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢 相关推荐： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

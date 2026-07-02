@@ -198,7 +198,7 @@ VPN协议是决定速度、安全性和兼容性的核心因素。免费VPN和�
 | VPN品牌         | 模式        | 能力 |解锁 | 方式 | 价格 |
 |-----------------|------------|-----------|------------|--------|---------|
 | [拼好连](https://www.runwayhz.com/#/register?code=6uVJY4zh)    | 自有机房专柜  | 环球多地接入点 | 多全球流媒体解锁 解锁奈飞/迪士尼/ChatGPT 等 |  高性价比Shadowsocks机场 | 9.9元/100G每月 |
-| [网际快车](https://快车.com?c=SRNIQJ )       | 万能订阅   | 40+国家    | 解锁所有AI | 四端专用VPN | 6.80元/20G（永久） |
+| [网际快车](https://快车.com?c=SRNIQJ)       | 万能订阅   | 40+国家    | 解锁所有AI | 四端专用VPN | 6.80元/20G（永久） |
 
 > 技术提示：选择付费VPN时，协议类型、服务器数量、无日志政策和Kill Switch功能是核心参考指标。
 
@@ -206,13 +206,13 @@ VPN协议是决定速度、安全性和兼容性的核心因素。免费VPN和�
 
 ## 7. 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ ) 
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/) 
 
 ---
 

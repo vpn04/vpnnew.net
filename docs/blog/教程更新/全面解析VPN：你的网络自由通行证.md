@@ -139,7 +139,7 @@ VPN（Virtual Private Network）在中文网络语境中常被称为"梯子""翻
 - 避免用于违法活动
 
 ### 📖使用建议
-- 选择信誉良好的服务提供商如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT )、[xxyun机场](https://xxyun.at/?code=rXypHVO4 )、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs )等
+- 选择信誉良好的服务提供商如：[ssone机场](https://www.ssone.uk/register?aff=X9RslxvT)、[xxyun机场](https://xxyun.at/?code=rXypHVO4)、[cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs)等
 - 定期更新客户端软件
 - 注意连接稳定性
 - 合理使用，避免滥用
@@ -175,17 +175,17 @@ A: 可通过Speedtest等工具对比连接前后的速度差异
 3. **重视隐私**：选择经过审计的无日志服务
 4. **理性消费**：充分利用试用期和退款保证
 
-## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
+## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
 ## 📌 延伸阅读
 
-👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/ )
+👉iOS手机：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)
 
-👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/ )
+👉Android手机：[Clash for Android 2026年使用指南：终极配置指南教程](/article/ClashforAndroid/)
 
-👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/ )
+👉Windows/Linux/Mac：[2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南](/article/ClashVerge/)
 
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ---
 

@@ -114,7 +114,7 @@ Shadowrocket 是 iOS 平台上一款非常主流的代理工具，但它本身**
 > 免费节点 = 公共资源  
 > 使用人数越多 → 速度越慢 → 越容易被封
 
-👉免费机场参考这篇文章：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/ )  
+👉免费机场参考这篇文章：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/)  
 
 ---
 
@@ -259,7 +259,7 @@ Shadowrocket 是 iOS 平台上一款非常主流的代理工具，但它本身**
 ### 1️⃣ DNS问题
 👉 导致打不开网页
 
-👉 Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）]( /shadowrocket-dns-error-fix/ ) 
+👉 Shadowrocket DNS全部问题解决方案：[Shadowrocket DNS 设置错误？连接成功但无法上网？速度慢怎么办？（2026完整解决教程）](/shadowrocket-dns-error-fix/) 
 
 ---
 
@@ -328,7 +328,7 @@ Shadowrocket 是 iOS 平台上一款非常主流的代理工具，但它本身**
 
 Shadowrocket核心：
 
-- Shadowrocket免费节点：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/ ) 
+- Shadowrocket免费节点：[2026最新翻墙机场免费试用合集（免费试用+稳定机场推荐长期更新）](/article/mianfeijichang/) 
 - Shadowrocket节点哪里买：[2026年翻墙机场推荐评测｜稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/) 
 - Shadowrocket机场推荐：[全网最全推荐！2026翻墙机场性能与价格对比榜,实测百家机场：哪家最稳？哪家最便宜？（持续更新）](/airport/jichangpk/)    
 - Shadowrocket订阅失败：[Shadowrocket 被封怎么办？2026最新解决方法（小火箭无法连接/节点超时/订阅失效）](/article/shadowrocketbeifeng/)    
@@ -339,7 +339,7 @@ Shadowrocket核心：
 
 - 👉 Clash教程：[2026最新版Clash 全平台使用教程（Windows / Mac / Android / iOS）｜新手入门+配置详解](/scamvpn/Clashquanpingtai/)  
 - 👉 Shadowrocket教程：[Shadowrocket （小火箭）2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)](/article/Shadowrocket/)     
-👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/ )  
+👉每天免费更新Apple ID：[2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新](/article/freeAppleID/)  
 
 ## 🔄 更新说明
 

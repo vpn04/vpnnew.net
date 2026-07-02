@@ -83,7 +83,7 @@ head:
 
 对于想寻找 **稳定机场、流媒体机场或长期可用机场** 的用户来说，XSUS是一个值得关注的服务。
 
-📲XSUS机场官网地址：[https://xs-us.xyz](https://xs-us.xyz/register?code=08LnQApz)
+📲XSUS机场官网地址：[https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz)
 <!-- more -->
 ---
 
@@ -91,15 +91,15 @@ head:
 
 ![alt text](<images/🛩 XSUS机场深度评测：稳定高速的BGP专线机场推荐/image-1.png>)
 
-## 📲XSUS机场官网地址：[https://xs-us.xyz](https://xs-us.xyz/register?code=08LnQApz)
+## 📲XSUS机场官网地址：[https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz)
 
-## 👉[新用户邀请码08LnQApz](https://xs-us.xyz/register?code=08LnQApz)
+## 👉[新用户邀请码08LnQApz](https://xsus.cloud/register?code=08LnQApz)
 
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://xs-us.xyz](https://xs-us.xyz/register?code=08LnQApz) |
+| **🌐 官方网站** | [https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz) |
 | **💰 入门价格** | 10.00元/168G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务器分布** | 自有机房专柜 环球多地接入点 |
@@ -113,25 +113,25 @@ head:
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶限速 |📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|------|----------| 
-| 进阶版 | P-Small 基础套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥10.00/每月(年付) |500Mbps|168GB/月 |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 入门版 | P-Plus 进阶套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥20.00/每月(年付) |1Gbps|168GB/月 |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 专业版 | P-Max 专业套餐 |	中度用户、高清视频 | 月付、季付、半年付、年付 | ¥24.00/每月 |1Gbps|388GB/月 |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 尊享版 | P-Ultra 极限套餐 | 重度用户 | 月付、季付、半年付、年付 | ¥58.00/每月 |5Gbps突发|788GB/月 | [购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 企业版 | IEPL-Small 企业专线套餐 |	跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥48.00/每季 |500Mbps物理直连|50GB |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 企业版 | P-Ultra 极限套餐 | 跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥78.00/每季 |500Mbps物理直连|100GB | [购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
+| 进阶版 | P-Small 基础套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥10.00/每月(年付) |500Mbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 入门版 | P-Plus 进阶套餐 | 轻度至中度日常使用 | 月付、季付、半年付、年付 | ¥20.00/每月(年付) |1Gbps|168GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 专业版 | P-Max 专业套餐 |	中度用户、高清视频 | 月付、季付、半年付、年付 | ¥24.00/每月 |1Gbps|388GB/月 |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 尊享版 | P-Ultra 极限套餐 | 重度用户 | 月付、季付、半年付、年付 | ¥58.00/每月 |5Gbps突发|788GB/月 | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 企业版 | IEPL-Small 企业专线套餐 |	跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥48.00/每季 |500Mbps物理直连|50GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 企业版 | P-Ultra 极限套餐 | 跨境电商、深度电竞用户 | 季付、半年付、年付 | ¥78.00/每季 |500Mbps物理直连|100GB | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
 
 ### 2. 按量付费流量包
 
 | 🧮套餐等级 | 📛套餐名称 | 📑适用人群 | 🔁可选周期 | 💰月费 | 📶限速 |📶流量 | 🛍️购买链接 |
 |---------|----------|----------|----------|------|------|------|----------| 
-| 进阶版 | P-188G流量不限时  | 轻度至中度日常使用 | 一次性 | ¥65.00 |1Gbps|188GB |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 入门版 | P-240G流量不限时 | 轻度至中度日常使用 | 一次性 | ¥82.00 |1Gbps|240GB |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 专业版 | P-400G流量不限时 |	中度用户、高清视频 | 一次性 | ¥122.00 |1Gbps|400GB |[购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
-| 尊享版 | P-1024G流量不限时 | 重度用户 | 一次性 | ¥260.00 |1Gbps|788GB1024GB | [购买链接](https://xs-us.xyz/register?code=08LnQApz ) |
+| 进阶版 | P-188G流量不限时  | 轻度至中度日常使用 | 一次性 | ¥65.00 |1Gbps|188GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 入门版 | P-240G流量不限时 | 轻度至中度日常使用 | 一次性 | ¥82.00 |1Gbps|240GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 专业版 | P-400G流量不限时 |	中度用户、高清视频 | 一次性 | ¥122.00 |1Gbps|400GB |[购买链接](https://xsus.cloud/register?code=08LnQApz ) |
+| 尊享版 | P-1024G流量不限时 | 重度用户 | 一次性 | ¥260.00 |1Gbps|788GB1024GB | [购买链接](https://xsus.cloud/register?code=08LnQApz ) |
 ---
 >此模式适合使用频率不固定或需求波动的用户，流量包在有效期内无时间限制。
 
-[XSUS机场](https://xs-us.xyz/register?code=08LnQApz)在线路设计和网络架构上更偏向 **稳定性优先**，而不是单纯追求测速数据。
+[XSUS机场](https://xsus.cloud/register?code=08LnQApz)在线路设计和网络架构上更偏向 **稳定性优先**，而不是单纯追求测速数据。
 
 核心特点包括：
 
@@ -373,7 +373,7 @@ XSUS采用 **BGP三网优化入口与多节点网络**，整体稳定性较好�
 - **流媒体解锁机场**
 - **长期使用的科学上网服务**
 
-那么 **[XSUS机场](https://xs-us.xyz/register?code=08LnQApz)** 是一个值得尝试的选择。
+那么 **[XSUS机场](https://xsus.cloud/register?code=08LnQApz)** 是一个值得尝试的选择。
 
 ## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）]( /vpn-recommend/ )  
 

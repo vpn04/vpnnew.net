@@ -1,9 +1,10 @@
 ---
 home: true
-title: YouYou 
-description: YouYou博客分享科学上网教程、翻墙机场推荐、机场测评、VPN测评、Python编程技巧以及各类实用软件资源。从 节点速度、稳定性、套餐价格、流媒体解锁能力 等方面综合评估。以及Shadowrocket、Clash等各大软件攻略分享。
+title: YouYou VPN推荐与科学上网指南
+description: YouYou长期更新2026年VPN推荐、翻墙机场评测、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
 tags:
   - YouYou
+  - VPN推荐
   - 科学上网
   - 机场推荐
   - 翻墙教程
@@ -18,82 +19,85 @@ config:
   -
     type: hero
     hero:
-      name: YouYou Technical Sharing
-      text: Clash/Shadowrocket教程 · Python实用技巧 · 效率工具分享 · 翻墙机场推荐
-      tagline: 分享科学上网教程、机场测评、节点优化等干货分享
+      name: YouYou VPN
+      text: 2026 VPN推荐、机场评测与科学上网教程
+      tagline: 持续整理稳定机场、Clash/Shadowrocket配置、节点优化、AI工具访问与避坑指南。
       actions:
         - theme: brand
-          text: 🗄️ VPN机场推荐评测（持续更新）
-          link: "https://vpnnew.net/vpn-recommend/"
+          text: VPN机场推荐榜
+          link: "/vpn-recommend/"
         - theme: alt
-          text: 🛩 机场性能PK（持续更新）
-          link: "https://vpnnew.net/airport/jichangpk/"
+          text: 机场性能PK
+          link: "/airport/jichangpk/"
+        - theme: alt
+          text: 免费试用合集
+          link: "/article/mianfeijichang/"
 
   ## 🔹 特色功能导航
   -
     type: features
     features:
-      - title:  Shadowrocket （小火箭）
-        icon: {src: "/Shadowrocket.png"}
-        details: 2026年使用指南：iOS/macOS全平台配置教程(含非国区ID)
-        link: "https://vpnnew.net/article/Shadowrocket/"
-      - title:  Clash 
-        icon: {src: "/Clash.png"}
-        details: 2026最新版Clash 全平台使用教程（Windows / Mac / Android / iOS）｜新手入门+配置详解
-        link: "https://vpnnew.net/scamvpn/Clashquanpingtai/"
-      - title:  Shadowrocket vs Clash
-        icon: {src: "/SVSC.png"}
-        details: 哪个更好用？2026完整对比指南（iOS / Android / Windows / Mac）
-        link: "https://vpnnew.net/article/Shadowrocket%20vs%20Clash/"
+      - title: Shadowrocket 小火箭
+        icon: {src: "/home-icons/shadowrocket.png"}
+        details: iOS/macOS配置、订阅导入、非国区ID与常见问题排查。
+        link: "/article/Shadowrocket/"
+      - title: Clash 全平台教程
+        icon: {src: "/home-icons/clash.png"}
+        details: Windows、macOS、Android、iOS新手入门与配置详解。
+        link: "/scamvpn/Clashquanpingtai/"
+      - title: Shadowrocket vs Clash
+        icon: {src: "/home-icons/shadowrocket-vs-clash.png"}
+        details: 从设备、规则、速度、稳定性和上手成本对比选择。
+        link: "/article/Shadowrocket%20vs%20Clash/"
       - title: OpenVPN与WireGuard对比
-        icon: {src: "/OpenVPNWireGuard.png"}
-        details: 哪个更快更安全？2026完整指南
-        link: "https://vpnnew.net/article/OpenVPNWireGuard/"
+        icon: {src: "/home-icons/openvpn-wireguard.png"}
+        details: 速度、安全性、适用场景与协议选择建议。
+        link: "/article/OpenVPNWireGuard/"
       - title: 路由器翻墙
-        icon: {src: "/luyouqi.png"}
-        details: 详细教程：2026年最佳路由器VPN配置指南
-        link: "https://vpnnew.net/article/luyouqi/"
+        icon: {src: "/home-icons/router-vpn.png"}
+        details: 家庭多设备共享、旁路由、OpenWrt与节点配置思路。
+        link: "/article/luyouqi/"
       - title: 如何使用 ChatGPT
-        icon: {src: "/ChatGPT.png"}
-        details: 2026新手入门指南｜从零开始到高效使用
-        link: "https://vpnnew.net/article/ChatGPTzhinan/"
+        icon: {src: "/home-icons/chatgpt.png"}
+        details: 注册、访问限制、节点选择与稳定使用技巧。
+        link: "/article/ChatGPTzhinan/"
       - title: Android手机
-        icon: {src: "/clashandroid.png"}
-        details: Clash for Android 2026年使用指南：终极配置指南教程
-        link: "https://vpnnew.net/article/ClashforAndroid/"
+        icon: {src: "/home-icons/clash-android.png"}
+        details: Clash for Android安装、导入订阅、TUN模式与分流。
+        link: "/article/ClashforAndroid/"
       - title: Windows/Linux/Mac
-        icon: {src: "/verge.png"}
-        details: 2026年 Clash Verge （Windows/Linux/Mac）全平台配置指南
-        link: "https://vpnnew.net/article/ClashVerge/"
-      - title: 每天免费更新Apple ID
-        icon: {src: "/Apple ID.png"}
-        details: 2026年 最新最全免费共享美区 Apple ID |Shadowrocket/小火箭下载|每日更新
-        link: "https://vpnnew.net/article/freeAppleID/"
-      - title: 🦞OpenClaw（龙虾）
-        icon: {src: "images/index/image-4.png"}
-        details: 2026最新｜OpenClaw（龙虾）保姆级安装教程（全平台覆盖 + 避坑指南）
-        link: "https://vpnnew.net/scamvpn/OpenClaw/"
+        icon: {src: "/home-icons/clash-verge.png"}
+        details: Clash Verge桌面端配置、系统代理、TUN模式与故障排查。
+        link: "/article/ClashVerge/"
+      - title: 免费 Apple ID
+        icon: {src: "/home-icons/apple-id.png"}
+        details: 美区Apple ID共享更新，用于下载Shadowrocket等工具。
+        link: "/article/freeAppleID/"
+      - title: OpenClaw 安装教程
+        icon: {src: "/home-icons/openclaw.png"}
+        details: 2026全平台安装、配置步骤与常见避坑指南。
+        link: "/scamvpn/OpenClaw/"
       - title: Telegram(纸飞机)
-        icon: {src: "images/index/image-5.png"}
-        details: (2026)Telegram(纸飞机)安卓+iOS+电脑版用户全平台注册与使用指南 
-        link: "https://vpnnew.net/article/Telegramquanpingtaizhinan/"
+        icon: {src: "/home-icons/telegram.png"}
+        details: 安卓、iOS、电脑版注册登录与网络配置指南。
+        link: "/article/Telegramquanpingtaizhinan/"
       - title: AnyTLS
-        icon: {src: "images/index/image-6.png"}
-        details: AnyTLS是什么？为什么越来越多机场开始支持AnyTLS？2026最全面解析
-        link: "https://vpnnew.net/article/what-is-anytls/"
+        icon: {src: "/home-icons/anytls.png"}
+        details: 新一代代理协议原理、优势、配置与适用场景解析。
+        link: "/article/what-is-anytls/"
 
   - type: text-image
-    title: 内容统计
+    title: 站点内容导航
     list:
       -
-       title: 教程内容
-       description: 翻墙常见问题解决、VPN问题解决汇总、Telegram问题汇总、AI教程汇总等
+        title: 新手教程与故障排查
+        description: 覆盖VPN、Clash、Shadowrocket、Telegram、AI工具访问等常见问题，按设备和场景给出排查步骤。
       -
         title: 机场深度测评
-        description: 真实使用测试至少两周以上，从 节点速度、稳定性、套餐价格、流媒体解锁能力 等方面综合评估最新翻墙机场推荐排行榜。
+        description: 从节点速度、稳定性、套餐价格、流媒体解锁和晚高峰表现等维度，整理长期更新的机场推荐榜。
       -
-        title: 机场跑路汇总（持续更新）
-        description: 持续更新机场跑路事件汇总、跑路原因分析、跑路前征兆与避坑指南。减少被骗！减少损失！减少被割！
+        title: 优惠、免费试用与避坑
+        description: 汇总机场优惠券、免费试用、跑路事件、跑路前征兆和订阅风险提示，帮助订阅前先做判断。
   
 
 
@@ -101,8 +105,8 @@ config:
     type: doc-hero
     hero:
       name: YouYou
-      text: 更新所学，分享所知，探索所想，记录所有。
-      tagline: 持续更新分享科学上网教程、翻墙机场推荐、梯子测评、VPN测评、Python编程技巧以及各类实用软件资源。以及Shadowrocket、Clash等各大软件攻略分享。
+      text: 更新所学，分享所知，持续记录。
+      tagline: 长期更新科学上网教程、翻墙机场推荐、VPN测评、节点优化、AI工具访问、Telegram教程与实用软件资源。
       image: youyou.png
       actions:
         -
@@ -112,11 +116,11 @@ config:
         -
           theme: alt
           text: 机场推荐
-          link: https://vpnnew.net/vpn-recommend/
+          link: /vpn-recommend/
         -
           theme: alt
-          text: blog分类
-          link: https://vpnnew.net/blog/categories/
+          text: 博客分类
+          link: /blog/categories/
     
 ---
 

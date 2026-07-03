@@ -14,11 +14,19 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
+const siteUrl = 'https://vpnnew.net'
+const siteTitle = 'YouYou VPN推荐与机场评测'
+const siteDescription =
+  '提供2026最新VPN推荐、翻墙机场评测、Clash与Shadowrocket教程，覆盖ChatGPT、Claude、Google等海外服务访问与节点优化。'
+const siteImage = `${siteUrl}/image%20copy.png`
+const siteKeywords =
+  'VPN推荐,翻墙机场,机场评测,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini'
+
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '2026 VPN推荐与翻墙机场排行榜｜稳定科学上网工具合集',
-  description: '提供2026最新翻墙机场推荐、VPN测评、Clash配置教程、Shadowrocket使用指南，稳定访问ChatGPT、Claude、Google等服务。',
+  title: siteTitle,
+  description: siteDescription,
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-ZH70TFW573',
@@ -27,19 +35,42 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'canonical', href: 'https://vpnnew.net/' }],
+    ['link', { rel: 'apple-touch-icon', href: '/youyou.png' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://www.googletagmanager.com' }],
+    ['link', { rel: 'preconnect', href: 'https://www.googletagmanager.com' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://giscus.app' }],
+    ['link', { rel: 'preconnect', href: 'https://giscus.app' }],
 
-    ['meta', { name: 'keywords', content: 'VPN推荐,翻墙机场,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini' }],
+    ['meta', { name: 'keywords', content: siteKeywords }],
     ['meta', { name: 'author', content: 'YouYou' }],
-
-    ['meta', { property: 'og:title', content: '2026 VPN推荐与翻墙机场排行榜' }],
-    ['meta', { property: 'og:description', content: '稳定VPN与机场推荐，支持ChatGPT/Claude/Gemini访问' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://vpnnew.net' }],
-
+    ['meta', { name: 'robots', content: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }],
+    ['meta', { name: 'format-detection', content: 'telephone=no' }],
+    ['meta', { name: 'theme-color', content: '#2563eb' }],
+    ['meta', { property: 'og:site_name', content: siteTitle }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
-
+    ['meta', { name: 'twitter:image', content: siteImage }],
+    [
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: siteTitle,
+        url: `${siteUrl}/`,
+        description: siteDescription,
+        inLanguage: 'zh-CN',
+        publisher: {
+          '@type': 'Organization',
+          name: 'YouYou',
+          url: `${siteUrl}/`,
+          logo: {
+            '@type': 'ImageObject',
+            url: `${siteUrl}/youyou.png`,
+          },
+          sameAs: ['https://t.me/youyouvpn', 'https://github.com/vpn04/vpnnew.net'],
+        },
+      }),
+    ],
   ],
 
   bundler: viteBundler(),
@@ -48,8 +79,22 @@ export default defineUserConfig({
   theme: plumeTheme({
     home: '/',
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://vpnnew.net',
-    footer: { message: "© 2026 YouYou | VPN评测与科学上网指南 📧 <a href='mailto:yyo649929@gmail.com'>联系我</a>", },
+    hostname: siteUrl,
+    plugins: {
+      seo: {
+        canonical: siteUrl,
+        fallBackImage: siteImage,
+        author: {
+          name: 'YouYou',
+          url: `${siteUrl}/`,
+          email: 'yyo649929@gmail.com',
+        },
+        isArticle: page => Boolean(page.filePathRelative && page.path !== '/' && !page.frontmatter.home),
+      },
+    },
+    footer: {
+      message: "© 2026 YouYou | VPN评测与科学上网指南 📧 <a href='mailto:yyo649929@gmail.com'>联系我</a>",
+    },
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -129,6 +174,7 @@ export default defineUserConfig({
       */
     markdown: {
       collapse: true,  // 折叠面板
+      imageSize: 'local', // 自动补充本地图片宽高，减少页面布局抖动
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)

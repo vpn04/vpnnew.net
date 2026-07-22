@@ -2,7 +2,22 @@
   "name": "vpnnews",
   "type": "module",
   "version": "1.0.0",
-  "description": "翻墙最新热点",
+  "description": "翻墙最新热点，提供最新 VPN 推荐、机场评测与科学上网教程。",
+  "homepage": "https://vpnnew.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpn04/vpnnew.net"
+  },
+  "keywords": [
+    "VPN",
+    "翻墙",
+    "机场",
+    "科学上网",
+    "Clash",
+    "Shadowrocket",
+    "VPN教程",
+    "机场评测"
+  ],
   "packageManager": "pnpm@10.13.1",
   "overrides": {
     "vue-router": "4.4.5"

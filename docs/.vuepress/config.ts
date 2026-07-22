@@ -15,10 +15,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 const siteUrl = 'https://vpnnew.net'
+const siteLocale = 'zh-CN'
+const siteAuthor = 'YouYou'
 const siteTitle = 'YouYou VPN推荐与机场评测'
 const siteDescription =
   '提供2026最新VPN推荐、翻墙机场评测、Clash与Shadowrocket教程，覆盖ChatGPT、Claude、Google等海外服务访问与节点优化。'
-const siteImage = `${siteUrl}/image%20copy.png`
+const siteImage = `${siteUrl}/youyou.png`
 const siteKeywords =
   'VPN推荐,翻墙机场,机场评测,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini'
 
@@ -47,8 +49,21 @@ export default defineUserConfig({
     ['meta', { name: 'format-detection', content: 'telephone=no' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['meta', { property: 'og:site_name', content: siteTitle }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: siteTitle }],
+    ['meta', { property: 'og:description', content: siteDescription }],
+    ['meta', { property: 'og:url', content: siteUrl }],
+    ['meta', { property: 'og:image', content: siteImage }],
+    ['meta', { property: 'og:image:alt', content: siteTitle }],
+    ['meta', { property: 'og:locale', content: siteLocale }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@youyouvpn' }],
+    ['meta', { name: 'twitter:creator', content: '@youyouvpn' }],
+    ['meta', { name: 'twitter:title', content: siteTitle }],
+    ['meta', { name: 'twitter:description', content: siteDescription }],
     ['meta', { name: 'twitter:image', content: siteImage }],
+    ['meta', { name: 'twitter:image:alt', content: siteTitle }],
+    ['link', { rel: 'canonical', href: siteUrl }],
     [
       'script',
       { type: 'application/ld+json' },
@@ -82,10 +97,10 @@ export default defineUserConfig({
     hostname: siteUrl,
     plugins: {
       seo: {
-        canonical: siteUrl,
+        canonical: page => `${siteUrl}${page.path}`,
         fallBackImage: siteImage,
         author: {
-          name: 'YouYou',
+          name: siteAuthor,
           url: `${siteUrl}/`,
           email: 'yyo649929@gmail.com',
         },

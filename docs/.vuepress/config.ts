@@ -45,6 +45,7 @@ export default defineUserConfig({
 
     ['meta', { name: 'keywords', content: siteKeywords }],
     ['meta', { name: 'author', content: 'YouYou' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'robots', content: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }],
     ['meta', { name: 'format-detection', content: 'telephone=no' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
@@ -88,8 +89,15 @@ export default defineUserConfig({
     ],
   ],
 
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      build: {
+        target: 'es2020',
+      },
+    },
+  }),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+  shouldPreload: false,
 
   theme: plumeTheme({
     home: '/',

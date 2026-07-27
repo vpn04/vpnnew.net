@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#151628"/>
+      <stop offset="1" stop-color="#070913"/>
+    </linearGradient>
+    <linearGradient id="twilight" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff9f5a"/>
+      <stop offset=".52" stop-color="#ff5d79"/>
+      <stop offset="1" stop-color="#7b61ff"/>
+    </linearGradient>
+    <style>
+      .title{font:700 42px Arial,'Microsoft YaHei',sans-serif;fill:#fff4ee}
+      .sub{font:400 20px Arial,'Microsoft YaHei',sans-serif;fill:#bfc3d9}
+      .th{font:700 19px Arial,'Microsoft YaHei',sans-serif;fill:#fff9f4}
+      .td{font:400 18px Arial,'Microsoft YaHei',sans-serif;fill:#f4f7ff}
+      .muted{font:400 15px Arial,'Microsoft YaHei',sans-serif;fill:#a7abc4}
+      .good{fill:#35d7a6}
+      .cell{fill:#14182b;stroke:#2c314b;stroke-width:1}
+      .head{fill:#242032;stroke:#4b3b61;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="26" fill="url(#bg)"/>
+  <circle cx="972" cy="130" r="180" fill="#ff715e" opacity=".12"/>
+  <circle cx="188" cy="670" r="210" fill="#6b63ff" opacity=".13"/>
+  <path d="M70 150 C225 110 345 235 498 149 S750 104 868 188 1018 207 1132 132" fill="none" stroke="url(#twilight)" stroke-width="6" opacity=".58"/>
+  <text x="70" y="78" class="title">暮光加速测速图</text>
+  <text x="70" y="116" class="sub">VLESS 专线｜香港 / 台湾 / 日本 / 新加坡 / 美国｜订阅测速与晚高峰场景概览</text>
+
+  <rect x="70" y="172" width="1060" height="52" rx="8" class="head"/>
+  <text x="92" y="205" class="th">节点地区</text>
+  <text x="260" y="205" class="th">节点数量</text>
+  <text x="418" y="205" class="th">协议</text>
+  <text x="558" y="205" class="th">测速截图表现</text>
+  <text x="884" y="205" class="th">适合场景</text>
+
+  <g>
+    <rect x="70" y="224" width="1060" height="64" class="cell"/>
+    <text x="92" y="263" class="td">香港</text>
+    <text x="260" y="263" class="td">20</text>
+    <text x="418" y="263" class="td">VLESS</text>
+    <circle cx="568" cy="256" r="8" class="good"/><text x="588" y="263" class="td">节点数量最多，速度曲线稳定</text>
+    <text x="884" y="263" class="td">低延迟办公、流媒体、主力线路</text>
+  </g>
+  <g>
+    <rect x="70" y="288" width="1060" height="64" class="cell"/>
+    <text x="92" y="327" class="td">台湾</text>
+    <text x="260" y="327" class="td">10</text>
+    <text x="418" y="327" class="td">VLESS</text>
+    <circle cx="568" cy="320" r="8" class="good"/><text x="588" y="327" class="td">中低延迟，适合备用切换</text>
+    <text x="884" y="327" class="td">中文内容、社交、备用线路</text>
+  </g>
+  <g>
+    <rect x="70" y="352" width="1060" height="64" class="cell"/>
+    <text x="92" y="391" class="td">日本</text>
+    <text x="260" y="391" class="td">10</text>
+    <text x="418" y="391" class="td">VLESS</text>
+    <circle cx="568" cy="384" r="8" class="good"/><text x="588" y="391" class="td">多条节点速度表现靠前</text>
+    <text x="884" y="391" class="td">YouTube 4K、动画、游戏</text>
+  </g>
+  <g>
+    <rect x="70" y="416" width="1060" height="64" class="cell"/>
+    <text x="92" y="455" class="td">新加坡</text>
+    <text x="260" y="455" class="td">10</text>
+    <text x="418" y="455" class="td">VLESS</text>
+    <circle cx="568" cy="448" r="8" class="good"/><text x="588" y="455" class="td">适合 Google 与东南亚业务</text>
+    <text x="884" y="455" class="td">ChatGPT、跨境办公、Google</text>
+  </g>
+  <g>
+    <rect x="70" y="480" width="1060" height="64" class="cell"/>
+    <text x="92" y="519" class="td">美国</text>
+    <text x="260" y="519" class="td">10</text>
+    <text x="418" y="519" class="td">VLESS</text>
+    <circle cx="568" cy="512" r="8" class="good"/><text x="588" y="519" class="td">订阅测速中多节点可用</text>
+    <text x="884" y="519" class="td">OpenAI、Netflix、Disney+</text>
+  </g>
+
+  <rect x="70" y="585" width="330" height="86" rx="14" fill="#1a1d32" stroke="#4b4264"/>
+  <text x="94" y="620" class="th">截图重点</text>
+  <text x="94" y="650" class="td">60/60 节点参与测速，覆盖热门地区</text>
+  <rect x="435" y="585" width="330" height="86" rx="14" fill="#1a1d32" stroke="#4b4264"/>
+  <text x="459" y="620" class="th">带宽场景</text>
+  <text x="459" y="650" class="td">YouTube 4K 与下载视频场景友好</text>
+  <rect x="800" y="585" width="330" height="86" rx="14" fill="#1a1d32" stroke="#4b4264"/>
+  <text x="824" y="620" class="th">适用定位</text>
+  <text x="824" y="650" class="td">主力机场、备用机场、不限时流量包</text>
+
+  <text x="70" y="718" class="muted">说明：本图根据提供的暮光加速测速截图整理。真实速度会因运营商、地区、设备、节点负载和晚高峰时段变化。</text>
+</svg>

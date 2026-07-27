@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="tri" x1="120" x2="902" y1="205" y2="860">
+      <stop offset="0" stop-color="#4bd7ff"/>
+      <stop offset=".52" stop-color="#6657ff"/>
+      <stop offset="1" stop-color="#7b2cff"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="404" x2="666" y1="100" y2="866">
+      <stop offset="0" stop-color="#fff55a"/>
+      <stop offset=".45" stop-color="#ffc400"/>
+      <stop offset="1" stop-color="#ff9a00"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#080b20" flood-opacity=".42"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .brand{font:700 58px Arial,'Microsoft YaHei',sans-serif;fill:#16223a}
+      .sub{font:400 27px Arial,'Microsoft YaHei',sans-serif;fill:#4f5f78}
+    </style>
+  </defs>
+  <rect width="1024" height="1024" rx="120" fill="#f6f8fb"/>
+  <path filter="url(#shadow)" d="M140 208c-47-26-98 28-68 72l386 572c24 35 75 35 99 0l389-571c30-44-21-98-68-72L538 397c-18 10-40 10-58 0z" fill="url(#tri)"/>
+  <path opacity=".26" d="M124 219c73 72 148 131 226 176 72 42 140 61 205 58 99-4 183-51 285-139l-302 443c-15 22-47 22-62 0z" fill="#fff"/>
+  <path filter="url(#glow)" d="M514 76c16-30 63-17 59 17l-35 258h132c31 0 46 37 25 60L459 825c-21 31-69 13-63-24l43-276H323c-28 0-44-32-27-55z" fill="url(#bolt)" stroke="#ffe97b" stroke-width="5"/>
+  <path d="M546 111 438 500h141L426 779l54-286H319z" fill="#fff8a4" opacity=".35"/>
+  <text x="512" y="908" text-anchor="middle" class="brand">极速Cloud</text>
+  <text x="512" y="952" text-anchor="middle" class="sub">三网精品优化线路</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="72%">
+      <stop offset="0" stop-color="#202642"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="180" x2="840" y1="180" y2="840">
+      <stop offset="0" stop-color="#ffb06b"/>
+      <stop offset=".48" stop-color="#f06474"/>
+      <stop offset="1" stop-color="#8b55ff"/>
+    </linearGradient>
+    <linearGradient id="flare" x1="230" x2="770" y1="650" y2="260">
+      <stop offset="0" stop-color="#ff8d4d"/>
+      <stop offset=".55" stop-color="#ff5f78"/>
+      <stop offset="1" stop-color="#ffc46a"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1  0 .35 0 0 .35  0 0 1 0 .5  0 0 0 .8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .brand{font:700 56px Arial,'Microsoft YaHei',sans-serif;fill:#f5e9df}
+      .sub{font:400 27px Arial,'Microsoft YaHei',sans-serif;fill:#b2aec0}
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="432" r="288" fill="#11172d" stroke="#191f38" stroke-width="34"/>
+  <circle cx="512" cy="432" r="245" fill="none" stroke="url(#ring)" stroke-width="18"/>
+  <circle cx="512" cy="432" r="220" fill="#151a31" opacity=".82"/>
+  <path filter="url(#glow)" fill="url(#flare)" d="M225 594c109-19 197-69 275-151 28-30 54-63 82-103-66 24-124 42-182 49l32-54c112-9 195-48 280-121-14 79-34 143-68 198l-44-22c17-27 30-57 41-91-69 96-145 176-233 235-57 38-119 67-183 82z"/>
+  <path filter="url(#glow)" fill="url(#flare)" d="M520 519c73-44 139-92 207-153l23 132-62-28c-59 59-117 103-168 135z"/>
+  <path filter="url(#glow)" fill="#ffb05b" d="M417 544c102-76 168-163 221-262l31 109c-55 72-125 131-207 177z" opacity=".9"/>
+  <path d="M190 640c180-13 334-64 491-178" fill="none" stroke="#ffb26a" stroke-width="18" stroke-linecap="round" opacity=".65"/>
+  <text x="512" y="812" text-anchor="middle" class="brand">暮光加速</text>
+  <text x="512" y="862" text-anchor="middle" class="sub">专线加速器</text>
+  <path d="M778 785l17 35 36 16-36 16-17 36-17-36-36-16 36-16z" fill="#9ba4c3" opacity=".72"/>
+</svg>

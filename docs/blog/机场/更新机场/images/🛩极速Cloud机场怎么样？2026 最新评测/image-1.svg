@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#e8eef8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#22c5ff"/>
+      <stop offset=".5" stop-color="#5c69ff"/>
+      <stop offset="1" stop-color="#ffc400"/>
+    </linearGradient>
+    <style>
+      .title{font:700 42px Arial,'Microsoft YaHei',sans-serif;fill:#162033}
+      .sub{font:400 20px Arial,'Microsoft YaHei',sans-serif;fill:#5f6f86}
+      .th{font:700 19px Arial,'Microsoft YaHei',sans-serif;fill:#19243a}
+      .td{font:400 18px Arial,'Microsoft YaHei',sans-serif;fill:#1d283b}
+      .muted{font:400 15px Arial,'Microsoft YaHei',sans-serif;fill:#697990}
+      .card{fill:#fff;stroke:#d7e0ec;stroke-width:1.2}
+      .head{fill:#eaf3ff;stroke:#c8d8ec;stroke-width:1}
+      .good{fill:#2ccf8f}
+      .warn{fill:#ffc233}
+    </style>
+  </defs>
+  <rect width="1200" height="820" rx="28" fill="url(#bg)"/>
+  <path d="M70 150 C215 88 348 222 512 146 S763 108 902 184 1054 204 1132 128" fill="none" stroke="url(#line)" stroke-width="7" opacity=".55"/>
+  <text x="70" y="78" class="title">极速Cloud 节点拓扑与出口分析</text>
+  <text x="70" y="116" class="sub">根据提供测速截图整理｜三网精品优化线路｜多地区入口与原生节点覆盖</text>
+
+  <rect x="70" y="172" width="1060" height="52" rx="8" class="head"/>
+  <text x="92" y="205" class="th">地区</text>
+  <text x="205" y="205" class="th">入口 / 出口特征</text>
+  <text x="515" y="205" class="th">截图可见节点</text>
+  <text x="835" y="205" class="th">适合场景</text>
+
+  <g>
+    <rect x="70" y="224" width="1060" height="66" class="card"/>
+    <text x="92" y="264" class="td">香港 HK</text>
+    <circle cx="212" cy="257" r="8" class="good"/><text x="232" y="264" class="td">多入口、多出口，含 HKT / Hytron 等线路</text>
+    <text x="515" y="264" class="td">香港01 / 香港02 / 香港03 / 香港原生</text>
+    <text x="835" y="264" class="td">低延迟、日常主力、流媒体</text>
+  </g>
+  <g>
+    <rect x="70" y="290" width="1060" height="66" class="card"/>
+    <text x="92" y="330" class="td">台湾 TW</text>
+    <circle cx="212" cy="323" r="8" class="good"/><text x="232" y="330" class="td">Akari / Pittqiao 等出口，覆盖原生节点</text>
+    <text x="515" y="330" class="td">台湾01 / 台湾02 / 台湾03 / 台湾原生</text>
+    <text x="835" y="330" class="td">中文内容、社交、备用线路</text>
+  </g>
+  <g>
+    <rect x="70" y="356" width="1060" height="66" class="card"/>
+    <text x="92" y="396" class="td">美国 US</text>
+    <circle cx="212" cy="389" r="8" class="good"/><text x="232" y="396" class="td">NetLab / DMIT / Eons / GTT 等多出口</text>
+    <text x="515" y="396" class="td">美国01-06 / 美国原生</text>
+    <text x="835" y="396" class="td">ChatGPT、开发工具、美区平台</text>
+  </g>
+  <g>
+    <rect x="70" y="422" width="1060" height="66" class="card"/>
+    <text x="92" y="462" class="td">日本 JP</text>
+    <circle cx="212" cy="455" r="8" class="good"/><text x="232" y="462" class="td">Akari / IPXO / GoMami 等出口</text>
+    <text x="515" y="462" class="td">日本01 / 日本02 / 日本03 / 日本原生</text>
+    <text x="835" y="462" class="td">YouTube、动画、游戏、日区内容</text>
+  </g>
+  <g>
+    <rect x="70" y="488" width="1060" height="66" class="card"/>
+    <text x="92" y="528" class="td">新加坡 SG</text>
+    <circle cx="212" cy="521" r="8" class="good"/><text x="232" y="528" class="td">Akari / GoMami 等出口，东南亚入口友好</text>
+    <text x="515" y="528" class="td">新加坡01 / 新加坡02 / 新加坡03</text>
+    <text x="835" y="528" class="td">Google、AI、东南亚业务</text>
+  </g>
+  <g>
+    <rect x="70" y="554" width="1060" height="66" class="card"/>
+    <text x="92" y="594" class="td">全球扩展</text>
+    <circle cx="212" cy="587" r="8" class="warn"/><text x="232" y="594" class="td">截图显示德国、英国、加拿大、荷兰等原生节点</text>
+    <text x="515" y="594" class="td">DE / GB / CA / NL / AU / KR / TH 等</text>
+    <text x="835" y="594" class="td">区域解锁、备用出口、业务测试</text>
+  </g>
+
+  <rect x="70" y="665" width="330" height="86" rx="14" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="94" y="700" class="th">拓扑亮点</text>
+  <text x="94" y="730" class="td">多 ASN、多国家出口，适合解锁测试</text>
+  <rect x="435" y="665" width="330" height="86" rx="14" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="459" y="700" class="th">套餐特征</text>
+  <text x="459" y="730" class="td">大流量月付 + 不限时流量包</text>
+  <rect x="800" y="665" width="330" height="86" rx="14" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="824" y="700" class="th">适合用户</text>
+  <text x="824" y="730" class="td">高流量、长时在线、备用线路</text>
+
+  <text x="70" y="790" class="muted">说明：本图根据提供的极速Cloud节点拓扑截图整理，真实表现会因地区、运营商、设备、节点负载和时段变化。</text>
+</svg>

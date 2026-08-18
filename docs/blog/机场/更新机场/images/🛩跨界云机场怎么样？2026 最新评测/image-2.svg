@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-labelledby="title desc">
+  <title id="title">跨界云机场流媒体解锁摘要图</title>
+  <desc id="desc">跨界云机场 2026 年 7 月 19 日御三家流媒体解锁摘要，YouTube、Netflix、Disney+ 在美国、日本、台湾、香港、新加坡节点显示解锁。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0fdf4"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="860" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1168" height="764" rx="18" fill="#ffffff" stroke="#dbeafe"/>
+  <text x="86" y="112" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="800" fill="#111827">跨界云流媒体解锁摘要</text>
+  <text x="86" y="154" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#64748b">测试时间：2026-07-19 16:07:45 CST · 检测项目：YouTube / Netflix / Disney+ · 结果仅供参考</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22">
+    <rect x="86" y="206" width="1108" height="58" fill="#ecfdf5"/>
+    <text x="124" y="243" font-weight="800" fill="#065f46">地区节点</text>
+    <text x="386" y="243" font-weight="800" fill="#065f46">YouTube</text>
+    <text x="642" y="243" font-weight="800" fill="#065f46">Netflix</text>
+    <text x="890" y="243" font-weight="800" fill="#065f46">Disney+</text>
+
+    <g fill="#111827">
+      <g transform="translate(0 312)">
+        <text x="124" y="0" font-weight="700">美国 US</text>
+        <text x="386" y="0" fill="#15803d">解锁(US)</text>
+        <text x="642" y="0" fill="#15803d">解锁(US)</text>
+        <text x="890" y="0" fill="#15803d">解锁(US)</text>
+      </g>
+      <g transform="translate(0 390)">
+        <text x="124" y="0" font-weight="700">日本 JP</text>
+        <text x="386" y="0" fill="#15803d">解锁(JP)</text>
+        <text x="642" y="0" fill="#15803d">解锁(JP)</text>
+        <text x="890" y="0" fill="#15803d">解锁(JP)</text>
+      </g>
+      <g transform="translate(0 468)">
+        <text x="124" y="0" font-weight="700">台湾 TW</text>
+        <text x="386" y="0" fill="#15803d">解锁(TW)</text>
+        <text x="642" y="0" fill="#15803d">解锁(TW)</text>
+        <text x="890" y="0" fill="#15803d">解锁(TW)</text>
+      </g>
+      <g transform="translate(0 546)">
+        <text x="124" y="0" font-weight="700">香港 HK</text>
+        <text x="386" y="0" fill="#15803d">解锁(HK)</text>
+        <text x="642" y="0" fill="#15803d">解锁(HK)</text>
+        <text x="890" y="0" fill="#15803d">解锁(HK)</text>
+      </g>
+      <g transform="translate(0 624)">
+        <text x="124" y="0" font-weight="700">新加坡 SG</text>
+        <text x="386" y="0" fill="#15803d">解锁(SG)</text>
+        <text x="642" y="0" fill="#15803d">解锁(SG)</text>
+        <text x="890" y="0" fill="#15803d">解锁(SG)</text>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="86" y="694" width="1108" height="72" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="114" y="739" font-size="20" fill="#1e3a8a">解锁状态会随平台策略和节点 IP 变化而变化，正式购买前建议以最新测试为准。</text>
+  </g>
+</svg>

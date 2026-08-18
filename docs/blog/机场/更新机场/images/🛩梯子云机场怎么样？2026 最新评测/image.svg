@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">梯子云机场 Logo 与品牌图</title>
+  <desc id="desc">蓝绿色科技背景中的云朵和梯子图形，表现 LadderCloud 梯子云 IEPL 专线机场品牌。</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="40%" r="62%">
+      <stop offset="0" stop-color="#38f8ff" stop-opacity="0.58"/>
+      <stop offset="0.48" stop-color="#0891b2" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f4d6a"/>
+      <stop offset="0.52" stop-color="#082f49"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a7f3d0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#67e8f9" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#halo)"/>
+  <g opacity="0.16" stroke="#a5f3fc" stroke-width="2">
+    <path d="M100 130H360M840 130H1100M136 520H450M756 520H1070"/>
+    <path d="M185 180v60h85M1012 204v70h-92M280 448v-60h80M920 438v-54h-72"/>
+  </g>
+  <g transform="translate(600 330)" filter="url(#glow)">
+    <rect x="-188" y="-188" width="376" height="376" rx="54" fill="url(#panel)" stroke="#7dd3fc" stroke-width="5"/>
+    <rect x="-164" y="-164" width="328" height="328" rx="42" fill="none" stroke="#67e8f9" stroke-width="2" opacity="0.5"/>
+    <path d="M-108 42c-26 0-48-21-48-48 0-25 20-46 45-48 10-39 45-66 88-66 37 0 70 21 86 54 37 2 66 32 66 69 0 38-31 69-69 69H-108z" fill="none" stroke="url(#cyan)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="rotate(17)" stroke="url(#cyan)" stroke-linecap="round">
+      <path d="M-36 -120L-36 116" stroke-width="14"/>
+      <path d="M36 -120L36 116" stroke-width="14"/>
+      <path d="M-36 -86H36M-36 -44H36M-36 -2H36M-36 40H36M-36 82H36" stroke-width="9"/>
+    </g>
+  </g>
+  <text x="600" y="585" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="800" fill="#ecfeff">梯子云 LadderCloud</text>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#bae6fd">企业级 IEPL 纯专线 · VLESS · 稳连全球</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-labelledby="title desc">
+  <title id="title">梯子云机场节点测速摘要图</title>
+  <desc id="desc">梯子云机场 2026 年 7 月 20 日订阅速度测试摘要，展示美国、新加坡、日本、香港、台湾节点延迟与速度表现。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="0.52" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="860" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1168" height="764" rx="18" fill="#ffffff" stroke="#bae6fd"/>
+  <text x="86" y="112" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="800" fill="#0f172a">梯子云机场节点测速摘要</text>
+  <text x="86" y="154" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#64748b">测试时间：2026-07-20 20:54:55 CST · 协议：VLESS · 节点：60/60 · 线程：32 · 结果仅供参考</text>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#111827">
+    <rect x="86" y="198" width="1108" height="54" fill="#f1f5f9"/>
+    <text x="110" y="233" font-weight="700">地区</text>
+    <text x="292" y="233" font-weight="700">TLS RTT</text>
+    <text x="458" y="233" font-weight="700">速度表现</text>
+    <text x="862" y="233" font-weight="700">截图最高速度</text>
+    <g transform="translate(0 278)"><text x="110" y="0" font-weight="700">美国 US</text><text x="292" y="0">约 284-456ms</text><rect x="458" y="-22" width="520" height="26" rx="13" fill="#e2e8f0"/><rect x="458" y="-22" width="520" height="26" rx="13" fill="url(#bar)"/><text x="998" y="0">最高 125.17MB</text></g>
+    <g transform="translate(0 348)"><text x="110" y="0" font-weight="700">新加坡 SG</text><text x="292" y="0">约 157-492ms</text><rect x="458" y="-22" width="520" height="26" rx="13" fill="#e2e8f0"/><rect x="458" y="-22" width="497" height="26" rx="13" fill="url(#bar)"/><text x="998" y="0">最高 119.52MB</text></g>
+    <g transform="translate(0 418)"><text x="110" y="0" font-weight="700">台湾 TW</text><text x="292" y="0">约 157-298ms</text><rect x="458" y="-22" width="520" height="26" rx="13" fill="#e2e8f0"/><rect x="458" y="-22" width="468" height="26" rx="13" fill="url(#bar)"/><text x="998" y="0">最高 112.59MB</text></g>
+    <g transform="translate(0 488)"><text x="110" y="0" font-weight="700">日本 JP</text><text x="292" y="0">约 228-354ms</text><rect x="458" y="-22" width="520" height="26" rx="13" fill="#e2e8f0"/><rect x="458" y="-22" width="463" height="26" rx="13" fill="url(#bar)"/><text x="998" y="0">最高 111.34MB</text></g>
+    <g transform="translate(0 558)"><text x="110" y="0" font-weight="700">香港 HK</text><text x="292" y="0">约 143-384ms</text><rect x="458" y="-22" width="520" height="26" rx="13" fill="#e2e8f0"/><rect x="458" y="-22" width="422" height="26" rx="13" fill="url(#bar)"/><text x="998" y="0">最高 101.56MB</text></g>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="86" y="640" width="1108" height="104" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="114" y="684" font-size="24" font-weight="800" fill="#0e7490">测速解读</text>
+    <text x="114" y="720" font-size="20" fill="#155e75">60/60 节点均有结果，美国、新加坡、日本、台湾、香港方向均可作为主力或备用切换。</text>
+  </g>
+</svg>

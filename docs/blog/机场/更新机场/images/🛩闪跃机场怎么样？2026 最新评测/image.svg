@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">闪跃机场 Logo 与品牌图</title>
+  <desc id="desc">深色背景中蓝色和金色光纤线条组成 SY 字样，表现闪跃机场低延迟和高速连接。</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#020617"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.45" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.5" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#38bdf8" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="13" flood-color="#f59e0b" flood-opacity="0.48"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g opacity="0.16" stroke="#38bdf8" stroke-width="2">
+    <path d="M90 152H420M780 152H1110M120 510H430M770 510H1080"/>
+    <path d="M240 210l90 70h130M930 210l-90 70H710M350 455l90-70h130M850 455l-90-70H630"/>
+  </g>
+  <g transform="translate(600 315)" filter="url(#glow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-188-86c-24-45 20-96 94-96 66 0 105 28 118 65M-182 12c28 54 98 82 168 65 79-19 92-87 7-114l-90-28c-67-21-79-74-35-105 40-28 104-22 142 8" stroke="url(#blue)" stroke-width="20"/>
+    <path d="M62-186l104 172 106-172M166-14v142" stroke="url(#gold)" stroke-width="22"/>
+    <path d="M-214-120c86-76 174-77 264-6M-224 38c80 74 185 97 283 45" stroke="#bae6fd" stroke-width="5" opacity="0.6"/>
+    <path d="M66-206c40 72 74 124 100 158 26-35 62-88 108-158" stroke="#fed7aa" stroke-width="5" opacity="0.72"/>
+  </g>
+  <text x="600" y="576" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="66" font-weight="800" fill="#f8fafc">闪跃 FlashLeap</text>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#bae6fd">IPLC 纯专线 · 低延迟 · 快人一步</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" role="img" aria-labelledby="title desc">
+  <title id="title">闪跃机场流媒体解锁摘要图</title>
+  <desc id="desc">闪跃机场 2026 年 7 月 18 日御三家流媒体解锁摘要，展示香港、台湾、新加坡、日本、美国节点 YouTube、Netflix、Disney+ 解锁情况。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1168" height="724" rx="18" fill="#ffffff" stroke="#bae6fd"/>
+  <text x="86" y="112" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="800" fill="#0f172a">闪跃流媒体解锁摘要</text>
+  <text x="86" y="154" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#64748b">测试时间：2026-07-18 21:19:19 CST · 协议：VLESS · 节点：50/50 · 结果仅供参考</text>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20">
+    <rect x="86" y="198" width="1108" height="54" fill="#f1f5f9"/>
+    <text x="110" y="233" font-weight="700" fill="#111827">地区</text>
+    <text x="278" y="233" font-weight="700" fill="#111827">节点数</text>
+    <text x="430" y="233" font-weight="700" fill="#111827">YouTube</text>
+    <text x="610" y="233" font-weight="700" fill="#111827">Netflix</text>
+    <text x="790" y="233" font-weight="700" fill="#111827">Disney+</text>
+    <text x="970" y="233" font-weight="700" fill="#111827">TLS RTT</text>
+    <g transform="translate(0 286)"><text x="110" y="0" font-weight="700" fill="#0f172a">香港 HK</text><text x="278" y="0" fill="#334155">15</text><text x="430" y="0" fill="#166534">HK</text><text x="610" y="0" fill="#166534">HK</text><text x="790" y="0" fill="#166534">HK</text><text x="970" y="0" fill="#334155">约 90-95ms</text></g>
+    <g transform="translate(0 354)"><text x="110" y="0" font-weight="700" fill="#0f172a">台湾 TW</text><text x="278" y="0" fill="#334155">5</text><text x="430" y="0" fill="#166534">TW</text><text x="610" y="0" fill="#166534">TW</text><text x="790" y="0" fill="#166534">TW</text><text x="970" y="0" fill="#334155">约 120-154ms</text></g>
+    <g transform="translate(0 422)"><text x="110" y="0" font-weight="700" fill="#0f172a">新加坡 SG</text><text x="278" y="0" fill="#334155">10</text><text x="430" y="0" fill="#166534">SG</text><text x="610" y="0" fill="#166534">SG</text><text x="790" y="0" fill="#166534">SG</text><text x="970" y="0" fill="#334155">约 76-86ms</text></g>
+    <g transform="translate(0 490)"><text x="110" y="0" font-weight="700" fill="#0f172a">日本 JP</text><text x="278" y="0" fill="#334155">10</text><text x="430" y="0" fill="#166534">JP</text><text x="610" y="0" fill="#166534">JP</text><text x="790" y="0" fill="#166534">JP</text><text x="970" y="0" fill="#334155">约 130-139ms</text></g>
+    <g transform="translate(0 558)"><text x="110" y="0" font-weight="700" fill="#0f172a">美国 US</text><text x="278" y="0" fill="#334155">10</text><text x="430" y="0" fill="#166534">US</text><text x="610" y="0" fill="#166534">US</text><text x="790" y="0" fill="#166534">US</text><text x="970" y="0" fill="#334155">约 243-246ms</text></g>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="86" y="636" width="1108" height="86" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="114" y="674" font-size="23" font-weight="800" fill="#0e7490">解锁解读</text>
+    <text x="114" y="708" font-size="19" fill="#155e75">YouTube、Netflix、Disney+ 在香港、台湾、新加坡、日本、美国节点均显示对应地区解锁。</text>
+  </g>
+</svg>

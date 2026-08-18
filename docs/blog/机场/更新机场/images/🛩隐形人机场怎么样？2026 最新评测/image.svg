@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">隐形人机场 Logo 与品牌图</title>
+  <desc id="desc">深色专线网络背景中的半透明隐形人轮廓与盾牌线条，表现隐形人机场纯专线、稳定和高品质定位。</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="0.5" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="0.45" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#38bdf8" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020617" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#7dd3fc" stroke-width="2" fill="none">
+    <path d="M80 180H330L420 270H780L875 180H1120"/>
+    <path d="M120 500H370L470 410H730L830 500H1080"/>
+    <circle cx="330" cy="180" r="7" fill="#7dd3fc"/>
+    <circle cx="780" cy="270" r="7" fill="#7dd3fc"/>
+    <circle cx="470" cy="410" r="7" fill="#7dd3fc"/>
+    <circle cx="830" cy="500" r="7" fill="#7dd3fc"/>
+  </g>
+  <g transform="translate(600 310)" filter="url(#glow)">
+    <path d="M0-190C92-154 158-146 198-140v136c0 128-79 211-198 264C-119 207-198 124-198-4v-136c40-6 106-14 198-50z" fill="rgba(15,23,42,0.62)" stroke="url(#line)" stroke-width="8"/>
+    <circle cx="0" cy="-70" r="58" fill="none" stroke="url(#line)" stroke-width="14" opacity="0.9"/>
+    <path d="M-92 120c18-78 51-118 92-118s74 40 92 118" fill="none" stroke="url(#line)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M-132 -2c44 18 89 27 132 27s88-9 132-27" fill="none" stroke="#e0f2fe" stroke-width="7" stroke-linecap="round" opacity="0.45"/>
+    <path d="M-82 152h164" stroke="#e0f2fe" stroke-width="9" stroke-linecap="round" opacity="0.48"/>
+  </g>
+  <text x="600" y="575" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="66" font-weight="800" fill="#f8fafc">隐形人机场</text>
+  <text x="600" y="625" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#bae6fd">新加坡海外团队 · 大机房纯专线 · 便宜稳定高品质</text>
+</svg>

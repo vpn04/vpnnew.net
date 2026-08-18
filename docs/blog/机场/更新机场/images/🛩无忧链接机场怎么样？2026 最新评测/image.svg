@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">无忧链接机场 Logo 与品牌图</title>
+  <desc id="desc">深蓝和金色徽章风格图形，中间为链条，文字为 WUYOU LINK EST. 2024。</desc>
+  <defs>
+    <radialGradient id="plate" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="0.62" stop-color="#101827"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1b8"/>
+      <stop offset="0.35" stop-color="#d8a647"/>
+      <stop offset="0.7" stop-color="#8b5e1e"/>
+      <stop offset="1" stop-color="#f7d27a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <g transform="translate(600 360)" filter="url(#shadow)">
+    <circle r="286" fill="url(#gold)"/>
+    <circle r="262" fill="url(#plate)"/>
+    <circle r="188" fill="none" stroke="url(#gold)" stroke-width="14"/>
+    <circle r="236" fill="none" stroke="url(#gold)" stroke-width="9" opacity="0.8"/>
+    <g transform="rotate(-18)">
+      <rect x="-178" y="-34" width="238" height="68" rx="34" fill="none" stroke="url(#gold)" stroke-width="38"/>
+      <rect x="-28" y="-34" width="238" height="68" rx="34" fill="none" stroke="url(#gold)" stroke-width="38"/>
+      <path d="M-78 -5 L80 -5" stroke="#fff1b8" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+    </g>
+    <circle cx="-228" cy="14" r="17" fill="url(#gold)"/>
+    <circle cx="228" cy="14" r="17" fill="url(#gold)"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" fill="url(#gold)">
+    <text x="600" y="150" font-size="62" font-weight="800">WUYOU LINK</text>
+    <text x="600" y="625" font-size="58" font-weight="800">EST. 2024</text>
+  </g>
+  <text x="600" y="690" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#334155">心无忧，链世界</text>
+</svg>

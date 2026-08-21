@@ -12,6 +12,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
+import type { App, PluginObject } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
@@ -379,9 +380,9 @@ const createGeneratedPageSeoHead = (page: typeof generatedSeoPages[number]): str
   ].join('')
 }
 
-const generatedPageSeoPlugin = () => ({
+const generatedPageSeoPlugin = (): PluginObject => ({
   name: 'youyou-generated-page-seo',
-  onGenerated: app => {
+  onGenerated: (app: App) => {
     for (const page of generatedSeoPages) {
       const file = app.dir.dest(`${page.path.replace(/^\//, '')}index.html`)
       if (!existsSync(file)) continue

@@ -59,7 +59,7 @@ head:
 | **🌐 官方网站** | [web01.tntyun.cc](https://a09.tntvipaffb02.cc/#/register?code=I2MrSqcx)
 | **💰 入门价格** | 10.00元/60G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
-| **🌍 服务器分布** | Netfilx/Hulu/Hbo/Disney+/HUGO |
+| **🌍 服务器分布** | Netflix/Hulu/Hbo/Disney+/HUGO |
 | **🔗 协议支持** | Trojan协议，支持 无数 台设备同时使用、全IEPL专线，不限速、 IP解锁Chatgpt，Tiktok等 |
 ---
 ## 📚套餐详情

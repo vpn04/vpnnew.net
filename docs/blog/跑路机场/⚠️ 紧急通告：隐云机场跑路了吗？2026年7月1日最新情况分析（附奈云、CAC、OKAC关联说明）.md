@@ -204,7 +204,7 @@ head:
 
 相关文章：
 
-👉 **[OKANC机场跑路预警](/scamvpn/okac/)**
+👉 **[OKANC机场跑路预警](/scamvpn/OKANCyujing/)**
 
 ---
 

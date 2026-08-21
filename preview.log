@@ -1,0 +1,29 @@
+
+> vpnnews@1.0.0 docs:preview C:\Users\Administrator\vpnnew.net
+> http-server docs/.vuepress/dist "--" "-p" "4175"
+
+Starting up http-server, serving docs/.vuepress/dist
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.1.45:8081
+  http://127.0.0.1:8081
+Hit CTRL-C to stop the server
+
+[2026-08-21T10:37:43.532Z]  "GET /best-vpn-for-china/" "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.2506"
+[2026-08-21T10:37:43.553Z]  "GET /sitemap.xml" "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.2506"
+[2026-08-21T10:37:43.567Z]  "GET /topics/" "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.2506"
+[2026-08-21T10:40:02.353Z]  "GET /wyvrn/Synapse" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) razerappengine/4.0.699 Chrome/124.0.6367.243 Electron/30.2.0 Safari/537.36"
+[2026-08-21T10:42:06.317Z]  "GET /wyvrn/Synapse" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) razerappengine/4.0.699 Chrome/124.0.6367.243 Electron/30.2.0 Safari/537.36"
+[2026-08-21T10:44:46.914Z]  "GET /wyvrn/Synapse" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) razerappengine/4.0.699 Chrome/124.0.6367.243 Electron/30.2.0 Safari/537.36"

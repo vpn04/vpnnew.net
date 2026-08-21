@@ -39,6 +39,31 @@ type TopicLink = {
 
 const coreTopicLinks: TopicLink[] = [
   {
+    title: '2026 中国可用 VPN 与机场推荐指南',
+    url: `${siteUrl}/best-vpn-for-china/`,
+    description: '面向中国大陆用户的核心选购入口，聚合 VPN 推荐、机场评测、设备教程、AI 工具访问和订阅风险检查。',
+  },
+  {
+    title: 'VPN 机场评测中心',
+    url: `${siteUrl}/vpn-airport-reviews/`,
+    description: '聚合机场推荐榜、性能价格对比、近期机场深度评测、免费试用、优惠券和跑路预警。',
+  },
+  {
+    title: 'Clash 教程专题',
+    url: `${siteUrl}/clash/`,
+    description: '集中整理 Clash 全平台安装、Clash Verge、Android、TUN 模式、订阅导入和常见故障排查。',
+  },
+  {
+    title: 'Shadowrocket 小火箭专题',
+    url: `${siteUrl}/shadowrocket/`,
+    description: '面向 iPhone 和 iPad 用户的 Shadowrocket 下载、节点订阅、配置失效、DNS 和节点超时排查入口。',
+  },
+  {
+    title: 'VPN 速度与稳定性测试专题',
+    url: `${siteUrl}/vpn-speed-test/`,
+    description: '整理 VPN 和机场测速、晚高峰观察、节点优化、DNS 泄露、丢包延迟与客户端排查方法。',
+  },
+  {
     title: '2026 年性价比翻墙机场推荐评测',
     url: `${siteUrl}/vpn-recommend/`,
     description: '长期更新的 VPN 机场推荐榜，覆盖价格、速度、稳定性、流媒体解锁和适用人群。',
@@ -69,6 +94,14 @@ const coreTopicLinks: TopicLink[] = [
     description: '公开说明本站如何评测 VPN 与机场服务，包括测速、稳定性、售后和风险判断。',
   },
 ]
+
+const topicLandingPaths = new Set([
+  '/best-vpn-for-china/',
+  '/vpn-airport-reviews/',
+  '/clash/',
+  '/shadowrocket/',
+  '/vpn-speed-test/',
+])
 
 const generatedSeoPages = [
   {
@@ -323,6 +356,36 @@ const createTopicsCollectionSchema = () => ({
   mainEntity: createCoreTopicItemListSchema(),
 })
 
+const createTopicLandingCollectionSchema = (
+  head: readonly unknown[],
+  page: { title?: string, path: string, frontmatter: Record<string, unknown> },
+): Record<string, unknown> => {
+  const tags = getFrontmatterStringList(page.frontmatter, 'tags')
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: page.title || siteTitle,
+    url: getPageUrl(page),
+    description: getPageDescription(head, page),
+    inLanguage: siteLocale,
+    isPartOf: {
+      '@id': websiteId,
+    },
+    publisher: {
+      '@id': organizationId,
+    },
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: getPageImage(head, page),
+    },
+    about: tags.slice(0, 8).map(name => ({
+      '@type': 'Thing',
+      name,
+    })),
+  }
+}
+
 const isArticlePage = (page: { path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> }): boolean => {
   const relative = page.filePathRelative?.replace(/\\/g, '/') || ''
   return Boolean(relative.startsWith('blog/') && page.path !== '/' && !page.frontmatter.home)
@@ -413,6 +476,9 @@ const appendPageStructuredData = (
 
   if (isArticlePage(page) && !hasJsonLdType(head, 'Article')) {
     schemas.push(createArticleSchema(head, page))
+  }
+  else if (topicLandingPaths.has(page.path) && !hasJsonLdType(head, 'CollectionPage')) {
+    schemas.push(createTopicLandingCollectionSchema(head, page))
   }
   else if (page.path === '/contact/' && !hasJsonLdType(head, 'ContactPage')) {
     schemas.push({
@@ -673,6 +739,113 @@ const enhanceGeneratedHtml = (app: App): void => {
   }
 }
 
+const unescapeXml = (value: string): string =>
+  value
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, '&')
+
+const getHtmlAttribute = (tag: string, attribute: string): string | undefined =>
+  tag.match(new RegExp(`\\s${attribute}=(["'])(.*?)\\1`, 'i'))?.[2]
+
+const toAbsoluteAssetUrl = (url: string, pagePath: string): string | undefined => {
+  const cleanUrl = unescapeXml(url).trim()
+  if (!cleanUrl || cleanUrl.startsWith('data:')) return undefined
+
+  try {
+    return new URL(cleanUrl, `${siteUrl}${pagePath}`).toString()
+  }
+  catch {
+    return undefined
+  }
+}
+
+const getGeneratedHtmlFile = (app: App, pagePath: string): string =>
+  app.dir.dest(pagePath === '/' ? 'index.html' : `${pagePath.replace(/^\//, '')}index.html`)
+
+const getFirstPageImageUrl = (html: string, pagePath: string): string | undefined => {
+  const mainHtml = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || html
+
+  for (const tag of mainHtml.match(/<img\b[^>]*>/gi) || []) {
+    const src = getHtmlAttribute(tag, 'src')
+    const imageUrl = src ? toAbsoluteAssetUrl(src, pagePath) : undefined
+    if (imageUrl) return imageUrl
+  }
+
+  const ogImage = html.match(/<meta\s+property=(["'])og:image\1\s+content=(["'])(.*?)\2/i)?.[3] ||
+    html.match(/<meta\s+content=(["'])(.*?)\1\s+property=(["'])og:image\3/i)?.[2]
+  return ogImage ? toAbsoluteAssetUrl(ogImage, pagePath) : siteImage
+}
+
+const getSitemapLastmod = (page: App['pages'][number]): string | undefined => {
+  const value = getPageDateValue(page)
+  return value ? new Date(value).toISOString().slice(0, 10) : undefined
+}
+
+const getSitemapPage = (
+  pageByPath: Map<string, App['pages'][number]>,
+  loc: string,
+): App['pages'][number] | undefined => {
+  try {
+    const path = new URL(unescapeXml(loc)).pathname
+    return pageByPath.get(path) || pageByPath.get(decodeURI(path)) || pageByPath.get(encodeURI(path))
+  }
+  catch {
+    return undefined
+  }
+}
+
+const enhanceSitemapFile = (app: App): void => {
+  const sitemapFile = app.dir.dest('sitemap.xml')
+  if (!existsSync(sitemapFile)) return
+
+  const pageByPath = new Map<string, App['pages'][number]>()
+  for (const page of app.pages) {
+    pageByPath.set(page.path, page)
+    pageByPath.set(encodeURI(page.path), page)
+  }
+
+  let sitemap = readFileSync(sitemapFile, 'utf8')
+  if (!sitemap.includes('xmlns:image=')) {
+    sitemap = sitemap.replace(
+      /<urlset\b([^>]*)>/,
+      '<urlset$1 xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+    )
+  }
+
+  sitemap = sitemap.replace(/<url>[\s\S]*?<\/url>/g, urlBlock => {
+    const loc = urlBlock.match(/<loc>([\s\S]*?)<\/loc>/i)?.[1]
+    if (!loc) return urlBlock
+
+    const page = getSitemapPage(pageByPath, loc)
+    if (!page) return urlBlock
+
+    let nextBlock = urlBlock
+    const lastmod = getSitemapLastmod(page)
+    if (lastmod && !/<lastmod>/i.test(nextBlock)) {
+      nextBlock = nextBlock.replace(/(<loc>[\s\S]*?<\/loc>)/i, `$1\n    <lastmod>${lastmod}</lastmod>`)
+    }
+
+    if (!/<image:image>/i.test(nextBlock)) {
+      const htmlFile = getGeneratedHtmlFile(app, page.path)
+      const html = existsSync(htmlFile) ? readFileSync(htmlFile, 'utf8') : ''
+      const imageUrl = getFirstPageImageUrl(html, page.path)
+      if (imageUrl) {
+        nextBlock = nextBlock.replace(
+          '</url>',
+          `\n    <image:image>\n      <image:loc>${escapeXml(imageUrl)}</image:loc>\n    </image:image>\n  </url>`,
+        )
+      }
+    }
+
+    return nextBlock
+  })
+
+  writeFileSync(sitemapFile, sitemap, 'utf8')
+}
+
 const generatedPageSeoPlugin = (): PluginObject => ({
   name: 'youyou-generated-page-seo',
   onGenerated: (app: App) => {
@@ -704,6 +877,7 @@ const generatedPageSeoPlugin = (): PluginObject => ({
     writeLlmsTextFile(app)
     writeEnhancedRobotsFile(app)
     enhanceGeneratedHtml(app)
+    enhanceSitemapFile(app)
   },
 })
 
@@ -777,7 +951,7 @@ export default defineUserConfig({
       },
     },
     footer: {
-      message: "© 2026 YouYou | VPN评测与科学上网指南 | <a href='/about/'>关于</a> · <a href='/methodology/'>评测方法</a> · <a href='/disclosure/'>披露</a> · <a href='/contact/'>联系</a>",
+      message: "© 2026 YouYou | VPN评测与科学上网指南 | <a href='/topics/'>专题</a> · <a href='/about/'>关于</a> · <a href='/methodology/'>评测方法</a> · <a href='/disclosure/'>披露</a> · <a href='/contact/'>联系</a>",
     },
 
     /* 文档仓库配置，用于 editLink */

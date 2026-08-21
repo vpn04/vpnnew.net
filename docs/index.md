@@ -32,6 +32,9 @@ config:
         - theme: alt
           text: 免费试用合集
           link: "/article/mianfeijichang/"
+        - theme: alt
+          text: 专题索引
+          link: "/topics/"
 
   ## 🔹 特色功能导航
   -

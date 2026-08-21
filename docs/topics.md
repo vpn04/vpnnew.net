@@ -12,7 +12,15 @@ tags:
 
 # VPN 与科学上网专题索引
 
-这个页面用于把站内核心内容按主题聚合，方便新用户快速找到入口，也方便搜索引擎理解本站的内容结构。
+这个页面用于把站内核心内容方便新用户快速找到入口。
+
+## 核心专题入口
+
+- [2026 中国可用 VPN 与机场推荐指南](/best-vpn-for-china/)
+- [VPN 机场评测中心](/vpn-airport-reviews/)
+- [Clash 教程专题](/clash/)
+- [Shadowrocket 小火箭专题](/shadowrocket/)
+- [VPN 速度与稳定性测试专题](/vpn-speed-test/)
 
 ## 推荐与评测
 

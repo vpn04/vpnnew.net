@@ -2,7 +2,30 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 
 const distDir = 'docs/.vuepress/dist'
+const siteUrl = 'https://vpnnew.net'
 const requiredFiles = ['sitemap.xml', 'robots.txt', 'feed.xml', 'llms.txt']
+const importantPaths = [
+  '/',
+  '/topics/',
+  '/best-vpn-for-china/',
+  '/vpn-airport-reviews/',
+  '/clash/',
+  '/shadowrocket/',
+  '/vpn-speed-test/',
+  '/vpn-recommend/',
+  '/airport/jichangpk/',
+  '/methodology/',
+  '/disclosure/',
+  '/contact/',
+]
+const collectionPagePaths = [
+  '/topics/',
+  '/best-vpn-for-china/',
+  '/vpn-airport-reviews/',
+  '/clash/',
+  '/shadowrocket/',
+  '/vpn-speed-test/',
+]
 const failures = []
 const warnings = []
 
@@ -61,10 +84,45 @@ if (feed && feedItems < 10) {
   warnings.push(`feed.xml has only ${feedItems} items`)
 }
 
+const llms = existsSync(join(distDir, 'llms.txt')) ? readFileSync(join(distDir, 'llms.txt'), 'utf8') : ''
+if (llms && !importantPaths.slice(2, 7).every(path => llms.includes(`${siteUrl}${path}`))) {
+  failures.push('llms.txt missing one or more core topic URLs')
+}
+
 const sitemap = existsSync(join(distDir, 'sitemap.xml')) ? readFileSync(join(distDir, 'sitemap.xml'), 'utf8') : ''
 const sitemapUrls = (sitemap.match(/<loc>/g) || []).length
 if (sitemap && sitemapUrls < 50) {
   warnings.push(`sitemap.xml has only ${sitemapUrls} URLs`)
+}
+
+for (const path of importantPaths) {
+  const htmlPath = path === '/' ? join(distDir, 'index.html') : join(distDir, path.replace(/^\//, ''), 'index.html')
+  if (!existsSync(htmlPath)) failures.push(`${path}: important landing page missing from build`)
+  if (sitemap && !sitemap.includes(`<loc>${siteUrl}${path}</loc>`)) {
+    failures.push(`${path}: important URL missing from sitemap`)
+  }
+}
+
+for (const path of collectionPagePaths) {
+  const htmlPath = path === '/' ? join(distDir, 'index.html') : join(distDir, path.replace(/^\//, ''), 'index.html')
+  if (!existsSync(htmlPath)) continue
+
+  const html = readFileSync(htmlPath, 'utf8')
+  if (!html.includes('"@type":"CollectionPage"')) {
+    failures.push(`${path}: missing CollectionPage structured data`)
+  }
+}
+
+const sitemapImages = (sitemap.match(/<image:image>/g) || []).length
+const sitemapLastmods = (sitemap.match(/<lastmod>/g) || []).length
+if (sitemap && !sitemap.includes('xmlns:image=')) {
+  failures.push('sitemap.xml missing image namespace')
+}
+if (sitemap && sitemapImages < 20) {
+  failures.push(`sitemap.xml has only ${sitemapImages} image entries`)
+}
+if (sitemap && sitemapLastmods < 20) {
+  warnings.push(`sitemap.xml has only ${sitemapLastmods} lastmod entries`)
 }
 
 if (warnings.length) {
@@ -76,4 +134,6 @@ if (failures.length) {
   process.exit(1)
 }
 
-console.log(`SEO check passed: ${htmlFiles.length} HTML files, ${sitemapUrls} sitemap URLs, ${feedItems} feed items.`)
+console.log(
+  `SEO check passed: ${htmlFiles.length} HTML files, ${sitemapUrls} sitemap URLs, ${sitemapImages} sitemap images, ${feedItems} feed items.`,
+)

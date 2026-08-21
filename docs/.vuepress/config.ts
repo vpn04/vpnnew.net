@@ -21,12 +21,16 @@ const siteAuthor = 'YouYou'
 const siteTitle = 'YouYou VPN推荐与机场评测'
 const siteDescription =
   '提供2026最新VPN推荐、翻墙机场评测、Clash与Shadowrocket教程，覆盖ChatGPT、Claude、Google等海外服务访问与节点优化。'
+const englishSiteTitle = 'YouYou VPN Reviews and China Internet Access Guides'
+const englishSiteDescription =
+  'English entry page for YouYou VPN reviews, airport proxy comparisons, Clash and Shadowrocket tutorials, AI access and risk warnings.'
 const siteImage = `${siteUrl}/youyou.png`
 const siteKeywords =
   'VPN推荐,翻墙机场,机场评测,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini'
 const robotsDirective = 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'
 const organizationId = `${siteUrl}/#organization`
 const websiteId = `${siteUrl}/#website`
+const authorId = `${siteUrl}/about/#youyou`
 
 const generatedSeoPages = [
   {
@@ -129,39 +133,204 @@ const appendTwitterCardHead = (head: unknown[], page: { title?: string, path: st
   appendMetaIfMissing(head, 'twitter:image:alt', title)
 }
 
-const appendHomeStructuredData = (head: unknown[], page: { path: string }): void => {
-  if (page.path !== '/') return
+const getPageUrl = (page: { path: string }): string => `${siteUrl}${page.path}`
 
-  head.push([
-    'script',
-    { type: 'application/ld+json' },
-    JSON.stringify([
-      {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
+const getFrontmatterString = (frontmatter: Record<string, unknown>, key: string): string | undefined => {
+  const value = frontmatter[key]
+  return typeof value === 'string' && value.trim() ? value.trim() : undefined
+}
+
+const getFrontmatterStringList = (frontmatter: Record<string, unknown>, key: string): string[] => {
+  const value = frontmatter[key]
+  if (Array.isArray(value)) {
+    return value.filter((item): item is string => typeof item === 'string' && item.trim().length > 0)
+  }
+  if (typeof value === 'string' && value.trim()) {
+    return value.split(',').map(item => item.trim()).filter(Boolean)
+  }
+  return []
+}
+
+const toIsoDate = (value: unknown): string | undefined => {
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value.toISOString()
+  }
+  if (typeof value !== 'string' || !value.trim()) return undefined
+
+  const normalized = value.trim().replaceAll('/', '-')
+  const date = new Date(normalized)
+  return Number.isNaN(date.getTime()) ? undefined : date.toISOString()
+}
+
+const getPageDescription = (
+  head: readonly unknown[],
+  page: { frontmatter: Record<string, unknown> },
+): string =>
+  getHeadContent(head, 'property', 'og:description') ||
+  getHeadContent(head, 'name', 'description') ||
+  getFrontmatterString(page.frontmatter, 'description') ||
+  siteDescription
+
+const getPageImage = (head: readonly unknown[], page: { frontmatter: Record<string, unknown> }): string =>
+  getHeadContent(head, 'property', 'og:image') ||
+  getFrontmatterString(page.frontmatter, 'cover') ||
+  getFrontmatterString(page.frontmatter, 'image') ||
+  siteImage
+
+const hasJsonLdType = (head: readonly unknown[], type: string): boolean =>
+  head.some(item => {
+    if (!Array.isArray(item) || item[0] !== 'script') return false
+    const attrs = item[1]
+    const content = item[2]
+    if (typeof attrs !== 'object' || attrs === null) return false
+    if ((attrs as Record<string, string>).type !== 'application/ld+json') return false
+    return typeof content === 'string' && new RegExp(`"@type"\\s*:\\s*"${type}"`).test(content)
+  })
+
+const appendJsonLd = (head: unknown[], data: Record<string, unknown> | Record<string, unknown>[]): void => {
+  head.push(['script', { type: 'application/ld+json' }, JSON.stringify(data)])
+}
+
+const createOrganizationSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': organizationId,
+  name: 'YouYou',
+  url: `${siteUrl}/`,
+  logo: {
+    '@type': 'ImageObject',
+    url: siteImage,
+  },
+  sameAs: ['https://t.me/youyouvpn', 'https://github.com/vpn04/vpnnew.net'],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'yyo649929@gmail.com',
+    contactType: 'customer support',
+    availableLanguage: ['zh-CN', 'en'],
+  },
+})
+
+const createWebsiteSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': websiteId,
+  name: siteTitle,
+  alternateName: englishSiteTitle,
+  url: `${siteUrl}/`,
+  description: siteDescription,
+  inLanguage: siteLocale,
+  publisher: {
+    '@id': organizationId,
+  },
+})
+
+const isArticlePage = (page: { path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> }): boolean => {
+  const relative = page.filePathRelative?.replaceAll('\\', '/') || ''
+  return Boolean(relative.startsWith('blog/') && page.path !== '/' && !page.frontmatter.home)
+}
+
+const createBreadcrumbSchema = (page: { title?: string, path: string }): Record<string, unknown> => {
+  const isArticle = page.path.startsWith('/article/') ||
+    page.path.startsWith('/vpn/') ||
+    page.path.startsWith('/scamvpn/') ||
+    page.path.startsWith('/airport/')
+  const items = [
+    { name: '首页', url: `${siteUrl}/` },
+    ...(isArticle ? [{ name: '博客', url: `${siteUrl}/blog/` }] : []),
+    { name: page.title || siteTitle, url: getPageUrl(page) },
+  ]
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
+}
+
+const createArticleSchema = (
+  head: readonly unknown[],
+  page: { title?: string, path: string, frontmatter: Record<string, unknown> },
+): Record<string, unknown> => {
+  const title = getHeadContent(head, 'property', 'og:title') || page.title || siteTitle
+  const published = toIsoDate(page.frontmatter.date || page.frontmatter.createTime)
+  const modified = toIsoDate(page.frontmatter.updated || page.frontmatter.lastUpdated || page.frontmatter.date || page.frontmatter.createTime)
+  const tags = getFrontmatterStringList(page.frontmatter, 'tags')
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description: getPageDescription(head, page),
+    image: [getPageImage(head, page)],
+    datePublished: published,
+    dateModified: modified,
+    author: {
+      '@type': 'Person',
+      '@id': authorId,
+      name: siteAuthor,
+      url: `${siteUrl}/about/`,
+    },
+    publisher: {
+      '@id': organizationId,
+    },
+    mainEntityOfPage: getPageUrl(page),
+    inLanguage: siteLocale,
+    keywords: tags.length ? tags.join(',') : siteKeywords,
+  }
+}
+
+const appendAlternateLanguageHead = (head: unknown[], page: { path: string }): void => {
+  if (page.path !== '/' && page.path !== '/en/') return
+
+  head.push(['link', { rel: 'alternate', hreflang: 'zh-CN', href: `${siteUrl}/` }])
+  head.push(['link', { rel: 'alternate', hreflang: 'en', href: `${siteUrl}/en/` }])
+  head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `${siteUrl}/` }])
+}
+
+const appendPageStructuredData = (
+  head: unknown[],
+  page: { title?: string, path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> },
+): void => {
+  const schemas: Record<string, unknown>[] = []
+
+  if (!hasJsonLdType(head, 'Organization')) schemas.push(createOrganizationSchema())
+  if (!hasJsonLdType(head, 'WebSite')) schemas.push(createWebsiteSchema())
+  if (!hasJsonLdType(head, 'BreadcrumbList')) schemas.push(createBreadcrumbSchema(page))
+
+  if (isArticlePage(page) && !hasJsonLdType(head, 'Article')) {
+    schemas.push(createArticleSchema(head, page))
+  }
+  else if (page.path === '/contact/' && !hasJsonLdType(head, 'ContactPage')) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'ContactPage',
+      name: page.title || '联系与纠错',
+      url: getPageUrl(page),
+      description: getPageDescription(head, page),
+      publisher: {
         '@id': organizationId,
-        name: 'YouYou',
-        url: `${siteUrl}/`,
-        logo: {
-          '@type': 'ImageObject',
-          url: siteImage,
-        },
-        sameAs: ['https://t.me/youyouvpn', 'https://github.com/vpn04/vpnnew.net'],
       },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        '@id': websiteId,
-        name: siteTitle,
-        url: `${siteUrl}/`,
-        description: siteDescription,
-        inLanguage: siteLocale,
-        publisher: {
-          '@id': organizationId,
-        },
+    })
+  }
+  else if (page.path === '/about/' && !hasJsonLdType(head, 'AboutPage')) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'AboutPage',
+      name: page.title || '关于 YouYou',
+      url: getPageUrl(page),
+      description: getPageDescription(head, page),
+      publisher: {
+        '@id': organizationId,
       },
-    ]),
-  ])
+    })
+  }
+
+  if (schemas.length) appendJsonLd(head, schemas)
 }
 
 const escapeHtml = (value: string): string =>
@@ -230,6 +399,14 @@ const generatedPageSeoPlugin = () => ({
       html = html.replace('<head>', `<head>${createGeneratedPageSeoHead(page)}`)
       writeFileSync(file, html, 'utf8')
     }
+
+    const englishHomeFile = app.dir.dest('en/index.html')
+    if (existsSync(englishHomeFile)) {
+      const html = readFileSync(englishHomeFile, 'utf8')
+        .replace('<html lang="zh-CN">', '<html lang="en-US">')
+        .replace('<meta property="og:locale" content="zh-CN">', '<meta property="og:locale" content="en-US">')
+      writeFileSync(englishHomeFile, html, 'utf8')
+    }
   },
 })
 
@@ -288,16 +465,17 @@ export default defineUserConfig({
           url: `${siteUrl}/`,
           email: 'yyo649929@gmail.com',
         },
-        isArticle: page => Boolean(page.filePathRelative && page.path !== '/' && !page.frontmatter.home),
+        isArticle: page => isArticlePage(page),
         customHead: (head, page) => {
           appendTwitterCardHead(head, page)
-          appendHomeStructuredData(head, page)
+          appendAlternateLanguageHead(head, page)
+          appendPageStructuredData(head, page)
           dedupeSeoHead(head)
         },
       },
     },
     footer: {
-      message: "© 2026 YouYou | VPN评测与科学上网指南 📧 <a href='mailto:yyo649929@gmail.com'>联系我</a>",
+      message: "© 2026 YouYou | VPN评测与科学上网指南 | <a href='/about/'>关于</a> · <a href='/methodology/'>评测方法</a> · <a href='/disclosure/'>披露</a> · <a href='/contact/'>联系</a>",
     },
 
     /* 文档仓库配置，用于 editLink */

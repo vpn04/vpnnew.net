@@ -33,6 +33,18 @@ export default defineNavbarConfig(
       ],
     },
     {
+      text: '专业透明',
+      icon: 'material-symbols:verified-rounded',
+      items: [
+        { text: '评测方法', link: '/methodology/', icon: 'material-symbols:fact-check-rounded' },
+        { text: '专题索引', link: '/topics/', icon: 'material-symbols:hub-rounded' },
+        { text: '关于本站', link: '/about/', icon: 'material-symbols:person-rounded' },
+        { text: '广告披露', link: '/disclosure/', icon: 'material-symbols:policy-rounded' },
+        { text: '联系纠错', link: '/contact/', icon: 'material-symbols:mail-rounded' },
+        { text: 'English', link: '/en/', icon: 'material-symbols:translate-rounded' },
+      ],
+    },
+    {
         text: "更多",
         icon: 'icon-park-outline:more-three',
         items: [

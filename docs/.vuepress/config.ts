@@ -22,8 +22,6 @@ const siteTitle = 'YouYou VPN推荐与机场评测'
 const siteDescription =
   '提供2026最新VPN推荐、翻墙机场评测、Clash与Shadowrocket教程，覆盖ChatGPT、Claude、Google等海外服务访问与节点优化。'
 const englishSiteTitle = 'YouYou VPN Reviews and China Internet Access Guides'
-const englishSiteDescription =
-  'English entry page for YouYou VPN reviews, airport proxy comparisons, Clash and Shadowrocket tutorials, AI access and risk warnings.'
 const siteImage = `${siteUrl}/youyou.png`
 const siteKeywords =
   'VPN推荐,翻墙机场,机场评测,Clash教程,Shadowrocket,科学上网,ChatGPT访问,Claude,Gemini'
@@ -157,7 +155,7 @@ const toIsoDate = (value: unknown): string | undefined => {
   }
   if (typeof value !== 'string' || !value.trim()) return undefined
 
-  const normalized = value.trim().replaceAll('/', '-')
+  const normalized = value.trim().replace(/\//g, '-')
   const date = new Date(normalized)
   return Number.isNaN(date.getTime()) ? undefined : date.toISOString()
 }
@@ -225,7 +223,7 @@ const createWebsiteSchema = () => ({
 })
 
 const isArticlePage = (page: { path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> }): boolean => {
-  const relative = page.filePathRelative?.replaceAll('\\', '/') || ''
+  const relative = page.filePathRelative?.replace(/\\/g, '/') || ''
   return Boolean(relative.startsWith('blog/') && page.path !== '/' && !page.frontmatter.home)
 }
 
@@ -335,10 +333,10 @@ const appendPageStructuredData = (
 
 const escapeHtml = (value: string): string =>
   value
-    .replaceAll('&', '&amp;')
-    .replaceAll('"', '&quot;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
 
 const createGeneratedPageSeoHead = (page: typeof generatedSeoPages[number]): string => {
   const url = `${siteUrl}${page.path}`

@@ -9,7 +9,7 @@
  * 特别的，请不要在两个配置文件中重复配置相同的项，当前文件的配置项会被覆盖
  */
 
-import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import type { App, PluginObject } from 'vuepress'
@@ -30,6 +30,45 @@ const robotsDirective = 'index,follow,max-image-preview:large,max-snippet:-1,max
 const organizationId = `${siteUrl}/#organization`
 const websiteId = `${siteUrl}/#website`
 const authorId = `${siteUrl}/about/#youyou`
+
+type TopicLink = {
+  title: string
+  url: string
+  description: string
+}
+
+const coreTopicLinks: TopicLink[] = [
+  {
+    title: '2026 年性价比翻墙机场推荐评测',
+    url: `${siteUrl}/vpn-recommend/`,
+    description: '长期更新的 VPN 机场推荐榜，覆盖价格、速度、稳定性、流媒体解锁和适用人群。',
+  },
+  {
+    title: '机场性能与价格对比榜',
+    url: `${siteUrl}/airport/jichangpk/`,
+    description: '按价格、线路、套餐、晚高峰表现和节点质量对多个机场做横向对比。',
+  },
+  {
+    title: 'Clash 全平台使用教程',
+    url: `${siteUrl}/scamvpn/Clashquanpingtai/`,
+    description: '覆盖 Windows、macOS、Android、iOS 的 Clash 客户端安装、导入订阅和常见故障。',
+  },
+  {
+    title: 'Shadowrocket 小火箭教程',
+    url: `${siteUrl}/article/Shadowrocket/`,
+    description: '面向 iOS 和 macOS 用户的 Shadowrocket 下载、配置、订阅导入和排查指南。',
+  },
+  {
+    title: '机场跑路汇总与风险预警',
+    url: `${siteUrl}/scamvpn/paolujichang/`,
+    description: '整理机场跑路事件、失联风险、退款风险和订阅前需要警惕的异常信号。',
+  },
+  {
+    title: 'YouYou 评测方法与评分标准',
+    url: `${siteUrl}/methodology/`,
+    description: '公开说明本站如何评测 VPN 与机场服务，包括测速、稳定性、售后和风险判断。',
+  },
+]
 
 const generatedSeoPages = [
   {
@@ -75,6 +114,12 @@ const getHeadContent = (
 const appendMetaIfMissing = (head: unknown[], name: string, content: string): void => {
   if (!getHeadContent(head, 'name', name)) {
     head.push(['meta', { name, content }])
+  }
+}
+
+const appendPropertyMetaIfMissing = (head: unknown[], property: string, content: string): void => {
+  if (!getHeadContent(head, 'property', property)) {
+    head.push(['meta', { property, content }])
   }
 }
 
@@ -130,6 +175,28 @@ const appendTwitterCardHead = (head: unknown[], page: { title?: string, path: st
   appendMetaIfMissing(head, 'twitter:description', description)
   appendMetaIfMissing(head, 'twitter:image', image)
   appendMetaIfMissing(head, 'twitter:image:alt', title)
+}
+
+const appendArticleMetaHead = (
+  head: unknown[],
+  page: { title?: string, path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> },
+): void => {
+  const title = getHeadContent(head, 'property', 'og:title') || page.title || siteTitle
+  const published = toIsoDate(page.frontmatter.date || page.frontmatter.createTime)
+  const modified = toIsoDate(page.frontmatter.updated || page.frontmatter.lastUpdated || page.frontmatter.date || page.frontmatter.createTime)
+  const tags = getFrontmatterStringList(page.frontmatter, 'tags')
+
+  appendPropertyMetaIfMissing(head, 'og:image:alt', title)
+
+  if (!isArticlePage(page)) return
+
+  if (published) appendPropertyMetaIfMissing(head, 'article:published_time', published)
+  if (modified) appendPropertyMetaIfMissing(head, 'article:modified_time', modified)
+  appendPropertyMetaIfMissing(head, 'article:author', `${siteUrl}/about/`)
+
+  if (tags[0]) {
+    appendPropertyMetaIfMissing(head, 'article:section', tags[0])
+  }
 }
 
 const getPageUrl = (page: { path: string }): string => `${siteUrl}${page.path}`
@@ -223,6 +290,39 @@ const createWebsiteSchema = () => ({
   },
 })
 
+const createCoreTopicItemListSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'YouYou VPN 与科学上网核心专题',
+  description: 'YouYou 站内最重要的 VPN 推荐、机场评测、Clash、Shadowrocket、跑路预警和评测方法入口。',
+  itemListElement: coreTopicLinks.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'WebPage',
+      name: item.title,
+      url: item.url,
+      description: item.description,
+    },
+  })),
+})
+
+const createTopicsCollectionSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'VPN 与科学上网专题索引',
+  url: `${siteUrl}/topics/`,
+  description: '聚合 YouYou 站内 VPN 推荐、机场评测、Clash 教程、Shadowrocket 教程、优惠试用、跑路预警和 AI 工具访问指南。',
+  inLanguage: siteLocale,
+  isPartOf: {
+    '@id': websiteId,
+  },
+  publisher: {
+    '@id': organizationId,
+  },
+  mainEntity: createCoreTopicItemListSchema(),
+})
+
 const isArticlePage = (page: { path: string, filePathRelative?: string | null, frontmatter: Record<string, unknown> }): boolean => {
   const relative = page.filePathRelative?.replace(/\\/g, '/') || ''
   return Boolean(relative.startsWith('blog/') && page.path !== '/' && !page.frontmatter.home)
@@ -264,10 +364,17 @@ const createArticleSchema = (
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
+    url: getPageUrl(page),
     description: getPageDescription(head, page),
     image: [getPageImage(head, page)],
     datePublished: published,
     dateModified: modified,
+    isAccessibleForFree: true,
+    articleSection: tags[0] || 'VPN 与科学上网',
+    about: tags.slice(0, 8).map(name => ({
+      '@type': 'Thing',
+      name,
+    })),
     author: {
       '@type': 'Person',
       '@id': authorId,
@@ -300,6 +407,9 @@ const appendPageStructuredData = (
   if (!hasJsonLdType(head, 'Organization')) schemas.push(createOrganizationSchema())
   if (!hasJsonLdType(head, 'WebSite')) schemas.push(createWebsiteSchema())
   if (!hasJsonLdType(head, 'BreadcrumbList')) schemas.push(createBreadcrumbSchema(page))
+  if ((page.path === '/' || page.path === '/topics/') && !hasJsonLdType(head, 'ItemList')) {
+    schemas.push(createCoreTopicItemListSchema())
+  }
 
   if (isArticlePage(page) && !hasJsonLdType(head, 'Article')) {
     schemas.push(createArticleSchema(head, page))
@@ -327,6 +437,9 @@ const appendPageStructuredData = (
         '@id': organizationId,
       },
     })
+  }
+  else if (page.path === '/topics/' && !hasJsonLdType(head, 'CollectionPage')) {
+    schemas.push(createTopicsCollectionSchema())
   }
 
   if (schemas.length) appendJsonLd(head, schemas)
@@ -380,6 +493,186 @@ const createGeneratedPageSeoHead = (page: typeof generatedSeoPages[number]): str
   ].join('')
 }
 
+const escapeXml = (value: string): string =>
+  value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/'/g, '&apos;')
+
+const stripHtml = (value: string): string =>
+  value
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+const getPageDateValue = (page: App['pages'][number]): number => {
+  const value = toIsoDate(page.frontmatter.updated || page.frontmatter.lastUpdated || page.frontmatter.date || page.frontmatter.createTime)
+  return value ? new Date(value).getTime() : 0
+}
+
+const getArticlePages = (app: App): App['pages'] =>
+  app.pages
+    .filter(page => isArticlePage(page))
+    .sort((left, right) => getPageDateValue(right) - getPageDateValue(left))
+
+const getAbsolutePageUrl = (page: { path: string }): string => `${siteUrl}${page.path}`
+
+const writeFeedFile = (app: App): void => {
+  const articles = getArticlePages(app).slice(0, 80)
+  const items = articles.map(page => {
+    const title = escapeXml(page.title || siteTitle)
+    const url = escapeXml(getAbsolutePageUrl(page))
+    const description = escapeXml(getFrontmatterString(page.frontmatter, 'description') || siteDescription)
+    const pubDateValue = getPageDateValue(page)
+    const pubDate = pubDateValue ? new Date(pubDateValue).toUTCString() : new Date().toUTCString()
+
+    return [
+      '<item>',
+      `<title>${title}</title>`,
+      `<link>${url}</link>`,
+      `<guid isPermaLink="true">${url}</guid>`,
+      `<description>${description}</description>`,
+      `<pubDate>${pubDate}</pubDate>`,
+      '</item>',
+    ].join('')
+  })
+
+  const feed = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<rss version="2.0">',
+    '<channel>',
+    `<title>${escapeXml(siteTitle)}</title>`,
+    `<link>${siteUrl}/</link>`,
+    `<description>${escapeXml(siteDescription)}</description>`,
+    '<language>zh-CN</language>',
+    `<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+    ...items,
+    '</channel>',
+    '</rss>',
+  ].join('\n')
+
+  writeFileSync(app.dir.dest('feed.xml'), feed, 'utf8')
+}
+
+const writeLlmsTextFile = (app: App): void => {
+  const recentArticles = getArticlePages(app).slice(0, 24)
+  const topicLines = coreTopicLinks.map(item => `- [${item.title}](${item.url}): ${item.description}`)
+  const recentLines = recentArticles.map(page => {
+    const description = getFrontmatterString(page.frontmatter, 'description') || siteDescription
+    return `- [${page.title || siteTitle}](${getAbsolutePageUrl(page)}): ${description}`
+  })
+
+  const content = [
+    '# YouYou VPN 推荐与机场评测',
+    '',
+    '> YouYou 是一个长期更新 VPN 推荐、机场评测、Clash / Shadowrocket 教程、AI 工具访问、跑路预警和科学上网排查指南的网站。',
+    '',
+    '## Site',
+    '',
+    `- URL: ${siteUrl}/`,
+    `- Language: ${siteLocale}`,
+    '- Author: YouYou',
+    '- Contact: yyo649929@gmail.com',
+    '',
+    '## Core Topics',
+    '',
+    ...topicLines,
+    '',
+    '## Trust And Methodology',
+    '',
+    `- [评测方法](${siteUrl}/methodology/): 说明测速、晚高峰、流媒体、AI 工具访问、售后和风险判断标准。`,
+    `- [广告披露](${siteUrl}/disclosure/): 说明联盟链接、优惠码和评测独立性。`,
+    `- [联系与纠错](${siteUrl}/contact/): 提交价格变化、链接失效、机场异常、跑路风险和内容纠错。`,
+    '',
+    '## Recent Articles',
+    '',
+    ...recentLines,
+    '',
+  ].join('\n')
+
+  writeFileSync(app.dir.dest('llms.txt'), content, 'utf8')
+}
+
+const writeEnhancedRobotsFile = (app: App): void => {
+  const content = [
+    'User-agent: *',
+    'Allow: /',
+    '',
+    `Sitemap: ${siteUrl}/sitemap.xml`,
+    `Host: ${siteUrl.replace(/^https?:\/\//, '')}`,
+    '',
+    '# Content signals for crawlers that understand them.',
+    'Content-Signal: search=yes,ai-train=no,use=reference',
+    '',
+  ].join('\n')
+
+  writeFileSync(app.dir.dest('robots.txt'), content, 'utf8')
+}
+
+const collectHtmlFiles = (directory: string): string[] => {
+  const files: string[] = []
+  for (const name of readdirSync(directory)) {
+    const file = `${directory}/${name}`
+    const stat = statSync(file)
+    if (stat.isDirectory()) files.push(...collectHtmlFiles(file))
+    else if (name.endsWith('.html')) files.push(file)
+  }
+  return files
+}
+
+const getHtmlTitle = (html: string): string => {
+  const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]
+  const title = h1 || html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || siteTitle
+  return stripHtml(title).replace(/\s+\|\s+.*$/, '').trim() || siteTitle
+}
+
+const enhanceMainContentImages = (html: string): string => {
+  const mainMatch = html.match(/<main\b[\s\S]*?<\/main>/i)
+  if (!mainMatch) return html
+
+  const pageTitle = escapeHtml(getHtmlTitle(html))
+  const enhancedMain = mainMatch[0].replace(/<img\b[^>]*>/gi, tag => {
+    let nextTag = tag
+    const altMatch = nextTag.match(/\salt=(["'])(.*?)\1/i)
+    const hasUsefulAlt = altMatch && altMatch[2].trim() && altMatch[2].trim().toLowerCase() !== 'alt text'
+
+    if (!hasUsefulAlt) {
+      if (altMatch) {
+        nextTag = nextTag.replace(/\salt=(["'])(.*?)\1/i, ` alt="${pageTitle} 相关截图"`)
+      }
+      else {
+        nextTag = nextTag.replace(/<img\b/i, `<img alt="${pageTitle} 相关截图"`)
+      }
+    }
+
+    if (!/\sloading=/i.test(nextTag)) {
+      nextTag = nextTag.replace(/<img\b/i, '<img loading="lazy"')
+    }
+
+    if (!/\sdecoding=/i.test(nextTag)) {
+      nextTag = nextTag.replace(/<img\b/i, '<img decoding="async"')
+    }
+
+    return nextTag
+  })
+
+  return html.replace(mainMatch[0], enhancedMain)
+}
+
+const enhanceGeneratedHtml = (app: App): void => {
+  for (const file of collectHtmlFiles(app.dir.dest())) {
+    const html = readFileSync(file, 'utf8')
+    const enhanced = enhanceMainContentImages(html)
+    if (enhanced !== html) {
+      writeFileSync(file, enhanced, 'utf8')
+    }
+  }
+}
+
 const generatedPageSeoPlugin = (): PluginObject => ({
   name: 'youyou-generated-page-seo',
   onGenerated: (app: App) => {
@@ -406,6 +699,11 @@ const generatedPageSeoPlugin = (): PluginObject => ({
         .replace('<meta property="og:locale" content="zh-CN">', '<meta property="og:locale" content="en-US">')
       writeFileSync(englishHomeFile, html, 'utf8')
     }
+
+    writeFeedFile(app)
+    writeLlmsTextFile(app)
+    writeEnhancedRobotsFile(app)
+    enhanceGeneratedHtml(app)
   },
 })
 
@@ -425,6 +723,8 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/youyou.png' }],
     ['link', { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }],
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: `${siteTitle} RSS`, href: '/feed.xml' }],
+    ['link', { rel: 'alternate', type: 'text/plain', title: 'llms.txt', href: '/llms.txt' }],
     ['link', { rel: 'dns-prefetch', href: 'https://www.googletagmanager.com' }],
     ['link', { rel: 'preconnect', href: 'https://www.googletagmanager.com' }],
     ['link', { rel: 'dns-prefetch', href: 'https://giscus.app' }],
@@ -432,6 +732,8 @@ export default defineUserConfig({
 
     ['meta', { name: 'keywords', content: siteKeywords }],
     ['meta', { name: 'author', content: 'YouYou' }],
+    ['meta', { name: 'application-name', content: siteTitle }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'YouYou VPN' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'robots', content: robotsDirective }],
     ['meta', { name: 'googlebot', content: robotsDirective }],
@@ -467,6 +769,7 @@ export default defineUserConfig({
         isArticle: page => isArticlePage(page),
         customHead: (head, page) => {
           appendTwitterCardHead(head, page)
+          appendArticleMetaHead(head, page)
           appendAlternateLanguageHead(head, page)
           appendPageStructuredData(head, page)
           dedupeSeoHead(head)

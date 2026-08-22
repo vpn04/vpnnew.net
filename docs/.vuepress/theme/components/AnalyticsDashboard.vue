@@ -76,8 +76,6 @@ const pinnedHotPages: PinnedHotPage[] = [
   { path: '/scamvpn/paolujichang/', title: '⚠️2026年VPN机场跑路名单汇总｜机场跑路黑名单、跑路原因与避坑指南' },
 ]
 
-const pinnedHotPathSet = new Set(pinnedHotPages.map(item => normalizePath(item.path)))
-
 const fallbackHotPages: PinnedHotPage[] = [
   { path: '/article/airport-subscription-clash-shadowrocket-guide-2026/', title: '机场订阅链接怎么用？Clash / Shadowrocket 导入订阅完整教程' },
   { path: '/scamvpn/Clashquanpingtai/', title: '2026最新版 Clash 全平台使用教程' },
@@ -100,6 +98,8 @@ const trackedHotPages = [
   ...pinnedHotPages,
   ...fallbackHotPages,
 ]
+
+const curatedHotPages = trackedHotPages.slice(0, rankingDisplayLimit)
 
 const ranges: Array<{ key: RangeKey, label: string, short: string }> = [
   { key: 'today', label: '今日', short: '24H' },
@@ -132,9 +132,7 @@ const topPages = computed(() => {
     path: normalizePath(item.path),
   }))
   const sourceMap = new Map(sourcePages.map(item => [item.path, item]))
-  const result: AnalyticsTopPage[] = []
-  const seen = new Set<string>()
-  const toCuratedTopPage = (item: PinnedHotPage): AnalyticsTopPage => {
+  return curatedHotPages.map((item) => {
     const path = normalizePath(item.path)
     const stats = pinnedPageStats.value.get(path)
     const source = sourceMap.get(path)
@@ -145,24 +143,7 @@ const topPages = computed(() => {
       views: getPinnedViews(stats, range) || source?.views || 0,
       total: stats?.total || source?.total || 0,
     }
-  }
-  const pushPage = (item: AnalyticsTopPage): void => {
-    const path = normalizePath(item.path)
-    if (seen.has(path) || result.length >= rankingDisplayLimit)
-      return
-
-    seen.add(path)
-    result.push({
-      ...item,
-      path,
-    })
-  }
-
-  pinnedHotPages.map(toCuratedTopPage).forEach(pushPage)
-  sourcePages.filter(item => !pinnedHotPathSet.has(item.path)).forEach(pushPage)
-  fallbackHotPages.map(toCuratedTopPage).forEach(pushPage)
-
-  return result
+  })
 })
 const maxViews = computed(() => Math.max(...topPages.value.map(item => item.views), 1))
 const leader = computed(() => topPages.value[0])

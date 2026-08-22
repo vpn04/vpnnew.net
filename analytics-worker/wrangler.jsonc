@@ -4,6 +4,17 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-08-22",
   "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "vpnnew.net/api/analytics*",
+      "zone_name": "vpnnew.net"
+    },
+    {
+      "pattern": "www.vpnnew.net/api/analytics*",
+      "zone_name": "vpnnew.net"
+    }
+  ],
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1
@@ -15,8 +26,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "youyou_analytics",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+      "database_name": "youyou_analytics"
     }
   ]
 }

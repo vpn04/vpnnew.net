@@ -12,6 +12,9 @@ on:
 jobs:
   docs:
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
@@ -55,3 +58,24 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install Analytics Worker dependencies
+        if: ${{ env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != '' }}
+        working-directory: analytics-worker
+        run: pnpm install --frozen-lockfile
+
+      - name: Initialize Analytics D1 schema
+        if: ${{ env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != '' }}
+        working-directory: analytics-worker
+        run: pnpm db:init
+
+      - name: Deploy Analytics Worker
+        if: ${{ env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != '' }}
+        working-directory: analytics-worker
+        run: pnpm deploy
+
+      - name: Analytics Worker deploy skipped
+        if: ${{ env.CLOUDFLARE_ACCOUNT_ID == '' || env.CLOUDFLARE_API_TOKEN == '' }}
+        run: |
+          echo "Analytics Worker was not deployed because CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_API_TOKEN is missing."
+          echo "Add both secrets in GitHub Actions to make /api/analytics work online."

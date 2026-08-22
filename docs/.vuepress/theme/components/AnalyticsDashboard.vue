@@ -66,6 +66,7 @@ const summary = ref<AnalyticsSummary | null>(null)
 const pinnedPageStats = ref(new Map<string, AnalyticsPageStats>())
 let refreshTimer: ReturnType<typeof window.setInterval> | undefined
 const publicCountThreshold = 10000
+const rankingDisplayLimit = 15
 
 const normalizePath = (path: string): string => path.replace(/\/?$/, '/')
 
@@ -76,6 +77,29 @@ const pinnedHotPages: PinnedHotPage[] = [
 ]
 
 const pinnedHotPathSet = new Set(pinnedHotPages.map(item => normalizePath(item.path)))
+
+const fallbackHotPages: PinnedHotPage[] = [
+  { path: '/article/airport-subscription-clash-shadowrocket-guide-2026/', title: '机场订阅链接怎么用？Clash / Shadowrocket 导入订阅完整教程' },
+  { path: '/scamvpn/Clashquanpingtai/', title: '2026最新版 Clash 全平台使用教程' },
+  { path: '/article/Shadowrocket/', title: 'Shadowrocket 小火箭 2026 年使用指南' },
+  { path: '/article/ClashVerge/', title: '2026年 Clash Verge 全平台配置指南' },
+  { path: '/article/ClashforAndroid/', title: 'Clash for Android 2026年使用指南' },
+  { path: '/article/freeAppleID/', title: '2026年免费共享美区 Apple ID 每日更新' },
+  { path: '/article/ai-tools-network-guide-2026/', title: '2026年AI工具打不开怎么办？稳定访问全流程教程' },
+  { path: '/article/ai-tools-access-guide-2026/', title: 'Claude / Gemini / ChatGPT 访问方法终极指南' },
+  { path: '/article/clash-google-not-working-ultimate-guide/', title: 'Clash打不开Google怎么办？逐步排查修复指南' },
+  { path: '/article/shadowrocket-node-timeout-config-invalid-slow-2026/', title: 'Shadowrocket 节点超时与配置失效排查' },
+  { path: '/article/shadowrocket-node-buy-guide/', title: 'Shadowrocket节点哪里买？订阅与更新教程' },
+  { path: '/article/aigongjujiejue/', title: 'AI工具被封如何解决？VPN稳定访问方案' },
+  { path: '/article/ChatGPTwufashiyong/', title: 'ChatGPT无法使用怎么办？地区限制解决方法' },
+  { path: '/article/ChatGPTzhinan/', title: '如何使用 ChatGPT：2026 新手入门指南' },
+  { path: '/scamvpn/Clashjiaocheng/', title: '2026最新Clash 教程：系统代理模式与 TUN 模式' },
+]
+
+const trackedHotPages = [
+  ...pinnedHotPages,
+  ...fallbackHotPages,
+]
 
 const ranges: Array<{ key: RangeKey, label: string, short: string }> = [
   { key: 'today', label: '今日', short: '24H' },
@@ -103,9 +127,14 @@ const getPinnedViews = (stats: AnalyticsPageStats | undefined, range: RangeKey):
 
 const topPages = computed(() => {
   const range = activeRange.value
-  const sourcePages = summary.value?.top?.[range] || []
-  const sourceMap = new Map(sourcePages.map(item => [normalizePath(item.path), item]))
-  const pinnedPages = pinnedHotPages.map((item) => {
+  const sourcePages = (summary.value?.top?.[range] || []).map(item => ({
+    ...item,
+    path: normalizePath(item.path),
+  }))
+  const sourceMap = new Map(sourcePages.map(item => [item.path, item]))
+  const result: AnalyticsTopPage[] = []
+  const seen = new Set<string>()
+  const toCuratedTopPage = (item: PinnedHotPage): AnalyticsTopPage => {
     const path = normalizePath(item.path)
     const stats = pinnedPageStats.value.get(path)
     const source = sourceMap.get(path)
@@ -116,11 +145,24 @@ const topPages = computed(() => {
       views: getPinnedViews(stats, range) || source?.views || 0,
       total: stats?.total || source?.total || 0,
     }
-  })
-  const remainingPages = sourcePages.filter(item => !pinnedHotPathSet.has(normalizePath(item.path)))
-  const limit = Math.max(sourcePages.length, pinnedPages.length)
+  }
+  const pushPage = (item: AnalyticsTopPage): void => {
+    const path = normalizePath(item.path)
+    if (seen.has(path) || result.length >= rankingDisplayLimit)
+      return
 
-  return [...pinnedPages, ...remainingPages].slice(0, limit)
+    seen.add(path)
+    result.push({
+      ...item,
+      path,
+    })
+  }
+
+  pinnedHotPages.map(toCuratedTopPage).forEach(pushPage)
+  sourcePages.filter(item => !pinnedHotPathSet.has(item.path)).forEach(pushPage)
+  fallbackHotPages.map(toCuratedTopPage).forEach(pushPage)
+
+  return result
 })
 const maxViews = computed(() => Math.max(...topPages.value.map(item => item.views), 1))
 const leader = computed(() => topPages.value[0])
@@ -166,7 +208,7 @@ const fetchPinnedPageStats = async (): Promise<void> => {
       accept: 'application/json',
       'content-type': 'application/json',
     },
-    body: JSON.stringify({ paths: pinnedHotPages.map(item => item.path) }),
+    body: JSON.stringify({ paths: trackedHotPages.map(item => item.path) }),
     credentials: 'omit',
   })
 

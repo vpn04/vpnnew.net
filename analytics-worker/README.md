@@ -55,18 +55,29 @@ http://127.0.0.1:8787
 ## 4. 部署 Worker
 
 ```bash
+cd analytics-worker
+pnpm install
 pnpm deploy
 ```
 
-## 5. 绑定网站路径
-
-推荐在 Cloudflare 里把 Worker 路由绑定到主站同域：
+`wrangler.jsonc` 已经内置主站路由，部署成功后 Worker 会自动接管：
 
 ```text
 https://vpnnew.net/api/analytics*
+https://www.vpnnew.net/api/analytics*
 ```
 
 这样前端默认的 `/api/analytics` 就能直接工作，不需要额外改构建变量。
+
+部署后马上测试：
+
+```bash
+curl https://vpnnew.net/api/analytics/summary
+```
+
+如果这里仍然返回 404，说明 Worker 没有部署到 Cloudflare，或域名没有启用 Cloudflare 代理。请先运行 `pnpm exec wrangler login` 登录账号，再执行 `pnpm deploy`。
+
+## 5. 使用独立 Worker 域名
 
 如果你把 Worker 部署在独立域名，例如：
 

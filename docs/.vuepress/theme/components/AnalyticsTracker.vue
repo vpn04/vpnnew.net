@@ -145,7 +145,8 @@ const setBadgeLoading = (): void => {
 
   badge.innerHTML = [
     viewIcon,
-    '<span>PV 同步中</span>',
+    '<span>热度累计中</span>',
+    '<span>今日升温中</span>',
   ].join('')
 }
 
@@ -170,9 +171,11 @@ const setBadgeOffline = (): void => {
     return
 
   badge.innerHTML = [
-    '<span class="youyou-views-icon-dot is-offline"></span>',
-    '<span>PV 待同步</span>',
+    viewIcon,
+    '<span>热度累计中</span>',
+    '<span>今日升温中</span>',
   ].join('')
+  badge.title = '公开展示热度趋势，真实浏览数据由站点统计系统记录'
 }
 
 const removeBadge = (): void => {
@@ -236,7 +239,7 @@ const hydrateListViews = async (): Promise<void> => {
   lastListSignature = signature
 
   targets.forEach(({ badge }) => {
-    setListBadge(badge, 'PV ...')
+    setListBadge(badge, '热度累计中', '今日升温中')
   })
 
   try {
@@ -277,7 +280,9 @@ const hydrateListViews = async (): Promise<void> => {
   }
   catch {
     targets.forEach(({ badge }) => {
-      setListBadge(badge, 'PV --', '待同步', true)
+      const texts = getPublicListTexts()
+      setListBadge(badge, texts.total, texts.today)
+      badge.title = texts.title
     })
   }
 }

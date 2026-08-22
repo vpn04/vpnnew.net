@@ -60,7 +60,7 @@ const getAnalyticsEndpoint = (): string => {
 
 const endpoint = getAnalyticsEndpoint()
 const loading = ref(true)
-const error = ref('')
+const live = ref(false)
 const activeRange = ref<RangeKey>('today')
 const summary = ref<AnalyticsSummary | null>(null)
 const pinnedPageStats = ref(new Map<string, AnalyticsPageStats>())
@@ -167,11 +167,11 @@ const formatPublicCount = (value: number, activeText = '热度上升'): string =
 
 const formatTime = (value?: string): string => {
   if (!value)
-    return '等待同步'
+    return '本地展示'
 
   const date = new Date(value)
   if (Number.isNaN(date.getTime()))
-    return '等待同步'
+    return '本地展示'
 
   return date.toLocaleString('zh-CN', {
     month: '2-digit',
@@ -182,32 +182,53 @@ const formatTime = (value?: string): string => {
   })
 }
 
+const createFallbackSummary = (): AnalyticsSummary => ({
+  ok: true,
+  generatedAt: new Date().toISOString(),
+  site: {
+    total: 0,
+    today: 0,
+    month: 0,
+    year: 0,
+  },
+  top: {
+    today: [],
+    month: [],
+    year: [],
+    all: [],
+  },
+})
+
 const fetchPinnedPageStats = async (): Promise<void> => {
-  const response = await fetch(`${endpoint}/pages`, {
-    method: 'POST',
-    headers: {
-      accept: 'application/json',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({ paths: trackedHotPages.map(item => item.path) }),
-    credentials: 'omit',
-  })
+  try {
+    const response = await fetch(`${endpoint}/pages`, {
+      method: 'POST',
+      headers: {
+        accept: 'application/json',
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({ paths: trackedHotPages.map(item => item.path) }),
+      credentials: 'omit',
+    })
 
-  if (!response.ok)
-    return
+    if (!response.ok)
+      return
 
-  const data = await response.json() as AnalyticsPagesResponse
-  if (!data.ok)
-    return
+    const data = await response.json() as AnalyticsPagesResponse
+    if (!data.ok)
+      return
 
-  pinnedPageStats.value = new Map(
-    (data.pages || []).map(item => [normalizePath(item.path), item]),
-  )
+    pinnedPageStats.value = new Map(
+      (data.pages || []).map(item => [normalizePath(item.path), item]),
+    )
+  }
+  catch {
+    pinnedPageStats.value = new Map()
+  }
 }
 
 const fetchSummary = async (): Promise<void> => {
   loading.value = true
-  error.value = ''
 
   try {
     const response = await fetch(`${endpoint}/summary`, {
@@ -223,10 +244,12 @@ const fetchSummary = async (): Promise<void> => {
       throw new Error('统计接口返回异常')
 
     summary.value = data
+    live.value = true
     await fetchPinnedPageStats()
   }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : '统计接口暂不可用'
+  catch {
+    summary.value = summary.value || createFallbackSummary()
+    live.value = false
   }
   finally {
     loading.value = false
@@ -258,20 +281,14 @@ onUnmounted(() => {
       </div>
 
       <div class="analytics-status">
-        <span :class="['analytics-status__dot', { 'is-error': error }]" />
-        <span>{{ error ? '接口待连接' : loading ? '同步中' : '实时在线' }}</span>
+        <span :class="['analytics-status__dot', { 'is-muted': !live && !loading }]" />
+        <span>{{ loading ? '同步中' : live ? '实时在线' : '热度展示' }}</span>
         <small>{{ formatTime(summary?.generatedAt) }}</small>
         <button type="button" :disabled="loading" @click="fetchSummary">
           {{ loading ? '...' : '刷新' }}
         </button>
       </div>
     </section>
-
-    <div v-if="error" class="analytics-alert">
-      <strong>统计接口未连接</strong>
-      <span>本地预览请保持 <code>127.0.0.1:8787</code> Worker 运行；线上请绑定 <code>/api/analytics</code>。</span>
-      <small>{{ error }}</small>
-    </div>
 
     <section class="analytics-metrics" aria-label="全站浏览概览">
       <article v-for="card in cards" :key="card.label" :class="['analytics-metric', `is-${card.tone}`]">
@@ -347,7 +364,6 @@ onUnmounted(() => {
 }
 
 .analytics-overview,
-.analytics-alert,
 .analytics-metric,
 .analytics-leader,
 .analytics-panel {
@@ -397,9 +413,7 @@ onUnmounted(() => {
 .analytics-panel__head p,
 .analytics-leader p,
 .analytics-metric small,
-.analytics-ranking small,
-.analytics-alert span,
-.analytics-alert small {
+.analytics-ranking small {
   color: var(--vp-c-text-2);
 }
 
@@ -423,7 +437,7 @@ onUnmounted(() => {
   box-shadow: 0 0 0 5px rgba(34, 197, 94, 0.12);
 }
 
-.analytics-status__dot.is-error {
+.analytics-status__dot.is-muted {
   background: #f59e0b;
   box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.14);
 }
@@ -460,12 +474,6 @@ onUnmounted(() => {
   border-color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-1);
   color: var(--vp-c-white);
-}
-
-.analytics-alert {
-  display: grid;
-  gap: 5px;
-  padding: 14px 16px;
 }
 
 .analytics-metrics {

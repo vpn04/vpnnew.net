@@ -26,7 +26,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "youyou_analytics"
+      "database_name": "youyou_analytics",
+      "database_id": "d999c493-457b-4078-9a09-b5f7ca2ca400"
     }
   ]
 }

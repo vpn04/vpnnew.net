@@ -1,4 +1,7 @@
 import { defineClientConfig } from 'vuepress/client'
+import AnalyticsDashboard from './theme/components/AnalyticsDashboard.vue'
+import AnalyticsTracker from './theme/components/AnalyticsTracker.vue'
+import HotRankingSidebar from './theme/components/HotRankingSidebar.vue'
 import SiteLanguageToggle from './theme/components/SiteLanguageToggle.vue'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
@@ -10,7 +13,7 @@ import SiteLanguageToggle from './theme/components/SiteLanguageToggle.vue'
 import './theme/styles/custom.css'
 
 export default defineClientConfig({
-  rootComponents: [SiteLanguageToggle],
+  rootComponents: [SiteLanguageToggle, AnalyticsTracker, HotRankingSidebar],
   enhance({ app }) {
     // built-in components
     // app.component('RepoCard', RepoCard)
@@ -19,6 +22,6 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
 
     // your custom components
-    // app.component('CustomComponent', CustomComponent)
+    app.component('AnalyticsDashboard', AnalyticsDashboard)
   },
 })

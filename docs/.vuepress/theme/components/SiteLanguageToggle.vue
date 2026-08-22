@@ -272,14 +272,22 @@ const updateToggleButton = (): void => {
   const icon = toggleButton.querySelector('.site-language-toggle__icon')
 
   toggleButton.setAttribute('aria-pressed', String(language.value === 'en'))
+  toggleButton.setAttribute('aria-label', language.value === 'en' ? 'Switch site to Chinese' : 'Switch site to English')
   toggleButton.setAttribute('title', language.value === 'en' ? 'Switch site to Chinese' : 'Switch site to English')
 
   if (icon) icon.textContent = language.value === 'en' ? 'CN' : 'EN'
-  if (label) label.textContent = isLoading.value ? 'Translating' : language.value === 'en' ? 'Chinese' : 'English'
+  if (label) label.textContent = isLoading.value ? 'Translating' : language.value === 'en' ? 'CN' : 'EN'
 }
 
 const insertToggleButton = (): void => {
   if (!toggleRoot) return
+
+  const navbarBody = document.querySelector<HTMLElement>('.vp-navbar .content-body')
+  const appearance = navbarBody?.querySelector<HTMLElement>('.vp-navbar-appearance')
+  if (navbarBody) {
+    navbarBody.insertBefore(toggleRoot, appearance || null)
+    return
+  }
 
   const content = document.querySelector('#VPContent')
   if (content?.parentElement) {

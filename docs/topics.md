@@ -63,6 +63,9 @@ tags:
 
 ## AI、Telegram 与海外服务
 
+- [2026年AI搜索与AI Agent工具稳定访问教程](/article/ai-search-agent-access-guide-2026/)
+- [AI 工具访问指南：Claude / Gemini / ChatGPT](/article/ai-tools-access-guide-2026/)
+- [2026年AI工具打不开怎么办](/article/ai-tools-network-guide-2026/)
 - [ChatGPT 无法使用怎么办](/article/ChatGPTwufashiyong/)
 - [如何使用 ChatGPT 新手指南](/article/ChatGPTzhinan/)
 - [Telegram 全平台注册与使用指南](/article/Telegramquanpingtaizhinan/)

@@ -456,6 +456,9 @@ Gemini Web、App、AI Studio、API 的可用性并不完全一致。建议先确
 
 ## 延伸阅读
 
+- [2026年AI搜索与AI Agent工具稳定访问教程：ChatGPT Search、Google AI Mode、Claude、Gemini排查指南](/article/ai-search-agent-access-guide-2026/)  
+  如果你重点遇到 AI 搜索入口、AI Agent、Google AI Mode、Perplexity、Gemini AI Studio 或 ChatGPT Search 不稳定，可以先看这篇。
+
 - [2026最新最全 Claude / Gemini / ChatGPT 访问方法｜官方入口、地区限制与无法使用解决方案](/article/ai-tools-access-guide-2026/)  
   适合继续了解 ChatGPT、Claude、Gemini 的不同入口、地区限制和登录失败排查。
 
@@ -479,4 +482,3 @@ Gemini Web、App、AI Studio、API 的可用性并不完全一致。建议先确
 
 - [2026年翻墙机场推荐评测｜稳定便宜VPN机场排行榜](/vpn-recommend/)  
   想直接对比稳定、便宜、适合 AI 工具和日常科学上网的机场，可以从这篇长期更新榜单开始。
-

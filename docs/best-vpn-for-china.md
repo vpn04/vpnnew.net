@@ -34,7 +34,7 @@ tags:
 
 ## 按使用场景进入
 
-- 主要访问 ChatGPT、Claude、Gemini：先看 [ChatGPT 无法使用怎么办](/article/ChatGPTwufashiyong/) 和 [AI 工具访问指南](/article/ai-tools-access-guide-2026/)。
+- 主要访问 ChatGPT、Claude、Gemini 或 AI 搜索工具：先看 [2026年AI搜索与AI Agent工具稳定访问教程](/article/ai-search-agent-access-guide-2026/)、[ChatGPT 无法使用怎么办](/article/ChatGPTwufashiyong/) 和 [AI 工具访问指南](/article/ai-tools-access-guide-2026/)。
 - iPhone 用户：先看 [iPhone 上装哪款 VPN](/article/iphoneVPN/) 和 [Shadowrocket 小火箭教程](/article/Shadowrocket/)。
 - 电脑用户：先看 [电脑用 VPN 怎么选](/article/diannanvpnzenmexuan/) 和 [Clash Verge 桌面端教程](/article/ClashVerge/)。
 - 家庭多设备：先看 [路由器翻墙教程](/article/luyouqi/)。
@@ -60,4 +60,3 @@ tags:
 ## 本站如何保持内容可信
 
 YouYou 会持续整理价格、套餐、节点、使用体验和风险反馈。为了让推荐更透明，可以查看 [评测方法与评分标准](/methodology/)、[广告与联盟披露](/disclosure/) 和 [联系与纠错](/contact/)。
-

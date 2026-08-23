@@ -54,6 +54,11 @@ const coreTopicLinks: TopicLink[] = [
     description: '聚合机场推荐榜、性能价格对比、近期机场深度评测、免费试用、优惠券和跑路预警。',
   },
   {
+    title: 'AI 搜索与 AI Agent 稳定访问教程',
+    url: `${siteUrl}/article/ai-search-agent-access-guide-2026/`,
+    description: '围绕 ChatGPT Search、Google AI Mode、Claude、Gemini 等热门 AI 工具，整理官方入口、地区限制、客户端、DNS 和节点稳定性排查。',
+  },
+  {
     title: 'Clash 教程专题',
     url: `${siteUrl}/clash/`,
     description: '集中整理 Clash 全平台安装、Clash Verge、Android、TUN 模式、订阅导入和常见故障排查。',

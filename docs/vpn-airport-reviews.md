@@ -48,11 +48,10 @@ YouYou 的机场内容会尽量从这些维度判断：
 
 1. 线路质量：是否有 IPLC、IEPL、BGP、原生线路或中转优化。
 2. 晚高峰速度：实际使用是否稳定，不只看宣传带宽。
-3. 应用可用性：Google、YouTube、Telegram、ChatGPT、Netflix 等是否顺畅。
+3. 应用可用性：Google、YouTube、Telegram、ChatGPT、Claude、Gemini、AI 搜索、Netflix 等是否顺畅。
 4. 价格与套餐：月付门槛、流量倍率、设备数和续费成本。
 5. 风险信号：官网打不开、公告异常、客服失联、数据丢失、长期不维护。
 
 ## 继续阅读
 
-如果你还没有确定工具，可以先看 [2026 中国可用 VPN 与机场推荐指南](/best-vpn-for-china/)；如果已经订阅但速度不稳定，可以看 [VPN 速度与稳定性测试专题](/vpn-speed-test/)。
-
+如果你还没有确定工具，可以先看 [2026 中国可用 VPN 与机场推荐指南](/best-vpn-for-china/)；如果主要遇到 ChatGPT Search、Google AI Mode、Claude、Gemini 访问异常，可以看 [AI 搜索与 AI Agent 稳定访问教程](/article/ai-search-agent-access-guide-2026/)；如果已经订阅但速度不稳定，可以看 [VPN 速度与稳定性测试专题](/vpn-speed-test/)。

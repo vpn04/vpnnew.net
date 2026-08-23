@@ -98,6 +98,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-08-23｜AI搜索与AI Agent稳定访问教程
+        description: '新增 <a href="/article/ai-search-agent-access-guide-2026/">ChatGPT Search、Google AI Mode、Claude、Gemini 排查指南</a>，适合解决AI搜索入口、地区限制、Clash/Shadowrocket、DNS和节点稳定性问题。'
+      -
         title: 2026-08-22｜首页新增实测榜、场景入口和 FAQ
         description: '机场推荐、测速方法、跑路预警、Clash/Shadowrocket 排查和 AI 工具访问。'
       -
@@ -160,10 +163,10 @@ config:
         icon: {src: "/home-icons/clash-verge.png"}
         details: Clash Verge、系统代理、TUN 模式、规则分流和桌面端故障排查。
         link: "/article/ClashVerge/"
-      - title: AI 工具访问
+      - title: AI 搜索与 Agent 访问
         icon: {src: "/home-icons/chatgpt.png"}
-        details: ChatGPT、Claude、Gemini 的地区限制、登录失败、节点选择和稳定访问方案。
-        link: "/article/ai-tools-access-guide-2026/"
+        details: ChatGPT Search、Google AI Mode、Claude、Gemini 的入口、地区限制、DNS和节点排查。
+        link: "/article/ai-search-agent-access-guide-2026/"
       - title: Clash 打不开 Google
         icon: {src: "/home-icons/clash.png"}
         details: 从 DNS 污染、规则分流、节点质量、系统代理和浏览器冲突逐步排查。

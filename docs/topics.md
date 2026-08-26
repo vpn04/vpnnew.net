@@ -32,6 +32,8 @@ tags:
 
 ## 新手教程
 
+- [翻墙机场怎么选？2026 新手购买避坑教程](/article/how-to-choose-vpn-airport-2026/)
+- [机场订阅链接怎么用？Clash / Shadowrocket 导入教程](/article/airport-subscription-clash-shadowrocket-guide-2026/)
 - [什么是翻墙？2026 年完整指南](/article/fanqiang/)
 - [2026 年最全最新翻墙教程](/article/2026fanqiangzhinan/)
 - [电脑用 VPN 怎么选](/article/diannanvpnzenmexuan/)

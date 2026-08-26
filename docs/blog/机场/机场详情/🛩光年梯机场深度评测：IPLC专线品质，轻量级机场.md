@@ -44,22 +44,18 @@ head:
 ---
 [光年梯](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)是一款专注于基础稳定访问的==轻量级==机场服务。其核心策略是以极具吸引力的入门价格，为用户提供具备==IPLC专线品质==的网络通道，旨在满足对稳定性有要求但预算有限的用户群体。
 
-📲光年梯机场官网地址：[yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
+📲光年梯机场官网地址：[官网](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
 <!-- more -->
 
 ## 🔔服务概览与技术架构
 
 ![alt text](images/🛩光年梯机场深度评测：IPLC专线品质，轻量级机场/image.jpg)
 
-## 掌中世界机场官网地址：[yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
-
-## 👉[新用户7折福利领取](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
-## 👉[新用户邀请码GNT70](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [yyo649929.gntvipaff.cc](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G)
+| **🌐 官方网站** | [官网](https://yyo649929.gntvipaff.cc/#/?code=wSwAqP3G) |
 | **💰 入门价格** | 18.00元/110G每月 |
 | **📑 用户福利** | 七折优惠码GNT70 |
 | **💳 充值方式** | 支付宝、微信支付 |

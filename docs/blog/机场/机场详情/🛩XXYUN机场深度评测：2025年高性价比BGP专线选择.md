@@ -45,7 +45,7 @@ head:
 
 ![alt text](images/🛩XXYUN机场深度评测：2025年高性价比BGP专线选择/image.png)
 
-**官方网站**：[https://xxyun.de/rXypHVO4.html](https://xxyun.at/?code=rXypHVO4)
+**官方网站**：[官网](https://xxyun.at/?code=rXypHVO4)
 
 ## 📚套餐详情与价格体系
 
@@ -96,7 +96,7 @@ head:
 - **桌面端**：Windows (Clash)、macOS (ClashX)
 
 ### 🪂配置流程
-1. 官网注册账号并完成验证：[xxyun.de/rXypHVO4.html](https://xxyun.at/?code=rXypHVO4)
+1. 官网注册账号并完成验证：[官网](https://xxyun.at/?code=rXypHVO4)
 2. 选择合适的流量套餐
 3. 获取订阅链接导入客户端
 4. 进行节点测速并选择最优线路

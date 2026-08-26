@@ -42,21 +42,20 @@ head:
 ---
 [ccyz](https://ccyz.org/?code=YByL9bFd)机场主打 ==**高性价比与专线稳定**==，采用 ==**BGP 中转 + IEPL 专线**== 双重优化，即使在晚高峰也能保持高速稳定。支持 Netflix、Disney+、HBO、ChatGPT 等主流流媒体与AI服务==**全解锁**==，并提供全天候客服支持，适合长期稳定使用的用户。
 
-📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd)
+📲ccyz机场官网地址：[官网](https://ccyz.org/?code=YByL9bFd)
 <!-- more -->
 
 ## 🔔服务概览与技术架构
+
 ![alt text](<images/🛩ccyz机场深度评测：IEPL 专线机场，15元150G超高性价比/image.png>)
 
-## 📲ccyz机场官网地址：[https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd)
-
-## 👉[新用户1G试用领取](https://ccyz.org/?code=YByL9bFd)
-## 👉[新用户叠加95折优惠卷](https://ccyz.org/?code=YByL9bFd)
+ 👉[新用户1G试用领取](https://ccyz.org/?code=YByL9bFd)
+ 👉[新用户叠加95折优惠卷](https://ccyz.org/?code=YByL9bFd)
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://ccyz.org/YByL9bFd.html](https://ccyz.org/?code=YByL9bFd)
+| **🌐 官方网站** | [官网](https://ccyz.org/?code=YByL9bFd) |
 | **💰 入门价格** | 15.00元/150G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **💳 免费体验** | 新用户1G体验 |

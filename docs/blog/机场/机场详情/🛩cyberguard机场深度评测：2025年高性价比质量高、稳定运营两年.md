@@ -41,7 +41,7 @@ head:
 ---
 [cyberguard机场](https://www.cyberguard.best/#/register?code=qWL0nnJs)  作为稳定运营两年的专业网络服务提供商，致力于为用户提供安全可靠的高速网络连接解决方案。服务采用多层次技术架构，确保网络连接的稳定性和数据安全性。
 
-📲cyberguard机场官网地址：[cyberguard.best](https://www.cyberguard.best/#/register?code=qWL0nnJs) 
+📲cyberguard机场官网地址：[官网](https://www.cyberguard.best/#/register?code=qWL0nnJs) 
 <!-- more -->
 
 >18元起100G/月，解锁Netflix/Hbo/Disney+/Dazn等流媒体
@@ -49,14 +49,11 @@ head:
 
 ![alt text](images/🛩cyberguard机场深度评测：2025年高性价比质量高、稳定运营两年/image.png)
 
-**官方访问地址**：[cyberguard.best](https://www.cyberguard.best/#/register?code=qWL0nnJs) 
-
 ## 📋 核心信息总览
-## 服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [cyberguard.best](https://www.cyberguard.best/#/register?code=qWL0nnJs) |
+| **🌐 官方网站** | [官网](https://www.cyberguard.best/#/register?code=qWL0nnJs) |
 | **💰 入门价格** | 18元/月（含100G流量） |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务器分布** | 香港、台湾、新加坡、美国、日本、韩国等多区域 |

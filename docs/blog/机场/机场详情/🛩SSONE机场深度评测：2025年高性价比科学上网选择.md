@@ -99,7 +99,7 @@ head:
 
 **[SSONE机场](https://hello-ssone.com/register?aff=X9RslxvT)** 凭借其卓越的性价比和稳定的服务质量，在众多科学上网服务商中表现突出。经过长期实测验证，现向各位用户诚意推荐这一可靠选择。
 
-👉 官网地址 ： [hello-ssone.com](https://hello-ssone.com/register?aff=X9RslxvT)
+👉 官网地址 ： [官网](https://hello-ssone.com/register?aff=X9RslxvT)
 <!-- more -->
 ---
 ![alt text](images/🛩SSONE机场深度评测：2025年高性价比科学上网选择/image.png)
@@ -129,7 +129,7 @@ head:
 
 | 项目 | 详细信息 |
 |------|----------|
-| 🌐 **官方网站** | [hello-ssone.com](https://hello-ssone.com/register?aff=X9RslxvT) |
+| 🌐 **官方网站** | [官网](https://hello-ssone.com/register?aff=X9RslxvT) |
 | 🎁 **体验套餐** | 1天1G免费试用 |
 | 💰 **入门价格** | 10元/月（含60G流量）|
 | 💳 **充值方式** | 支付宝、微信支付 |
@@ -268,7 +268,7 @@ head:
 ## 📍购买与支付
 
 ### 🛒 购买流程
-1. 访问官方网站： [hello-ssone.com](https://hello-ssone.com/register?aff=X9RslxvT)
+1. 访问官方网站： [官网](https://hello-ssone.com/register?aff=X9RslxvT)
 2. 完成账户注册：`X9RslxvT`（邀请码）
 3. 验证邮箱地址
 4. 选择服务套餐

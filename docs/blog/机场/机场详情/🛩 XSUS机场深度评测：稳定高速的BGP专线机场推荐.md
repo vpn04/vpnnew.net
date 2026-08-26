@@ -83,7 +83,7 @@ head:
 
 对于想寻找 **稳定机场、流媒体机场或长期可用机场** 的用户来说，XSUS是一个值得关注的服务。
 
-📲XSUS机场官网地址：[https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz)
+📲XSUS机场官网地址：[官网](https://xsus.cloud/register?code=08LnQApz)
 <!-- more -->
 ---
 
@@ -91,15 +91,13 @@ head:
 
 ![alt text](<images/🛩 XSUS机场深度评测：稳定高速的BGP专线机场推荐/image-1.png>)
 
-## 📲XSUS机场官网地址：[https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz)
-
-## 👉[新用户邀请码08LnQApz](https://xsus.cloud/register?code=08LnQApz)
+ 👉[新用户邀请码08LnQApz](https://xsus.cloud/register?code=08LnQApz)
 
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://xs-us.xyz](https://xsus.cloud/register?code=08LnQApz) |
+| **🌐 官方网站** | [官网](https://xsus.cloud/register?code=08LnQApz) |
 | **💰 入门价格** | 10.00元/168G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务器分布** | 自有机房专柜 环球多地接入点 |

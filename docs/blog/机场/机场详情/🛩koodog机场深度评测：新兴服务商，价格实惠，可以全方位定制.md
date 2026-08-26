@@ -47,19 +47,14 @@ head:
 ## 🔔服务概览与技术架构
 
 ![alt text](images/🛩koodog机场深度评测：新兴服务商，价格实惠，可以全方位定制/image.png)
-### 🎶专业技术团队保障
-
-## 📲koodog机场官网地址：[koodog.com](https://zero.thisgourl.xyz/#/register?code=9GqU6tvI)
 
 ## 👉[新用户5大福利领取](https://zero.thisgourl.xyz/#/register?code=9GqU6tvI)
 
-
 ## 📋 核心信息总览
-## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [koodog.com](https://zero.thisgourl.xyz/#/register?code=9GqU6tvI) |
+| **🌐 官方网站** | [官网](https://zero.thisgourl.xyz/#/register?code=9GqU6tvI) |
 | **💰 入门价格** | 5元/35G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🔗 协议支持** | 全球节点、高速稳定的网络体验、流媒体解锁、多设备支持等  |

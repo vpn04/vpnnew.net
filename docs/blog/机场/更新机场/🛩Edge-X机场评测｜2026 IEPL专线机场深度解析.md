@@ -72,7 +72,7 @@ Edge-X机场评测｜2026最值得入手的IEPL专线机场之一？
 
 本文将进行一篇**深度SEO优化评测**，从多个维度解析 Edge-X 是否值得长期使用。
 
-📲 官网地址（建议收藏）：[https://edge-x.net](https://edge-invite.com/#/register?code=EmvdG9gv)
+📲 官网地址（建议收藏）：[官网](https://edge-invite.com/#/register?code=EmvdG9gv)
 
 <!-- more -->
 
@@ -84,7 +84,7 @@ Edge-X机场评测｜2026最值得入手的IEPL专线机场之一？
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://edge-x.net](https://edge-invite.com/#/register?code=EmvdG9gv) |
+| **🌐 官方网站** | [官网](https://edge-invite.com/#/register?code=EmvdG9gv) |
 | **💰 入门价格** | 22.8元/200G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 线路** | IEPL专线+少量直连优化节点 |

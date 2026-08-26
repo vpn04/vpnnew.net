@@ -87,7 +87,7 @@ head:
 
 本篇将深度评测近期热度上升的新机场——**可信云**，从多个维度进行全面分析，帮助你判断：**它到底值不值得上车？**
 
-📲 官网地址（建议收藏）：[01.kosingaff.cc](https://sfasfs.kexintztz2.xyz/#/?code=vCcC0uHB)
+📲 官网地址（建议收藏）：[官网](https://sfasfs.kexintztz2.xyz/#/?code=vCcC0uHB)
 
 <!-- more -->
 
@@ -99,7 +99,7 @@ head:
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [01.kosingaff.cc](https://sfasfs.kexintztz2.xyz/#/?code=vCcC0uHB) |
+| **🌐 官方网站** | [官网](https://sfasfs.kexintztz2.xyz/#/?code=vCcC0uHB) |
 | **💰 入门价格** | 8.00元/60G每月（年付） |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 线路** |  vless协议，企业级IPLC专线，三网优化，智能负载均衡 |

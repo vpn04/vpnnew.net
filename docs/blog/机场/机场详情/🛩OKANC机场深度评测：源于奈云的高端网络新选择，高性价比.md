@@ -42,7 +42,7 @@ head:
 ---
 [OKANC](https://www.okanc.com/index.php#/register?code=j4gYClCp)机场并非普通新兴服务，其与业内知名的 ==**奈云 (NaiCloud) 同宗同源**==，继承了成熟的技术架构与运营信誉。专注于为高需求用户提供 ==**顶级网络质量**==，在速度、稳定性与延迟控制上表现卓越，是追求极致网络体验用户的优选。
 
-📲OKANC机场官网地址：[okanc.com](https://www.okanc.com/index.php#/register?code=j4gYClCp) |
+📲OKANC机场官网地址：[官网](https://www.okanc.com/index.php#/register?code=j4gYClCp) |
 <!-- more -->
 ---
 
@@ -69,7 +69,7 @@ head:
 
 | 项目 | 详细信息 |
 |------|----------|
-| 🌐 **官方网站** | [okanc.com](https://www.okanc.com/index.php#/register?code=j4gYClCp) | |
+| 🌐 **官方网站** | [官网](https://www.okanc.com/index.php#/register?code=j4gYClCp) |
 | 🎁 **新用户福利** | [👉新用户专享领取](https://www.okanc.com/index.php#/register?code=j4gYClCp) |
 | 💰 **入门价格** | 46元/月（328G/月流量）|
 | 💳 **充值方式** | 支付宝、微信支付 |

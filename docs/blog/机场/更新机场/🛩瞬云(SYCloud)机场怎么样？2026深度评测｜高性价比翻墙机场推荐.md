@@ -59,7 +59,7 @@ head:
 在众多翻墙机场中，**瞬云（SYCloud）**作为2026年新上线的服务，凭借低价和高流量迅速获得关注。  
 本文基于实际使用体验，从**价格、速度、稳定性、解锁能力**等多个维度进行全面评测。
 
-📲 官网地址（建议收藏）：[syjcloud.com](https://syjccloud.com/#/register?code=uzsi79Ne)
+📲 官网地址（建议收藏）：[官网](https://syjccloud.com/#/register?code=uzsi79Ne)
 <!-- more -->
 ---
 
@@ -83,7 +83,7 @@ head:
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [syjcloud.com](https://syjccloud.com/#/register?code=uzsi79Ne) |
+| **🌐 官方网站** | [官网](https://syjccloud.com/#/register?code=uzsi79Ne) |
 | **💰 入门价格** | 8.25元/59G每月 |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 线路** | 主流国家ANYCAST高速节点 |

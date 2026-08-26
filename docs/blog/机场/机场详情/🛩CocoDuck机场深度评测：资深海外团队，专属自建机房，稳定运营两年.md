@@ -45,18 +45,13 @@ head:
 
 ![alt text](images/🛩CocoDuck机场深度评测：资深海外团队，专属自建机房，稳定运营两年/image.png)
 
-### 🎶专业技术团队保障
+ 👉[新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47)
 
-## 📲CocoDuck机场官网地址：[https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47)
-
-## 👉[新用户1天2G流量体验领取](https://cocoduck.live/auth/register?code=b7bc5faa47)
-
-## 📋 核心信息总览
 ## 💻服务核心信息
 
 | 项目 | 详细信息 |
 | :--- | :--- |
-| **🌐 官方网站** | [https://cocoduck.live](https://cocoduck.live/auth/register?code=b7bc5faa47) |
+| **🌐 官方网站** | [官网](https://cocoduck.live/auth/register?code=b7bc5faa47) |
 | **💰 入门价格** | 15元/月（含150G流量） |
 | **💳 充值方式** | 支付宝、微信支付 |
 | **🌍 服务器分布** | 亚太地区、北美地区、欧洲地区、其他地区等多区域 |

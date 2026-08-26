@@ -47,10 +47,7 @@ head:
 
 ![alt text](images/🛩SuperBiu机场深度评测：三网IPLC顶级线路，全球流媒体顺畅解锁/image.png)
 
-
-**官方网站**：[biubiux.online](https://biubiux.online/#/register?code=K536fups)
-
-## 🦾核心特性解析
+**官方网站**：[官网](https://biubiux.online/#/register?code=K536fups)
 
 ## ✍️服务套餐详情
 
@@ -352,7 +349,7 @@ head:
 - 💰 灵活多样的套餐选择
 - 🛠️ 专业及时的技术支持
 
-> ## **立即体验**：访问官方网站 [biubiux.online](https://biubiux.online/#/register?code=K536fups) 开启优质网络加速之旅
+> ## **立即体验**：访问官方网站 [官网](https://biubiux.online/#/register?code=K536fups) 开启优质网络加速之旅
 
 ## [👉新用户专享 SuperBiu](https://biubiux.online/#/register?code=K536fups)
 ## 新用户首次订购可使用专享码  **K536fups**

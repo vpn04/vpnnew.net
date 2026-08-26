@@ -90,7 +90,7 @@ head:
 👉 我将从**价格、速度、稳定性、流媒体解锁、适用人群**等多个维度，全面分析：  
 **uuone机场到底怎么样？是否值得购买？**
 
-📲 官网地址 ： 👉 [uuone.de](https://uuone.at?code=NThYGiev)
+📲 官网地址 ： 👉 [官网](https://uuone.at?code=NThYGiev)
 <!-- more -->
 
 ---
@@ -115,7 +115,7 @@ head:
 
 | 项目 | 详细信息 |
 |------|----------|
-| 🌐 官方网站 | https://uuone.acysa.de |
+| 🌐 官方网站 | [官网](https://uuone.at?code=NThYGiev) |
 | 🎁 优惠码 | uuone（9折） |
 | 💰 入门价格 | 12元/月（150G） |
 | 📶 设备限制 | 最多20台 |

@@ -46,7 +46,7 @@ head:
 ## 📃FlyBit 网络加速服务深度解析
 
 ### 📰官方访问渠道
-- **官方网站**：[goflybit.com](http://goflybit.com/#/register?code=bYcRnAxq)
+- **官方网站**：[官网](http://goflybit.com/#/register?code=bYcRnAxq)
 - **专属邀请码**：bYcRnAxq
 - **新用户体验**：1天1G免费试用
 
@@ -105,7 +105,7 @@ head:
 ## 💡使用建议与技巧
 
 ### 🛒 购买优化策略
-1. **访问官网**：[goflybit.com](http://goflybit.com/#/register?code=bYcRnAxq)
+1. **访问官网**：[官网](http://goflybit.com/#/register?code=bYcRnAxq)
 2. **注册账户**：使用邀请码**bYcRnAxq**
 3. **领取优惠**：[1GB试用领取](http://goflybit.com/#/register?code=bYcRnAxq)
 4. **选择套餐**：根据需求匹配服务
@@ -127,7 +127,7 @@ head:
 ## [👉新用户专享 flybit](http://goflybit.com/#/register?code=bYcRnAxq)
 ## 新用户首次订购可使用专享码  **bYcRnAxq**
 
-> **立即行动**：访问 [goflybit.com](http://goflybit.com/#/register?code=bYcRnAxq) 使用邀请码 bYcRnAxq 开启体验
+> **立即行动**：访问 [官网](http://goflybit.com/#/register?code=bYcRnAxq) 使用邀请码 bYcRnAxq 开启体验
 
 ## 📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 

@@ -98,6 +98,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-08-31｜机场月付、年付与真实成本计算教程
+        description: '新增 <a href="/article/vpn-airport-monthly-vs-yearly-guide-2026/">VPN机场价格与套餐周期选择教程</a>，先计算回本月数并完成短周期验收，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选候选。'
+      -
         title: 2026-08-23｜AI搜索与AI Agent稳定访问教程
         description: '新增 <a href="/article/ai-search-agent-access-guide-2026/">ChatGPT Search、Google AI Mode、Claude、Gemini 排查指南</a>，适合解决AI搜索入口、地区限制、Clash/Shadowrocket、DNS和节点稳定性问题。'
       -

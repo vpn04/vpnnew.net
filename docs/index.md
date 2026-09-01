@@ -98,6 +98,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-09-01｜机场多设备限制与家庭共享教程
+        description: '新增 <a href="/article/vpn-airport-device-limit-family-sharing-guide-2026/">一个机场可以几台设备同时使用</a>完整教程，核对设备、在线 IP、流量和家庭共享规则，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选套餐。'
+      -
         title: 2026-08-31｜机场月付、年付与真实成本计算教程
         description: '新增 <a href="/article/vpn-airport-monthly-vs-yearly-guide-2026/">VPN机场价格与套餐周期选择教程</a>，先计算回本月数并完成短周期验收，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选候选。'
       -

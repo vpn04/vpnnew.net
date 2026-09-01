@@ -1,7 +1,7 @@
 ---
 title: 2026 中国可用 VPN 与机场推荐指南
 description: 面向中国大陆用户的 VPN 与机场选择专题，整理稳定性、速度、价格、设备兼容、ChatGPT 与流媒体访问、跑路风险和订阅前检查清单。
-updated: 2026/09/01 11:00:00
+updated: 2026/09/01 18:15:00
 permalink: /best-vpn-for-china/
 createTime: 2026/07/21 10:00:00
 tags:
@@ -40,7 +40,7 @@ tags:
 - 主要访问 ChatGPT、Claude、Gemini 或 AI 搜索工具：先看 [2026年AI搜索与AI Agent工具稳定访问教程](/article/ai-search-agent-access-guide-2026/)、[ChatGPT 无法使用怎么办](/article/ChatGPTwufashiyong/) 和 [AI 工具访问指南](/article/ai-tools-access-guide-2026/)。
 - iPhone 用户：先看 [iPhone 上装哪款 VPN](/article/iphoneVPN/) 和 [Shadowrocket 小火箭教程](/article/Shadowrocket/)。
 - 电脑用户：先看 [电脑用 VPN 怎么选](/article/diannanvpnzenmexuan/) 和 [Clash Verge 桌面端教程](/article/ClashVerge/)。
-- 家庭多设备：先看 [路由器翻墙教程](/article/luyouqi/)。
+- 家庭多设备：先看[一个机场可以几台设备与家庭共享教程](/article/vpn-airport-device-limit-family-sharing-guide-2026/)，再根据终端类型决定是否使用[路由器统一配置](/article/luyouqi/)。
 - 追剧和流媒体：先看 [2025 年流媒体党 VPN 机场选购指南](/article/2025liumeitivpn/)。
 
 ## 订阅前检查清单

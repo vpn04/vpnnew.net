@@ -3,6 +3,7 @@ title: VPN 与科学上网专题索引
 description: YouYou 核心专题导航，聚合 VPN 推荐、机场评测、Clash 教程、Shadowrocket 教程、优惠试用、跑路预警和 AI 工具访问指南。
 permalink: /topics/
 createTime: 2026/07/16 18:20:00
+updated: 2026/09/01 11:00:00
 tags:
   - 专题索引
   - VPN推荐
@@ -33,6 +34,7 @@ tags:
 ## 新手教程
 
 - [翻墙机场怎么选？2026 新手购买避坑教程](/article/how-to-choose-vpn-airport-2026/)
+- [机场线路怎么选？直连、中转、BGP、IEPL、IPLC 区别教程](/article/vpn-airport-route-types-guide-2026/)
 - [机场月付还是年付？VPN 机场价格与套餐周期教程](/article/vpn-airport-monthly-vs-yearly-guide-2026/)
 - [机场订阅链接怎么用？Clash / Shadowrocket 导入教程](/article/airport-subscription-clash-shadowrocket-guide-2026/)
 - [什么是翻墙？2026 年完整指南](/article/fanqiang/)

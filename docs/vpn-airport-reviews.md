@@ -3,7 +3,7 @@ title: VPN 机场评测中心：稳定机场、价格对比、免费试用与跑
 description: YouYou VPN 机场评测中心，聚合机场推荐榜、机场性能价格对比、深度评测、免费试用、优惠券、跑路名单和订阅风险检查。
 permalink: /vpn-airport-reviews/
 createTime: 2026/07/21 10:15:00
-updated: 2026/09/01 18:15:00
+updated: 2026/09/01 18:30:00
 tags:
   - 机场评测
   - VPN机场
@@ -31,6 +31,7 @@ tags:
 
 ## 近期机场深度评测
 
+- [云图专线机场评测](/vpn/yuntu-airport-review-2026/)
 - [Edge-X 机场评测](/article/edge-x-review-2026/)
 - [Edgenova 机场测评](/article/edgenova-review-2026/)
 - [速界机场测评](/article/speedworld-review-2026/)

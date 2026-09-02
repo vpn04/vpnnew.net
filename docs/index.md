@@ -98,6 +98,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-09-02｜Clash、Shadowrocket更换机场与订阅迁移
+        description: '新增 <a href="/article/how-to-switch-vpn-airport-subscription-2026/">机场不好用怎么换</a>完整教程，先排除本地故障，再到 <a href="/airport/jichangpk/">2026热门机场详细测评与全面对比汇总</a>选择替代候选。'
+      -
         title: 2026-09-01｜机场多设备限制与家庭共享教程
         description: '新增 <a href="/article/vpn-airport-device-limit-family-sharing-guide-2026/">一个机场可以几台设备同时使用</a>完整教程，核对设备、在线 IP、流量和家庭共享规则，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选套餐。'
       -

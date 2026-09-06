@@ -1,0 +1,58 @@
+# YouYou VPN 推荐与机场评测
+
+> YouYou 是一个长期更新 VPN 推荐、机场评测、Clash / Shadowrocket 教程、AI 工具访问、跑路预警和科学上网排查指南的网站。
+
+## Site
+
+- URL: https://vpnnew.net/
+- Language: zh-CN
+- Author: YouYou
+- Contact: yyo649929@gmail.com
+
+## Core Topics
+
+- [2026 中国可用 VPN 与机场推荐指南](https://vpnnew.net/best-vpn-for-china/): 面向中国大陆用户的核心选购入口，聚合 VPN 推荐、机场评测、设备教程、AI 工具访问和订阅风险检查。
+- [VPN 机场评测中心](https://vpnnew.net/vpn-airport-reviews/): 聚合机场推荐榜、性能价格对比、近期机场深度评测、免费试用、优惠券和跑路预警。
+- [AI 搜索与 AI Agent 稳定访问教程](https://vpnnew.net/article/ai-search-agent-access-guide-2026/): 围绕 ChatGPT Search、Google AI Mode、Claude、Gemini 等热门 AI 工具，整理官方入口、地区限制、客户端、DNS 和节点稳定性排查。
+- [Clash 教程专题](https://vpnnew.net/clash/): 集中整理 Clash 全平台安装、Clash Verge、Android、TUN 模式、订阅导入和常见故障排查。
+- [Shadowrocket 小火箭专题](https://vpnnew.net/shadowrocket/): 面向 iPhone 和 iPad 用户的 Shadowrocket 下载、节点订阅、配置失效、DNS 和节点超时排查入口。
+- [VPN 速度与稳定性测试专题](https://vpnnew.net/vpn-speed-test/): 整理 VPN 和机场测速、晚高峰观察、节点优化、DNS 泄露、丢包延迟与客户端排查方法。
+- [2026 年性价比翻墙机场推荐评测](https://vpnnew.net/vpn-recommend/): 长期更新的 VPN 机场推荐榜，覆盖价格、速度、稳定性、流媒体解锁和适用人群。
+- [机场性能与价格对比榜](https://vpnnew.net/airport/jichangpk/): 按价格、线路、套餐、晚高峰表现和节点质量对多个机场做横向对比。
+- [Clash 全平台使用教程](https://vpnnew.net/scamvpn/Clashquanpingtai/): 覆盖 Windows、macOS、Android、iOS 的 Clash 客户端安装、导入订阅和常见故障。
+- [Shadowrocket 小火箭教程](https://vpnnew.net/article/Shadowrocket/): 面向 iOS 和 macOS 用户的 Shadowrocket 下载、配置、订阅导入和排查指南。
+- [机场跑路汇总与风险预警](https://vpnnew.net/scamvpn/paolujichang/): 整理机场跑路事件、失联风险、退款风险和订阅前需要警惕的异常信号。
+- [YouYou 评测方法与评分标准](https://vpnnew.net/methodology/): 公开说明本站如何评测 VPN 与机场服务，包括测速、稳定性、售后和风险判断。
+
+## Trust And Methodology
+
+- [评测方法](https://vpnnew.net/methodology/): 说明测速、晚高峰、流媒体、AI 工具访问、售后和风险判断标准。
+- [广告披露](https://vpnnew.net/disclosure/): 说明联盟链接、优惠码和评测独立性。
+- [联系与纠错](https://vpnnew.net/contact/): 提交价格变化、链接失效、机场异常、跑路风险和内容纠错。
+
+## Recent Articles
+
+- [机场不好用怎么换？2026 Clash、Shadowrocket更换机场与订阅迁移教程](https://vpnnew.net/article/how-to-switch-vpn-airport-subscription-2026/): 机场不好用或到期后怎么换？本文从是否需要更换、热门机场横向对比、试用验收、新旧订阅并行，到Clash、Shadowrocket和多设备迁移，完整讲解配置备份、DNS与规则检查、退款留证及旧订阅安全清理。
+- [全网最全推荐！2026翻墙机场性能与价格对比榜,实测百家机场：哪家最稳？哪家最便宜？（持续更新）](https://vpnnew.net/airport/jichangpk/): 全网最全推荐！2026翻墙机场性能与价格对比榜，新增九云机场：对比6元150GB起套餐、VLESS中转、通用订阅、3台设备、99元300GB不限时流量、节点测速与ChatGPT/Netflix解锁，并持续实测百家机场哪家更稳、更便宜。
+- [2026年翻墙机场推荐评测｜稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](https://vpnnew.net/vpn-recommend/): 2026年最新翻墙机场推荐与VPN评测，新增九云、灯塔加速器、云图专线等机场，横向比较6元150GB起套餐、VLESS通用订阅、中转/IEPL/IPLC线路、一次性不限时流量、晚高峰测速、流媒体与ChatGPT可用性，持续更新稳定便宜、高性价比科学上网机场排行榜。
+- [🛩九云机场怎么样？2026最新测评｜6元150GB、VLESS中转、套餐价格与不限时流量](https://vpnnew.net/vpn/jiuyun-airport-review-2026/): 九云机场怎么样？2026九云机场测评核对6元150GB、9元300GB、16元600GB、99元300GB不限时套餐，分析VLESS中转节点、通用订阅、3台设备、测速及ChatGPT、Netflix、YouTube解锁表现。
+- [🛩灯塔加速器机场怎么样？2026 最新评测｜BGP+IEPL、VLESS、自有客户端、价格与优惠码](https://vpnnew.net/vpn/dengta-accelerator-review-2026/): 2026灯塔加速器机场评测：核对dengta12.com官网、30元120GB起套餐、BGP前置与IEPL专线、VLESS通用订阅、自有客户端、24小时退款条件、优惠码及晚高峰测速，分析优缺点与适合人群。
+- [🛩云图专线机场怎么样？2026最新评测：AnyTLS、套餐价格、测速与流媒体解锁](https://vpnnew.net/vpn/yuntu-airport-review-2026/): 云图专线机场怎么样？本文核对云图机场官网、25元150GB起套餐、AnyTLS节点、全节点1倍倍率、5台设备、通用订阅、一次性不限时流量包、yt88优惠码、测速及流媒体截图，并分析新机场运营风险与适合人群。
+- [一个机场可以几台设备同时用？2026多设备限制、家庭共享与套餐选择教程](https://vpnnew.net/article/vpn-airport-device-limit-family-sharing-guide-2026/): 一个机场可以几台设备同时用，能否和家人共享？本文讲清设备数、同时在线数、IP数和连接数的区别，提供手机电脑路由器配置、多设备流量带宽估算、订阅安全、故障排查及家庭套餐选择清单。
+- [2026机场线路怎么选：直连、中转、BGP、IEPL、IPLC与CN2 GIA区别教程](https://vpnnew.net/article/vpn-airport-route-types-guide-2026/): 机场线路怎么选？本文讲清直连、中转、BGP、IEPL、IPLC与CN2 GIA的区别，提供三网与晚高峰实测、线路宣传核验、场景选择、评分表和购买前检查清单，帮助新手选择稳定且高性价比的VPN机场。
+- [机场月付还是年付？2026 VPN机场价格、套餐周期与真实成本计算教程](https://vpnnew.net/article/vpn-airport-monthly-vs-yearly-guide-2026/): 翻墙机场一个月多少钱，月付、季付、年付和不限时套餐怎么选？本文用回本月数、有效使用成本和风险预算拆解VPN机场价格，提供短周期验收、续费时机、优惠避坑及主备机场预算表。
+- [2026机场节点地区怎么选：香港、日本、新加坡、美国与台湾节点完整教程](https://vpnnew.net/article/airport-node-location-guide-2026/): 机场节点地区怎么选？本文对比香港、日本、新加坡、美国、台湾与欧洲节点的延迟、线路、IP地区和适用场景，给出Clash与Shadowrocket选节点、晚高峰复测、AI与流媒体业务验收、主备节点组合和故障排查完整教程。
+- [2026机场测速完整教程：延迟、丢包、抖动与晚高峰稳定性怎么测](https://vpnnew.net/article/airport-speed-test-guide-2026/): 机场测速怎么测才准？本教程从本地基线、出口节点、延迟、丢包、抖动、加载延迟和晚高峰衰减入手，给出可复现的VPN机场测速流程、记录表、评分方法与常见误区，解决节点延迟低但网速慢、测速快却看视频卡等问题。
+- [2026机场订阅链接安全指南：泄露检测、立即重置与安全备份教程](https://vpnnew.net/article/airport-subscription-security-guide-2026/): 机场订阅链接泄露怎么办？本教程解释订阅URL为什么应按凭证保护，梳理截图、群聊、在线转换、浏览器同步、日志和Git仓库等泄露路径，并给出发现异常后的撤销重置、客户端更新、安全备份与最小暴露清单。
+- [2026主力机场加备用机场容灾教程：断线切换、订阅备份与低成本方案](https://vpnnew.net/article/airport-backup-failover-guide-2026/): 机场突然断线或跑路怎么办？本文从单点故障、主备独立性、主动被动切换、健康检查、Clash策略组、订阅控制面备份和应急手册入手，设计主力机场加低成本备用机场的个人网络容灾方案，并给出月度演练与选购清单。
+- [2026机场流量倍率与套餐计算教程：100GB够用多久，怎样选最省钱](https://vpnnew.net/article/airport-traffic-multiplier-guide-2026/): 机场流量倍率是什么意思，100GB机场流量够用多久？本文用可复核公式拆解1倍、2倍节点扣费、月结与不限时套餐、视频和AI工具用量、多设备共享及测速消耗，并提供按场景估算套餐和比较真实单价的方法。
+- [2026节点IP质量检测教程：ASN、原生IP、住宅IP与地区识别完整指南](https://vpnnew.net/article/vpn-ip-quality-check-guide-2026/): 节点IP质量怎么检测？本文系统解释ASN、BGP归属、原生IP、住宅IP、数据中心IP、广播地区、GeoIP数据库、IPv4与IPv6出口一致性，并给出面向ChatGPT、Google、Netflix和跨境办公的分层检测流程及误区排查。
+- [2026年翻墙机场优惠券汇总（VPN优惠码+机场折扣大全长期更新）](https://vpnnew.net/article/youhuijuan/): 翻墙机场优惠券怎么样？深度整理2026年最新翻墙机场优惠券与VPN优惠码合集，涵盖免费试用、机场折扣、BGP三网优化、高速稳定、流媒体解锁及轻量高性价比套餐。解析优缺点、是否值得购买及适用用户对象，帮助用户以最低价格购买稳定VPN服务，长期持续更新。
+- [🛩灯塔cloud机场深度评测：老牌机场，稳定、专业、高速、高性价比](https://vpnnew.net/article/dengtacloud/): 灯塔Cloud机场已于2026年8月27日恢复运营。本篇提供灯塔Cloud官网、购买入口、邀请码、套餐价格、节点线路、速度稳定性与流媒体解锁能力等信息。
+- [⚠️2026年VPN机场跑路名单汇总｜机场跑路黑名单、跑路原因与避坑指南](https://vpnnew.net/scamvpn/paolujichang/): 2026年最新VPN机场跑路名单汇总，持续更新机场跑路黑名单、VPN机场跑路原因分析、跑路前征兆与避坑策略，帮助你及时识别跑路机场并降低损失。
+- [✅ 灯塔Cloud机场已恢复运营｜2026年8月27日官网、登录入口与服务恢复](https://vpnnew.net/scamvpn/dengtacloud-warning-2026/): 灯塔Cloud机场已于2026年8月27日恢复运营，官网、登录入口和服务现已恢复。本文保留8月26日异常记录，并更新灯塔Cloud官网、购买入口、邀请码、优惠码与套餐信息。
+- [翻墙机场怎么选？2026新手购买VPN机场避坑教程](https://vpnnew.net/article/how-to-choose-vpn-airport-2026/): 2026年翻墙机场怎么选？本文从使用需求、线路类型、协议兼容、流量倍率、设备数量、晚高峰测试和跑路风险出发，给出购买VPN机场前的检查清单、10分钟验收方法与新手避坑步骤。
+- [2026年AI搜索与AI Agent工具稳定访问教程：ChatGPT Search、Google AI Mode、Claude、Gemini排查指南](https://vpnnew.net/article/ai-search-agent-access-guide-2026/): 2026年AI搜索与AI Agent工具稳定访问教程，覆盖ChatGPT Search、Google AI Mode、Claude、Gemini、Perplexity等热门AI工具的入口确认、地区限制、账号环境、Clash与Shadowrocket配置、DNS和节点选择排查，并推荐长期更新的稳定VPN机场榜。
+- [2026年AI工具打不开怎么办？ChatGPT、Claude、Gemini、TikTok与Telegram稳定访问全流程教程](https://vpnnew.net/article/ai-tools-network-guide-2026/): 2026年AI工具打不开怎么办？本文从ChatGPT、Claude、Gemini、TikTok、Telegram等热门工具访问失败、地区限制、节点不稳定、Clash和Shadowrocket配置错误等场景出发，给出完整排查流程，并推荐长期更新的稳定便宜VPN机场排行榜。
+- [机场订阅链接怎么用？2026 Clash / Shadowrocket 导入订阅、节点测速与故障排查完整教程](https://vpnnew.net/article/airport-subscription-clash-shadowrocket-guide-2026/): 2026年机场订阅链接完整使用教程，手把手讲解Clash、Clash Verge、Clash for Android、Shadowrocket小火箭如何导入订阅、更新配置、节点测速、选择稳定线路，并排查订阅失败、节点超时、Google打不开、DNS泄露和TUN模式异常等常见问题。
+- [🛩闪跃机场怎么样？2026 最新评测：IPLC 纯专线、定制客户端、ChatGPT、Netflix](https://vpnnew.net/vpn/shanyue-review-2026/): 2026最新闪跃机场评测，详细介绍闪跃官网 vip01.flashleap.net、IPLC纯专线、极致低延迟、晚高峰秒开、定制客户端、通用订阅、Clash、Shadowrocket、Sing-box、v2rayN 客户端、ChatGPT、Claude、Gemini、Netflix、Disney+、HBO 原生IP解锁、套餐价格、一次性订阅、shanyue 八折优惠码、测速表现和适合人群。

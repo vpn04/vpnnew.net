@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vpnnew.net/sitemap.xml
+Host: vpnnew.net
+
+# Content signals for crawlers that understand them.
+Content-Signal: search=yes,ai-train=no,use=reference

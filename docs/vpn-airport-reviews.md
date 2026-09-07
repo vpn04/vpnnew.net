@@ -3,7 +3,7 @@ title: VPN 机场评测中心：稳定机场、价格对比、免费试用与跑
 description: YouYou VPN 机场评测中心，聚合机场推荐榜、机场性能价格对比、深度评测、免费试用、优惠券、跑路名单和订阅风险检查。
 permalink: /vpn-airport-reviews/
 createTime: 2026/07/21 10:15:00
-updated: 2026/09/07 12:19:11
+updated: 2026/09/07 12:40:00
 tags:
   - 机场评测
   - VPN机场
@@ -44,6 +44,7 @@ tags:
 
 ## 订阅风险与跑路预警
 
+- [机场官网打不开怎么办？官网核验与防钓鱼教程](/article/vpn-airport-website-not-opening-domain-verification-2026/)
 - [2026 年机场跑路汇总名单](/scamvpn/paolujichang/)
 - [机场跑路前的 10 大征兆](/article/airport-scam-warning-signs-2026/)
 - [飞猫云机场跑路预警](/scamvpn/feimaopaolu/)

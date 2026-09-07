@@ -3,7 +3,7 @@ title: VPN 与科学上网专题索引
 description: YouYou 核心专题导航，聚合 VPN 推荐、机场评测、Clash 教程、Shadowrocket 教程、优惠试用、跑路预警和 AI 工具访问指南。
 permalink: /topics/
 createTime: 2026/07/16 18:20:00
-updated: 2026/09/07 12:19:11
+updated: 2026/09/07 12:40:00
 tags:
   - 专题索引
   - VPN推荐
@@ -64,6 +64,7 @@ tags:
 
 ## 风险与避坑
 
+- [机场官网打不开怎么办？备用域名核验与防钓鱼教程](/article/vpn-airport-website-not-opening-domain-verification-2026/)
 - [2026 年机场跑路汇总名单](/scamvpn/paolujichang/)
 - [机场跑路前的 10 大征兆](/article/airport-scam-warning-signs-2026/)
 - [免费 VPN vs 付费 VPN](/article/mianfeifufeivpn/)

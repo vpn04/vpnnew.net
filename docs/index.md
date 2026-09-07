@@ -98,6 +98,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-09-07｜机场官网核验、备用域名与防钓鱼教程
+        description: '新增 <a href="/article/vpn-airport-website-not-opening-domain-verification-2026/">机场官网打不开怎么办</a>完整教程，核验域名与服务状态后，再到 <a href="/airport/jichangpk/">2026热门机场详细测评与全面对比汇总</a>筛选替代候选。'
+      -
         title: 2026-09-02｜Clash、Shadowrocket更换机场与订阅迁移
         description: '新增 <a href="/article/how-to-switch-vpn-airport-subscription-2026/">机场不好用怎么换</a>完整教程，先排除本地故障，再到 <a href="/airport/jichangpk/">2026热门机场详细测评与全面对比汇总</a>选择替代候选。'
       -

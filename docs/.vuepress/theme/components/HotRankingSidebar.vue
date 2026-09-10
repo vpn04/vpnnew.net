@@ -95,21 +95,21 @@ const blogPostMap = new Map(
 )
 
 const curatedAirportPages = dedupeCuratedItems([
+  { path: '/article/XXYUN/', title: 'XXYUN 机场' },
+  { path: '/article/wangjikuaiche/', title: '网际快车机场' },
+  { path: '/article/flybit/', title: 'flybit 机场' },
+  { path: '/vpn/dengta-accelerator-review-2026/', title: '灯塔加速器机场' },
   { path: '/blog/runway/', title: '拼好连机场' },
   { path: '/vpn/lvpn-review-2026/', title: '边界云机场' },
+  { path: '/article/xundajichang/', title: '迅达机场' },
   { path: '/vpn/yuzhouyun-review-2026/', title: '宇宙云机场' },
-  { path: '/article/wangjikuaiche/', title: '网际快车机场' },
+  { path: '/vpn/jiuyun-airport-review-2026/', title: '九云机场' },
+  { path: '/article/uuone/', title: 'uuone 机场' },
+  { path: '/article/kexinyun-review-2026/', title: '可信云机场' },
   { path: '/article/edge-x-review-2026/', title: 'Edge-X 机场' },
   { path: '/article/edgenova-review-2026/', title: 'Edgenova 机场' },
   { path: '/article/speedworld-review-2026/', title: '速界机场' },
-  { path: '/article/ccyz/', title: 'ccyz 机场' },
-  { path: '/article/XXYUN/', title: 'XXYUN 机场' },
-  { path: '/article/guangnianti/', title: '光年梯机场' },
-  { path: '/vpn/kuajieyun-review-2026/', title: '跨界云机场' },
-  { path: '/vpn/wuyoulianjie-review-2026/', title: '无忧链接机场' },
-  { path: '/vpn/tiziyun-review-2026/', title: '梯子云机场' },
-  { path: '/vpn/shanyue-review-2026/', title: '闪跃机场' },
-  { path: '/article/ermaoyun-review-2026/', title: '二猫云机场' },
+  { path: '/vpn/yuntu-airport-review-2026/', title: '云图机场' },
 ])
 
 const airportPathSet = new Set(curatedAirportPages.map(item => item.path))

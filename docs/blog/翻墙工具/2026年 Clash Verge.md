@@ -87,6 +87,8 @@ Clash Verge 作为多平台代理客户端，为 Windows、macOS、Linux 提供�
 
 ###  📢机场推荐汇总： 👉[2026年翻墙机场推荐评测 稳定便宜VPN机场排行榜（高性价比科学上网工具长期更新）](/vpn-recommend/)  
 
+还没有订阅链接、分不清客户端和机场的用户，可以先看：[Clash节点哪里买？2026稳定机场订阅购买、避坑与导入指南](/article/clash-node-buying-airport-subscription-guide-2026/)。
+
 ## 💡二、多平台安装详细步骤 {#安装指南}
 
 ### 🖥️下载渠道对比表

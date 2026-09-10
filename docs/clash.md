@@ -18,6 +18,7 @@ Clash 是很多用户在 Windows、macOS、Android 和部分路由器环境里�
 
 ## 入门与安装
 
+- [Clash节点哪里买？2026订阅购买与避坑指南](/article/clash-node-buying-airport-subscription-guide-2026/)：先分清客户端、节点与机场，再选择兼容订阅并完成购买验收。
 - [Clash 全平台使用教程](/scamvpn/Clashquanpingtai/)：覆盖多设备安装、订阅导入和基础设置。
 - [Clash Verge 桌面端教程](/article/ClashVerge/)：适合 Windows、macOS 桌面用户。
 - [Clash for Android 使用指南](/article/ClashforAndroid/)：适合安卓手机和平板。
@@ -53,4 +54,3 @@ Clash 本身只是客户端，实际体验主要取决于订阅服务、节点�
 ## 新手建议
 
 先用推荐机场的订阅链接完成导入，再测试常用地区节点；确认 Google、ChatGPT、Telegram、流媒体都能正常访问后，再决定是否长期订阅。不要一开始就修改过多高级设置，否则排查问题会变困难。
-

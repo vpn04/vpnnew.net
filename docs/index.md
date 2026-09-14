@@ -1,7 +1,7 @@
 ---
 home: true
 title: YouYou VPN推荐与科学上网指南
-description: YouYou长期更新2026年VPN推荐、翻墙机场评测、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
+description: YouYou长期更新2026年VPN推荐、翻墙机场评测、机场节点在线测速、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
 tags:
   - YouYou
   - VPN推荐
@@ -35,6 +35,9 @@ config:
         - theme: alt
           text: 专题索引
           link: "/topics/"
+
+  -
+    type: AirportSpeedTest
 
   ## 🔹 特色功能导航
   -
@@ -97,6 +100,9 @@ config:
     image: "/youyou.png"
     width: 180
     list:
+      -
+        title: 2026-09-14｜首页新增机场节点在线测速
+        description: '粘贴个人 HTTPS 机场订阅后，可解析常见 Clash、Base64、SS、VMess、VLESS、Trojan 节点并查看 TCP 可达率和握手耗时；订阅不会保存。<a href="/article/airport-subscription-node-test-guide-2026/">查看节点检测与结果解读教程</a>。'
       -
         title: 2026-09-07｜机场官网核验、备用域名与防钓鱼教程
         description: '新增 <a href="/article/vpn-airport-website-not-opening-domain-verification-2026/">机场官网打不开怎么办</a>完整教程，核验域名与服务状态后，再到 <a href="/airport/jichangpk/">2026热门机场详细测评与全面对比汇总</a>筛选替代候选。'

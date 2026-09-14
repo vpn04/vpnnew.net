@@ -3,7 +3,7 @@ title: VPN 速度与稳定性测试专题：延迟、丢包、晚高峰和节点
 description: VPN 速度与稳定性测试专题，整理测速方法、晚高峰观察、DNS 泄露、节点超时、Clash 与 Shadowrocket 排查、游戏和流媒体优化建议。
 permalink: /vpn-speed-test/
 createTime: 2026/07/21 10:20:00
-updated: 2026/09/02 17:40:00
+updated: 2026/09/14 20:30:00
 tags:
   - VPN速度测试
   - 节点测速
@@ -19,6 +19,7 @@ VPN 或机场是否好用，不能只看一次测速截图。真正影响体验�
 
 ## 先排查速度问题
 
+- [机场订阅节点在线检测与结果解读教程](/article/airport-subscription-node-test-guide-2026/)：在首页粘贴自己的 HTTPS 订阅，批量初筛 TCP 可达性，并理解在线握手与本地测速的区别。
 - [VPN 速度慢怎么办](/scamvpn/vpnbianman/)：从节点、协议、线路、DNS、设备和本地网络逐步排查。
 - [如何优化 VPN 服务的延迟与稳定性](/article/VPNyouhua/)：适合经常卡顿、延迟高或断流的人。
 - [Clash 节点正常但无法访问 Google](/article/clash-node-google-netflix-test/)：节点显示可用但网页打不开时使用。

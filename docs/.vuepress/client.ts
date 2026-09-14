@@ -1,3 +1,4 @@
+import { defineAsyncComponent } from 'vue'
 import { defineClientConfig } from 'vuepress/client'
 import AnalyticsDashboard from './theme/components/AnalyticsDashboard.vue'
 import AnalyticsTracker from './theme/components/AnalyticsTracker.vue'
@@ -12,6 +13,10 @@ import SiteLanguageToggle from './theme/components/SiteLanguageToggle.vue'
 
 import './theme/styles/custom.css'
 
+const AirportSpeedTest = defineAsyncComponent(
+  () => import('./theme/components/AirportSpeedTest.vue'),
+)
+
 export default defineClientConfig({
   rootComponents: [SiteLanguageToggle, AnalyticsTracker, HotRankingSidebar],
   enhance({ app }) {
@@ -23,5 +28,6 @@ export default defineClientConfig({
 
     // your custom components
     app.component('AnalyticsDashboard', AnalyticsDashboard)
+    app.component('AirportSpeedTest', AirportSpeedTest)
   },
 })

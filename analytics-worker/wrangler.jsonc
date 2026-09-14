@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "youyou-analytics",
   "main": "src/index.ts",
-  "compatibility_date": "2026-08-22",
+  "compatibility_date": "2026-09-14",
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "routes": [
@@ -20,9 +20,19 @@
     "head_sampling_rate": 1
   },
   "vars": {
-    "ALLOWED_ORIGIN": "https://vpnnew.net,http://127.0.0.1:8080,http://localhost:8080",
+    "ALLOWED_ORIGIN": "https://vpnnew.net,https://www.vpnnew.net,http://127.0.0.1:8080,http://localhost:8080",
     "TIME_ZONE": "Asia/Shanghai"
   },
+  "ratelimits": [
+    {
+      "name": "NODE_TEST_RATE_LIMITER",
+      "namespace_id": "20260914",
+      "simple": {
+        "limit": 4,
+        "period": 60
+      }
+    }
+  ],
   "d1_databases": [
     {
       "binding": "DB",

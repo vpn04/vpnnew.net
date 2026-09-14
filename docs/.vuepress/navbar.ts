@@ -25,6 +25,7 @@ export default defineNavbarConfig([
     text: '工具',
     icon: 'ic:baseline-construction',
     items: [
+      { text: '机场节点测速', link: '/#airport-node-test', icon: 'material-symbols:speed-rounded' },
       { text: 'iOS 小火箭', link: '/article/Shadowrocket/', icon: 'material-symbols:smartphone' },
       { text: 'Android Clash', link: '/article/ClashforAndroid/', icon: 'material-symbols:android' },
       { text: 'Clash Verge', link: '/article/ClashVerge/', icon: 'material-symbols:computer' },

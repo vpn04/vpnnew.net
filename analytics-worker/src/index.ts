@@ -1,8 +1,4 @@
-type Env = {
-  DB: D1Database
-  ALLOWED_ORIGIN?: string
-  TIME_ZONE?: string
-}
+import { runNodeTest } from './node-test'
 
 type ViewPayload = {
   path?: string
@@ -32,9 +28,22 @@ type PageMetric = {
 
 const JSON_HEADERS = {
   'content-type': 'application/json; charset=utf-8',
+  'cache-control': 'no-store, max-age=0',
+  'x-robots-tag': 'noindex, nofollow',
 }
 
 const BOT_UA = /\b(bot|crawler|spider|slurp|bingpreview|facebookexternalhit|whatsapp|telegrambot|discordbot|embedly|quora link preview)\b/i
+
+const isLocalPreviewOrigin = (origin: string): boolean => {
+  try {
+    const url = new URL(origin)
+    return url.protocol === 'http:'
+      && ['127.0.0.1', 'localhost'].includes(url.hostname)
+  }
+  catch {
+    return false
+  }
+}
 
 const createCorsHeaders = (request: Request, env: Env): HeadersInit => {
   const origin = request.headers.get('origin') || ''
@@ -45,7 +54,7 @@ const createCorsHeaders = (request: Request, env: Env): HeadersInit => {
 
   const allowOrigin = allowedOrigins.includes('*')
     ? '*'
-    : allowedOrigins.includes(origin)
+    : allowedOrigins.includes(origin) || isLocalPreviewOrigin(origin)
       ? origin
       : allowedOrigins[0] || '*'
 
@@ -301,6 +310,11 @@ export default {
 
       if (request.method === 'GET' && url.pathname.endsWith('/summary'))
         return await getSummary(request, env)
+
+      if (request.method === 'POST' && url.pathname.endsWith('/node-test')) {
+        const outcome = await runNodeTest(request, env)
+        return json(request, env, outcome.data, outcome.init)
+      }
 
       return json(request, env, { ok: false, error: 'Not found' }, { status: 404 })
     }

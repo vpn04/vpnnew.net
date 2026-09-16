@@ -21,6 +21,8 @@ pnpm docs:preview
 pnpm vp-update
 ```
 
+The development server opens at `http://127.0.0.1:8081/`. After `pnpm docs:build`, the production preview opens at `http://127.0.0.1:4175/`.
+
 ## Deploy to GitHub Pages
 
 The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:

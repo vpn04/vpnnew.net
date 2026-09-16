@@ -2,6 +2,7 @@
 home: true
 title: YouYou VPN推荐与科学上网指南
 description: YouYou长期更新2026年VPN推荐、翻墙机场评测、机场节点在线测速、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
+updated: 2026/09/16 19:00:00
 tags:
   - YouYou
   - VPN推荐
@@ -69,6 +70,10 @@ config:
         icon: {src: "/home-icons/chatgpt.png"}
         details: 注册、访问限制、节点选择与稳定使用技巧。
         link: "/article/ChatGPTzhinan/"
+      - title: 机场试用验收表
+        icon: {src: "/home-icons/openvpn-wireguard.png"}
+        details: 同条件对照晚高峰、订阅更新、流量扣量和售后，再决定是否续费。
+        link: "/article/vpn-airport-trial-checklist-2026/"
       - title: Android手机
         icon: {src: "/home-icons/clash-android.png"}
         details: Clash for Android安装、导入订阅、TUN模式与分流。

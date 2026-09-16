@@ -1,7 +1,7 @@
 ---
 title: 2026 中国可用 VPN 与机场推荐指南
 description: 面向中国大陆用户的 VPN 与机场选择专题，整理稳定性、速度、价格、设备兼容、ChatGPT 与流媒体访问、跑路风险和订阅前检查清单。
-updated: 2026/09/07 12:40:00
+updated: 2026/09/16 19:00:00
 permalink: /best-vpn-for-china/
 createTime: 2026/07/21 10:00:00
 tags:
@@ -23,6 +23,7 @@ tags:
 - [2026 最新海外访问工具推荐榜单](/vpn-airport-review-2026/)：适合想快速看综合推荐的人。
 - [机场优惠券与 VPN 优惠码汇总](/article/youhuijuan/)：订阅前先看是否有可用优惠。
 - [免费试用机场合集](/article/mianfeijichang/)：预算有限或想先测试节点的人可以从这里开始。
+- [机场试用怎么测？2026 购买前对照测试与验收表](/article/vpn-airport-trial-checklist-2026/)：把候选放进同一张表，核对晚高峰、目标服务、实际扣量与售后。
 
 ## 选择时重点看什么
 

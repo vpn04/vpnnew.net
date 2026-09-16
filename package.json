@@ -36,10 +36,10 @@
     "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:dev": "vuepress dev docs --port 8081",
+    "docs:dev-clean": "vuepress dev docs --port 8081 --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docs:preview": "http-server docs/.vuepress/dist",
+    "docs:preview": "http-server docs/.vuepress/dist -p 4175 -c-1",
     "seo:check": "node scripts/check-seo.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "vp-update": "pnpm dlx vp-update"

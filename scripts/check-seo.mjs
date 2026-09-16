@@ -13,6 +13,7 @@ const importantPaths = [
   '/shadowrocket/',
   '/vpn-speed-test/',
   '/vpn-recommend/',
+  '/article/vpn-airport-trial-checklist-2026/',
   '/airport/jichangpk/',
   '/methodology/',
   '/disclosure/',

@@ -3,7 +3,7 @@ title: YouYou 评测方法与评分标准
 description: 说明 YouYou 如何评测 VPN 与机场服务，包括测速、稳定性、晚高峰、流媒体解锁、AI 工具访问、价格、售后和跑路风险判断。
 permalink: /methodology/
 createTime: 2026/07/16 18:20:00
-updated: 2026/09/07 12:19:11
+updated: 2026/09/20 19:30:00
 tags:
   - 评测方法
   - VPN评测
@@ -27,7 +27,7 @@ VPN 和机场服务会受到地区、运营商、时间段、协议、客户端�
 | AI 工具访问 | ChatGPT、Claude、Gemini 等服务是否容易触发风控 | 中 |
 | 价格与套餐 | 单价、流量、倍率、退款/试用政策、是否有隐藏限制 | 中 |
 | 客户端兼容 | Clash、Shadowrocket、Sing-box、官方客户端导入体验 | 中 |
-| 售后响应 | 工单、群组通知、故障处理速度、公告透明度 | 中 |
+| 售后响应 | 工单、群组通知、故障处理速度、公告透明度；具体核验口径见[VPN机场售后评分教程](/article/vpn-airport-customer-support-check-guide-2026/) | 中 |
 | 风险信号 | 官网异常、客服失联、节点长期不可用、群组关闭、数据丢失 | 高 |
 
 ## 测试流程

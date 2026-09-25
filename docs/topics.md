@@ -3,7 +3,7 @@ title: VPN 与科学上网专题索引
 description: YouYou 核心专题导航，聚合 VPN 推荐、机场评测、Clash 教程、Shadowrocket 教程、优惠试用、跑路预警和 AI 工具访问指南。
 permalink: /topics/
 createTime: 2026/07/16 18:20:00
-updated: 2026/09/20 19:30:00
+updated: 2026/09/25 19:35:00
 tags:
   - 专题索引
   - VPN推荐
@@ -33,6 +33,7 @@ tags:
 
 ## 新手教程
 
+- [科学上网工具怎么选？商业 VPN、翻墙机场、自建 VPS 与企业专线对比](/article/vpn-airport-vps-comparison-guide-2026/)
 - [VPN机场排行榜怎么看？2026 稳定性、价格与评测可信度判断教程](/article/how-to-read-vpn-airport-ranking-2026/)
 - [翻墙机场怎么选？2026 新手购买避坑教程](/article/how-to-choose-vpn-airport-2026/)
 - [VPN机场售后怎么判断？客服、工单、公告与退款核验教程](/article/vpn-airport-customer-support-check-guide-2026/)
@@ -44,7 +45,7 @@ tags:
 - [机场不好用怎么换？Clash / Shadowrocket订阅迁移教程](/article/how-to-switch-vpn-airport-subscription-2026/)
 - [机场订阅链接怎么用？Clash / Shadowrocket 导入教程](/article/airport-subscription-clash-shadowrocket-guide-2026/)
 - [什么是翻墙？2026 年完整指南](/article/fanqiang/)
-- [2026 年最全最新翻墙教程](/article/2026fanqiangzhinan/)
+- [2026 年科学上网完整教程：选购、配置、测速与排障](/article/2026fanqiangzhinan/)
 - [电脑用 VPN 怎么选](/article/diannanvpnzenmexuan/)
 - [iPhone 上装哪款 VPN](/article/iphoneVPN/)
 - [路由器翻墙教程](/article/luyouqi/)

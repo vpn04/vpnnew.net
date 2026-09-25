@@ -790,10 +790,50 @@ const enhanceMainContentImages = (html: string): string => {
   return html.replace(mainMatch[0], enhancedMain)
 }
 
+const hasAffiliateSignal = (href: string): boolean => {
+  const normalizedHref = href.replace(/&amp;/g, '&')
+
+  try {
+    const url = new URL(normalizedHref, siteUrl)
+    const siteHost = new URL(siteUrl).hostname
+    if (!['http:', 'https:'].includes(url.protocol) || url.hostname === siteHost) return false
+
+    return /[?&#](?:aff|affiliate|ref|referral|code|invite|invitation|coupon|c)=/i.test(normalizedHref) ||
+      /\/(?:auth\/)?(?:register|reg)(?:[/?#]|$)/i.test(url.pathname) ||
+      /\/r\//i.test(url.pathname) ||
+      /aff/i.test(url.hostname)
+  }
+  catch {
+    return false
+  }
+}
+
+const qualifySponsoredMainContentLinks = (html: string): string => {
+  const mainMatch = html.match(/<main\b[\s\S]*?<\/main>/i)
+  if (!mainMatch) return html
+
+  const qualifiedMain = mainMatch[0].replace(/<a\b[^>]*>/gi, tag => {
+    const href = tag.match(/\shref=(["'])(.*?)\1/i)?.[2]
+    if (!href || !hasAffiliateSignal(href)) return tag
+
+    const relMatch = tag.match(/\srel=(["'])(.*?)\1/i)
+    const relValues = new Set((relMatch?.[2] || '').split(/\s+/).filter(Boolean))
+    for (const value of ['sponsored', 'nofollow', 'noopener', 'noreferrer']) relValues.add(value)
+    const rel = Array.from(relValues).join(' ')
+
+    if (relMatch) {
+      return tag.replace(/\srel=(["'])(.*?)\1/i, ` rel="${rel}"`)
+    }
+    return tag.replace(/<a\b/i, `<a rel="${rel}"`)
+  })
+
+  return html.replace(mainMatch[0], qualifiedMain)
+}
+
 const enhanceGeneratedHtml = (app: App): void => {
   for (const file of collectHtmlFiles(app.dir.dest())) {
     const html = readFileSync(file, 'utf8')
-    const enhanced = enhanceMainContentImages(html)
+    const enhanced = qualifySponsoredMainContentLinks(enhanceMainContentImages(html))
     if (enhanced !== html) {
       writeFileSync(file, enhanced, 'utf8')
     }

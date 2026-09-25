@@ -13,6 +13,8 @@ const importantPaths = [
   '/shadowrocket/',
   '/vpn-speed-test/',
   '/vpn-recommend/',
+  '/article/2026fanqiangzhinan/',
+  '/article/vpn-airport-vps-comparison-guide-2026/',
   '/article/vpn-airport-trial-checklist-2026/',
   '/airport/jichangpk/',
   '/methodology/',
@@ -43,6 +45,23 @@ const collectHtmlFiles = directory => {
 
 const mainContent = html => html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || ''
 
+const hasAffiliateSignal = href => {
+  const normalizedHref = href.replace(/&amp;/g, '&')
+
+  try {
+    const url = new URL(normalizedHref, siteUrl)
+    if (!['http:', 'https:'].includes(url.protocol) || url.hostname === new URL(siteUrl).hostname) return false
+
+    return /[?&#](?:aff|affiliate|ref|referral|code|invite|invitation|coupon|c)=/i.test(normalizedHref) ||
+      /\/(?:auth\/)?(?:register|reg)(?:[/?#]|$)/i.test(url.pathname) ||
+      /\/r\//i.test(url.pathname) ||
+      /aff/i.test(url.hostname)
+  }
+  catch {
+    return false
+  }
+}
+
 if (!existsSync(distDir)) {
   throw new Error('Build the site first: pnpm docs:build')
 }
@@ -69,6 +88,17 @@ for (const file of htmlFiles) {
     const alt = tag.match(/\salt=(["'])(.*?)\1/i)?.[2]?.trim()
     if (!alt || alt.toLowerCase() === 'alt text') {
       failures.push(`${relative}: image with weak alt text`)
+      break
+    }
+  }
+
+  for (const tag of body.match(/<a\b[^>]*>/gi) || []) {
+    const href = tag.match(/\shref=(["'])(.*?)\1/i)?.[2]
+    if (!href || !hasAffiliateSignal(href)) continue
+
+    const rel = tag.match(/\srel=(["'])(.*?)\1/i)?.[2] || ''
+    if (!rel.split(/\s+/).includes('sponsored')) {
+      failures.push(`${relative}: affiliate link missing rel="sponsored"`)
       break
     }
   }

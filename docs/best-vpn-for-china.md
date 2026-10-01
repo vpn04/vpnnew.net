@@ -1,7 +1,7 @@
 ---
 title: 2026 中国可用 VPN 与机场推荐指南
 description: 面向中国大陆用户的 VPN 与机场选择专题，整理稳定性、速度、价格、设备兼容、ChatGPT 与流媒体访问、跑路风险和订阅前检查清单。
-updated: 2026/09/16 19:00:00
+updated: 2026/10/01 10:30:00
 permalink: /best-vpn-for-china/
 createTime: 2026/07/21 10:00:00
 tags:
@@ -36,6 +36,8 @@ tags:
 5. 风险透明：是否存在跑路、失联、价格异常、套餐过度夸张等信号。
 
 不清楚直连、中转、BGP、IEPL、IPLC 与 CN2 GIA 怎样比较时，可先阅读[2026机场线路选择与实测教程](/article/vpn-airport-route-types-guide-2026/)，再回到[机场推荐总榜](/vpn-recommend/)按线路和场景筛选。
+
+隐私要求较高时，还要核对服务商能接触哪些连接数据、日志保留范围、客户端来源、订阅重置和 DNS 路径。可先用[翻墙机场隐私与安全核验教程](/article/vpn-airport-privacy-security-guide-2026/)排除要求安装陌生证书、政策不清或订阅保护不足的候选，再比较速度和价格。
 
 ## 按使用场景进入
 

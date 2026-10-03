@@ -106,6 +106,9 @@ config:
     width: 180
     list:
       -
+        title: 2026-10-03｜VPN机场续费前复测与风险检查
+        description: '新增 <a href="/article/vpn-airport-renewal-checklist-2026/">VPN机场续费值不值</a>完整教程，用 7 天记录核对真实成本、晚高峰、套餐变化和运营风险；需要替代服务时，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选候选。'
+      -
         title: 2026-09-14｜首页新增机场节点在线测速
         description: '粘贴个人 HTTPS 机场订阅后，可解析常见 Clash、Base64、SS、VMess、VLESS、Trojan 节点并查看 TCP 可达率和握手耗时；订阅不会保存。<a href="/article/airport-subscription-node-test-guide-2026/">查看节点检测与结果解读教程</a>。'
       -

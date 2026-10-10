@@ -3,7 +3,7 @@ title: VPN 机场评测中心：稳定机场、价格对比、免费试用与跑
 description: YouYou VPN 机场评测中心，聚合机场推荐榜、机场性能价格对比、深度评测、免费试用、优惠券、跑路名单和订阅风险检查。
 permalink: /vpn-airport-reviews/
 createTime: 2026/07/21 10:15:00
-updated: 2026/10/03 19:30:00
+updated: 2026/10/10 16:10:00
 tags:
   - 机场评测
   - VPN机场
@@ -37,6 +37,9 @@ tags:
 
 ## 近期机场深度评测
 
+- [榴莲云机场测评：IEPL专线、年付约5.6元/月、优惠码ll88与60节点](/vpn/liulianyun-review-2026/)
+- [灵猫机场测评：85元年付、50个VLESS节点与不限时套餐](/vpn/civetnet-review-2026/)
+- [云界线机场测评：22元150GB、60个VLESS节点与套餐解析](/vpn/yunjiexian-review-2026/)
 - [微风网络机场测评：27元200GB、VLESS节点与测速截图](/vpn/breezenet-review-2026/)
 - [宝云机场测评：8元500GB、VLESS海外中转与一次性流量](/vpn/baoyun-airport-review-2026/)
 - [云图专线机场评测](/vpn/yuntu-airport-review-2026/)

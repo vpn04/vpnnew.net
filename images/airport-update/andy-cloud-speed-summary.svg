@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Cloud 25个VLESS节点晚高峰测速摘要</title>
+  <desc id="desc">2026年10月10日19点07分，广西移动2Gbps后端测试。日本区域平均97.08MB每秒，台湾94.38MB每秒，美国66.63MB每秒，香港66.70MB每秒，新加坡含一个异常节点平均50.94MB每秒。</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="34" fill="url(#bg2)"/>
+  <circle cx="1120" cy="80" r="260" fill="#7c3aed" opacity=".16"/>
+  <g font-family="Arial, 'Noto Sans SC', sans-serif">
+    <text x="64" y="78" fill="#ffffff" font-size="43" font-weight="800">Andy Cloud 晚高峰测速摘要</text>
+    <text x="66" y="120" fill="#c7d2fe" font-size="22">2026-10-10 19:07 CST · 广西移动 2Gbps · 25个实际 VLESS 节点</text>
+    <g transform="translate(66 169)">
+      <text x="0" y="29" fill="#f8fafc" font-size="25" font-weight="700">日本</text>
+      <rect x="118" y="2" width="805" height="34" rx="17" fill="#1e293b"/>
+      <rect x="118" y="2" width="781" height="34" rx="17" fill="url(#bar)"/>
+      <text x="945" y="29" fill="#ffffff" font-size="25" font-weight="800">97.08 MB/s</text>
+    </g>
+    <g transform="translate(66 244)">
+      <text x="0" y="29" fill="#f8fafc" font-size="25" font-weight="700">台湾</text>
+      <rect x="118" y="2" width="805" height="34" rx="17" fill="#1e293b"/>
+      <rect x="118" y="2" width="759" height="34" rx="17" fill="url(#bar)"/>
+      <text x="945" y="29" fill="#ffffff" font-size="25" font-weight="800">94.38 MB/s</text>
+    </g>
+    <g transform="translate(66 319)">
+      <text x="0" y="29" fill="#f8fafc" font-size="25" font-weight="700">香港</text>
+      <rect x="118" y="2" width="805" height="34" rx="17" fill="#1e293b"/>
+      <rect x="118" y="2" width="537" height="34" rx="17" fill="url(#bar)"/>
+      <text x="945" y="29" fill="#ffffff" font-size="25" font-weight="800">66.70 MB/s</text>
+    </g>
+    <g transform="translate(66 394)">
+      <text x="0" y="29" fill="#f8fafc" font-size="25" font-weight="700">美国</text>
+      <rect x="118" y="2" width="805" height="34" rx="17" fill="#1e293b"/>
+      <rect x="118" y="2" width="536" height="34" rx="17" fill="url(#bar)"/>
+      <text x="945" y="29" fill="#ffffff" font-size="25" font-weight="800">66.63 MB/s</text>
+    </g>
+    <g transform="translate(66 469)">
+      <text x="0" y="29" fill="#f8fafc" font-size="25" font-weight="700">新加坡</text>
+      <rect x="118" y="2" width="805" height="34" rx="17" fill="#1e293b"/>
+      <rect x="118" y="2" width="410" height="34" rx="17" fill="url(#bar)"/>
+      <text x="945" y="29" fill="#ffffff" font-size="25" font-weight="800">50.94 MB/s*</text>
+    </g>
+    <rect x="64" y="552" width="1072" height="124" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".16"/>
+    <text x="88" y="591" fill="#6ee7b7" font-size="24" font-weight="800">24 / 25 个节点有有效吞吐</text>
+    <text x="88" y="628" fill="#e2e8f0" font-size="21">全体平均 75.14 MB/s；有效节点平均 78.27 MB/s；最高瞬时 126.78 MB/s</text>
+    <text x="88" y="661" fill="#fda4af" font-size="20">* 新加坡 05 仅 10.20KB/s 且无 HTTPS 延迟；测试为单次样本，不代表长期稳定性</text>
+    <text x="64" y="718" fill="#a5b4fc" font-size="18">图中 MB/s 为测速工具截图口径；HTTPS 延迟是单次请求体感延迟，不等同于 ICMP Ping。</text>
+  </g>
+</svg>

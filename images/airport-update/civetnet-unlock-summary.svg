@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">灵猫机场50节点流媒体检测摘要</title>
+  <desc id="desc">依据投稿者2026年7月19日的MiaoKo截图整理。截图中50个VLESS节点的YouTube、Netflix、Disney+检测栏均显示对应地区的解锁标签，但工具结果不能替代实际账号登录与持续播放验证。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efffff"/>
+      <stop offset="0.5" stop-color="#f2edff"/>
+      <stop offset="1" stop-color="#fff0f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="42" y="38" width="1116" height="554" rx="28" fill="#fff" stroke="#ddcff2"/>
+  <text x="78" y="108" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#42165d">灵猫机场 · 流媒体检测摘要</text>
+  <text x="78" y="148" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#71627f">根据投稿者提供的 MiaoKo 截图整理 · 2026-07-19 18:18 CST</text>
+  <rect x="78" y="186" width="1044" height="92" rx="18" fill="#e8f8ed"/>
+  <text x="105" y="225" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700" fill="#17684e">50条记录：YouTube / Netflix / Disney+ 均显示“解锁”标签</text>
+  <text x="105" y="256" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#347a65">地区标签随香港、台湾、新加坡、日本和美国节点对应变化。</text>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <rect x="78" y="320" width="322" height="150" rx="20" fill="#f3e9fb"/>
+    <rect x="439" y="320" width="322" height="150" rx="20" fill="#eaf9fb"/>
+    <rect x="800" y="320" width="322" height="150" rx="20" fill="#fff0f7"/>
+    <text x="239" y="370" font-size="23" fill="#65457a">YouTube</text>
+    <text x="600" y="370" font-size="23" fill="#397185">Netflix</text>
+    <text x="961" y="370" font-size="23" fill="#8b4c6d">Disney+</text>
+    <text x="239" y="430" font-size="34" font-weight="700" fill="#7b1fa2">50 / 50</text>
+    <text x="600" y="430" font-size="34" font-weight="700" fill="#0097a7">50 / 50</text>
+    <text x="961" y="430" font-size="34" font-weight="700" fill="#c2185b">50 / 50</text>
+  </g>
+  <rect x="78" y="510" width="1044" height="56" rx="14" fill="#f3f6fa"/>
+  <text x="103" y="545" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" fill="#52647e">工具标签不等于当前实际登录、地区片库、4K播放或长期可用保证，购买后仍需复测。</text>
+</svg>

@@ -173,7 +173,7 @@ Shadowrocket 支持多种连接方式，好的服务通常不会把自己锁死�
 |---------|----------|----------|------------|----------|
 | [拼好连](https://www.runwayhz.com/#/register?code=6uVJY4zh) | ✔️1天6G | 9.9元 / 100G | ✔️支持 | ⭐⭐⭐ |
 | [ccyz](https://ccyz.yswy.my/register?code=YByL9bFd) | ✔️1GB | 15元 / 150G | ✔️支持 | ⭐⭐⭐ |
-| [xxyun](https://xxyun.at/?code=rXypHVO4) | ❌ 无 | 9.99元 / 100G | ❌不支持 | ⭐⭐⭐⭐ |
+| [xxyun](https://www.xxyun.app/?code=rXypHVO4) | ❌ 无 | 9.99元 / 100G | ❌不支持 | ⭐⭐⭐⭐ |
 
 ### 怎么看这张表？
 - 如果你只是测试 Shadowrocket，免费节点可以试，但不要期待稳定。

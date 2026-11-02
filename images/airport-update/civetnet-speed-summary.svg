@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">灵猫机场50个VLESS节点速度测试摘要</title>
+  <desc id="desc">依据投稿者2026年7月19日的MiaoKo速度截图整理。截图列出香港15、台湾5、新加坡10、日本10、美国10个节点，50个节点均返回非零读数。测试为珠海联通9Gbps与32线程环境下的单次结果。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efffff"/>
+      <stop offset="0.55" stop-color="#f1ebff"/>
+      <stop offset="1" stop-color="#fff0f8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a1b9a"/>
+      <stop offset="1" stop-color="#00acc1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="42" y="38" width="1116" height="554" rx="28" fill="#fff" stroke="#ddcff2"/>
+  <rect x="42" y="38" width="1116" height="12" rx="6" fill="url(#accent)"/>
+  <text x="78" y="108" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#42165d">灵猫机场 · 50 节点速度图摘要</text>
+  <text x="78" y="148" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#71627f">根据投稿者提供的 MiaoKo 截图整理 · 2026-07-19 17:24 CST</text>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <rect x="78" y="190" width="192" height="205" rx="18" fill="#f3e9fb"/>
+    <rect x="290" y="190" width="192" height="205" rx="18" fill="#ecf8ff"/>
+    <rect x="502" y="190" width="192" height="205" rx="18" fill="#f3e9fb"/>
+    <rect x="714" y="190" width="192" height="205" rx="18" fill="#ecf8ff"/>
+    <rect x="926" y="190" width="192" height="205" rx="18" fill="#f3e9fb"/>
+    <text x="174" y="238" font-size="21" fill="#65457a">香港</text>
+    <text x="386" y="238" font-size="21" fill="#397185">新加坡</text>
+    <text x="598" y="238" font-size="21" fill="#65457a">日本</text>
+    <text x="810" y="238" font-size="21" fill="#397185">美国</text>
+    <text x="1022" y="238" font-size="21" fill="#65457a">台湾</text>
+    <text x="174" y="302" font-size="48" font-weight="700" fill="#7b1fa2">15</text>
+    <text x="386" y="302" font-size="48" font-weight="700" fill="#0097a7">10</text>
+    <text x="598" y="302" font-size="48" font-weight="700" fill="#7b1fa2">10</text>
+    <text x="810" y="302" font-size="48" font-weight="700" fill="#0097a7">10</text>
+    <text x="1022" y="302" font-size="48" font-weight="700" fill="#7b1fa2">5</text>
+    <text x="174" y="349" font-size="16" fill="#705b7e">90–113ms</text>
+    <text x="386" y="349" font-size="16" fill="#547580">81–109ms</text>
+    <text x="598" y="349" font-size="16" fill="#705b7e">129–153ms</text>
+    <text x="810" y="349" font-size="16" fill="#547580">242–256ms</text>
+    <text x="1022" y="349" font-size="16" fill="#705b7e">140–186ms</text>
+    <text x="174" y="376" font-size="14" fill="#8a7a94">TLS RTT范围</text>
+    <text x="386" y="376" font-size="14" fill="#6e8790">TLS RTT范围</text>
+    <text x="598" y="376" font-size="14" fill="#8a7a94">TLS RTT范围</text>
+    <text x="810" y="376" font-size="14" fill="#6e8790">TLS RTT范围</text>
+    <text x="1022" y="376" font-size="14" fill="#8a7a94">TLS RTT范围</text>
+  </g>
+  <rect x="78" y="430" width="1044" height="72" rx="16" fill="#f3f6fa"/>
+  <text x="103" y="460" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="700" fill="#41516a">截图观察：50 / 50 个节点返回非零速度读数</text>
+  <text x="103" y="488" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#627188">香港读数整体较高，美国较低；不同地区和节点差异明显。</text>
+  <rect x="78" y="525" width="1044" height="40" rx="12" fill="#fff1f4"/>
+  <text x="98" y="551" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#925064">单次9Gbps、32线程结果不能替代家庭宽带与20:00—23:00晚高峰复测。</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">微风网络50节点速度测试截图关键观察</title>
+  <desc id="desc">依据投稿者2026年7月19日的MiaoKo速度测试截图整理。截图列出50个节点，台湾02为0.00B，日本05为8.00KB，说明不能称全部节点均高速可用。该图不是原始截图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f7ff"/>
+      <stop offset="1" stop-color="#edf6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="42" y="38" width="1116" height="554" rx="28" fill="#fff" stroke="#d7e3f5"/>
+  <text x="78" y="105" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#243a5b">微风网络 · 速度图关键观察</text>
+  <text x="78" y="145" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#667b99">根据投稿者提供的 MiaoKo 截图整理 · 2026-07-19 18:38 CST</text>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <rect x="78" y="190" width="324" height="254" rx="20" fill="#e8f1ff"/>
+    <rect x="438" y="190" width="324" height="254" rx="20" fill="#fff0ec"/>
+    <rect x="798" y="190" width="324" height="254" rx="20" fill="#fff6e9"/>
+    <text x="106" y="246" font-size="22" fill="#375a8b">节点列表</text>
+    <text x="106" y="338" font-size="67" font-weight="700" fill="#2d5da9">50</text>
+    <text x="106" y="395" font-size="18" fill="#567192">截图中列出的节点数</text>
+    <text x="466" y="246" font-size="22" fill="#a25a4a">台湾 02</text>
+    <text x="466" y="338" font-size="57" font-weight="700" fill="#b84f44">0.00B</text>
+    <text x="466" y="395" font-size="18" fill="#94645e">该次速度读数</text>
+    <text x="826" y="246" font-size="22" fill="#9b7034">日本 05</text>
+    <text x="826" y="338" font-size="57" font-weight="700" fill="#b77c2d">8.00KB</text>
+    <text x="826" y="395" font-size="18" fill="#997a4f">该次速度读数</text>
+  </g>
+  <rect x="78" y="486" width="1044" height="65" rx="14" fill="#f1f5fa"/>
+  <text x="100" y="525" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#526884">单次截图不能证明50个节点全部高速可用，也不能替代本地晚高峰复测。</text>
+</svg>

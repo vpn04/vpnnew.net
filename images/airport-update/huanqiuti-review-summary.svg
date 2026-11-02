@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">环球梯机场2026测评摘要</title>
+  <desc id="desc">环球梯年付96元60GB每月，7折优惠码HQ66，VLESS专线宣传，五个地区60个节点日间测速。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#062460"/>
+      <stop offset="0.56" stop-color="#078bd4"/>
+      <stop offset="1" stop-color="#f6ad22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#61e9ff"/>
+      <stop offset="1" stop-color="#ffe66e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#00183c" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <circle cx="1060" cy="50" r="270" fill="#69dcff" opacity="0.12"/>
+  <path d="M0 500 C230 390 365 590 615 470 C850 355 1015 415 1200 305 V630 H0Z" fill="#031f54" opacity="0.58"/>
+  <path d="M760 62 L1138 62 L1068 92 L1162 122 L842 122 L908 93Z" fill="url(#accent)" opacity="0.92"/>
+  <text x="70" y="105" fill="#b9f6ff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="30" font-weight="700">2026 机场价格与性能测评</text>
+  <text x="70" y="185" fill="#ffffff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="66" font-weight="900">环球梯</text>
+  <text x="70" y="235" fill="#e7f7ff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27">套餐价格 · 优惠码 · VLESS节点 · 解锁截图</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="290" width="315" height="165" rx="22" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="98" y="335" fill="#24406f" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24">学生套餐</text>
+    <text x="98" y="397" fill="#ef711e" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="43" font-weight="900">¥96 / 年</text>
+    <text x="98" y="431" fill="#425b80" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21">60GB/月 · 折合8元/月</text>
+    <rect x="420" y="290" width="300" height="165" rx="22" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="448" y="335" fill="#24406f" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24">7折优惠码</text>
+    <text x="448" y="399" fill="#086ac9" font-family="Arial, sans-serif" font-size="48" font-weight="900">HQ66</text>
+    <text x="448" y="431" fill="#425b80" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20">适用范围以结账页为准</text>
+    <rect x="755" y="290" width="375" height="165" rx="22" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="783" y="335" fill="#24406f" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24">日间单次测速</text>
+    <text x="783" y="397" fill="#0b8a53" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="42" font-weight="900">58 / 60 非零</text>
+    <text x="783" y="431" fill="#425b80" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20">五地60个VLESS节点</text>
+  </g>
+  <text x="70" y="530" fill="#ffffff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700">香港20 · 台湾10 · 新加坡10 · 日本10 · 美国10</text>
+  <text x="70" y="574" fill="#d2eaff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20">测试：2026-09-23 下午 CST ｜ 单次结果不等于晚高峰或长期保证</text>
+  <text x="1080" y="584" text-anchor="end" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">vpnnew.net</text>
+</svg>

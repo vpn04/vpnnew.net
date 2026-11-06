@@ -23,20 +23,31 @@ pnpm vp-update
 
 The development server opens at `http://127.0.0.1:8081/`. After `pnpm docs:build`, the production preview opens at `http://127.0.0.1:4175/`.
 
-## Deploy to GitHub Pages
+## Publish articles with Cloudflare Pages
 
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
+The production site at `https://vpnnew.net` is deployed directly from the `main` branch by the Cloudflare Pages project `vpnnew-net`.
 
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
+1. Edit or add Markdown articles under `docs/`.
+2. Commit and push the changes to `main`.
+3. Wait for the **Cloudflare Pages** check to succeed, then verify the published article on the production site.
 
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
+Configure the Pages project with these values:
 
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Automatic deployments | Enabled |
+| Build command | `pnpm run docs:build` |
+| Build output directory | `docs/.vuepress/dist` |
+| Root directory | Leave empty (repository root) |
 
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
+Article publishing does not run GitHub Actions or depend on updates to the `gh-pages` branch. Historical failed GitHub Actions checks remain attached to their original commits.
+
+## Manual legacy deployment
+
+`.github/workflows/deploy.yml` is available through **Actions > Manual legacy deployment > Run workflow** for manual maintenance of the Analytics Worker and the legacy GitHub Pages deployment. It is not triggered by a push. Running it still requires GitHub Actions access, repository write permissions, and the appropriate Cloudflare secrets for Worker deployment.
+
+For direct Worker deployment and local validation, see [analytics-worker/README.md](analytics-worker/README.md). Worker code changes require a separate deployment; the Pages build publishes the static site.
 
 ## Documents
 

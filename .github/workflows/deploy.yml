@@ -1,12 +1,8 @@
-name: deploy
+name: Manual legacy deployment
 
 on:
-  # 每当 push 到 main 分支时触发部署
-  # Deployment is triggered whenever a push is made to the main branch.
-  push:
-    branches: [main]
-  # 手动触发部署
-  # Manually trigger deployment
+  # 正式站由 Cloudflare Pages 监听 main 自动构建。
+  # 旧版 GitHub Pages / Worker 部署仅保留为手动维护入口。
   workflow_dispatch:
 
 jobs:

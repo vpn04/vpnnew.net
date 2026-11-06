@@ -87,6 +87,8 @@ pnpm docs:build
 
 ## GitHub Actions 账单锁定排查
 
+文章已由 Cloudflare Pages 监听 `main` 分支自动构建发布，无需运行 GitHub Actions。以下排查仅针对可选的手动旧部署流程。
+
 如果失败任务没有执行任何步骤，并提示 `The job was not started because your account is locked due to a billing issue.`，说明 GitHub 在分配运行器前阻止了任务，需要先处理账户账单锁定；修改文章或重新推送不能解除此限制。
 
 1. 在 [GitHub 账单设置](https://github.com/settings/billing) 检查付款失败或付款方式验证异常，并按页面提示处理。

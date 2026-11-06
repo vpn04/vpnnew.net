@@ -65,7 +65,7 @@ jobs:
       - name: Deploy Analytics Worker
         if: ${{ env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != '' }}
         working-directory: analytics-worker
-        run: pnpm deploy
+        run: pnpm run deploy
 
       - name: Analytics Worker deploy skipped
         if: ${{ env.CLOUDFLARE_ACCOUNT_ID == '' || env.CLOUDFLARE_API_TOKEN == '' }}

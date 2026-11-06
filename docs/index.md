@@ -2,7 +2,7 @@
 home: true
 title: YouYou VPN推荐与科学上网指南
 description: YouYou长期更新2026年VPN推荐、翻墙机场评测、机场节点在线测速、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
-updated: 2026/09/16 19:00:00
+updated: 2026/11/06 18:10:00
 tags:
   - YouYou
   - VPN推荐
@@ -105,6 +105,9 @@ config:
     image: "/youyou.png"
     width: 180
     list:
+      -
+        title: 2026-11-06｜远程办公机场选择与会议、上传验收
+        description: '新增 <a href="/article/vpn-airport-remote-work-meeting-guide-2026/">远程办公翻墙机场怎么选</a>教程，按视频会议、屏幕共享、文件上传与企业 VPN 兼容完成对照测试，再到 <a href="/vpn-recommend/">2026翻墙机场推荐评测主榜</a>筛选候选。'
       -
         title: 2026-10-03｜VPN机场续费前复测与风险检查
         description: '新增 <a href="/article/vpn-airport-renewal-checklist-2026/">VPN机场续费值不值</a>完整教程，用 7 天记录核对真实成本、晚高峰、套餐变化和运营风险；需要替代服务时，再到 <a href="/vpn-recommend/">2026翻墙机场推荐总榜</a>筛选候选。'

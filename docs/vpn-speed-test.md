@@ -3,7 +3,7 @@ title: VPN 速度与稳定性测试专题：延迟、丢包、晚高峰和节点
 description: VPN 速度与稳定性测试专题，整理测速方法、晚高峰观察、DNS 泄露、节点超时、Clash 与 Shadowrocket 排查、游戏和流媒体优化建议。
 permalink: /vpn-speed-test/
 createTime: 2026/07/21 10:20:00
-updated: 2026/09/14 20:30:00
+updated: 2026/11/06 18:10:00
 tags:
   - VPN速度测试
   - 节点测速
@@ -42,6 +42,7 @@ VPN 或机场是否好用，不能只看一次测速截图。真正影响体验�
 - YouTube 和 Netflix：看起播速度、清晰度切换和缓冲次数。
 - ChatGPT、Claude、Gemini：看登录、对话响应和地区限制。
 - Telegram：看图片、视频和大文件下载速度。
+- [视频会议与远程办公机场测试](/article/vpn-airport-remote-work-meeting-guide-2026/)：对照双向语音、屏幕共享、文件上传及企业 VPN 兼容，据此验证[翻墙机场推荐评测主榜](/vpn-recommend/)中的候选是否适合办公。
 - 游戏：看延迟、丢包、抖动，不要只看下载带宽。
 
 ## 客户端相关问题

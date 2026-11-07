@@ -16,6 +16,7 @@ const importantPaths = [
   '/article/2026fanqiangzhinan/',
   '/article/vpn-airport-vps-comparison-guide-2026/',
   '/article/vpn-airport-trial-checklist-2026/',
+  '/article/vpn-airport-telecom-unicom-mobile-guide-2026/',
   '/airport/jichangpk/',
   '/methodology/',
   '/disclosure/',

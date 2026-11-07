@@ -1,8 +1,12 @@
 ---
 home: true
-title: YouYou VPN推荐与科学上网指南
-description: YouYou长期更新2026年VPN推荐、翻墙机场评测、机场节点在线测速、Clash与Shadowrocket教程、节点优化、AI工具访问和科学上网避坑指南。
-updated: 2026/11/06 18:10:00
+title: 2026翻墙机场推荐与VPN评测、使用教程｜YouYou
+description: 翻墙机场怎么选？YouYou整理2026翻墙机场推荐评测、VPN机场价格与风险对比，提供电信联通移动网络测试、Clash和Shadowrocket入门、免费试用与故障排查，帮助你按自己的网络和用途筛选候选。
+updated: "2026-11-07T17:02:00+08:00"
+head:
+  - - title
+    - {}
+    - 2026翻墙机场推荐、VPN评测与使用教程 - YouYou
 tags:
   - YouYou
   - VPN推荐
@@ -20,12 +24,12 @@ config:
   -
     type: hero
     hero:
-      name: YouYou VPN
-      text: 2026 VPN推荐、机场评测与科学上网教程
-      tagline: 持续整理稳定机场、Clash/Shadowrocket配置、节点优化、AI工具访问与避坑指南。
+      name: 2026翻墙机场推荐
+      text: VPN机场评测与科学上网教程
+      tagline: 先比较套餐、适用场景与风险，再用自己的宽带验证。附 Clash / Shadowrocket 入门和常见问题解答。
       actions:
         - theme: brand
-          text: VPN机场推荐榜
+          text: 查看2026翻墙机场推荐评测
           link: "/vpn-recommend/"
         - theme: alt
           text: 机场性能PK
@@ -36,6 +40,27 @@ config:
         - theme: alt
           text: 专题索引
           link: "/topics/"
+
+  -
+    type: features
+    title: 先选机场，还是先排查网络？
+    description: 从购买前比较到本地验证，按你现在的问题进入。
+    features:
+      - title: 2026翻墙机场推荐评测主榜
+        icon: {src: "/home-icons/router-vpn.png"}
+        details: 集中比较套餐、流量、客户端支持与风险，先留下两三家候选。
+        link: "/vpn-recommend/"
+        linkText: 查看推荐评测与套餐对比
+      - title: 电信、联通、移动怎么选机场
+        icon: {src: "/home-icons/openvpn-wireguard.png"}
+        details: 同一台电脑对照家宽和手机热点，排查别人能用、自己却卡顿的问题。
+        link: "/article/vpn-airport-telecom-unicom-mobile-guide-2026/"
+        linkText: 按自己的网络做验证
+      - title: 已有订阅，先检查节点
+        icon: {src: "/home-icons/clash-verge.png"}
+        details: 在线初筛 TCP 可达性后，继续做本地晚高峰和真实任务测试。
+        link: "/#airport-node-test"
+        linkText: 打开节点检测工具
 
   -
     type: AirportSpeedTest
@@ -105,6 +130,9 @@ config:
     image: "/youyou.png"
     width: 180
     list:
+      -
+        title: 2026-11-07｜电信、联通、移动机场选择与双网络测试
+        description: '新增 <a href="/article/vpn-airport-telecom-unicom-mobile-guide-2026/">三网宽带与手机热点对照教程</a>，用同一台设备排查家宽慢、热点快和晚高峰卡顿；先从 <a href="/vpn-recommend/">2026翻墙机场推荐评测</a>筛选候选，再按记录表验证。'
       -
         title: 2026-11-06｜远程办公机场选择与会议、上传验收
         description: '新增 <a href="/article/vpn-airport-remote-work-meeting-guide-2026/">远程办公翻墙机场怎么选</a>教程，按视频会议、屏幕共享、文件上传与企业 VPN 兼容完成对照测试，再到 <a href="/vpn-recommend/">2026翻墙机场推荐评测主榜</a>筛选候选。'
@@ -248,25 +276,16 @@ config:
 
 
   -
-    type: doc-hero
-    hero:
-      name: YouYou
-      text: 更新所学，分享所知，持续记录。
-      tagline: 长期更新科学上网教程、翻墙机场推荐、VPN测评、节点优化、AI工具访问、Telegram教程与实用软件资源。
-      image: youyou.png
-      actions:
-        -
-          theme: brand
-          text: 投稿联系我TG →
-          link: https://t.me/youyouvpn
-        -
-          theme: alt
-          text: 机场推荐
-          link: /vpn-recommend/
-        -
-          theme: alt
-          text: 博客分类
-          link: /blog/categories/
+    type: text-image
+    title: 关于 YouYou 与内容反馈
+    description: 持续整理科学上网教程、机场评测与使用问题，欢迎提供可核对的补充资料。
+    image: "/youyou.png"
+    width: 120
+    list:
+      - title: 了解本站
+        description: '查看 <a href="/about/">作者与网站介绍</a>，或通过 <a href="/blog/categories/">博客分类</a>继续查找教程。'
+      - title: 投稿与纠错
+        description: '通过 <a href="/contact/">联系页面</a> 或 <a href="https://t.me/youyouvpn">Telegram</a> 提交公开资料与页面问题，请勿发送个人订阅和账号凭证。'
     
 ---
 

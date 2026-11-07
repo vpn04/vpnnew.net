@@ -226,12 +226,12 @@ const getDedupeHeadKey = (item: unknown): string | undefined => {
 
 const dedupeSeoHead = (head: unknown[]): void => {
   const seen = new Set<string>()
-  for (let index = 0; index < head.length; index += 1) {
+  // The SEO plugin prepends defaults; explicit frontmatter head entries come last.
+  for (let index = head.length - 1; index >= 0; index -= 1) {
     const key = getDedupeHeadKey(head[index])
     if (!key) continue
     if (seen.has(key)) {
       head.splice(index, 1)
-      index -= 1
     }
     else {
       seen.add(key)
@@ -475,15 +475,15 @@ const createBreadcrumbSchema = (page: { title?: string, path: string }): Record<
 const createArticleSchema = (
   head: readonly unknown[],
   page: { title?: string, path: string, frontmatter: Record<string, unknown> },
-): Record<string, unknown> => {
+) => {
   const title = getHeadContent(head, 'property', 'og:title') || page.title || siteTitle
   const published = toIsoDate(page.frontmatter.date || page.frontmatter.createTime)
   const modified = toIsoDate(page.frontmatter.updated || page.frontmatter.lastUpdated || page.frontmatter.date || page.frontmatter.createTime)
   const tags = getFrontmatterStringList(page.frontmatter, 'tags')
 
   return {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@context': 'https://schema.org' as const,
+    '@type': 'Article' as const,
     headline: title,
     url: getPageUrl(page),
     description: getPageDescription(head, page),
@@ -496,12 +496,12 @@ const createArticleSchema = (
       '@type': 'Thing',
       name,
     })),
-    author: {
-      '@type': 'Person',
+    author: [{
+      '@type': 'Person' as const,
       '@id': authorId,
       name: siteAuthor,
       url: `${siteUrl}/about/`,
-    },
+    }],
     publisher: {
       '@id': organizationId,
     },
@@ -1042,7 +1042,22 @@ export default defineUserConfig({
           email: 'yyo649929@gmail.com',
         },
         isArticle: page => isArticlePage(page),
+        ogp: (ogp, page) => {
+          if (!isArticlePage(page)) return ogp
+          const published = toIsoDate(page.frontmatter.date || page.frontmatter.createTime)
+          const modified = toIsoDate(page.frontmatter.updated || page.frontmatter.lastUpdated || page.frontmatter.date || page.frontmatter.createTime)
+          return {
+            ...ogp,
+            'article:published_time': published,
+            'article:modified_time': modified,
+            'og:updated_time': modified,
+          }
+        },
+        jsonLd: (jsonLd, page) => isArticlePage(page)
+          ? createArticleSchema(page.frontmatter.head || [], page)
+          : jsonLd,
         customHead: (head, page) => {
+          dedupeSeoHead(head)
           appendTwitterCardHead(head, page)
           appendArticleMetaHead(head, page)
           appendAlternateLanguageHead(head, page)

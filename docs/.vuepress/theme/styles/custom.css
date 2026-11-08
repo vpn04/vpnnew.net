@@ -22,6 +22,14 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .vp-doc table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
 .vp-doc :where(th, td) {
   min-width: 96px;
 }

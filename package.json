@@ -36,17 +36,20 @@
     "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs --port 8081",
-    "docs:dev-clean": "vuepress dev docs --port 8081 --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "catalog:generate": "node scripts/generate-airport-directory.mjs",
+    "docs:dev": "pnpm catalog:generate && vuepress dev docs --port 8081",
+    "docs:dev-clean": "pnpm catalog:generate && vuepress dev docs --port 8081 --clean-cache --clean-temp",
+    "docs:build": "pnpm catalog:generate && vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist -p 4175 -c-1",
     "seo:check": "node scripts/check-seo.mjs",
+    "test:airport-filter": "node --test scripts/airport-filter.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.114",
+    "gray-matter": "4.0.3",
     "http-server": "^14.1.1",
     "typescript": "^5.9.2",
     "vue": "^3.5.21",

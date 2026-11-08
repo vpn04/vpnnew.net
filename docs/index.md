@@ -42,6 +42,10 @@ config:
           link: "/topics/"
 
   -
+    type: AirportPlanFinder
+    variant: home
+
+  -
     type: features
     title: 先选机场，还是先排查网络？
     description: 从购买前比较到本地验证，按你现在的问题进入。

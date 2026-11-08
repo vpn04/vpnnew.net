@@ -3,6 +3,7 @@ title: Shadowrocket 小火箭专题：下载、节点、订阅与 iPhone 使用�
 description: Shadowrocket 小火箭专题页，聚合 iPhone 下载、非国区 Apple ID、节点购买、订阅导入、配置失效、DNS、节点超时和 Clash 对比教程。
 permalink: /shadowrocket/
 createTime: 2026/07/21 10:10:00
+updated: "2026-11-08T16:39:00+08:00"
 tags:
   - Shadowrocket
   - 小火箭
@@ -31,6 +32,7 @@ Shadowrocket 通常被中文用户称为“小火箭”，主要用于 iPhone �
 
 ## 故障排查
 
+- [iPhone机场锁屏断线、切网失败与耗电排查](/article/mobile-vpn-airport-disconnect-battery-guide-2026/)：区分低电量模式、客户端状态与实际请求，用记录表核验恢复行为。
 - [Shadowrocket 被封怎么办](/article/shadowrocketbeifeng/)
 - [Shadowrocket 安装失败、iOS 26 无法连接](/article/shadowrocket-fix-ios26/)
 - [Shadowrocket DNS 设置错误](/shadowrocket-dns-error-fix/)

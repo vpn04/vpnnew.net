@@ -29,6 +29,7 @@ type BlogPostMeta = {
 type CuratedRankingItem = {
   path: string
   title: string
+  icon?: string
 }
 
 type RankingItem = {
@@ -101,7 +102,7 @@ const curatedAirportPages = dedupeCuratedItems([
   { path: '/vpn/dengta-accelerator-review-2026/', title: '灯塔加速器机场' },
   { path: '/blog/runway/', title: '拼好连机场' },
   { path: '/vpn/lvpn-review-2026/', title: '边界云机场' },
-  { path: '/article/xundajichang/', title: '迅达机场' },
+  { path: '/vpn/yunjiexian-review-2026/', title: '云界线机场', icon: '🛩' },
   { path: '/vpn/yuzhouyun-review-2026/', title: '宇宙云机场' },
   { path: '/vpn/jiuyun-airport-review-2026/', title: '九云机场' },
   { path: '/article/uuone/', title: 'uuone 机场' },
@@ -141,7 +142,10 @@ const toRankingItem = (item: CuratedRankingItem): RankingItem => {
   const path = normalizePath(item.path)
   const meta = blogPostMap.get(path)
   const stats = pageStatsMap.value.get(path)
-  const title = stats?.title || meta?.title || item.title
+  const sourceTitle = stats?.title || meta?.title || item.title
+  const title = item.icon && !sourceTitle.startsWith(item.icon)
+    ? `${item.icon}${sourceTitle}`
+    : sourceTitle
 
   return {
     path,

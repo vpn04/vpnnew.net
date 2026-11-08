@@ -2,7 +2,7 @@
 home: true
 title: 2026翻墙机场推荐与VPN评测、使用教程｜YouYou
 description: 翻墙机场怎么选？YouYou整理2026翻墙机场推荐评测、VPN机场价格与风险对比，提供电信联通移动网络测试、Clash和Shadowrocket入门、免费试用与故障排查，帮助你按自己的网络和用途筛选候选。
-updated: "2026-11-07T17:02:00+08:00"
+updated: "2026-11-08T16:39:00+08:00"
 head:
   - - title
     - {}
@@ -130,6 +130,9 @@ config:
     image: "/youyou.png"
     width: 180
     list:
+      -
+        title: 2026-11-08｜手机机场锁屏、切网与耗电排查
+        description: '新增 <a href="/article/mobile-vpn-airport-disconnect-battery-guide-2026/">手机翻墙机场总断线怎么办</a>教程，分安卓与 iPhone 对照锁屏恢复、网络切换和电池记录；排除设备与配置问题后，再用验收表验证 <a href="/vpn-recommend/">2026翻墙机场推荐评测</a>中的候选。'
       -
         title: 2026-11-07｜电信、联通、移动机场选择与双网络测试
         description: '新增 <a href="/article/vpn-airport-telecom-unicom-mobile-guide-2026/">三网宽带与手机热点对照教程</a>，用同一台设备排查家宽慢、热点快和晚高峰卡顿；先从 <a href="/vpn-recommend/">2026翻墙机场推荐评测</a>筛选候选，再按记录表验证。'

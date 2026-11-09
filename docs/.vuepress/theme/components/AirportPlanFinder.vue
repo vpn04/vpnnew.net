@@ -4,6 +4,7 @@ import type { AirportPlan } from '../data/airportCatalog'
 import { allAirportPlans, catalogDataNotes, catalogUpdated, recommendedAirportIds } from '../data/airportCatalog'
 import type { AirportSort } from '../data/airportFilter'
 import { getAirportFinderResults } from '../data/airportFilter'
+import { formatData, formatMoney, formatMonthlyData, formatMonthlyPrice, formatUnitPrice } from '../data/airportDisplay'
 
 const props = withDefaults(defineProps<{ variant?: 'inline' | 'home' }>(), { variant: 'inline' })
 const isHome = computed(() => props.variant === 'home')
@@ -16,6 +17,7 @@ const selectionStatusId = `${instanceId}-selection-status`
 const dialog = ref<HTMLDialogElement | null>(null)
 const filterHeading = ref<HTMLElement | null>(null)
 const compareHeading = ref<HTMLElement | null>(null)
+const selectionMessage = ref<HTMLElement | null>(null)
 const device = ref('windows')
 const budget = ref<number | null>(null)
 const minDataGB = ref(0)
@@ -60,13 +62,6 @@ const selectionStatus = computed(() => [
     : '最多对比 3 家。修改筛选会保留已选的具体套餐，可在下方单独移除。',
 ].filter(Boolean).join(' '))
 
-const formatMoney = (amount: number): string => amount.toLocaleString('zh-CN', { maximumFractionDigits: 2 })
-const formatData = (amount: number | null): string => amount === null ? '待核对' : amount.toLocaleString('zh-CN', { maximumFractionDigits: 2 })
-const formatUnitPrice = (plan: AirportPlan): string => plan.monthlyPrice === null || plan.monthlyDataGB === null
-  ? '待核对'
-  : `约 ¥${(plan.monthlyPrice / plan.monthlyDataGB).toLocaleString('zh-CN', { minimumFractionDigits: 3, maximumFractionDigits: 4 })} / GB`
-const formatMonthlyPrice = (plan: AirportPlan): string => plan.monthlyPrice === null ? '待核对' : `¥${formatMoney(plan.monthlyPrice)} / 月`
-const formatMonthlyData = (plan: AirportPlan): string => plan.monthlyDataGB === null ? (plan.dataDescription || '待核对') : `${formatData(plan.monthlyDataGB)} GB / 月`
 const sourceDateLabel = (plan: AirportPlan): string => plan.sourceDateKind === 'published' ? '原文发布' : '原文编辑'
 const isSelected = (plan: AirportPlan): boolean => selectedIds.value.includes(plan.id)
 const cannotSelect = (plan: AirportPlan): boolean => selectedPlans.value.length >= 3 && !selectedAirports.value.has(plan.airportId)
@@ -84,6 +79,8 @@ const restorePage = (): void => {
 const openFinder = (): void => {
   if (!dialog.value || dialog.value.open)
     return
+  // A native close event may still be queued from the previous opening.
+  restorePage()
   previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
   previousOverflow = document.body.style.overflow
   dialog.value.showModal()
@@ -92,6 +89,13 @@ const openFinder = (): void => {
 
 const closeFinder = (): void => {
   dialog.value?.close()
+  restorePage()
+}
+
+const onDialogClose = (): void => {
+  // Ignore a delayed close event when the dialog has already reopened.
+  if (!dialog.value?.open)
+    restorePage()
 }
 
 const onBackdropClick = (event: MouseEvent): void => {
@@ -150,7 +154,16 @@ const showComparison = async (): Promise<void> => {
   compareHeading.value?.focus({ preventScroll: true })
 }
 
+const restoreSelectionFocus = async (focusedControl: Element | null): Promise<void> => {
+  await nextTick()
+  if (focusedControl && !focusedControl.isConnected && dialog.value?.open) {
+    const target = showingComparison.value ? compareHeading.value : selectionMessage.value
+    target?.focus({ preventScroll: true })
+  }
+}
+
 const removeSelection = async (id: string): Promise<void> => {
+  const focusedControl = document.activeElement
   const plan = planMap.get(id)
   selectedIds.value = selectedIds.value.filter(item => item !== id)
   announcement.value = `已移除${plan?.airportName || '所选套餐'}。`
@@ -158,13 +171,19 @@ const removeSelection = async (id: string): Promise<void> => {
     announcement.value = '对比至少需要 2 家，已返回套餐筛选。'
     await showFilters()
   }
+  else {
+    await restoreSelectionFocus(focusedControl)
+  }
 }
 
 const clearSelection = async (): Promise<void> => {
+  const focusedControl = document.activeElement
   selectedIds.value = []
   announcement.value = '已清空对比套餐。'
   if (showingComparison.value)
     await showFilters()
+  else
+    await restoreSelectionFocus(focusedControl)
 }
 
 onUnmounted(() => {
@@ -209,7 +228,7 @@ onUnmounted(() => {
       </button>
     </div>
 
-    <dialog ref="dialog" class="finder-dialog" :aria-labelledby="headingId" @close="restorePage" @click="onBackdropClick">
+    <dialog ref="dialog" class="finder-dialog" :aria-labelledby="headingId" @close="onDialogClose" @click="onBackdropClick">
       <header class="finder-dialog__header">
         <div class="finder-dialog__heading-row">
           <div>
@@ -234,7 +253,7 @@ onUnmounted(() => {
           <div class="finder-intro">
             <h3 :id="filterHeadingId" ref="filterHeading" tabindex="-1">先找适合的档位，再看评测与风险</h3>
             <p>当前收录的 {{ catalogueAirportCount }} 家机场均可加入对比，默认优先展示编辑推荐的五家。设置预算或流量门槛后，只匹配对应数字明确的资料；每家展示最低匹配档位，推荐标识不代表速度或稳定性名次。</p>
-            <p v-if="unverifiedCount" class="finder-help">当前 {{ unverifiedCount }} 家存在待核对字段，仍可加入对比。未知数字不当成 0 元、无限流量或已满足筛选条件；原文套餐摘要与运营状态请分别核对。</p>
+            <p v-if="unverifiedCount" class="finder-help">当前 {{ unverifiedCount }} 家按原文展示年付、流量包或不同口径的数值，均可加入对比；月付预算和月流量筛选只使用周期明确且无冲突的数字。</p>
           </div>
 
           <div class="finder-controls" @change="changeFilters">
@@ -290,7 +309,7 @@ onUnmounted(() => {
             <p class="finder-result-count" role="status" aria-live="polite">
               <template v-if="!showingComparison">
                 <strong>{{ displayPlans.length }}</strong> 家{{ unverifiedCount ? '展示' : '符合条件' }}
-                <span v-if="unverifiedCount" class="finder-pending-count">（{{ unverifiedCount }} 家含待核对项）</span>
+                <span v-if="unverifiedCount" class="finder-pending-count">（{{ unverifiedCount }} 家保留原文口径）</span>
                 <span class="finder-dot">·</span>
               </template>
               已选 <strong>{{ selectedPlans.length }} / 3</strong> 家
@@ -308,7 +327,7 @@ onUnmounted(() => {
               <span>{{ plan.airportName }} · {{ plan.name }}</span><span aria-hidden="true">×</span>
             </button>
           </div>
-          <p :id="selectionStatusId" class="finder-help" role="status" aria-live="polite">{{ selectionStatus }}</p>
+          <p :id="selectionStatusId" ref="selectionMessage" class="finder-help" tabindex="-1" role="status" aria-live="polite">{{ selectionStatus }}</p>
         </section>
 
         <template v-if="!showingComparison">
@@ -326,9 +345,8 @@ onUnmounted(() => {
                 </div>
               </div>
               <p v-if="plan.monthlyPrice !== null" class="finder-card__price"><span>¥{{ formatMoney(plan.monthlyPrice) }}</span><small>/ 月</small></p>
-              <p v-else class="finder-card__price finder-card__price--pending"><span>月付价待核对</span></p>
-              <p v-if="plan.monthlyDataGB !== null" class="finder-card__data">{{ formatData(plan.monthlyDataGB) }} GB / 月<span>套餐标注流量</span></p>
-              <p v-else class="finder-card__data finder-card__data--pending">{{ plan.dataDescription || '月度流量待核对' }}<span>可加入对比，缺失数字待核对</span></p>
+              <p v-else class="finder-card__price finder-card__price--pending"><span>{{ formatMonthlyPrice(plan) }}</span></p>
+              <p class="finder-card__data" :class="{ 'finder-card__data--pending': plan.monthlyDataGB === null }">{{ formatMonthlyData(plan) }}<span>{{ plan.monthlyDataGB === null ? '保留原文流量与周期' : '套餐标注流量' }}</span></p>
               <p class="finder-card__plan">{{ plan.name }}</p>
               <p v-if="plan.priceDescription" class="finder-card__summary">原文入门摘要：{{ plan.priceDescription }}</p>
               <dl class="finder-card__details">
@@ -337,6 +355,7 @@ onUnmounted(() => {
               <p class="finder-card__note">{{ plan.note }}</p>
               <p v-if="plan.riskPath" class="finder-card__status"><a :href="plan.riskPath" target="_blank" rel="noopener noreferrer">查看服务状态与公告</a></p>
               <p class="finder-source">{{ sourceDateLabel(plan) }} {{ plan.sourceDate }}；现价待购买前核对</p>
+              <p v-if="plan.officialUrl" class="finder-card__official"><a :href="plan.officialUrl" target="_blank" rel="sponsored nofollow noopener noreferrer">官网购买</a></p>
               <div class="finder-card__footer">
                 <a :href="plan.sourcePath" target="_blank" rel="noopener noreferrer">查看套餐与风险</a>
                 <label class="finder-check" :class="{ 'is-disabled': cannotSelect(plan) }">
@@ -356,7 +375,7 @@ onUnmounted(() => {
 
         <section v-else class="finder-comparison" aria-label="套餐横向对比">
           <h3 ref="compareHeading" tabindex="-1">对比已选套餐</h3>
-          <p class="finder-help">对比保留你选中时的档位或资料卡。缺失、冲突字段显示“待核对”；只有明确月费与月度流量才计算每 GB 费用，不计节点倍率、额外开销或折扣。</p>
+          <p class="finder-help">对比保留所选档位，价格与流量按原文周期显示；不同标价会并列注明。只有明确月费与月度流量才计算每 GB 费用，不计节点倍率、额外开销或折扣。</p>
           <div class="finder-table-scroll" role="region" aria-label="可横向滚动的机场套餐对比表" tabindex="0">
             <table class="finder-table">
               <thead>
@@ -369,8 +388,9 @@ onUnmounted(() => {
                 </tr>
               </thead>
               <tbody>
-                <tr><th scope="row">月付金额</th><td v-for="plan in selectedPlans" :key="plan.id" class="finder-table__price">{{ formatMonthlyPrice(plan) }}</td></tr>
-                <tr><th scope="row">标注月流量</th><td v-for="plan in selectedPlans" :key="plan.id">{{ formatMonthlyData(plan) }}</td></tr>
+                <tr><th scope="row">套餐价格</th><td v-for="plan in selectedPlans" :key="plan.id" class="finder-table__price">{{ formatMonthlyPrice(plan) }}</td></tr>
+                <tr><th scope="row">套餐流量</th><td v-for="plan in selectedPlans" :key="plan.id">{{ formatMonthlyData(plan) }}</td></tr>
+                <tr><th scope="row">官网</th><td v-for="plan in selectedPlans" :key="plan.id"><a v-if="plan.officialUrl" class="finder-buy" :href="plan.officialUrl" target="_blank" rel="sponsored nofollow noopener noreferrer" :aria-label="`前往${plan.airportName}官网购买`">购买</a><span v-else>原文未提供官网</span></td></tr>
                 <tr><th scope="row">名义流量单价</th><td v-for="plan in selectedPlans" :key="plan.id">{{ formatUnitPrice(plan) }}</td></tr>
                 <tr><th scope="row">原文入门摘要</th><td v-for="plan in selectedPlans" :key="plan.id">{{ plan.priceDescription || '详见原文套餐表' }}<small>保留原口径，可能是另一档套餐，不自动折算月付</small></td></tr>
                 <tr><th scope="row">设备限制</th><td v-for="plan in selectedPlans" :key="plan.id">{{ plan.deviceLimit }}</td></tr>
@@ -384,7 +404,7 @@ onUnmounted(() => {
         </section>
 
         <footer class="finder-footnotes">
-          <p>目录依据本站机场评测整理，缺失或冲突字段标为待核对；月付套餐补充资料整理于 {{ catalogUpdated }}，不是实时询价。付款前请核对价格、流量重置、倍率、兼容与退款条件；状态标记依据站内公告，不表示今日重新核查。</p>
+          <p>目录依据本站机场评测整理，价格与流量保留原文周期和不同口径；资料整理于 {{ catalogUpdated }}，不是实时询价。“购买”链接前往主文章登记的对应官网，部分链接含推广参数，详见广告披露。付款前请核对价格、流量重置、倍率、兼容与退款条件。</p>
           <details>
             <summary>收录口径与待核对资料</summary>
             <p>全量目录中的每家机场均可按名称查找、查看原文并加入对比。预算筛选只使用明确月付金额，流量筛选只使用明确月度 GB；年付折合、一次性、优惠码或冲突资料保留原文摘要，不自行换算。价格和流量排序会把对应未知数字放在最后，每家只展示一张匹配卡片。</p>
@@ -525,6 +545,10 @@ onUnmounted(() => {
 .finder-card__details dd { margin: 0; }
 .finder-card__note { flex: 1; margin-top: 9px !important; color: var(--finder-muted); font-size: 12px; line-height: 1.8; }
 .finder-source { margin-top: 13px !important; color: var(--finder-muted); font-size: 11px; line-height: 1.8; }
+.finder-card__official { margin-top: 10px !important; font-size: 13px; font-weight: 600; }
+.airport-finder .finder-buy { display: inline-flex; align-items: center; gap: 5px; padding: 5px 15px; border-radius: 6px; background: var(--finder-brand); color: var(--finder-bg); font-weight: 600; text-decoration: none; }
+.airport-finder .finder-buy:hover { opacity: .85; }
+.airport-finder .finder-buy:focus-visible { outline: 2px solid var(--finder-brand); outline-offset: 3px; }
 .finder-card__footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 13px; padding-top: 12px; border-top: 1px solid var(--finder-border); font-size: 12px; }
 .finder-check { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
 .finder-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--finder-brand); cursor: inherit; }

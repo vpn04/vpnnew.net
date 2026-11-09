@@ -7,6 +7,8 @@ export interface AirportPlan {
   name: string
   monthlyPrice: number | null
   monthlyDataGB: number | null
+  priceDisplay?: string
+  officialUrl?: string
   priceDescription?: string
   dataDescription?: string
   sourcePath: string
@@ -20,7 +22,7 @@ export interface AirportPlan {
 }
 
 // 本目录整理日期，不代表当天访问官网、核价或完成节点测试。
-export const catalogUpdated = '2026-11-08'
+export const catalogUpdated = '2026-11-09'
 
 // Explicit removals from the public finder; keep historical review and warning pages intact.
 export const excludedAirportPaths = ['/article/naiyun/', '/article/OKANC/'] as const
@@ -66,7 +68,7 @@ const sources = {
     sourceDate: '2026-06-30',
     sourceDateKind: 'published',
     deviceLimit: '原文标注不限客户端连接数',
-    note: '按详细套餐表整理；主文7.5元50GB摘要不同，现价及共享规则待核。',
+    note: '按详细套餐表整理；现价及共享规则待核。',
   },
   dengta: {
     airportId: 'dengta-accelerator',
@@ -370,7 +372,7 @@ export const partialAirportPlans: AirportPlan[] = [
     name: '包月套餐（额度待核对）',
     monthlyPrice: 24,
     monthlyDataGB: null,
-    dataDescription: '每日60GB，月度额度待核对',
+    dataDescription: '1500GB/月（汇总）／1800GB/月（详情）；每日60GB',
     sourcePath: '/article/wangjikuaiche/',
     sourceDate: '2026-03-22',
     sourceDateKind: 'published',

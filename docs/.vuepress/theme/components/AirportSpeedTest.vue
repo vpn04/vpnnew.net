@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, onUnmounted, ref } from 'vue'
 
+const props = withDefaults(defineProps<{ embedded?: boolean }>(), { embedded: false })
+
 type NodeStatus = 'online' | 'timeout' | 'blocked' | 'unsupported' | 'error'
 
 type TestedNode = {
@@ -214,9 +216,9 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section id="airport-node-test" class="airport-speed-test-section" aria-labelledby="airport-speed-test-title">
+  <section :id="props.embedded ? undefined : 'airport-node-test'" class="airport-speed-test-section" :class="{ 'airport-speed-test-section--embedded': props.embedded }" aria-labelledby="airport-speed-test-title">
     <div class="airport-speed-test-shell">
-      <a class="airport-featured-guide" href="/vpn-recommend/">
+      <a v-if="!props.embedded" class="airport-featured-guide" href="/vpn-recommend/">
         <span class="airport-featured-guide__badge">2026 长期更新 · 本站主推</span>
         <span class="airport-featured-guide__content">
           <small>测速前不知道选哪家？先看完整榜单</small>
@@ -227,14 +229,14 @@ onUnmounted(() => {
 
       <header class="airport-speed-test-header">
         <div>
-          <p class="airport-speed-test-kicker">
+          <p v-if="!props.embedded" class="airport-speed-test-kicker">
             Subscription Node Check
           </p>
           <h2 id="airport-speed-test-title">
-            机场订阅节点在线检测
+            {{ props.embedded ? '订阅节点检测' : '机场订阅节点在线检测' }}
           </h2>
           <p>
-            粘贴自己的 HTTPS 机场订阅链接，系统会临时解析节点，并检测每个 TCP 节点的端口可达率与握手延迟。无需安装额外测速软件。
+            {{ props.embedded ? '粘贴个人 HTTPS 订阅，检测节点 TCP 可达性与握手延迟。' : '粘贴自己的 HTTPS 机场订阅链接，系统会临时解析节点，并检测每个 TCP 节点的端口可达率与握手延迟。无需安装额外测速软件。' }}
           </p>
         </div>
 
@@ -460,6 +462,15 @@ onUnmounted(() => {
   margin: 0 auto;
 }
 
+.airport-speed-test-section.airport-speed-test-section--embedded {
+  padding: 0;
+  overflow: visible;
+}
+
+.airport-speed-test-section--embedded .airport-speed-test-shell {
+  max-width: none;
+}
+
 .airport-featured-guide {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
@@ -467,11 +478,9 @@ onUnmounted(() => {
   align-items: center;
   padding: 18px 20px;
   margin-bottom: 34px;
-  border: 1px solid rgba(245, 158, 11, 0.38);
+  border: 1px solid var(--site-recommend-border);
   border-radius: 12px;
-  background:
-    linear-gradient(110deg, rgba(245, 158, 11, 0.15), rgba(37, 99, 235, 0.08)),
-    var(--vp-c-bg-soft);
+  background: var(--site-recommend-soft);
   box-shadow: 0 14px 36px rgba(15, 23, 42, 0.07);
   color: var(--vp-c-text-1);
   text-decoration: none;
@@ -479,7 +488,7 @@ onUnmounted(() => {
 }
 
 .airport-featured-guide:hover {
-  border-color: #f59e0b;
+  border-color: var(--site-recommend);
   box-shadow: 0 18px 44px rgba(15, 23, 42, 0.11);
   transform: translateY(-2px);
 }
@@ -487,8 +496,8 @@ onUnmounted(() => {
 .airport-featured-guide__badge {
   padding: 7px 10px;
   border-radius: 999px;
-  background: #f59e0b;
-  color: #fff;
+  background: var(--site-recommend-solid);
+  color: var(--site-recommend-ink);
   font-size: 12px;
   font-weight: 800;
   white-space: nowrap;
@@ -512,7 +521,7 @@ onUnmounted(() => {
 }
 
 .airport-featured-guide__action {
-  color: var(--vp-c-brand-1);
+  color: var(--site-recommend);
   font-size: 13px;
   font-weight: 800;
   white-space: nowrap;
@@ -528,7 +537,7 @@ onUnmounted(() => {
 
 .airport-speed-test-kicker {
   margin: 0 0 8px;
-  color: var(--vp-c-brand-1);
+  color: var(--site-tool);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -557,16 +566,12 @@ onUnmounted(() => {
   gap: 8px;
   align-items: center;
   padding: 9px 12px;
-  border: 1px solid rgba(34, 197, 94, 0.28);
+  border: 1px solid var(--site-tool-border);
   border-radius: 999px;
-  background: rgba(34, 197, 94, 0.08);
-  color: #15803d;
+  background: var(--site-tool-soft);
+  color: var(--site-tool);
   font-size: 13px;
   font-weight: 700;
-}
-
-[data-theme="dark"] .airport-speed-test-privacy {
-  color: #86efac;
 }
 
 .airport-speed-test-privacy svg,
@@ -586,7 +591,7 @@ onUnmounted(() => {
   border: 1px solid var(--vp-c-divider);
   border-radius: 14px;
   background:
-    linear-gradient(135deg, var(--vp-c-brand-soft), transparent 34%),
+    linear-gradient(135deg, var(--site-tool-soft), transparent 34%),
     var(--vp-c-bg-soft);
   box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
 }
@@ -614,8 +619,8 @@ onUnmounted(() => {
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
+  background: var(--site-tool-soft);
+  color: var(--site-tool);
   font-size: 12px;
 }
 
@@ -639,8 +644,8 @@ onUnmounted(() => {
 }
 
 .airport-subscription-input:focus-within {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+  border-color: var(--site-tool);
+  box-shadow: 0 0 0 3px var(--site-tool-soft);
 }
 
 .airport-subscription-input input {
@@ -665,13 +670,13 @@ onUnmounted(() => {
 }
 
 .airport-subscription-input button:hover {
-  color: var(--vp-c-brand-1);
+  color: var(--site-tool);
 }
 
 .airport-subscription-input button:focus-visible,
 .airport-speed-test-actions button:focus-visible,
 .airport-privacy-consent input:focus-visible {
-  outline: 2px solid var(--vp-c-brand-1);
+  outline: 2px solid var(--site-tool);
   outline-offset: 2px;
 }
 
@@ -721,7 +726,7 @@ onUnmounted(() => {
   width: 16px;
   height: 16px;
   margin-top: 2px;
-  accent-color: var(--vp-c-brand-1);
+  accent-color: var(--site-tool-solid);
 }
 
 .airport-speed-test-error {
@@ -775,10 +780,15 @@ onUnmounted(() => {
 }
 
 .airport-speed-test-start {
-  border-color: var(--vp-c-brand-1) !important;
-  background: var(--vp-c-brand-1);
-  box-shadow: 0 10px 24px var(--vp-c-brand-soft);
-  color: var(--vp-c-white);
+  border-color: var(--site-tool-solid) !important;
+  background: var(--site-tool-solid);
+  box-shadow: 0 10px 24px var(--site-tool-soft);
+  color: var(--site-tool-ink);
+}
+
+.airport-speed-test-start:hover:not(:disabled) {
+  border-color: var(--site-tool-hover) !important;
+  background: var(--site-tool-hover);
 }
 
 .airport-speed-test-stop,
@@ -823,8 +833,8 @@ onUnmounted(() => {
 .airport-speed-test-spinner {
   width: 30px;
   height: 30px;
-  border: 3px solid var(--vp-c-brand-soft);
-  border-top-color: var(--vp-c-brand-1);
+  border: 3px solid var(--site-tool-soft);
+  border-top-color: var(--site-tool);
   border-radius: 50%;
   animation: airport-speed-spin 0.8s linear infinite;
 }
@@ -833,7 +843,7 @@ onUnmounted(() => {
   width: 56px;
   height: 42px;
   fill: none;
-  stroke: var(--vp-c-brand-1);
+  stroke: var(--site-tool);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2.2;
@@ -883,7 +893,7 @@ onUnmounted(() => {
   min-width: 0;
   padding: 14px;
   border: 1px solid var(--vp-c-divider);
-  border-top: 3px solid var(--vp-c-brand-1);
+  border-top: 3px solid var(--site-tool);
   border-radius: 9px;
   background: var(--vp-c-bg);
 }
@@ -1043,7 +1053,7 @@ onUnmounted(() => {
 }
 
 .airport-speed-test-note a {
-  color: var(--vp-c-brand-1);
+  color: var(--site-tool);
   font-weight: 700;
   text-decoration: none;
 }

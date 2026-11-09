@@ -21,6 +21,10 @@ const AirportPlanFinder = defineAsyncComponent(
   () => import('./theme/components/AirportPlanFinder.vue'),
 )
 
+const HomeLanding = defineAsyncComponent(
+  () => import('./theme/components/HomeLanding.vue'),
+)
+
 export default defineClientConfig({
   rootComponents: [SiteLanguageToggle, AnalyticsTracker, HotRankingSidebar],
   enhance({ app }) {
@@ -34,5 +38,6 @@ export default defineClientConfig({
     app.component('AnalyticsDashboard', AnalyticsDashboard)
     app.component('AirportSpeedTest', AirportSpeedTest)
     app.component('AirportPlanFinder', AirportPlanFinder)
+    app.component('HomeLanding', HomeLanding)
   },
 })

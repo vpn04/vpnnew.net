@@ -3,6 +3,35 @@
   --vp-c-brand-2: #1d4ed8;
   --vp-c-brand-3: #60a5fa;
   --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+  /* Orange leads recommendations; blue guides navigation; teal marks tools. */
+  --site-recommend: #c2410c;
+  --site-recommend-solid: #d1430c;
+  --site-recommend-hover: #b9380a;
+  --site-recommend-ink: #fff;
+  --site-recommend-soft: #fff3e8;
+  --site-recommend-border: #fdc9a6;
+  --site-recommend-shadow: rgba(209, 67, 12, 0.2);
+  --site-tool: #0f766e;
+  --site-tool-solid: #0f766e;
+  --site-tool-hover: #115e59;
+  --site-tool-ink: #fff;
+  --site-tool-soft: #edf9f6;
+  --site-tool-border: #bce8dc;
+  --site-guide: #2563eb;
+  --site-guide-soft: #edf4ff;
+  --site-guide-border: #cddfff;
+  --site-secondary: #7c3aed;
+  --site-secondary-soft: #f5f0ff;
+  --site-secondary-border: #e2d5fb;
+  --vp-c-tip-1: var(--site-tool);
+  --vp-c-tip-2: var(--site-tool-hover);
+  --vp-c-tip-soft: var(--site-tool-soft);
+  --vp-c-important-1: var(--site-secondary);
+  --vp-c-important-soft: var(--site-secondary-soft);
+  --vp-custom-block-tip-bg: var(--site-tool-soft);
+  --vp-custom-block-tip-border: var(--site-tool-border);
+  --vp-custom-block-important-bg: var(--site-secondary-soft);
+  --vp-custom-block-important-border: var(--site-secondary-border);
 }
 
 [data-theme="dark"] {
@@ -10,6 +39,115 @@
   --vp-c-brand-2: #93c5fd;
   --vp-c-brand-3: #2563eb;
   --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  --site-recommend: #fdba74;
+  --site-recommend-solid: #fb923c;
+  --site-recommend-hover: #fdba74;
+  --site-recommend-ink: #2b160b;
+  --site-recommend-soft: rgba(251, 146, 60, 0.08);
+  --site-recommend-border: #9a542b;
+  --site-recommend-shadow: rgba(251, 146, 60, 0.15);
+  --site-tool: #5eead4;
+  --site-tool-solid: #2dd4bf;
+  --site-tool-hover: #5eead4;
+  --site-tool-ink: #042f2e;
+  --site-tool-soft: rgba(45, 212, 191, 0.08);
+  --site-tool-border: #245e55;
+  --site-guide: #93c5fd;
+  --site-guide-soft: rgba(96, 165, 250, 0.09);
+  --site-guide-border: #304a75;
+  --site-secondary: #c4b5fd;
+  --site-secondary-soft: rgba(167, 139, 250, 0.09);
+  --site-secondary-border: #51416e;
+}
+
+::selection {
+  background: var(--vp-c-brand-soft);
+}
+
+/* Exact destinations keep recommendation accents consistent on every page. */
+:is(.vp-doc, .vp-menu-link, .vp-nav-screen, .vp-home-feature, .vp-sidebar) a:is(
+  [href="/vpn-recommend/"],
+  [href="/best-vpn-for-china/"],
+  [href="/vpn-airport-reviews/"],
+  [href="/airport/jichangpk/"]
+) {
+  color: var(--site-recommend);
+  text-decoration-color: var(--site-recommend-border);
+}
+
+:is(.vp-doc, .vp-menu-link, .vp-nav-screen, .vp-home-feature, .vp-sidebar) a:is(
+  [href="/vpn-recommend/"],
+  [href="/best-vpn-for-china/"],
+  [href="/vpn-airport-reviews/"],
+  [href="/airport/jichangpk/"]
+):hover {
+  color: var(--site-recommend-hover);
+}
+
+.vp-menu-link a[href="/vpn-recommend/"],
+.vp-nav-screen a[href="/vpn-recommend/"] {
+  border-radius: 6px;
+  background: var(--site-recommend-soft);
+  font-weight: 700;
+}
+
+.vp-navbar-menu-group:has(a[href="/vpn-recommend/"]) > .button .text,
+.vp-nav-screen-menu-group:has(a[href="/vpn-recommend/"]) > .button {
+  color: var(--site-recommend);
+  font-weight: 700;
+}
+
+.vp-navbar-menu-group:has(a[href="/vpn-recommend/"]) > .button .text {
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: var(--site-recommend-soft);
+}
+
+.vp-navbar-menu-group:has(a[href="/#airport-node-test"]) > .button .text,
+.vp-nav-screen-menu-group:has(a[href="/#airport-node-test"]) > .button,
+:is(.vp-menu-link, .vp-nav-screen) a[href="/#airport-node-test"] {
+  color: var(--site-tool);
+}
+
+.vp-doc .hint-container.tip {
+  border-inline-start: 3px solid var(--site-tool-border);
+}
+
+.vp-doc .hint-container.important {
+  border-inline-start: 3px solid var(--site-secondary-border);
+}
+
+.vp-doc table thead {
+  --vp-c-bg-soft: var(--site-guide-soft);
+}
+
+.vp-doc blockquote {
+  border-left-color: var(--site-guide-border);
+}
+
+.vp-blog-post-item:has(h3 a[href="/vpn-recommend/"]) {
+  border-inline-start: 3px solid var(--site-recommend-border);
+  border-radius: 10px;
+  background: var(--site-recommend-soft);
+}
+
+.vp-blog-post-item h3 a[href="/vpn-recommend/"] {
+  color: var(--site-recommend);
+}
+
+.airport-recommend-page .vp-doc-title,
+.airport-recommend-page .vp-doc h1 {
+  color: var(--site-recommend);
+}
+
+.youyou-hot-ranking[data-category="airports"] {
+  --ranking-accent: var(--site-recommend);
+  --ranking-soft: var(--site-recommend-soft);
+}
+
+.youyou-hot-ranking[data-category="tutorials"] {
+  --ranking-accent: var(--site-guide);
+  --ranking-soft: var(--site-guide-soft);
 }
 
 .vp-doc img {
@@ -273,11 +411,11 @@
 }
 
 .youyou-hot-ranking__tabs button.active {
-  color: var(--vp-c-brand-1);
+  color: var(--ranking-accent, var(--vp-c-brand-1));
 }
 
 .youyou-hot-ranking__tabs button.active::after {
-  background: var(--vp-c-brand-1);
+  background: var(--ranking-accent, var(--vp-c-brand-1));
 }
 
 .youyou-hot-ranking__tabs button:focus-visible {
@@ -313,7 +451,9 @@
 }
 
 .youyou-hot-ranking__rank.is-hot {
-  color: #f97316;
+  border-radius: 5px;
+  background: var(--ranking-soft, var(--site-recommend-soft));
+  color: var(--ranking-accent, var(--site-recommend));
 }
 
 .youyou-hot-ranking__list a {
@@ -328,7 +468,7 @@
 }
 
 .youyou-hot-ranking__list a:hover {
-  color: var(--vp-c-brand-1);
+  color: var(--ranking-accent, var(--vp-c-brand-1));
 }
 
 .youyou-hot-ranking__count {

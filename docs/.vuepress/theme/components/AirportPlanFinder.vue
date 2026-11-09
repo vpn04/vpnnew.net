@@ -6,7 +6,7 @@ import type { AirportSort } from '../data/airportFilter'
 import { getAirportFinderResults } from '../data/airportFilter'
 import { formatData, formatMoney, formatMonthlyData, formatMonthlyPrice, formatUnitPrice } from '../data/airportDisplay'
 
-const props = withDefaults(defineProps<{ variant?: 'inline' | 'home' }>(), { variant: 'inline' })
+const props = withDefaults(defineProps<{ variant?: 'inline' | 'home' | 'compact' }>(), { variant: 'inline' })
 const isHome = computed(() => props.variant === 'home')
 const catalogueAirportCount = new Set(allAirportPlans.map(plan => plan.airportId)).size
 
@@ -193,8 +193,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section id="airport-plan-finder" class="airport-finder" :class="{ 'airport-finder--home': isHome }" aria-label="机场套餐筛选工具">
-    <div v-if="isHome" class="finder-home-launch">
+  <section id="airport-plan-finder" class="airport-finder" :class="{ 'airport-finder--home': isHome, 'airport-finder--compact': props.variant === 'compact' }" aria-label="机场套餐筛选工具">
+    <button v-if="props.variant === 'compact'" type="button" class="finder-button finder-compact-button" aria-haspopup="dialog" @click="openFinder">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h6m4 0h6M4 17h10m4 0h2" /><circle cx="12" cy="7" r="2" /><circle cx="16" cy="17" r="2" /></svg>
+      筛选与对比
+    </button>
+    <div v-else-if="isHome" class="finder-home-launch">
       <div class="finder-home-launch__main">
         <span class="finder-home-launch__icon" aria-hidden="true">
           <svg width="29" height="29" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6.3 7.2v5.3l-3.4 1.8v-7.1L4 5Z" /></svg>
@@ -427,18 +431,19 @@ onUnmounted(() => {
   --finder-muted: var(--vp-c-text-2, #5c6574);
   --finder-border: var(--vp-c-divider, #e1e5eb);
   --finder-brand: var(--vp-c-brand-1, #3759d7);
-  --finder-recommend: #94500b;
-  --finder-recommend-border: #dba74d;
-  --finder-recommend-soft: rgb(245 158 11 / 9%);
+  --finder-recommend: var(--site-recommend, #c2410c);
+  --finder-recommend-solid: var(--site-recommend-solid, #d9480f);
+  --finder-recommend-hover: var(--site-recommend-hover, #c2410c);
+  --finder-recommend-ink: var(--site-recommend-ink, #fff);
+  --finder-recommend-border: var(--site-recommend-border, #fdc9a6);
+  --finder-recommend-soft: var(--site-recommend-soft, #fff3e8);
+  --finder-recommend-shadow: var(--site-recommend-shadow, rgb(217 72 15 / 18%));
   --finder-risk-text: #b91c1c;
   margin: 24px 0;
   scroll-margin-top: 88px;
   color: var(--finder-text);
 }
 :global([data-theme="dark"] .airport-finder) {
-  --finder-recommend: #fbbf24;
-  --finder-recommend-border: #b88426;
-  --finder-recommend-soft: rgb(245 158 11 / 10%);
   --finder-risk-text: #fca5a5;
 }
 .airport-finder *, .airport-finder *::before, .airport-finder *::after { box-sizing: border-box; }
@@ -460,24 +465,27 @@ onUnmounted(() => {
 .finder-launch__copy p { margin-top: 5px; font-size: 14px; line-height: 1.7; color: var(--finder-muted); }
 .finder-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 13px; border: 1px solid var(--finder-border); border-radius: 8px; background: var(--finder-bg); color: var(--finder-text); font-size: 14px !important; line-height: 1.5; white-space: nowrap; transition: border-color .15s, background-color .15s; }
 .finder-button:hover:not(:disabled) { border-color: var(--finder-brand); }
-.finder-button--primary { border-color: var(--finder-brand); background: var(--finder-brand); color: var(--finder-bg); font-weight: 600 !important; }
-.finder-button--primary:hover:not(:disabled) { filter: brightness(1.07); }
+.finder-button--primary { border-color: var(--finder-recommend-solid); background: var(--finder-recommend-solid); color: var(--finder-recommend-ink); font-weight: 600 !important; }
+.finder-button--primary:hover:not(:disabled) { border-color: var(--finder-recommend-hover); background: var(--finder-recommend-hover); }
 .finder-button--text { border-color: transparent; background: transparent; color: var(--finder-muted); }
 .finder-launch__button { flex: 0 0 auto; }
+.airport-finder--compact { display: inline-block; margin: 0; padding: 0; vertical-align: middle; text-align: left; }
+.finder-compact-button { min-height: 46px; padding: 0 22px; border-color: var(--finder-recommend-border); border-radius: 10px; background: var(--finder-recommend-soft); color: var(--finder-recommend); font-weight: 600; }
+.finder-compact-button:hover:not(:disabled) { border-color: var(--finder-recommend); background: var(--finder-bg); }
 .airport-finder--home { margin: 0; padding: 0 48px 16px; }
-.finder-home-launch { display: flex; align-items: center; justify-content: space-between; gap: 32px; max-width: 1152px; margin: 0 auto; padding: 30px 34px; border: 1px solid var(--finder-brand); border-radius: 20px; background: radial-gradient(ellipse at top right, rgb(99 102 241 / 13%), transparent 62%), linear-gradient(110deg, rgb(37 99 235 / 8%), transparent 80%), var(--finder-bg); box-shadow: 0 12px 34px rgb(37 99 235 / 10%); }
+.finder-home-launch { display: flex; align-items: center; justify-content: space-between; gap: 32px; max-width: 1152px; margin: 0 auto; padding: 30px 34px; border: 1px solid var(--finder-recommend-border); border-radius: 20px; background: var(--finder-recommend-soft); box-shadow: 0 12px 34px var(--finder-recommend-shadow); }
 .finder-home-launch__main { display: flex; align-items: flex-start; gap: 20px; min-width: 0; }
-.finder-home-launch__icon { display: grid; flex: 0 0 58px; width: 58px; height: 58px; margin-top: 5px; place-items: center; border-radius: 16px; color: #fff; background: linear-gradient(135deg, #2563eb, #4338ca); box-shadow: 0 7px 18px rgb(37 99 235 / 18%); }
+.finder-home-launch__icon { display: grid; flex: 0 0 58px; width: 58px; height: 58px; margin-top: 5px; place-items: center; border-radius: 16px; color: var(--finder-recommend-ink); background: var(--finder-recommend-solid); box-shadow: 0 7px 18px var(--finder-recommend-shadow); }
 .finder-home-launch__copy { min-width: 0; }
 .finder-home-launch__eyebrow { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; color: var(--finder-muted); font-size: 12px; line-height: 1.7; }
-.finder-home-launch__eyebrow > span { padding: 2px 8px; border-radius: 5px; background: var(--finder-brand); color: var(--finder-bg); font-weight: 700; }
+.finder-home-launch__eyebrow > span { padding: 2px 8px; border-radius: 5px; background: var(--finder-recommend-solid); color: var(--finder-recommend-ink); font-weight: 700; }
 .airport-finder--home .finder-home-launch h2 { margin-top: 9px; font-size: clamp(24px, 2.3vw, 32px); font-weight: 800; letter-spacing: -.02em; }
 .finder-home-launch__description { margin-top: 8px !important; color: var(--finder-muted); font-size: 15px; line-height: 1.8; }
 .finder-home-launch__features { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
 .finder-home-launch__features > span { padding: 3px 9px; border: 1px solid var(--finder-border); border-radius: 6px; background: var(--finder-bg); color: var(--finder-muted); font-size: 12px; line-height: 1.7; }
 .finder-home-launch__actions { display: flex; flex: 0 0 auto; flex-direction: column; align-items: center; gap: 12px; }
-.finder-home-launch__actions .finder-home-launch__button { min-width: 194px; min-height: 50px; margin: 0; padding: 12px 23px; border: 0; border-radius: 10px; background: linear-gradient(115deg, #2563eb, #4338ca); color: #fff; font-size: 16px !important; font-weight: 700; box-shadow: 0 6px 18px rgb(37 99 235 / 20%); }
-.finder-home-launch__button:hover { filter: brightness(1.08); }
+.finder-home-launch__actions .finder-home-launch__button { min-width: 194px; min-height: 50px; margin: 0; padding: 12px 23px; border: 0; border-radius: 10px; background: var(--finder-recommend-solid); color: var(--finder-recommend-ink); font-size: 16px !important; font-weight: 700; box-shadow: 0 6px 18px var(--finder-recommend-shadow); }
+.finder-home-launch__actions .finder-home-launch__button:hover { background: var(--finder-recommend-hover); }
 .finder-home-launch__actions > a { font-size: 13px; line-height: 1.8; }
 .finder-dialog { position: fixed; inset: 0; display: flex; flex-direction: column; width: 1080px; max-width: calc(100vw - 40px); height: min(860px, calc(100dvh - 40px)); max-height: calc(100dvh - 40px); margin: auto; padding: 0; border: 1px solid var(--finder-border); border-radius: 16px; background: var(--finder-bg); color: var(--finder-text); overflow: hidden; box-shadow: 0 24px 90px rgb(0 0 0 / 20%); }
 .finder-dialog:not([open]) { display: none; }
@@ -531,6 +539,7 @@ onUnmounted(() => {
 .finder-badge { padding: 1px 6px; border-radius: 4px; color: var(--finder-brand); background: var(--finder-soft); font-size: 11px; white-space: nowrap; }
 .finder-card__price { display: flex; align-items: baseline; gap: 4px; margin-top: 12px !important; }
 .finder-card__price > span { color: var(--finder-brand); font-size: 27px; font-weight: 700; line-height: 1.25; }
+.finder-card.is-recommended .finder-card__price:not(.finder-card__price--pending) > span { color: var(--finder-recommend); }
 .finder-card__price--pending > span { color: var(--finder-muted); font-size: 20px; }
 .finder-card__price small { font-size: 12px; color: var(--finder-muted); }
 .finder-card__data { margin-top: 5px !important; font-size: 16px; font-weight: 600; }
@@ -546,9 +555,9 @@ onUnmounted(() => {
 .finder-card__note { flex: 1; margin-top: 9px !important; color: var(--finder-muted); font-size: 12px; line-height: 1.8; }
 .finder-source { margin-top: 13px !important; color: var(--finder-muted); font-size: 11px; line-height: 1.8; }
 .finder-card__official { margin-top: 10px !important; font-size: 13px; font-weight: 600; }
-.airport-finder .finder-buy { display: inline-flex; align-items: center; gap: 5px; padding: 5px 15px; border-radius: 6px; background: var(--finder-brand); color: var(--finder-bg); font-weight: 600; text-decoration: none; }
-.airport-finder .finder-buy:hover { opacity: .85; }
-.airport-finder .finder-buy:focus-visible { outline: 2px solid var(--finder-brand); outline-offset: 3px; }
+.airport-finder .finder-buy { display: inline-flex; align-items: center; gap: 5px; padding: 5px 15px; border-radius: 6px; background: var(--finder-recommend-solid); color: var(--finder-recommend-ink); font-weight: 600; text-decoration: none; }
+.airport-finder .finder-buy:hover { background: var(--finder-recommend-hover); }
+.airport-finder .finder-buy:focus-visible { outline: 2px solid var(--finder-recommend); outline-offset: 3px; }
 .finder-card__footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 13px; padding-top: 12px; border-top: 1px solid var(--finder-border); font-size: 12px; }
 .finder-check { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
 .finder-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--finder-brand); cursor: inherit; }

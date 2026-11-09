@@ -305,7 +305,7 @@ onUnmounted(() => {
 
 <template>
   <Teleport v-if="teleportTarget && isBlogPage" :to="teleportTarget">
-    <section class="youyou-hot-ranking" aria-label="机场与教程热度排行">
+    <section class="youyou-hot-ranking" :data-category="activeTab" aria-label="机场与教程热度排行">
       <div class="youyou-hot-ranking__tabs" role="tablist" aria-label="机场与教程热度分类">
         <button
           v-for="tab in tabs"

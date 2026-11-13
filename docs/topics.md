@@ -3,7 +3,7 @@ title: VPN 与科学上网专题索引
 description: YouYou 核心专题导航，聚合 VPN 推荐、机场评测、Clash 教程、Shadowrocket 教程、优惠试用、跑路预警和 AI 工具访问指南。
 permalink: /topics/
 createTime: 2026/07/16 18:20:00
-updated: "2026-11-07T17:02:00+08:00"
+updated: "2026-11-13T19:20:00+08:00"
 tags:
   - 专题索引
   - VPN推荐
@@ -46,6 +46,7 @@ tags:
 - [一个机场可以几台设备？多设备限制与家庭共享教程](/article/vpn-airport-device-limit-family-sharing-guide-2026/)
 - [机场不好用怎么换？Clash / Shadowrocket订阅迁移教程](/article/how-to-switch-vpn-airport-subscription-2026/)
 - [机场订阅链接怎么用？Clash / Shadowrocket 导入教程](/article/airport-subscription-clash-shadowrocket-guide-2026/)
+- [翻墙机场分流怎么设置？规则、全局与直连教程](/article/vpn-airport-rule-global-direct-guide-2026/)：排查国内网站变慢、流量消耗异常，核对连接规则与实际出口。
 - [什么是翻墙？2026 年完整指南](/article/fanqiang/)
 - [2026 年科学上网完整教程：选购、配置、测速与排障](/article/2026fanqiangzhinan/)
 - [电脑用 VPN 怎么选](/article/diannanvpnzenmexuan/)

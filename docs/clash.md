@@ -3,7 +3,7 @@ title: Clash 教程专题：安装、订阅导入、TUN 模式与故障排查
 description: Clash 教程专题页，聚合 Windows、macOS、Android、Clash Verge、TUN 模式、订阅导入、Google 无法访问、节点超时和配置文件排查指南。
 permalink: /clash/
 createTime: 2026/07/21 10:05:00
-updated: "2026-11-08T16:39:00+08:00"
+updated: "2026-11-13T19:20:00+08:00"
 tags:
   - Clash教程
   - Clash Verge
@@ -25,6 +25,7 @@ Clash 是很多用户在 Windows、macOS、Android 和部分路由器环境里�
 - [Clash for Android 使用指南](/article/ClashforAndroid/)：适合安卓手机和平板。
 - [2026 Clash 教程：系统代理模式与 TUN 模式全解析](/scamvpn/Clashjiaocheng/)：理解系统代理、TUN、规则模式的差异。
 - [机场订阅链接怎么用](/article/airport-subscription-clash-shadowrocket-guide-2026/)：订阅导入、更新订阅和节点测速。
+- [翻墙机场规则、全局与直连分流教程](/article/vpn-airport-rule-global-direct-guide-2026/)：用连接记录排查国内网站变慢、流量异常和策略组出口，区分TUN接管与代理模式。
 
 ## 常见故障排查
 
